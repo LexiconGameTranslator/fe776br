@@ -14,12 +14,12 @@ Setup
 
 - Install the Pillow module by running `python -m pip install pillow` in your command prompt.
 
-- Download the [**Volt Edge library**](https://github.com/ZaneAvernathy/VoltEdge) and drop the VoltEdge.h file and the VOLTEDGE folder in the LM folder.
+- Download the [**Volt Edge library**](https://github.com/ZaneAvernathy/VoltEdge) and drop the VoltEdge.h file and the VOLTEDGE folder in the root of this project folder (location where this `README.md` is located).
 
 - Go through the `tools` folders and install said tools wherever you see an `.url` file.
   64tass, SuperFamiconv and Lunar Expand are required downloads, and the others are all strongly recommended.
   64tass comes in a folder, so make sure to empty the contents of that folder you download into the `Assembler` folder.
- 
+
 - A hex editor like [**HxD**](https://mh-nexus.de/en/hxd/) and a decent text editor like [**Sublime**](https://www.sublimetext.com/) or [**Notepad++**](https://notepad-plus-plus.org/) are also recommended.
 
 - Place a headerless copy Fire Emblem: Thracia 776 in the `base_rom` folder and name it `FE5.sfc`.
@@ -31,9 +31,10 @@ Operation
 -----------------
 
 - The first time you try to build, then every time you edit any of the tables in the `tables` folder, launch the `tablebuilder.bat` before building.
-  This will generate new, insertable `.casm` files for the assembler.
+  This will generate new, insertable `.casm` files for the assembler.  
+  Mac/Linux users should use `tablebuilder.sh`.  
 
-- Click the `build.bat` file to generate a copy of the current developper version of Lil' Manster.
+- Click the `build.bat` file to generate a copy of the current developper version of Lil' Manster.  
   Mac/Linux users should instead use `build.sh`.
 
 - If no ROM is generated, consult the command line prompt and the `log.txt` file for possible error messages.
@@ -42,7 +43,8 @@ Operation
 - `buildfile.asm` has all the includes, and is the root from which the `build.bat` reaches the rest of the folder.
 
 - `clean.bat` deletes the generated ROM, saves, patches, log and labels files.
-  `clean-all.bat` also deletes the base ROM and its saves.
+  `clean-all.bat` also deletes the base ROM and its saves.  
+  `clean.sh` should be used by Mac/Linux users.
 
 ----------------
 Folder overview
