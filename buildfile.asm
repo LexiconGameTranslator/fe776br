@@ -12,7 +12,7 @@ DisassemblySize	 := 0
 DSizeStarts		   := []
 DSizeEnds		     := []
 
-.include "asm/BaseRom.asm"
+.include "asm/BaseROM.asm"
 
 
 ; Note: "Ullr"- item name, dialogue in Ch8 still has "Ullur"
@@ -23,7 +23,7 @@ DSizeEnds		     := []
 
 .include "asm/_ASMInstaller.asm"
 .include "events/_EventInstaller.asm"
-.include "asm/QoL/_QoLInstaller.asm"
+.include "asm/QoL/_QOLInstaller.asm"
 
 * = $000000
 
@@ -44,9 +44,9 @@ DSizeEnds		     := []
 
   * = $000000
   .logical $808000
-  
+
     startCode
-  
+
       .include "asm/Break.asm"
       .include "asm/Joypad.asm"
       .include "asm/BufferCopy.asm"
@@ -56,11 +56,11 @@ DSizeEnds		     := []
       .include "asm/OAMBuffer.asm"
       .include "asm/Reset.asm"
       .include "asm/SoundSystem.asm"
-  
+
       ; 809753
-  
+
       .fill $809B00 - *, $FF
-  
+
       .include "asm/Code809B00.asm"
       .include "asm/Math.asm"
       .include "asm/Fade.asm"
@@ -73,38 +73,38 @@ DSizeEnds		     := []
       .include "asm/BlockOperations.asm"
       .include "asm/Decompressor.asm"
       .include "asm/Code80B88F.asm"
-  
+
       ; 80DD77
-  
+
       .fill $80DE00 - *, $FF
-  
+
       .include "asm/RangePath.asm"
-  
+
       ; 80EB28
-  
+
       .fill $80FFB0 - *, $FF
-  
+
       ; Old Header and Vectors
-  
+
       .fill $80FFE0 - *, ?
-  
+
       .include "tables/Vectors.asm"
-  
+
     endCode
-  
+
   .here
-  
+
   * = $008000
   .logical $818000
-  
+
     startCode
-  
+
       .include "asm/ActiveSpriteEngine.asm"
-  
+
       ; 818B13
-  
+
       .fill $81A800 - *, $FF
-  
+
       .include "asm/UpdateMaps.asm"
       .include "asm/PhaseGraphics.asm"
       .include "asm/PROCS/PhaseGraphics.asm"
@@ -121,43 +121,43 @@ DSizeEnds		     := []
       .include "asm/Code81C466.asm"
       .include "asm/PROCS/FadeInClearJoypad.asm"
       .include "asm/Save.asm"
-  
+
       ; 81CB33
-  
+
       .fill $81CE55 - *, $FF
-  
+
       .include "asm/Inventory.asm"
       .include "asm/GetLeaderString.asm"
-  
+
       .dsection PrepItemSection1
       .dsection PrepItemsLabels
       .dsection PrepItemSection2
-  
+
       .include "asm/PROCS/ItemInfo.asm"
       .include "asm/PROCS/SkillInfo.asm"
-  
+
       .dsection SkillTypeTextPointersSection
-  
+
       .fill $81FA24 - *, $FF
-  
+
       .include "asm/InventoryInfoWindows.asm"
       .include "asm/PROCS/TradeItemInfoWindow.asm"
-  
+
       .dsection InventoryItemStatLabelsSection
-  
+
       ; 81FFDD
-  
+
       .fill $81FFFF - *, $FF
-  
+
     endCode
-  
+
   .here
-  
+
   * = $010000
   .logical $828000
-  
+
     startCode
-  
+
       .include "asm/PROCS/EventTest.asm"
       .include "asm/PROCS/MapSwitch.asm"
       .include "asm/PROCS/NP.asm"
@@ -165,11 +165,11 @@ DSizeEnds		     := []
       .include "asm/PROCS/ME.asm"
       .include "asm/PROCS/DialogueWithBG.asm"
       .include "asm/PROCS/MusicEvent.asm"
-      .include "asm/PROCS/EventPause.asm" 
+      .include "asm/PROCS/EventPause.asm"
       .include "asm/PROCS/EventFade.asm"
-      .include "asm/PROCS/Unknown828F09.asm"  
+      .include "asm/PROCS/Unknown828F09.asm"
       .include "asm/PROCS/MapScroll.asm"
-      .include "asm/PROCS/UnitAction.asm" 
+      .include "asm/PROCS/UnitAction.asm"
       .include "asm/PROCS/Portraits.asm"
       .include "asm/ProcEngine.asm"
       .include "asm/ProcCode.asm"
@@ -181,7 +181,7 @@ DSizeEnds		     := []
       .include "asm/IRQArrayEngine.asm"
       .include "asm/UnknownChecksumChecker.asm"
       .include "asm/Code82A989.asm"
-    
+
     endCode
     startMenuText
 
@@ -190,7 +190,7 @@ DSizeEnds		     := []
     endMenuText
 
       ; 82B8DD
-  
+
       ; Vanilla death and retreat quotes,
       ; the WM text and the event debug dialogue pointers
       ; aka lots of free space
@@ -201,26 +201,26 @@ DSizeEnds		     := []
 
   * = $018000
   .logical $838000
-  
-    startCode 
-  
+
+    startCode
+
       .include "asm/Code838000.asm"
 
     endCode
 
     ; 83B6C8
-  
+
   .here
-  
+
   * = $01CE08
   .logical $83CE08
-  
+
     startData
-  
+
       aAnimationOverrideTable .include "tables/BATTLE/AnimationOverridesTable.casm"
-  
-    endData  
-  
+
+    endData
+
   .here
 
 
@@ -301,281 +301,281 @@ DSizeEnds		     := []
 
   * = $02004A
   .logical $84804A
-  
+
     startData
-  
+
       aChapterDataTable .include "tables/CHAPTERS/ChapterDataTable.casm"
       .include "tables/MAP/TilesetAnimations.asm"
-  
+
     endData
-  
+
     ; 8488FA
-  
+
   .here
-  
+
   * = $029A31
   .logical $859A31
-  
+
     startMenuText
-    
+
       .dsection RangeTextSection
-  
+
     endMenuText
-  
+
     ; 859A5F
-  
+
   .here
 
   * = $029D6B
   .logical $859D6B
-  
+
     startData
-    
+
       .include "tables/ITEMS/PreparationsShopItems.asm"
-  
+
     endData
-  
+
     ; 859D7B
-  
+
   .here
-  
+
   * = $02CDC2
   .logical $85CDC2
-  
+
     startData
-    
+
       aPreparationsMenuSortingTextPointers .dsection PreparationsMenuSortingTextPointersSection
-  
+
     endData
     startMenuText
 
       aPreparationsMenuSortingText .dsection PreparationsMenuSortingTextSection
 
     endMenuText
-    
+
     ; 85CDF2
 
   .here
 
   * = $02D280
   .logical $85D280
-  
+
     startData
-    
+
       .dsection OptionsMenuTintPointersSection
-  
+
     endData
-  
+
     ; 85D28E
-  
+
   .here
 
 
   * = $02EF13
   .logical $85EF13
-  
+
     startData
-  
+
       .include "tables/ARENA/ArenaWeaponsTable.asm"
       .include "tables/ARENA/ArenaClassTable.asm"
-  
+
     endData
-  
+
     ; 85EF88
-  
+
   .here
 
   * = $030000
   .logical $868000
-  
+
     startData
-  
+
       aClassData .include "tables/UNITS/ClassData.casm"
       .include "tables/UNITS/MovementType.casm"
       .include "tables/TERRAIN/TerrainHitAvoid.casm"
       .include "tables/TERRAIN/TerrainAvoid.casm"
       .include "tables/TERRAIN/TerrainDefense.casm"
       aTerrainMagicTable .include "tables/TERRAIN/TerrainMagic.casm"
-  
+
     endData
-  
+
     ; 869484
-  
+
   .here
 
   * = $031A2D
   .logical $869A2D
-  
+
     startData
-      
+
       aCharacterData .include "tables/UNITS/CharacterData.casm"
       aUnitNamePointers .dsection UnitNamePointersSection
 
     endData
     startMenuText
-      
+
       aUnitNameText .dsection UnitNameTextSection
-    
+
     endMenuText
-    
+
     ; 86E2E9
-  
+
   .here
 
   * = $0363AD
   .logical $86E3AD
-  
+
     startData
-  
+
       aMapSpriteIndexTable
         .include "tables/MAP/NormalMapSpriteIndexes.casm"
         .include "tables/MAP/TallMapSpriteIndexes.casm"
-  
+
       .include "asm/PROCS/InventoryFullConvoyMenu.asm"
-  
+
     endData
-  
+
     ; 86E6AD
-  
+
   .here
-  
+
 
   * = $038000
   .logical $878000
-  
+
     startData
-  
+
       aMenuCommandPointers .dsection MenuCommandPointersSection
-  
+
     endData
-  
+
     ; 87803C
 
   .here
 
   * = $039205
   .logical $879205
-  
+
     startData
-  
+
       aAnimationCommandPointers .dsection AnimationCommandPointersSection
       .dsection AnimationCommandDataSection
 
     endData
-  
+
     ; 87923D
 
   .here
 
   * = $03AD56
   .logical $87AD56
-  
+
     startData
-  
+
       aDiscardCommandPointers .dsection DiscardCommandPointersSection
       .dsection DiscardCommandDataSection
 
     endData
-  
+
     ; 87AD8E
 
   .here
 
   * = $03E952
   .logical $87E952
-  
+
     startData
-  
+
       aMenuCommandData .dsection MenuCommandDataSection
       aItemUseCommandData .dsection ItemUseCommandDataSection
 
     endData
-  
+
     ; 87ECD2
 
   .here
 
   * = $03AAD1
   .logical $87AAD1
-  
+
     startData
 
       .dsection ItemUseCommandPointersSection
 
     endData
-  
+
     ; 87AAD7
 
   .here
 
   * = $040000
   .logical $888000
-  
+
     startData
-  
+
       .include "tables/UNITS/MountDismountTables.asm"
-  
+
     endData
-  
+
    ; 888038
-  
+
   .here
-  
+
   * = $040054
   .logical $888054
-  
+
     startData
-  
+
       aScrollBonusesTable .include "tables/ITEMS/ScrollBonusesTable.casm"
       .byte 0
       aSupportsTable  .include "tables/UNITS/SupportsTable.casm"
-  
+
     endData
-  
+
     ; 888221
-  
+
   .here
-  
+
   * = $040223
   .logical $888223
-  
+
     startData
-  
+
       .include "tables/ITEMS/TransformingItemTables.asm"
       .include "tables/UNITS/AutolevelSchemePointers.asm"
       .include "tables/UNITS/AutolevelData.casm"
-  
+
     endData
-  
+
     ; 888297
-  
+
   .here
-  
+
   * = $0402F1
   .logical $8882F1
-  
+
     startData
-  
+
       aPromotionTable .include "tables/UNITS/PromotionTable.casm"
-  
+
     endData
-  
+
     ; 888354
-  
+
   .here
 
   * = $048000
   .logical $898000
-  
+
     startData
 
       aClassNamePointers .dsection ClassNamePointersSection
       aClassNames .dsection ClassNamesSection
 
     endData
-  
+
     ; 89839C
-  
+
     .fill $89894E - *, $FF
 
   .here
@@ -592,7 +592,7 @@ DSizeEnds		     := []
     ; 898CC6
 
   .here
-  
+
   * = $048E58
   .logical $898E58
 
@@ -735,14 +735,14 @@ DSizeEnds		     := []
     ; 8AE89E
 
   .here
-  
+
   * = $060000
   .logical $8C8000
-    
+
     startCode
 
       .include "asm/EventEngine.asm"
-  
+
     endCode
     startData
 
@@ -750,20 +750,20 @@ DSizeEnds		     := []
 
     endData
     startCode
-  
+
       .include "asm/Code8CD50E.asm"
-  
+
     endCode
     startData
 
-      aChapterEventPointers .include "tables/CHAPTERS/ChapterEventPointers.casm" 
+      aChapterEventPointers .include "tables/CHAPTERS/ChapterEventPointers.casm"
 
     endData
 
     ; 8CD999
 
   .here
-  
+
   * = $06599B
   .logical $8CD99B
 
@@ -782,15 +782,15 @@ DSizeEnds		     := []
 
     startData
 
-      aBattleQuoteTable   .include "tables/DIALOGUE/BattleQuoteTable.casm" 
+      aBattleQuoteTable   .include "tables/DIALOGUE/BattleQuoteTable.casm"
         .word 0
-      aDeathQuoteTable    .include "tables/DIALOGUE/DeathQuoteTable.casm" 
+      aDeathQuoteTable    .include "tables/DIALOGUE/DeathQuoteTable.casm"
         .word 0
-      aReleaseQuoteTable  .include "tables/DIALOGUE/ReleaseQuoteTable.casm" 
+      aReleaseQuoteTable  .include "tables/DIALOGUE/ReleaseQuoteTable.casm"
         .word 0
-      aRetreatQuoteTable  .include "tables/DIALOGUE/RetreatQuoteTable.casm" 
+      aRetreatQuoteTable  .include "tables/DIALOGUE/RetreatQuoteTable.casm"
         .word 00
-      aBattleMusicTable   .include "tables/BATTLE/BattleMusicTable.casm" 
+      aBattleMusicTable   .include "tables/BATTLE/BattleMusicTable.casm"
         .word 0, 0
       aBattleBannerTable  .include "tables/BATTLE/BattleBannerTable.casm"
         .word 0, 0
@@ -853,7 +853,7 @@ DSizeEnds		     := []
     ; 908D54
 
   .here
-  
+
   * = $0855EA
   .logical $90D5EA
 
@@ -960,7 +960,7 @@ DSizeEnds		     := []
     endCode
 
     ; 98FD73
-      
+
   .here
 
   * = $0C8000
@@ -1010,15 +1010,15 @@ DSizeEnds		     := []
 
   * = $0D1C3C
   .logical $9A9C3C
-  
+
     startCode
-  
+
       .include "asm/GetWarpTileTargetCoords.asm"
 
     endCode
 
     ; 9A9D67
-  
+
   .here
 
   * = $0D6134
@@ -1071,7 +1071,7 @@ DSizeEnds		     := []
   .logical $9BB523
 
     startCode
-  
+
       .dsection Unknown9BB523Section
 
     endCode
@@ -1084,7 +1084,7 @@ DSizeEnds		     := []
   .logical $9BB61B
 
     startCode
-  
+
       .dsection Unknown9BB61BSection
 
     endCode
@@ -1097,7 +1097,7 @@ DSizeEnds		     := []
   .logical $9BB79B
 
     startCode
-  
+
       .dsection Unknown9BB79BSection
 
     endCode
