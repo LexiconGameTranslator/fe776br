@@ -1,4 +1,4 @@
-# Lil' Manster Public Files
+# FE 776 PT-BR Public Files
  Public build files for Lil' Manster, the Fire Emblem 5 translation and QoL patch.
 
 This folder is a more complete version of the [**Lil' Manster**](https://forums.serenesforest.net/index.php?/topic/90189-fe5-lil-manster-%E2%80%93-translation-and-quality-of-life-patch-for-thracia-776/#comments) project files, which allows you to translate Fire Emblem Thracia 776 into different languages, or make mods without having to start from scratch.
