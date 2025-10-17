@@ -162,8 +162,8 @@
 .edef "§BE", $BE
 .edef "§BF", $BF
 
-.edef "ø", $C0
-.edef "ǿ", $C1
+.edef "Õ", $C0
+.edef "õ", $C1
 .edef "ú", $C2
 .edef "ù", $C3
 .edef "û", $C4
@@ -196,8 +196,8 @@
 .edef "ş", $DF
 
 ; Free
-.edef "§E0", $E0
-.edef "§E1", $E1
+.edef "Ã", $E0
+.edef "ã", $E1
 .edef "§E2", $E2
 .edef "§E3", $E3
 .edef "§E4", $E4

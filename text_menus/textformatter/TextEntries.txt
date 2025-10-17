@@ -71,7 +71,7 @@ Osian
 Halvan
 Eyvel
 Dagdar
-Tanya
+Tânia
 (Marty
 Ronan
 Safy
@@ -442,70 +442,70 @@ Stone
 
 //CLASSES----------------------------------------------------
 
-Cavalier
-Lance Knight
-Arch Knight
-Axe Knight
-S]word Knight
-Troubadour
-Knight Lord
-Duke Knight
-(Master Knight
-Paladin
-Bo]w Knight
-Ranger
-(Mage Knight
-Great Knight
-Pegasus Knight
-Falcon Knight
-Dracorider
-Dracoknight
-Dragon[master
-Archer
-(Myr[midon
-S]word[master
-Sniper
-Hero
+Cavaleiro
+Cav. Lança
+Cav. Arco
+Cav. Machado
+Cav. Espada
+Trovadora
+Cav. Lorde
+Cav. Duque
+Cav. (Mestre
+Paladino
+Sagitário
+Patrulheiro
+Cav. (Mago
+Catafrata
+Cav. Pégaso
+Cav. Falcão
+Sol. Dragão
+Cav. Dragão
+[Mestre Dragão
+Arqueiro
+Espadachim
+[Mês. Espada
+Atirador
+Herói
 General
-E[mperor
-Baron
-Ar[mored Lance
-Ar[mored Axe
-Ar[mored Bo12
-Ar[mored S]word
+E(mperor
+Barão
+Guardião Lan.
+Guardião Mac.
+Guardião Arc.
+Guardião Esp.
 Berserker
-Brigand
-)Warrior
-Hunter
-Pirate
-Lord
-Prince
-Dancer
-Priest
-Cleric
-Priestess
-(Mage
-Sorcerer
-High Priest
-High Priestess
-Bishop
-Sage
-Bard
-Dark Bishop
-Thief
-Rogue
-Civilian
-Ballistician
-Dark Prince
-Fighter
-Pegasus Rider
-Soldier
-Loptrian (Mage
+Bandido
+Guerreiro
+Caçador
+Pirata
+Lorde
+Príncipe
+Dançarina
+Acólito
+Clériga
+Acólita
+(Mago
+Feiticeiro
+Presbítero
+Presbítera
+Bispo
+Sábio
+Bardo
+Bispo Lopt.
+Ladrão
+Bandoleiro
+Civil
+Balisteiro
+Príncipe Negro
+Lutador
+Sol. Pégaso
+Soldado
+(Mago Lopt.
 
 
 //ITEMS-------------------------------------------
 
-Iron S]word
+Esp. de Ferro
 Steel S]word
 Silver S]word
 Iron Blade
@@ -543,7 +543,7 @@ Silver Lance
 Venin Lance
 Dragonpike
 Brave Lance
-Short Lance
+Lança curta
 Long Lance
 Greatlance
 Javelin

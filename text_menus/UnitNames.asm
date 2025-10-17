@@ -575,7 +575,7 @@
 			.text "Trude \n"
 		
 		menutextUnitTanyaName
-			.text "Tanya \n"
+			.text "Tânia \n"
 		
 		menutextUnitLinoanName
 			.text "Linoan\n"
@@ -958,7 +958,7 @@
 			.text "Gelbenritter\n"
 		
 		menutextUnitSniperName
-			.text "Sniper\n"
+			.text "Atirador\n"
 		
 		menutextUnitMusName
 			.text "(Mus\n"
@@ -985,7 +985,7 @@
 			.text ")Wolfe\n"
 		
 		menutextUnitArmoredSwordName
-			.text "Knight\n"
+			.text "Guardião\n"
 		
 		menutextUnitDracoName
 			.text "Draco \n"

@@ -12,77 +12,77 @@ dialogueChapter02Opening1
 
 .byte Right_Slot
 .byte $09 ; font 9(always use font 9)	
-.text "Bucks, is this kind of body count"
+.text "Bucks, é realmente necessário"
 .byte NewLine
-.text "really necessary?"
+.text "tanta matança?"
 .byte WaitForA
 .byte ScrollText	
-.text "We're here to make coin,"
+.text "Viemos aqui atrás de dinheiro,"
 .byte NewLine
-.text "not gut everything that moves."
+.text "não de tripas."
 .byte WaitForA
 
 .byte Left_Slot
-.text "Look 'ere, smart-aleck."
+.text "Cala a boca aí, ô espertão."
 .byte NewLine
-.text "We got us a nice division of labor goin'."
+.text "Cada um que fique com o seu trabalho."
 .byte WaitForA
 .byte ScrollText
-.text "I don't tell you how to plan your strategies"
+.text "Eu nunca me meti nos seus plano, e"
 .byte NewLine
-.text "and whatnot, and you don't tell me"
+.text "é melhor ocê num se meter no jeito"
 .byte NewLine
-.text "'ow to go about plunderin'."
+.text "que eu faço eles acontecer."
 .byte WaitForA
 .byte ScrollText
-.text "Oh, and if it's them Freeblade folk"
+.text "Ah, e se ocê tá preocupado com aqueles"
 .byte NewLine
-.text "yer worried about, we already saw to them."
+.text "paspalhos de Fiana, nós já cuidamo deles."
 .byte WaitForA
 .byte ScrollText
-.text "The boss tipped off the Empire"
+.text "O chefe falou pro Império que o tal do"
 .byte NewLine
-.text "that the Leonster boy was hidin' with 'em."
+.text "príncipe que eles procuram tá escondido por lá."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Leonster boy...?"
+.text "Príncipe...?"
 .byte NewLine
-.text "Wait, you mean Leif, the prince?!"
+.text "Espera, está falando do Príncipe Leif?!"
 .byte NewLine
-.text "Are you certain of this?"
+.text "Tem certeza disso?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Sure am. The boss grabbed one of the village"
+.text "Tenho. O chefe pegou um pobre coitado de lá,"
 .byte NewLine
-.text "folk an' used his talents with a knife"
+.text "mostrou o que sabe fazer com uma faca, e aí"
 .byte NewLine
-.text "to loosen 'is tongue."
+.text "ele contou tudinho."
 .byte WaitForA
 .byte ScrollText
-.text "Stubborn fella, though—"
+.text "O cara era teimoso, talvez ele tivesse"
 .byte NewLine
-.text "mighta survived if he'd talked sooner."
+.text "sobrevivido se tivesse falado antes."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "He resorted to torture, did he...?"
+.text "Então ele recorreu a tortura..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hah, yer one to talk!"
+.text "Hah, olha quem fala!"
 .byte WaitForA
 .byte ScrollText
-.text "Boss says yer the one who taught 'im everythin'"
+.text "O chefe fala que foi ocê que ensinou ele"
 .byte NewLine
-.text "he knows about interrogatin'! There's a reason"
+.text "a fazer um interrogatório! Amigo, tem um"
 .byte NewLine
-.text "you ain't with the Church no more, mate."
+.text "bom motivo procê ter sido expulso da Igreja."
 .byte WaitForA
 
 .byte ScrollText
@@ -91,21 +91,21 @@ dialogueChapter02Opening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Dammit, Lifis... You've become more trouble"
+.text "Maldito Lifis... ele é um problema agora."
 .byte NewLine
-.text "than you're worth. It's time we parted ways."
+.text "Já passou da hora de eu me livrar dele."
 .byte WaitForA
 .byte ScrollText
-.text "I just need to make contact with the Leonster"
+.text "Eu só preciso me encontrar com o Príncipe,"
 .byte NewLine
-.text "heir, and then Lifis is disposable."
+.text "e então eu posso me livrar dele."
 .byte WaitForA
 .byte ScrollText
-.text "Now, how should I go about this...?"
+.text "Como eu lido com essa situação...?"
 .byte NewLine
-.text "Well, before anything else,"
+.text "Acho que, primeiramente, é melhor"
 .byte NewLine
-.text "I must alert my benefactor..."
+.text "eu alertar meu benfeitor..."
 .byte WaitForA, EndText
 	
 dialogueChapter02Opening2A
@@ -118,24 +118,24 @@ dialogueChapter02Opening2A
 .word LoadPortrait
 .word leif_portrait2
 .byte $09 ; font 9(always use font 9)
-.text "Commander, over here!"
+.text "Eyvel, olhe!"
 .byte NewLine
-.text "That village is being raided!"
+.text "A vila está sendo atacada!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Hmm... That's Lifis' crew, by the look of it."
+.text "Hmm... são os capangas do Lifis, pelo que parece."
 .byte NewLine
-.text "They've been quiet as a mouse for a while,"
+.text "Eles ficaram quietos um bom tempo,"
 .byte NewLine
-.text "but I guess they move fast."
+.text "mas parece que voltaram."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "And we have to move faster!"
+.text "Então tenhamos pressa!"
 .byte NewLine
-.text "We cannot stand by and allow this to happen!"
+.text "Temos que agir!"
 .byte WaitForA
 
 .byte EndText
@@ -150,24 +150,24 @@ dialogueChapter02Opening2B
 .word LoadPortrait
 .word leif_portrait2
 .byte $09 ; font 9(always use font 9)
-.text "Finn, look here! That village is being raided!"
+.text "Finn, olhe! A vila está sendo atacada!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "What's this? These pirates answer to a man"
+.text "Estranho, senhor. Me parece ser o grupo daquele"
 .byte NewLine
-.text "named Lifis, as I recall—but they've been quiet"
+.text "pirata Lifis. Mas depois de tanto tempo de inatividade,"
 .byte NewLine
-.text "for so long, I thought they might've disbanded."
+.text "eu pensei que eles tivessem se dispersado."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Seems they have a macabre idea of a reunion,"
+.text "Então essa deve ser a reunião sinistra deles."
 .byte NewLine
-.text "then. Ready yourself, Finn."
+.text "Prepare-se, Finn."
 .byte NewLine
-.text "We cannot stand by and allow this to happen!"
+.text "Nós iremos defender a vila!"
 .byte WaitForA
 
 .byte EndText
@@ -178,21 +178,23 @@ dialogueChapter02Opening2C
 .word LoadPortrait; load portrait
 .word leif_portrait2
 .byte $09 ; font 9(always use font 9)
-.text "Is that... No! Another pirate raid?!"
+.text "O que está acontencedo...? Ah não!"
 .byte NewLine
-.text "Is no place safe anymore?"
+.text "Outro ataque pirata?! Eu pensava"
+.byte NewLine
+.text "que essa região estava limpa!"
 .byte WaitForA
 .byte ScrollText
-.text "Wait, those are the colors that Lifis' gang"
+.text "Espera, essas cores me lembram do grupo"
 .byte NewLine
-.text "once wore..."
+.text "daquele Lifis..."
 .byte WaitForA
 .byte ScrollText
-.text "Well, let's give our old friend a proper greeting!"
+.text "Bem, então demos as boas vindas ao"
 .byte NewLine
-.text "Everyone, to arms!"
+.text "nosso velho amigo! Todos, preparem-se!"
 .byte NewLine
-.text "We'll not stand by and allow this to happen!"
+.text "Nós iremos defender a vila!"
 .byte WaitForA
 
 .byte EndText
@@ -207,13 +209,13 @@ dialogueChapter02RonanHouse
 .word LoadPortrait
 .word oldlady_portrait
 .byte $09 ; font 9(always use font 9)	
-.text "Ronan, stop! Ronan!"
+.text "Ronan, pare! Ronan!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Ma, I can't stay outta this any longer."
+.text "Mãe, eu não quero mais ficar aqui."
 .byte NewLine
-.text "I'll go and fight alongside—"
+.text "Eu quero ir lá fora e lutar junto com—"
 .byte WaitForA
 	
 .byte Left_Slot
@@ -223,40 +225,43 @@ dialogueChapter02RonanHouse
 	
 .byte Right_Slot
 .byte ScrollText
-.text "Oh, you must be with the Freeblades!"
+.text "Ah, vocês são os Guerreiros Livres, certo?"
 .byte NewLine
-.text "I want to join y'all!"
+.text "Eu quero me juntar a vocês!"
 .byte WaitForA
 .byte ScrollText	
-.text "I'm good enough with a bow"
+.text "Eu sei atirar um arco e eu também"
 .byte NewLine
-.text "and I can get around pretty fast."
+.text "consigo andar bem rápido."
 .byte NewLine
-.text "I won't hold you back none."
+.text "Eu não vou atrasar vocês."
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word oldlady_portrait
-.text "B-But you've never been in a real fight like this"
+.text "Por acaso você acha que caçar animais"
 .byte NewLine
-.text "before...! You that eager to leave yer mother"
+.text "é a mesma coisa que matar gente...?"
+.byte WaitForA
+.byte ScrollText
+.text "Você nunca se meteu em briga com ninguém antes!"
 .byte NewLine
-.text "alone in this world?!"
+.text "Quer deixar sua mãe sozinha no mundo?!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "That don't matter none!"
+.text "Isso não importa!"
 .byte NewLine
-.text "Every battle is somebody's first, right?"
+.text "Toda batalha é a primeira pra alguém, não é?"
 .byte NewLine
-.text "Guess this'll be mine."
+.text "Essa vai ser minha primeira."
 .byte WaitForA
 .byte ScrollText
-.text "I mean, maybe you can stand holing up in here"
+.text "Se você quiser, você pode ficar entocada aí"
 .byte NewLine
-.text "an' waiting to die, but I sure can't!"
+.text "esperando a morte chegar, mas eu não quero!"
 .byte WaitForA
 
 .byte EndText
@@ -267,11 +272,11 @@ dialogueChapter02RonanHouseVillageAttacked
 .word LoadPortrait
 .word braidedgirl_portrait
 .byte $09 ; font 9(always use font 9)
-.text "There was a ship here that could've made"
+.text "Tinha um navio aqui que você podia ter usado"
 .byte NewLine
-.text "its way to the Corsair Isles,"
+.text "pra ir pras Ilhas Corsárias, mas ele tá"
 .byte NewLine
-.text "but it's been wrecked like everything else..."
+.text "quebrado..."
 .byte WaitForA
 
 .byte EndText
@@ -282,40 +287,38 @@ dialogueChapter02SpeedRingHouse
 .word LoadPortrait
 .word youngman2_portrait
 .byte $09 ; font 9(always use font 9)
-.text "You lot just had to play hero, didn't you?"
+.text "E vocês tinham que se meter, né?"
 .byte NewLine
-.text "Now this whole village will be razed"
+.text "Agora os piratas vão acabar com a vila"
 .byte NewLine
-.text "by the pirates in revenge!"
+.text "pra se vingar!"
 .byte WaitForA
 .byte ScrollText
-.text "They'll make one big, bloody example"
+.text "Eles vão acabar com todos nós!"
 .byte NewLine
-.text "outta us! What are we supposed to do?!"
+.text "O que vamos fazer?!"
 .byte WaitForA
 	
 .byte Left_Slot
 .word LoadPortrait
 .word braidedgirl_portrait
-.text "How can you say something so cruel, Brother?"
+.text "Como pode ser tão babaca, irmão? Eles vieram"
 .byte NewLine
-.text "These people are puttin' their lives on the line"
-.byte NewLine
-.text "fer us, and you've got the nerve to complain?!"
+.text "aqui só pra nos ajudar e você ainda reclama?!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "You're too naive!"
+.text "Você é muito ingênua, menina!"
 .byte NewLine
-.text "The pirates would've killed a few of us, sure,"
+.text "Os piratas teriam matado alguns de nós, mas"
 .byte NewLine
-.text "but they had no reason to hunt down everybody!"
+.text "eu duvido que eles iriam matar todo mundo!"
 .byte WaitForA
 .byte ScrollText
-.text "Except these idiots couldn't leave well enough"
+.text "Mas esses idiotas apareceram e deram"
 .byte NewLine
-.text "alone!"
+.text "motivo pra eles!"
 .byte WaitForA
 
 .byte ScrollText
@@ -329,23 +332,23 @@ dialogueChapter02SpeedRingHouse
 .byte Right_Slot
 .word LoadPortrait
 .word braidedgirl_portrait
-.text "...I'm sorry 'bout my brother."
+.text "...Por favor, perdoe o meu irmão."
 .byte NewLine
-.text "He wasn't always like this."
+.text "Nem sempre ele foi assim."
 .byte WaitForA
 .byte ScrollText
-.text "By way of apology, take this magic trinket."
+.text "Como pedido de desculpas, leva esse anel."
 .byte NewLine
-.text "Not sure what it does, but maybe it'll be of use"
+.text "Não sei o que ele faz, mas talvez seja útil"
 .byte NewLine
-.text "to you."
+.text "pra você."
 .byte WaitForA
 .byte ScrollText
-.text "It's about time somebody showed those pirates"
+.text "Já passou da hora de alguém mostrar pra"
 .byte NewLine
-.text "what it's like to fight for THEIR lives"
+.text "esses piratas como é lutar pra"
 .byte NewLine
-.text "for a change!"
+.text "não morrer!"
 .byte WaitForA
 
 .byte EndText
@@ -356,16 +359,16 @@ dialogueChapter02SpeedRingHouseVillageAttacked
 .word LoadPortrait
 .word beardedman_portrait
 .byte $09 ; font 9(always use font 9)
-.text "A ship to take you to the Corsair Isles?"
+.text "Ocê quer um navio pras Ilhas Corsárias?"
 .byte NewLine
-.text "Sure, just use mine—it's about five hundred feet"
+.text "Se ocê conseguir tirar o meu"
 .byte NewLine
-.text "below the harbor."
+.text "do fundo do mar, pode usar."
 .byte WaitForA
 .byte ScrollText
-.text "Sorry, chum, but every sea-worthy vessel"
+.text "Desculpa, cara, mas todos os navios"
 .byte NewLine
-.text "was sunk in all this fighting."
+.text "que nós tinha afundaram no ataque."
 .byte WaitForA
 
 .byte EndText
@@ -377,18 +380,21 @@ dialogueChapter02VulneraryHouse
 .word LoadPortrait
 .word beardedman_portrait
 .byte $09 ; font 9(always use font 9)
-.text "These pirates grow bolder by the day!"
+.text "A cada dia esses piratas tão mais ousados!"
 .byte NewLine
-.text "Just recently, I heard that a cleric"
+.text "Recentemente, eu ouvi que eles raptaram uma"
 .byte NewLine
-.text "fleeing Tahra was taken prisoner by 'em!"
+.text "clériga fugitiva de Tahra!"
 .byte WaitForA
 .byte ScrollText
-.text "Mayhap you can help the poor dear, eh?"
+.text "Quem sabe você não consegue resgatar ela?"
 .byte NewLine
-.text "Here, take this for your trouble. If you manage"
+.text "Aqui, leva isso aqui com você. Se você"
+.byte WaitForA
+.byte ScrollText
+.text "Se você conseguir achar ela,"
 .byte NewLine
-.text "to find her, do send word that she's all right."
+.text "diga pra nós que ela está bem."
 .byte WaitForA
 
 .byte EndText
@@ -398,11 +404,11 @@ dialogueChapter02VulneraryHouseVillageAttacked
 .word LoadPortrait
 .word oldman2_portrait
 .byte $09 ; font 9(always use font 9)
-.text "What precious few ships we had 'ave been sunk"
+.text "Os poucos navios que a gente tinha afundaram no"
 .byte NewLine
-.text "in all this fighting. There's no way to get to the"
+.text "meio da briga. Não tem como ir pras Ilhas Corsárias"
 .byte NewLine
-.text "Corsair Isles now, even if you wanted to go..."
+.text "agora, nem se você quisesse..."
 .byte WaitForA
 
 .byte EndText
@@ -413,18 +419,20 @@ dialogueChapter02WorldMap1
 .long LoadPortraitalt_2
 .word $0078 ;raydrik
 .word $0207 ;y then x
-.text "Giving chase to Raydrik, Leif set out"
+.text "Resolvendo ir atrás de Raydrik,"
+.byte WaitForA
+.byte ScrollText
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0313 ;nanna
 .word $0A0B ;y then x
 .byte NewLine
-.text "for Munster to rescue"
+.text "Leif se põe à caminho de Munster"
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $012A ;mareeta
 .word $0A04 ;y then x
-.text " his companions."
+.text "para resgatar suas amigas."
 .byte WaitForA
 
 .word ClearPortraitalt
@@ -448,17 +456,17 @@ dialogueChapter02WorldMap2
 .long LoadPortraitalt_2
 .word $0001 ;leify-right
 .word $060B ;y then x
-.text "But while making his way along the shore,"
+.text "Mas no meio do caminho pelo litoral,"
 
 .byte EndText
 	
 dialogueChapter02WorldMap3
 
 .byte NewLine ; this NewLine is after an EndText to exploit a display glitch and avoid using a ScrollText mid-sentence
-.text "he passed near a small settlement:"
+.text "ele passa por um lugarejo chamado"
 .byte WaitForA
 .byte NewLine
-.text "a coastal village by the name of Iz..."
+.text "de Iz..."
 .byte WaitForA
 
 .byte EndText
@@ -473,71 +481,77 @@ dialogueChapter02Ending1Gaiden
 .word LoadPortrait
 .word augustus_potrait
 .byte $09 ; font 9(always use font 9)
-.text "Lord Leif, I presume?"
+.text "Lorde Leif, eu presumo?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "...And you are?"
+.text "...E você é?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "August, at your service."
+.text "Augusto, à seu dispor."
 .byte NewLine
-.text "I am a priest of Bragi on pilgrimage."
+.text "Sou um sacerdote de"
+.byte NewLine
+.text "São Bragi em peregrinação."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Is there something you need from me?"
+.text "Você precisa de algo da minha parte?"
 .byte NewLine
-.text "With respect, I don't have time to spare on talk."
+.text "Sem querer lhe desrespeitar,"
+.byte NewLine
+.text "mas eu não tenho tempo para conversar."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Neither do I."
+.text "Nem eu, senhor."
 .byte NewLine
-.text "I take it you're headed to the Corsair Isles"
+.text "Eu imagino que tu vais para as"
 .byte NewLine
-.text "to nip this pirate threat in the bud?"
+.text "Ilhas Corsárias, para eliminar os piratas?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Indeed. If we leave them be, it's only a matter"
+.text "Isso. Se não fizermos nada, é questão"
 .byte NewLine
-.text "of time until the scum attack Iz again."
+.text "de tempo até esses malditos"
+.byte NewLine
+.text "atacarem Iz de novo."
 .byte WaitForA
 .byte ScrollText
-.text "Besides, I hear they're also keeping a cleric"
+.text "Ademais, me disseram que eles tem"
 .byte NewLine
-.text "captive there."
+.text "uma clériga aprisionada lá."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I see. In that case, allow me to be"
+.text "Entendi. Nesse caso, permita que eu seja"
 .byte NewLine
-.text "your navigator. I can guide you to the isles."
+.text "o teu guia. Eu posso te levar até as ilhas."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "What?"
+.text "Hm?"
 .byte NewLine
-.text "Why would a priest know the way"
+.text "Mas porquê um sacerdote como você"
 .byte NewLine
-.text "to the Corsair Isles?"
+.text "saberia o caminho até as ilhas?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "This old man has many surprises left"
+.text "Jovem, saiba que este velho guarda"
 .byte NewLine
-.text "in him yet, I'll tell you that much."
+.text "muitas surpresas."
 .byte NewLine
-.text "Still, the decision is yours."
+.text "Bem, vamos indo, então."
 .byte WaitForA
 
 .byte EndText
@@ -552,53 +566,59 @@ dialogueChapter02Ending1Regular
 .word LoadPortrait
 .word augustus_potrait
 .byte $09 ; font 9(always use font 9)
-.text "Lord Leif, I presume?"
+.text "Lorde Leif, eu presumo?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "...And you are?"
+.text "...E você é?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "August, at your service."
+.text "Augusto, à seu dispor."
 .byte NewLine
-.text "I am a priest of Bragi on pilgrimage."
+.text "Sou um sacerdote de"
+.byte NewLine
+.text "São Bragi em peregrinação."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Is there something you need from me?"
+.text "Você precisa de algo da minha parte?"
 .byte NewLine
-.text "With respect, I don't have time to spare on talk."
+.text "Sem querer lhe desrespeitar,"
+.byte NewLine
+.text "mas eu não tenho tempo para conversar."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Neither do I. I'm headed to Munster, but with"
+.text "Nem eu, senhor. Estou a caminho de Munster,"
 .byte NewLine
-.text "the pirates running amok, it's far too dangerous"
-.byte NewLine
-.text "for a man of the cloth to travel alone."
+.text "mas com os piratas na região,"
 .byte WaitForA
 .byte ScrollText
-.text "May I accompany you?"
+.text "Não seria muito inteligente"
+.byte NewLine
+.text "se eu fosse sozinho."
+.byte NewLine
+.text "Tu me permites eu te acompanhar?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Certainly, it's no trouble."
+.text "Certamente, pode nos acompanhar."
 .byte NewLine
-.text "We'll be passing through Kerberos' Gate shortly."
+.text "Logo estaremos chegando na Porta de Kérberos."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I'm in your debt. Along the way, I'm certain"
+.text "Muito obrigado, senhor. Tenho certeza que"
 .byte NewLine
-.text "I'll be able to offer your group much wisdom."
+.text "pelo caminho eu conseguirei te pagar com sabedoria."
 .byte NewLine
-.text "I'll make myself worth the trouble, I assure you."
+.text "Eu vou fazer valer minha presença."
 .byte WaitForA
 
 .byte EndText

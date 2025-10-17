@@ -185,7 +185,7 @@
 	.section ItemNameSection
 
 		menutextIronSwordName
-			.text "Iron S]word "
+			.text "Esp. de ferro "
 		
 		menutextNoneName
 			.text "\n"
@@ -303,7 +303,7 @@
 			.text "Brave Lance \n"
 		
 		menutextShortLanceName
-			.text "Short Lance \n"
+			.text "Lança curta \n"
 		
 		menutextLongLanceName
 			.text "Long Lance\n"

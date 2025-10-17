@@ -10,8 +10,7 @@
     ; Common weapons
     
     menutextIronSwordDescription
-    .text "Co{mm}non, quality\n"
-    .text "s]word\n"
+    .text "Uma espada comum\n"
     .text "\n"
     
     menutextSteelSwordDescription

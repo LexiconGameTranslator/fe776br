@@ -15,39 +15,39 @@ dialogueChapter17BAmaldaReleaseQuote
 .byte EndText
 
 dialogueWeismannReleaseQuote
-.text "Damn... Bested by a bunch of backwoods"
+.text "Droga... fui derrotado por um bando"
 .byte NewLine
-.text "yokels. Well, I won't forget this!"
+.text "de caipiras. Eu jamais irei lhes perdoar!"
 .byte WaitForA
 .byte EndText
 
 dialogueBucksReleaseQuote
-.text "That's it? No collectin' the bounty"
+.text "Intão é isso? Não vai me entregar"
 .byte NewLine
-.text "on my head or nothin'? Well, I'll be!"
+.text "nem me matar? Bem, sorte a minha!"
 .byte NewLine
-.text "I'm leavin' my piratin' days behind me."
+.text "Vô abandonar a pirataria de vez."
 .byte WaitForA
 .byte ScrollText
-.text "Can't leave the sea behind me, though—"
+.text "Mas, o mar ainda é minha vida..."
 .byte NewLine
-.text "reckon I'll become a fisherman."
+.text "Intão acho que eu vô virar pescador."
 .byte NewLine
-.text "Clear skies to you, Freeblades."
+.text "Até mais, Guerreiros Livres."
 .byte WaitForA
 .byte EndText
 
 dialogueShivaReleaseQuote
-.text "What a naive bunch..."
+.text "Mais um erro de vocês..."
 .byte NewLine
-.text "Still, I owe them a debt now."
+.text "Mas, eu lhes devo uma agora."
 .byte WaitForA
 .byte EndText
 
 dialogueLifisReleaseQuote
-.text "Much obliged, moron. Ah, looks like"
+.text "Muito obrigado, idiota. Droga, eu vou ter"
 .byte NewLine
-.text "I gotta build things up from scratch now..."
+.text "que começar de baixo de novo..."
 .byte WaitForA
 .byte EndText
 

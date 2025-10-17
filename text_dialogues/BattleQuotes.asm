@@ -57,37 +57,40 @@ dialogueCh19WolfeBattleQuote
 .byte EndText
 
 dialogueWeissmannBattleQuote
-.text "Do you fools realize"
+.text "Tolos! Por acaso entendem"
 .byte NewLine
-.text "what you're doing?!"
+.text "a gravidade do que fazem?!"
+.byte WaitForA
+.byte ScrollText
+.text "Se me matarem,"
 .byte NewLine
-.text "If I die, so do the women we took!"
+.text "nunca mais verão as meninas!"
 .byte WaitForA
 .byte EndText
 
 dialogueBucksBattleQuote
-.text "You have any idea who "
+.text "Cê sabe com quem que cê tá"
 .byte NewLine
-.text "yer dealin' with? I'm THE Bucks,"
+.text "se metendo? Eu sô o grande Bucks,"
 .byte NewLine
-.text "a beast born from a life at sea!"
+.text "o terror das ilhas do leste!"
 .byte WaitForA
 .byte EndText
 
 dialogueShivaBattleQuote
-.text "Not too bright, are you...?"
+.text "Você cometeu um grande erro."
 .byte WaitForA
 .byte EndText
 
 dialogueLifisBattleQuote
-.text "H-Hey, wait a minute!"
+.text "E-ei, calminha!"
 .byte NewLine
-.text "I ain't that bad, really!"
+.text "Eu não sou tão ruim não!"
 .byte WaitForA
 .byte ScrollText
-.text "Maybe I been wrong here and there,"
+.text "Talvez eu tenha feito um crime"
 .byte NewLine
-.text "but not enough to deserve this!"
+.text "aqui ou ali, mas não precisa disso!"
 .byte WaitForA
 .byte EndText
 

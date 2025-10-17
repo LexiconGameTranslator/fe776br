@@ -4,7 +4,7 @@
 * = $0266D0
 .logical lorom($0266D0, 1)
 
-.text "(Mov increased\n"
+.text "(Mov increased! \n"
 
 .here
 

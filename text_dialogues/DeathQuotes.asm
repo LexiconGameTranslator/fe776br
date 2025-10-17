@@ -277,9 +277,11 @@ dialogueGalzusDeathQuote
 .byte EndText
 
 dialogueShivaDeathQuote
-.text "How...careless."
+.text "Droga... fui descuidado."
 .byte NewLine
-.text "All this way, just to die...here..."
+.text "Fui tão longe, mas não"
+.byte NewLine
+.text "cheguei em lugar nenhum..."
 .byte WaitForA
 .byte EndText
 
@@ -307,16 +309,16 @@ dialogueRobertDeathQuote
 .byte EndText
 
 dialogueWeismannDeathQuote
-.text "D-Damn... You'll...live to regret"
+.text "M-malditos... vocês todos irão"
 .byte NewLine
-.text "this, all of you..."
+.text "se arrepender disso..."
 .byte WaitForA
 .byte EndText
 
 dialogueBucksDeathQuote
-.text "Ugh... You'll regret this someday..."
+.text "Ugh... ocês vão se arrepender..."
 .byte NewLine
-.text "I...deserved to die at sea..."
+.text "Eu merecia morrer no mar..."
 .byte WaitForA
 .byte EndText
 
