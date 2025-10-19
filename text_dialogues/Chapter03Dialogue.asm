@@ -618,16 +618,16 @@ dialogueChapter03JubelHouseOther
 .word LoadPortrait
 .word younglady_portrait
 
-.text "Me kid brother, Jubel,"
+.text "Meu irmãozinho, Jubel,"
 .byte NewLine
-.text "was taken to Kerberos' Gate..."
+.text "foi levado pro forte ali..."
 .byte WaitForA
 .byte ScrollText
-.text "Please, stranger! He's just a wee lad,"
+.text "Por favor, estranho! Ele é só um"
 .byte NewLine
-.text "and you've the arms an' army to give"
+.text "garotinho, e vocês podem dar uma surra"
 .byte NewLine
-.text "them Imperial dastards what-for!"
+.text "nesses imperiais se quiserem!"
 .byte WaitForA
 
 .byte EndText
@@ -638,21 +638,23 @@ dialogueChapter03RomeoHouseRomeo
 .word LoadPortrait
 .word oldlady_portrait
 
-.text "Hm? Oh, it can't be! Romeo, safe and sound..."
+.text "Hm? Ah, graças aos deuses!"
 .byte NewLine
-.text "From the depths of me heart, I thank ye."
+.text "Meu netinho Romeu tá bem..."
+.byte NewLine
+.text "Eu agradeço ocês do fundo do meu coração."
 .byte WaitForA
 .byte ScrollText
-.text "Fer bringing me boy back single-handed,"
+.text "Pra recompensar ocês, por favor, levem"
 .byte NewLine
-.text "I'd like ye to have this."
+.text "isso aqui."
 .byte WaitForA
 .byte ScrollText
-.text "This here ring's been handed down"
+.text "Esse anel aqui foi da minha mãe, que foi"
 .byte NewLine
-.text "in me family fer as long as I can remember."
+.text "da mãe dela, e assim por diante."
 .byte NewLine
-.text "It's enchanted, it is. Take it, I insist."
+.text "Ele é encantado, ocês vão ver."
 .byte WaitForA
 
 .byte EndText
@@ -663,9 +665,11 @@ dialogueChapter03RomeoHouseOther
 .word LoadPortrait
 .word oldlady_portrait
 
-.text "Please, I beseech ye! Save me boy, Romeo,"
+.text "Por favor, eu imploro!"
 .byte NewLine
-.text "from that gods-forsaken fort!"
+.text "Tirem meu netinho Romeu"
+.byte NewLine
+.text "daquele maldito castelo!"
 .byte WaitForA
 
 .byte EndText
