@@ -162,8 +162,8 @@
 .edef "§BE", $BE
 .edef "§BF", $BF
 
-.edef "Õ", $C0
-.edef "õ", $C1
+.edef "Ğ", $C0
+.edef "ğ", $C1
 .edef "ú", $C2
 .edef "ù", $C3
 .edef "û", $C4
@@ -186,8 +186,8 @@
 .edef "€", $D5
 .edef "Þ", $D6
 .edef "þ", $D7
-.edef "Ğ", $D8
-.edef "ğ", $D9
+.edef "Õ", $D8
+.edef "õ", $D9
 .edef "İ", $DA
 .edef "ı", $DB
 .edef "Ñ", $DC

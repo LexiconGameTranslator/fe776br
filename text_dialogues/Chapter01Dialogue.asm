@@ -360,7 +360,7 @@ dialogueChapter01Opening4
 	.byte Left_Slot
 	.word LoadPortrait
 	.word leif_portrait2
-	.text "Não, Comandante!"
+	.text "Não, Eyvel!"
 	.byte NewLine
 	.text "Nanna ainda está na vila!"
 	.byte NewLine
@@ -374,7 +374,7 @@ dialogueChapter01Opening4
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text "Comandante..."
+	.text "Eyvel..."
 	.byte NewLine
 	.text "Eu não vou mais correr."
 	.byte NewLine
@@ -1096,7 +1096,7 @@ dialogueChapter01WorldMap5
 	
 dialogueChapter01WorldMap6
 
-	.text "Agora, chegamos ao ano 776"
+	.text "Agora, chegamos ao ano 776 do"
 	.byte NewLine
 	.text "calendário de Grannvale..."
 	.byte WaitForA
