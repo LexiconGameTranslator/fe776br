@@ -1,58 +1,62 @@
 dialogueCh10FredBattleQuote
-.text "You think you can just stomp"
+.text "Vocês acham que vão sair"
 .byte NewLine
-.text "around House Friege's backyard"
+.text "impunes, passando por terras"
 .byte NewLine
-.text "and get away with it?!"
+.text "da Casa de Friege?!"
 .byte WaitForA
 .byte EndText
 
 dialogueCh10OlwenBattleQuote
-.text "Invaders, hear me: you must leave"
+.text "Invasores, escutem: saiam do"
 .byte NewLine
-.text "Imperial territory at once!"
+.text "território imperial agora mesmo!"
 .byte WaitForA
 .byte EndText
 
 dialogueCh11KempfBattleQuote
-.text "Tch..."
+.text "Tch... Forte Dundrum,"
 .byte NewLine
-.text "So much for the ''impregnable''"
+.text "impregnável?"
 .byte NewLine
-.text "Fort Dundrum..."
+.text "Impregnável uma ova!"
 .byte WaitForA
 .byte EndText
 
 dialogueCh13BaldachBattleQuote		; Unused, but it's the same as his ch14 one
-.text "Funny. You little rats think"
+.text "Engraçado. Vocês ratos imundos"
 .byte NewLine
-.text "you can actually beat me!"
+.text "acham que podem me derrotar!"
 .byte WaitForA
 .byte EndText
 
 dialogueCh16AConomorBattleQuote
-.text "I pray you don't hold a grudge,"
+.text "Eu peço que não guardem mágoas,"
 .byte NewLine
-.text "but this is fate. Forgive me!"
+.text "esse é o destino. Perdoem-me!"
 .byte WaitForA
 .byte EndText
 
 dialogueCh16AKempfBattleQuote
-.text "You! YOU!"
+.text "Você! VOCÊ!"
 .byte NewLine
-.text "If you hadn't come this far...!"
+.text "Se vocês não tivessem"
+.byte NewLine
+.text "vindo tão longe...!"
 .byte WaitForA
 .byte EndText
 
 dialogueCh17BAmaldaBattleQuote
-.text "I..."
+.text "O..."
 .byte NewLine
-.text "What in blazes am I doing...?"
+.text "O que eu estou fazendo...?"
 .byte WaitForA
 .byte EndText
 
 dialogueCh19WolfeBattleQuote
-.text "You're just a stain on my blade!"
+.text "Vocês serão apenas uma mancha"
+.byte NewLine
+.text "na minha espada!"
 .byte WaitForA
 .byte EndText
 
@@ -88,209 +92,226 @@ dialogueLifisBattleQuote
 .text "Eu não sou tão ruim não!"
 .byte WaitForA
 .byte ScrollText
-.text "Talvez eu tenha feito um crime"
+.text "Talvez eu tenha feito"
 .byte NewLine
-.text "aqui ou ali, mas não precisa disso!"
+.text "um crime aqui ou ali,"
+.byte NewLine
+.text "mas não precisa disso!"
 .byte WaitForA
 .byte EndText
 
 dialogueLobosBattleQuote
-.text "Wh-who do you think you are?!"
+.text "Q-quem vocês pensam que são?!"
 .byte NewLine
-.text "You honestly believe"
+.text "Vocês acham mesmo que vão"
 .byte NewLine
-.text "you'll get away with this?!"
+.text "sair impunes disso?!"
 .byte WaitForA
 .byte EndText
 
 dialogueDalsinBattleQuote
-.text "I take no pleasure in this..."
+.text "Eu num queria ter"
 .byte NewLine
-.text "You lot shoulda stayed in yer cells!"
+.text "que fazer isso..."
+.byte WaitForA
+.byte ScrollText
+.text "Ocês deveriam ter"
+.byte NewLine
+.text "ficado nas suas celas!"
 .byte WaitForA
 .byte EndText
 
 dialogueGalzusBattleQuote
-.text "Fate must really have it out"
+.text "O destino não deve gostar"
 .byte NewLine
-.text "for you, makin' your path"
+.text "de vocês, ele cruzou o seu"
 .byte NewLine
-.text "cross mine..."
+.text "caminho logo com o meu..."
 .byte WaitForA
 .byte EndText
 
 dialogueEisenhauBattleQuote
-.text "You stubborn idiots"
+.text "Vocês idiotas convencidos"
 .byte NewLine
-.text "think you can defeat me?"
+.text "acham mesmoo que podem"
+.byte NewLine
+.text "me derrotar?"
 .byte WaitForA
 .byte EndText
 
 dialogueRaydrikBattleQuote
-.text "I watched your grandfather die!"
+.text "Eu vi duas gerações de Leonster"
 .byte NewLine
-.text "I saw your father's castle burn!"
-.byte WaitForA
-.byte ScrollText
-.text "I outlived them and I'll outlive you!"
+.text "caírem! E eu viverei para ver"
+.byte NewLine
+.text "a terceira!"
 .byte WaitForA
 .byte EndText
 
 dialogueLemayBattleQuotes
-.text "Sorry for your luck, but I need"
+.text "Perdão senhores,"
 .byte NewLine
-.text "the coin. I got no illusions—"
+.text "mas eu preciso do dinheiro."
+.byte WaitForA
+.byte ScrollText
+.text "Eu não me iludo, sei que"
 .byte NewLine
-.text "I know this is wrong."
+.text "o que estou fazendo é errado."
 .byte WaitForA
 .byte EndText
 
 dialogueMartyBattleQuote
-.text "Somehow, these things"
-.byte NewLine
-.text "just keep happenin' to me..."
+.text "Sempre acontece comigo..."
 .byte WaitForA
 .byte EndText
 
 dialogueGomezBattleQuote
-.text "Dammit, don't you dare"
+.text "Cacete, não ousem subestimar"
 .byte NewLine
-.text "underestimate the Great Gomez!"
+.text "o grande Gomez! Eu sô osso"
 .byte NewLine
-.text "I'll shrug off whatever you got!"
+.text "duro de roer!"
 .byte WaitForA
 .byte EndText
 
 dialogueMerlochBattleQuote
-.text "Y-You're no common bandit!"
+.text "V-vocês não são"
 .byte NewLine
-.text "What's going on here?!"
+.text "bandidos comuns!"
+.byte NewLine
+.text "O que está acontecendo aqui?!"
 .byte WaitForA
 .byte EndText
 
 dialogueLargoBattleQuote
-.text "What's the meaning of this?!"
+.text "Qual o significado disto?!"
 .byte NewLine
-.text "Why do you trespass"
+.text "Porque tu está violando"
 .byte NewLine
-.text "on our rightful land?"
+.text "nossas terras?"
 .byte WaitForA
 .byte EndText
 
 dialogueFredBattleQuote
-.text "You'd turn your blade on me"
+.text "Você vira sua espada contra"
 .byte NewLine
-.text "in this situation?! What idiocy!"
+.text "mim em um momento desses?!"
+.byte NewLine
+.text "Idiota!"
 .byte WaitForA
 .byte EndText
 
 dialogueOltophBattleQuote
-.text "You'll go no further!"
+.text "Você não passará!"
 .byte NewLine
-.text "I... I'll be the one to make it"
+.text "Eu... eu tenho que sair vivo"
 .byte NewLine
-.text "out of this! I will!"
+.text "dessa situação! E eu vou!"
 .byte WaitForA
 .byte EndText
 
 dialogueSalemBattleQuote
-.text "Begone from our forest, invaders!"
+.text "Saiam de nossa floresta,"
+.byte NewLine
+.text "invasores!"
 .byte WaitForA
 .byte EndText
 
 dialogueColhoBattleQuote
-.text "Aw, hell! We blundered"
+.text "Cacete! Nós demo de cara com"
 .byte NewLine
-.text "into a bunch of soldiers!"
+.text "um bando de soldados!"
 .byte WaitForA
 .byte EndText
 
 dialoguePerneBattleQuote
-.text "You idiots got any idea"
+.text "Vocês sabem quem estão"
 .byte NewLine
-.text "who you're dealin' with?"
+.text "lidando? Eu não sou qualquer"
 .byte NewLine
-.text "I'm not just any bandit, you know!"
+.text "bandido não, tá bom?"
 .byte WaitForA
 .byte ScrollText
-.text "I'm Perne, premier purloiner"
+.text "Eu sou Perne, grande ladrão"
 .byte NewLine
-.text "of priceless property!"
+.text "de grandes posses!"
 .byte WaitForA
 .byte EndText
 
 dialogueTrudeBattleQuote
-.text "That's it, you're dead!"
+.text "Acabou, vocês já eram!"
 .byte WaitForA
 .byte EndText
 
 dialogueTinaBattleQuote
-.text "Oh, Big Sis... If you're out there,"
+.text "Ah, irmãzona... onde você tá?"
 .byte NewLine
-.text "I could use your help"
-.byte NewLine
-.text "right about now...!"
+.text "Eu preciso de você!"
 .byte WaitForA
 .byte EndText
 
 dialogueLisztBattleQuote
-.text "D-Damn! I can't believe this!"
+.text "D-droga!"
+.byte NewLine
+.text "Eu não esperava isso!"
 .byte WaitForA
 .byte EndText
 
 dialoguePaulusBattleQuote
-.text "So... This is how I'm to die..."
+.text "Então... é assim que eu"
+.byte NewLine
+.text "irei morrer..."
 .byte WaitForA
 .byte EndText
 
 dialogueBaldachBattleQuote
-.text "Funny. You little rats think"
+.text "Engraçado. Vocês ratos imundos" ;bob
 .byte NewLine
-.text "you can actually beat me!"
+.text "acham que podem me derrotar!"
 .byte WaitForA
 .byte EndText
 
 dialogueCodhaBattleQuote
-.text "Heh, heh, heh..."
+.text "Ha, ha, ha..."
 .byte NewLine
-.text "You imbeciles!"
+.text "Imbecis!"
 .byte WaitForA
 .byte EndText
 
 dialogueSeilBattleQuote
 .text "Heheheh..."
 .byte NewLine
-.text "You wanna square off with me,"
-.byte NewLine
-.text "do ya?"
+.text "Quer lutar comigo mesmo?"
 .byte WaitForA
 .byte EndText
 
 dialogueBrookBattleQuote
-.text "Rebel scum!"
+.text "Escória rebelde!"
 .byte NewLine
-.text "My blade shall be the one"
+.text "A sua morte virá pelas"
 .byte NewLine
-.text "to cut you down!"
+.text "minhas mãos!"
 .byte WaitForA
 .byte EndText
 
 dialogueIliosBattleQuote
-.text "What, you're really going"
+.text "O quê, vai tentar lutar"
 .byte NewLine
-.text "to fight me?"
+.text "contra mim?"
 .byte WaitForA
 .byte ScrollText
-.text "How amusing!"
+.text "Interessante!"
 .byte NewLine
-.text "You think you can best Sir Ilios!"
+.text "Você acha que pode vencer"
+.byte NewLine
+.text "do grande Senhor Ilios!"
 .byte WaitForA
 .byte EndText
 
 dialogueNicolovBattleQuote
-.text "As if you could defeat me!"
+.text "Acham mesmo que tem chance?"
 .byte NewLine
-.text "Tch... Have at you!"
+.text "Hah! Tomem essa!"
 .byte WaitForA
 .byte EndText
 
@@ -300,171 +321,177 @@ dialogueMooreBattleQuote
 .byte EndText
 
 dialogueMullerBattleQuote
-.text "Now you'll see why the Gelbenritter"
+.text "Agora verás porque temem"
 .byte NewLine
-.text "are so feared!"
+.text "a Gelbenritter!"
 .byte WaitForA
 .byte EndText
 
 dialogueSaiasBattleQuote
-.text "Lay down your weapons."
+.text "Abaixem suas armas."
 .byte NewLine
-.text "You'll only get hurt."
+.text "Irá lhes poupar de"
+.byte NewLine
+.text "perdas desnecessárias."
 .byte WaitForA
 .byte EndText
 
 dialogueMishaBattleQuote
-.text "Get out of my way!"
+.text "Saiam da minha frente!"
 .byte WaitForA
 .byte EndText
 
 dialogueShannamBattleQuote
-.text "H-Hey, wait!"
+.text "E-ei, espera!"
 .byte NewLine
-.text "Let's talk about this..."
+.text "Vamos conversar..."
 .byte WaitForA
 .byte EndText
 
 dialogueSaraBattleQuote
-.text "...What are you doing?"
+.text "...O que você está fazendo?"
 .byte NewLine
-.text "Do you...not like me?"
+.text "Você... não gosta de mim?"
 .byte WaitForA
 .byte EndText
 
 dialogueReinkochBattleQuote
-.text "You trespass upon land"
+.text "Você está violando terras"
 .byte NewLine
-.text "belonging to Loptous himself!"
+.text "que pertencem à Loptous!"
 .byte NewLine
-.text "Fools...!"
+.text "Tolos...!"
 .byte WaitForA
 .byte EndText
 
 dialoguePalmanBattleQuote
-.text "You'll never reclaim"
+.text "Vocês jamais retomarão"
 .byte NewLine
-.text "your damn castle!"
+.text "seu maldito castelo!"
 .byte NewLine
-.text "Just give up!"
+.text "Desistam!"
 .byte WaitForA
 .byte EndText
 
 dialogueXavierBattleQuote
-.text "...Let's get this over with, shall we?"
+.text "...Vamos acabar logo"
+.byte NewLine
+.text "com isso, certo?"
 .byte WaitForA
 .byte EndText
 
 dialogueGustavBattleQuote
-.text "Aaargh! You think I'll just"
+.text "Aaargh! Você acha que eu vou"
 .byte NewLine
-.text "roll over for you?!"
+.text "me render para vocês?!"
 .byte NewLine
-.text "I'm not going down without a fight!"
+.text "Eu não irei cair sem lutar!"
 .byte WaitForA
 .byte EndText
 
 dialogueConomorBattleQuote
-.text "Forgive me..."
+.text "Perdoem-me..."
 .byte NewLine
-.text "This is for Ulster!"
+.text "Isso é por Úlster!"
 .byte WaitForA
 .byte EndText
 
 dialogueAmaldaBattleQuote
-.text "Withdraw your troops!"
+.text "Retire suas tropas!"
 .byte NewLine
-.text "Don't die for nothing!"
+.text "Não precisam morrer por nada!"
 .byte WaitForA
 .byte EndText
 
 dialogueBharatBattleQuote
-.text "You nuisances will cost me"
+.text "Ratos! Vocês vão fazer"
 .byte NewLine
-.text "my rank!"
+.text "eu ser rebaixado!"
 .byte WaitForA
 .byte EndText
 
 dialogueSeimetzBattleQuote
-.text "Soldiers of Leonster!"
+.text "Soldados de Leonster!"
 .byte NewLine
-.text "Prepare yourselves!"
+.text "Preparem-se!"
 .byte WaitForA
 .byte EndText
 
 dialogueFrausBattleQuote
-.text "On my honor as a soldier,"
+.text "Pela minha honra de soldado,"
 .byte NewLine
-.text "I'll defend this fort to the end!"
+.text "Eu darei minha vida para"
+.byte NewLine
+.text "defender este forte!"
 .byte WaitForA
 .byte EndText
 
 dialogueZaunBattleQuote
-.text "You can still walk away!"
+.text "Ainda não é tarde para"
 .byte NewLine
-.text "Just go home!"
+.text "fugir, rebeldes."
 .byte WaitForA
 .byte EndText
 
 dialogueCohenBattleQuote
-.text "You shall go no further!"
+.text "Vocês não passarão!"
 .byte WaitForA
 .byte EndText
 
 dialogueReinhardtBattleQuote
-.text "This must be fate..."
+.text "Este deve ser meu destino..."
 .byte NewLine
-.text "Forgive me..."
+.text "Perdoem-me..."
 .byte WaitForA
 .byte EndText
 
 dialogueCoulterBattleQuote
 .text "Heh, heh, heh..."
 .byte NewLine
-.text "You've only got yourself to blame!"
+.text "Podem chorar, rebeldes!"
 .byte NewLine
-.text "You're dead!"
+.text "Vocês estão mortos!"
 .byte WaitForA
 .byte EndText
 
 dialogueAlphandBattleQuote
-.text "You!"
+.text "Você!"
 .byte NewLine
-.text "How did you make it this far?!"
+.text "Como chegou aqui?!"
 .byte WaitForA
 .byte EndText
 
 dialogueFadenBattleQuote
-.text "Witness the fury"
+.text "Presenciem a fúria dos"
 .byte NewLine
-.text "of the Knights of Munster,"
+.text "Cavaleiros de Munster,"
 .byte NewLine
-.text "you damned rebels!"
+.text "malditos rebeldes!"
 .byte WaitForA
 .byte EndText
 
 dialogueVeldBattleQuote
 .text "Heh, heh, heh..."
 .byte NewLine
-.text "You dare to cross me?"
+.text "Tu ousas me desafiar?"
 .byte NewLine
-.text "Don't you know the power I wield?"
+.text "Não sabe o poder que eu tenho?"
 .byte WaitForA
 .byte ScrollText
-.text "Let me show you just what"
+.text "Bem, eu irei mostrar o quão"
 .byte NewLine
-.text "a grave mistake you've made!"
+.text "grave foi seu erro!"
 .byte WaitForA
 .byte EndText
 
-; Unused
+; Não utilizado
 
 dialogueIshtarBattleQuote
-.text "Behold the power of House Friege!"
+.text "Presenciem o poder de Friege!"
 .byte WaitForA
 .byte EndText
 
 dialogueMannheimBattleQuote
-.text "No! We can't get stranded here!"
+.text "Não! Temos que sair daqui!"
 .byte WaitForA
 .byte EndText
