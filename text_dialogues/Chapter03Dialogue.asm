@@ -124,9 +124,12 @@ dialogueChapter03Opening2
 .byte Left_Slot
 .word LoadPortrait
 .word augustus_potrait
-.text "Aquele forte logo a frente será nosso obstáculo"
+.text "Aquele forte logo a frente será um de nossos"
 .byte NewLine
-.text "no caminho até Munster. Se não me falha a memória,"
+.text "obstáculos no caminho até Munster."
+.byte WaitForA
+.byte ScrollText
+.text "Se não me falha a memória,"
 .byte NewLine
 .text "é a Porta de Kérbero."
 .byte WaitForA
@@ -179,9 +182,11 @@ dialogueChapter03Opening2
 .text "a capital do Império."
 .byte WaitForA
 .byte ScrollText
-.text "Elas então são submetidas à diversas atrocidades..."
+.text "Elas então são submetidas"
 .byte NewLine
-.text "As que sobrevivem saem completamente diferentes."
+.text "à diversas atrocidades... as que sobrevivem"
+.byte NewLine
+.text "saem completamente diferentes."
 .byte WaitForA
 .byte ScrollText
 .text "A inocência da infância acabou; elas agora vivem"
@@ -205,11 +210,14 @@ dialogueChapter03Opening2
 .text "é por este caminho que Jugdral está andando."
 .byte WaitForA
 .byte ScrollText
-.text "Enquanto conversamos, tem crianças presas"
+.text "Enquanto conversamos,"
 .byte NewLine
-.text "naquele forte; os soldados estão apenas esperando"
+.text "tem crianças presas naquele forte;"
+.byte WaitForA
+.byte ScrollText
+.text "os soldados estão apenas esperando"
 .byte NewLine
-.text "a próxima comitiva loptiriana vir buscá-los"
+.text "a próxima comitiva loptiriana vir buscá-los."
 .byte WaitForA
 
 .byte Right_Slot
@@ -221,10 +229,12 @@ dialogueChapter03Opening2
 .byte ScrollText
 .text "Me perdoe, Augusto, mas acho que"
 .byte NewLine
-.text "teremos que nos separar agira."
+.text "teremos que nos separar agora."
 .byte WaitForA
 .byte ScrollText
-.text "Não posso deixar esse mal continuar acontecendo;"
+.text "Não posso deixar esse mal"
+.byte NewLine
+.text "continuar acontecendo;"
 .byte NewLine
 .text "eu irei livrar as crianças desse destino cruel."
 .byte WaitForA
@@ -359,15 +369,18 @@ dialogueChapter03Ending1
 .byte NewLine
 .text "Aqui, abaixei as armas, agora"
 .byte NewLine
-.text "tire suas mãos delas!"
+.text "tire suas mãos dela!"
 .byte WaitForA
 
 .byte Right_Slot
 .text "Hah! Escolheu certo, garoto!"
 .byte NewLine  
 .text "Vocês aí, acorrentem o pequeno príncipe!"
+.byte WaitForA
+.byte ScrollText
+.text "O resto de vocês, vão atrás"
 .byte NewLine
-.text "O resto de vocês, vão atrás dos seus companheiros!"
+.text "dos companheiros dele!"
 .byte WaitForA
 
 .byte EndText

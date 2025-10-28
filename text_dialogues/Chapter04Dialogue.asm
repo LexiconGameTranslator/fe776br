@@ -123,7 +123,7 @@ dialogueChapter04Opening2
 .word LoadPortrait
 .word brighton_portrait
 
-.byte NewLine
+.byte Right_Slot
 .text "Brighton, eu quero que você vá com a Macha"
 .byte NewLine
 .text "e a Lara. Vá na prisão"
@@ -158,7 +158,7 @@ dialogueChapter04Opening3
 .byte Left_Slot
 .word LoadPortrait
 .word macha_portrait
-.text "Estamos contando com você, Lara."
+.text "Tamos contando com você, Lara."
 .byte NewLine
 .text "Acha que consegue lidar com as portas?"
 .byte WaitForA
@@ -210,7 +210,7 @@ dialogueChapter04DalsinRecruitment
 
 .text "Como é que é?!"
 .byte NewLine
-.text "O Império tentou pegar meu irmãozinho"
+.text "O Império tentô pegar meu irmãozinho"
 .byte NewLine
 .text "numa daquelas malditas caçadas?!"
 .byte WaitForA
@@ -222,9 +222,9 @@ dialogueChapter04DalsinRecruitment
 .byte ScrollText
 .text "Tch...! Maldito sejam Raydrik e o Império!"
 .byte NewLine
-.text "Eu me recuso a lutar por eles!"
+.text "Vô virar a casaca!"
 .byte NewLine
-.text "Eu vou com vocês! Estou ao seu dispor!"
+.text "Eu vô com ocês! Tô a seu dispor, príncipe!"
 .byte WaitForA
 
 .byte EndText
@@ -254,7 +254,7 @@ dialogueChapter04LifisDialogue
 .byte NewLine
 .text "de piratas ou algo assim?"
 .byte NewLine
-.text "Lá nas Ilhas Corsárias, né mermo?"
+.text "Lá nas Ilhas Corsárias, num é?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -264,9 +264,9 @@ dialogueChapter04LifisDialogue
 
 .byte Left_Slot
 .byte ScrollText
-.text "Eu imaginei! Hah, ocê tá em todos os"
+.text "Eu imaginei! Só procê saber, cê"
 .byte NewLine
-.text "cartazes de procurado."
+.text "tá em todos os cartazes de procurado."
 .byte WaitForA
 
 .byte ScrollText
@@ -411,14 +411,14 @@ dialogueChapter04LeifDialogue
 
 .byte Right_Slot
 .byte ScrollText
-.text "Fergus, um mercenário, a seu dispôr."
+.text "Fergus, um mercenário, a seu dispor."
 .byte NewLine
 .text "Minha história é bem simples."
 .byte WaitForA
 .byte ScrollText
 .text "Vi um bando de soldados causando problema"
 .byte NewLine
-.text "pra uma jovem moça, e eu a defendi."
+.text "pra uma jovem moça, e eu defendi ela."
 .byte NewLine
 .text "Então me botaram em cana! Trágico, não é?"
 .byte WaitForA
@@ -448,7 +448,7 @@ dialogueChapter04LeifDialogue
 
 .byte Left_Slot
 .byte ScrollText
-.text "Espera um pouco aí—"
+.text "Pera aí garota,"
 .byte NewLine
 .text "foi você que começou!"
 .byte WaitForA
@@ -462,7 +462,7 @@ dialogueChapter04LeifDialogue
 .byte ScrollText
 .text "Isso é tudo culpa sua, e não minha!"
 .byte NewLine
-.text "O quê que 'cê vai fazer agora?!"
+.text "O que você vai fazer agora?!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -483,7 +483,7 @@ dialogueChapter04LeifDialogue
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ugh, eu não tô nem aí..."
+.text "Ugh, porquê eu me importo..."
 .byte WaitForA
 
 .byte Left_Slot
@@ -640,16 +640,16 @@ dialogueChapter04LeifDialogue
 .byte ScrollText
 .text "...Ah. Acho que não."
 .byte NewLine
-.text "Não dá para ficarem quietos"
+.text "Não dá pra ficarem quietos"
 .byte NewLine
-.text "até então, pelo menos?"
+.text "até lá, pelo menos?"
 .byte WaitForA
 .byte ScrollText
-.text "Francamente, estamos em uma prisão!"
+.text "Francamente, tamo numa prisão!"
 .byte NewLine
-.text "Não é como se alguém pudesse escapar"
+.text "Não é como se desse pra fugir"
 .byte NewLine
-.text "de todo esse seu falatório!"
+.text "desse falatório!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -682,7 +682,7 @@ dialogueChapter04LeifDialogue
 .word fergus_portrait
 .text "Viu só?"
 .byte NewLine
-.text "Até o Império concorda comigo!"
+.text "O Império concorda comigo!"
 .byte NewLine
 .text "Haha...!"
 .byte WaitForA
@@ -705,10 +705,10 @@ dialogueChapter04LeifDialogue
 .byte ScrollText
 .text "Que cara é essa, rapazinho?"
 .byte NewLine
-.text "Você parece muito triste."
+.text "Cê parece muito triste."
 .byte WaitForA
 .byte ScrollText
-.text "Melhor você falar o que te incomoda, né?"
+.text "Fala o que tá te incomodando."
 .byte NewLine
 .text "Não deve fazer mal."
 .byte WaitForA
@@ -742,7 +742,7 @@ dialogueChapter04NPCDialogue
 
 .byte Left_Slot
 .byte ScrollText
-.text "Não se preocupe comigo— afinal, "
+.text "Não se preocupe comigo, afinal,"
 .byte NewLine
 .text "eu não tenho muito tempo"
 .byte NewLine
@@ -769,7 +769,7 @@ dialogueChapter04NPCDialogue
 .byte ScrollText
 .word LoadPortrait
 .word ylgreen_portrait
-.text "Putz, agora o Império tranca até"
+.text "Caramba, agora o Império tranca até"
 .byte NewLine
 .text "mesmo vovós doentes?"
 .byte WaitForA
@@ -777,9 +777,9 @@ dialogueChapter04NPCDialogue
 .byte Right_Slot
 .text "Isso mesmo, garota..."
 .byte NewLine
-.text "Quanto tempo eles vão ficar fazendo"
+.text "Quanto tempo mais eles vão ficar impunes,"
 .byte NewLine
-.text "esse tipo de coisa?"
+.text "fazendo esse tipo de coisa?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -821,7 +821,6 @@ dialogueChapter04NPCDialogue
 .text "eles, e eles fogem toda vez."
 .byte WaitForA
 .byte ScrollText
-.byte NewLine
 .text "A gente tem que acreditar nesse cara."
 .byte NewLine
 .text "Ele pode nos ajudar."
@@ -866,9 +865,9 @@ dialogueChapter04LeifCellUnlock
 .text "fora daqui."
 .byte WaitForA
 .byte ScrollText
-.text "Você vai na frente; eu cuido dos soldados"
+.text "Cê vai na frente; eu cuido dos soldados"
 .byte NewLine
-.text "que vierem atrás da gente."
+.text "que vierem atrás."
 .byte WaitForA
 
 .byte Right_Slot
@@ -880,9 +879,9 @@ dialogueChapter04LeifCellUnlock
 
 .byte Left_Slot
 .byte ScrollText
-.text "Mm, eu provavelmente serei pego e preso de"
+.text "Mm, provavelmente vão me pegar e me prender"
 .byte NewLine
-.text "novo—ou coisa pior. Não me importo se eu"
+.text "de novo, ou coisa pior. Não me importo se eu"
 .byte NewLine
 .text "puder ajudar um pouco antes de ser pego."
 .byte WaitForA
@@ -896,11 +895,11 @@ dialogueChapter04LeifCellUnlock
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hah! Você vai me fazer chorar, garoto."
+.text "Hah! Cê vai me fazer chorar, garoto."
 .byte NewLine
-.text "Talvez dê para eu te acompanhar, se você"
+.text "Talvez dê pra eu te acompanhar, se cê"
 .byte NewLine
-.text "precisa tanto da minha ajuda."
+.text "quiser tanto assim minha ajuda."
 .byte WaitForA
 .byte ScrollText
 .text "...Ahh, quem eu tô tentando enganar?"
@@ -937,14 +936,14 @@ dialogueChapter04LeifCellUnlock
 
 .byte Left_Slot
 .byte ScrollText
-.text "Tá bom, tá bom, pode parar. Mas já se"
+.text "Tá bom, tá bom, pode parar. Mas já"
 .byte NewLine
 .text "decidiu se vai vir com a gente?"
 .byte NewLine
 .text "O chefe dos Magi é um cara chamado Ced."
 .byte WaitForA
 .byte ScrollText
-.text "Não era esse o seu príncipe?"
+.text "Não é esse o seu príncipe?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -968,7 +967,7 @@ dialogueChapter04LeifCellUnlock
 
 .byte Left_Slot
 .byte ScrollText
-.text "E você consegue lutar pra realizar"
+.text "E você sabe lutar pra cumprir"
 .byte NewLine
 .text "essa nobre missão, moça?"
 .byte WaitForA
@@ -1130,16 +1129,16 @@ dialogueChapter04Ending
 .byte ScrollText
 .text "Meu próprio irmão está"
 .byte NewLine
-.text "entre os dissidentes—"
+.text "entre os dissidentes,"
 .byte NewLine
-.text "e eu estou de acordo com ele."
+.text "e eu concordo com ele."
 .byte WaitForA
 .byte ScrollText
 .text "Arcebispo Manfroy,"
 .byte NewLine
 .text "em nome de minha família, peço que"
 .byte NewLine
-.text "você interrompa essa selvageria!"
+.text "você pare esta selvageria!"
 .byte WaitForA
 .byte ScrollText
 .text "Sequestrando crianças jovens "
@@ -1340,7 +1339,7 @@ dialogueChapter04WorldMap3
 .text "líder da Casa de Friege,"
 .byte WaitForA
 .byte ScrollText
-.text "a Raydrik foi entregue"
+.text "à Raydrik foi entregue"
 .byte NewLine
 .text "a gestão cotidiana de Munster."
 .byte WaitForA

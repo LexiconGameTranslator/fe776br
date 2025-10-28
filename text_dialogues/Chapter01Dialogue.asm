@@ -478,13 +478,16 @@ dialogueChapter01Opening4
 	.byte NewLine
 	.text "também tentem não matar todos eles."
 	.byte WaitForA
+	.byte ScrollText
 	
 	.byte Left_Slot
 	.word LoadPortrait
 	.word osian_portrait
 
 	.byte Right_Slot
-	.text "Se não percebeu, estou falando com você, Osian."
+	.text "Se não percebeu,"
+	.byte NewLine
+	.text "estou falando com você, Osian."
 	.byte WaitForA
 	
 	.byte Left_Slot
@@ -1000,7 +1003,7 @@ dialogueChapter01WorldMap2
 	.text "patrulhas dos conquistadores"
 	.byte WaitForA
 	.byte NewLine
-	.text "da Trácia do Norte:"
+	.text "da Trácia Setentrional:"
 	.byte WaitForA
 	
 	.byte NewLine

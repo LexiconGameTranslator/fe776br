@@ -389,7 +389,7 @@ dialogueChapter02VulneraryHouse
 .byte ScrollText
 .text "Quem sabe você não consegue resgatar ela?"
 .byte NewLine
-.text "Aqui, leva isso aqui com você. Se você"
+.text "Aqui, leva isso aqui com você."
 .byte WaitForA
 .byte ScrollText
 .text "Se você conseguir achar ela,"
@@ -426,8 +426,8 @@ dialogueChapter02WorldMap1
 .long LoadPortraitalt_2
 .word $0313 ;nanna
 .word $0A0B ;y then x
-.byte NewLine
 .text "Leif se põe à caminho de Munster"
+.byte NewLine
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $012A ;mareeta

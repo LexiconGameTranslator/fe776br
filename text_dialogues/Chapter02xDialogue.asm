@@ -45,8 +45,8 @@ dialogueChapter02xOpening1
 	.byte NewLine
 	.text "dar o que você quiser."
 	.byte WaitForA
-	.byte ScrollText
-	.text "Só faz o que eu quero um pouquinho"
+	.byte NewLine
+	.text "Só faz o que eu quero, por favor."
 	.byte WaitForA
 	
 	.byte Right_Slot
@@ -151,7 +151,7 @@ dialogueChapter02xOpening2
 	.byte $09 ; font 9(always use font 9)
 	.text "Desgraça!"
 	.byte NewLine
-	.text "Chegamos junto quando o sol se pôs."
+	.text "Chegamos justo quando o sol se pôs."
 	.byte WaitForA
 	
 	.byte Left_Slot
@@ -434,7 +434,7 @@ dialogueChapter02xEnding1
 
 	.byte Left_Slot
 	.byte ScrollText
-	.text "Eles estão fazendo caçadas em Tahra?!"
+	.text "Raptar crianças...?"
 	.byte WaitForA
 
 	.byte Right_Slot
@@ -460,7 +460,7 @@ dialogueChapter02xEnding1
 	.byte NewLine
 	.text "pouco tempo depois Rei Bloom convocou"
 	.byte NewLine
-	.text "uma ou duas divisões imperiais"
+	.text "algumas divisões imperiais"
 	.byte WaitForA
 	.byte NewLine
 	.text "e subiu um cerco contra a cidade."
@@ -601,9 +601,9 @@ dialogueChapter02xEnding2
 .text "sumo da frente deles."
 .byte WaitForA
 .byte ScrollText
-.text "Se bem que..."
+.text "Se bem que... se esse garoto"
 .byte NewLine
-.text "Se esse garoto é realmente o príncipe de Leonster,"
+.text "é realmente o príncipe de Leonster,"
 .byte NewLine
 .text "o Império vai pagar bem pra ter ele..."
 .byte WaitForA
