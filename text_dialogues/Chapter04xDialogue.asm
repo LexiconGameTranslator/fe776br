@@ -17,7 +17,7 @@ dialogueChapter04xOpening1
 .byte Right_Slot
 .text "Pense como o Raydrik:"
 .byte NewLine
-.text "você mandaria um combioo para Belhalla"
+.text "você mandaria um comboio para Belhalla"
 .byte NewLine
 .text "com só um punhado de crianças?"
 .byte WaitForA
@@ -31,7 +31,7 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "Então podemos mandá-las todas para casa!"
 .byte NewLine
-.text "Os pais deles devem estar tão preocupados."
+.text "Os pais delas devem estar tão preocupados."
 .byte WaitForA
 
 .byte Right_Slot
@@ -123,7 +123,7 @@ dialogueChapter04xOpening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Eu...pensei a respeito, mas não posso."
+.text "Eu... pensei a respeito, mas não posso."
 .byte NewLine
 .text "Há muitas pessoas aqui em Munster, e todas"
 .byte NewLine
@@ -136,7 +136,7 @@ dialogueChapter04xOpening1
 .byte NewLine
 .text "e eu não posso nem ajudá-lo?"
 .byte NewLine
-.text "Que tipo de aprendiz sou eu..."
+.text "Que péssimo aprendiz eu sou..."
 .byte WaitForA
 
 .byte Right_Slot
