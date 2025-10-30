@@ -1,72 +1,72 @@
 dialogueArenaIntro
 
-	.text "This 'ere's an arena."
+	.text "Bem vindo a arena."
 	.byte NewLine
-	.text "You up for some bloodsport, mate?"
+	.text "Quer fazer uma aposta, mano?"
 .byte EndTextNoPortraitFade
 
 dialogueArenaGoodLuck
 
-	.text "Good luck."
+	.text "Boa sorte."
 	.byte NewLine
-	.text "Don't get yourself killed, eh?"
+	.text "Cuidado pra não morrer, tendeu?"
 .byte EndTextNoPortraitFade
 
 dialogueArenaSurrender
 
-	.text "The fight's to the death, but you"
+	.text "A luta é até morrer, mas você"
 	.byte NewLine
-	.text "can [press B] to yield."
+	.text "pode apertar [B] pra se render."
 .byte EndTextNoPortraitFade
 
 dialogueArenaLeave
 
-	.text "If you ain't payin', you ain't stayin'."
+	.text "Se não quer pagar, não vai ficar."
 	.byte NewLine
-	.text "Get lost."
+	.text "Rala."
 .byte EndTextNoPortraitFade
 
 dialogueArenaSurrendered
 
-	.text "Givin' up already?"
+	.text "Ficou com medo, é?"
 	.byte NewLine
-	.text "Guess I'll be pocketin' yer wager."
+	.text "Vou ficar com seu dinheiro."
 .byte EndTextNoPortraitFade
 
 dialogueArenaLost
 
-	.text "Tch..."
+	.text "Tch... que pena."
 	.byte NewLine
-	.text "Dyin' ain't no way to make a livin'."
+	.text "Morrendo não se ganha a vida."
 .byte EndTextNoPortraitFade
 
 dialogueArenaNoMoney
 
-	.text "Short on coin? Beat it, then."
+	.text "Tá liso? Dorme."
 .byte EndTextNoPortraitFade
 
 dialogueArenaDraw
 
-	.text "Nothing's more boring than a tie..."
+	.text "Sai daí! Deu empate."
 	.byte NewLine
-	.text "Well, here's yer coin back."
+	.text "Aqui seu dinheiro de volta."
 .byte EndTextNoPortraitFade
 
 dialogueArenaWager
-	.text "You up fer wagerin'"
+	.text "Quer apostar"
 	.byte NewLine
 	.byte $00, $24 ; display number?
-	.text " gold?"
+	.text " moedas?"
 .byte EndTextNoPortraitFade
 
 
 dialogueArenaYesNo
-	.text "Yes        No"
+	.text "Sim       Não"
 .byte EndTextNoPortraitFade
 
 dialogueArenaWin
-	.text "Quite the sight. Here's yer reward:"
+	.text "Boa. Aqui seu prêmio:"
 	.byte NewLine
 	.byte $00, $24 ; display number?
-	.text " gold."
+	.text " moedas."
 .byte EndTextNoPortraitFade
