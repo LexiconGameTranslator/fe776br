@@ -11,7 +11,9 @@ dialogueChapter05Opening1
 .word nanna_portrait
 
 .byte Left_Slot
-.text "Little Lady! You're a sight for sore eyes!"
+.text "Senhorita!"
+.byte NewLine
+.text "É um alívio te ver!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -20,26 +22,30 @@ dialogueChapter05Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "I can't tell you how glad I am that you're safe,"
+.text "Eu não posso expressar o quão feliz fico "
 .byte NewLine
-.text "Little Nan. Did that maggot Raydrik hurt you?"
+.text "em saber que você está segura,"
+.byte NewLine
+.text "Naninha. Aquele maldito Raydrik te machucou?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I-I'm fine, but... But Mareeta, she..."
+.text "E-estou bem, mas... Mas a Mareeta, ela..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Mareeta?! What's happened to my Mareeta?!"
+.text "Mareeta?!"
+.byte NewLine
+.text "O que aconteceu com a minha Mareeta?!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I don't know if she's even alive... We were"
+.text "Eu nem sei se ela está viva... Nós fomos"
 .byte NewLine
-.text "separated as soon as we got to the castle."
+.text "separadas assim que chegamos no castelo."
 .byte WaitForA
 .byte ScrollText
 
@@ -59,20 +65,20 @@ dialogueChapter05Opening1
 .byte $3B
 
 .byte Right_Slot
-.text "Raydrik! This your idea of a joke?! You gave"
+.text "Raydrik! É sério isso?! Você"
 .byte NewLine
-.text "me your word that I could see my daughter!"
+.text "me prometeu que eu veria minha filha!"
 .byte WaitForA
 .byte ScrollText
-.text "Are you such an excuse of a man that"
+.text "É sério que você é tão ruim que nem sua"
 .byte NewLine
-.text "even your word means nothing?!"
+.text "palavra vale alguma coisa?!"
 .byte WaitForA
 
 .byte Left_Slot
-.text "I never lied. Of course you can see"
+.text "Eu não menti. De fato você verá"
 .byte NewLine
-.text "your daughter. I just made a small...omission."
+.text "sua filha. Eu só... omiti um pequeno detalhe."
 .byte WaitForA
 
 .byte Right_Slot
@@ -82,9 +88,9 @@ dialogueChapter05Opening1
 .byte ScrollText
 .word LoadPortrait
 .word nanna_portrait
-.text "Look out, Eyvel!"
+.text "Cuidado, Eyvel!"
 .byte NewLine
-.text "There's armed men coming toward us!"
+.text "Há homens armados vindo daquelas portas!"
 .byte WaitForA
 
 .byte EndText
@@ -98,13 +104,15 @@ dialogueChapter05Opening2
 .byte Right_Slot
 .word LoadPortrait
 .word eyvel_portrait
-.text "Tch!"
+.text "Tsk!"
 .byte WaitForA
 
 .byte Left_Slot
-.text "These are my terms: defeat my prized"
+.text "Estas são as minhas condições: "
 .byte NewLine
-.text "pitfighters, and you can see your daughter."
+.text "vença meus preciosos gladiadores,"
+.byte NewLine
+.text "e você poderá ver sua filha."
 .byte WaitForA
 
 .byte Right_Slot
@@ -114,14 +122,17 @@ dialogueChapter05Opening2
 
 .byte Left_Slot
 .byte ScrollText
-.text "Ah, here they come now."
+.text "Ah, lá vem eles."
 .byte WaitForA
 .byte ScrollText
-.text "Pitfighters, meet Eyvel. Eyvel, pitfighters."
+.text "Gladiadores, eis a Eyvel."
 .byte NewLine
-.text "You've had your introductions—"
+.text "Eyvel, eis os gladiadores."
+.byte WaitForA
+.byte ScrollText
+.text "Agora vocês estão apresentados, portanto,"
 .byte NewLine
-.text "let it never be said that I'm a poor host."
+.text "não digam que sou um mal anfitrião."
 .byte WaitForA
 
 .byte ScrollText
@@ -141,9 +152,11 @@ dialogueChapter05Opening2
 .byte WaitForA
 
 .byte Left_Slot
-.text "...Little Lady, this is gonna get real dangerous,"
+.text "...Senhorita, isto aqui vai ficar perigoso,"
 .byte NewLine
-.text "real quick. Stay clear and keep your head down."
+.text "e bem rápido."
+.byte NewLine
+.text "Tome cuidado e fique de cabeça baixa."
 .byte WaitForA
 
 .byte EndText
@@ -159,53 +172,63 @@ dialogueChapter05RaydrikDialogue
 .word veld_portrait
 
 .byte Right_Slot
-.text "A thousand apologies to have kept you waiting,"
+.text "Peço mil desculpas por"
 .byte NewLine
-.text "Bishop Veld."
+.text "lhe deixar esperando,"
+.byte NewLine
+.text "Bispo Veld."
 .byte WaitForA
 
 .byte Left_Slot
-.text "Raydrik, you could not make one apology"
+.text "Raydrik, você não é capaz de "
 .byte NewLine
-.text "and mean it, much less a thousand."
+.text "fazer um pedido de desculpas de coração,"
+.byte NewLine
+.text "muito menos mil deles."
 .byte WaitForA
 .byte ScrollText
-.text "For the Baron of such a troubled area"
+.text "Para o Barão de uma área tão"
 .byte NewLine
-.text "as Munster, you seem to have"
+.text "agitada quanto Munster, você aparenta"
 .byte NewLine
-.text "an abundance of free time."
+.text "ter uma abundância de ócio."
 .byte WaitForA
 .byte ScrollText
-.text "These theatrics are not what you promised"
+.text "Esses teatrinhos"
 .byte NewLine
-.text "you would spend your resources on."
+.text "não estavam no orçamento."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I am...certain Your Eminence will enjoy"
+.text "Eu estou..."
 .byte NewLine
-.text "the spectacle I've prepared."
+.text "certo de que Vossa Eminência irá se"
+.byte NewLine
+.text "divertir com o espetáculo que eu preparei."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "*Sigh*"
+.text "*Suspiro*"
 .byte NewLine
-.text "Oh, very well."
+.text "Oh, pois bem. Bem que eu"
 .byte NewLine
-.text "I could do with a moment's diversion."
+.text "poderia gozar de uma diversão efêmera."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Well, it's all in her hands now..."
+.text "Bem, agora tudo está nas mãos dela..."
 .byte NewLine
-.text "That “Swordmaster” better live up to her name."
+.text "É melhor que aquela “Mestra da Espada”"
+.byte NewLine
+.text "faça jus ao próprio título."
 .byte WaitForA
 .byte ScrollText
-.text "Ah, and now the star takes center stage!"
+.text "Ah, e agora nossa estrela"
+.byte NewLine
+.text "chegou ao centro de seu palco!"
 .byte NewLine
 .text "Heh, heh, heh..."
 .byte WaitForA
@@ -223,20 +246,20 @@ dialogueChapter05MareetaAppears1
 .word eyvel_portrait
 
 .byte Left_Slot
-.text "She's even more skilled than I'd hoped...!"
+.text "ELa é ainda melhor do que pensei...!"
 .byte NewLine
-.text "How delightful! Here, a reward"
+.text "Que encanto! Aqui, uma recompensa"
 .byte NewLine
-.text "befitting a magnificent performer!"
+.text "apropriada a uma artista magnífica!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "What're you scheming?!"
+.text "O que está tramando?!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Heh... Bring the girl out!"
+.text "Heh... tragam a moça!"
 .byte WaitForA
 
 .byte EndText
@@ -270,20 +293,22 @@ dialogueChapter05MareetaAppears3
 .byte Right_Slot
 .word LoadPortrait
 .word nanna_portrait
-.text "Mareeta, Mareeta! Oh, you're safe after all!"
+.text "Mareeta, Mareeta!"
 .byte NewLine
-.text "I can't tell you how worried I—" ; interrupt
+.text "Ah, você está segura afinal!"
+.byte NewLine
+.text "Você não faz ideia do quão preocu—" ; interrupt
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word eyvel_portrait
-.text "Little Nan, don't move a muscle!"
+.text "Naninha, não se mexa!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Huh?"
+.text "Hein?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -304,97 +329,116 @@ dialogueChapter05MareetaAppears3
 dialogueChapter05MareetaAppears4
 
 .byte Right_Slot
-.text "Mareeta! Talk to me...!"
+.text "Mareeta! Fale comigo...!"
 .byte WaitForA
 
 .byte Left_Slot
-.text "...K-Kill..."
+.text "...M-matar..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "What?!"
+.text "O quê?!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Kill... Kill... KILL..."
+.text "...Matar... Matar... MATAR..."
 .byte WaitForA
 .byte ScrollText
-.text "WITH THIS SWORD... ALL... ALL..."
+.text "COM ESTA ESPADA... TODOS... TODOS..."
 .byte NewLine
-.text "ALL OF YOU... KILL ALL OF YOU!"
+.text "TODOS VOCÊS... MATAR TODOS VOCÊS!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Mareeta...you..."
+.text "...Mareeta...você..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .word LoadPortrait
 .word raydrik_portrait
-.text "Mother and daughter, reunited at last!"
+.text "Mãe e filha,"
 .byte NewLine
-.text "Tell me, is she all that you remembered, Eyvel?"
+.text "finalmente juntas mais uma vez!"
+.byte WaitForA
+.byte ScrollText
+.text "Me responda:"
+.byte NewLine
+.text "ela está como você a lembrava, Eyvel?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...What have you done to my Mareeta?!"
+.text "...O que é que você fez"
+.byte NewLine
+.text "com minha Mareeta?!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Me? I didn't do anything. Quite the contrary:"
+.text "Eu? Eu não fiz nada. Na verdade o oposto:"
 .byte NewLine
-.text "she was trying to escape, so I gave her"
+.text "ela estava tentando escapar, então eu"
 .byte NewLine
-.text "that sword to grant her a fighting chance."
+.text "dei a ela esta espada para ajudá-la."
 .byte WaitForA
 .byte ScrollText
-.text "It's an exceptional blade, straight from"
+.text "É uma espada excepcional, direto da sala dos"
 .byte NewLine
-.text "the treasure vault inside this very castle."
+.text "tesouros dentro deste mesmo castelo."
 .byte WaitForA
 .byte ScrollText
-.text "...The Shadow Sword, I believe it's called."
+.text "...A espada sombria,"
+.byte NewLine
+.text "creio que esse é o nome dela."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "The Shadow Sword, a cursed blade..."
+.text "A espada sombria, uma arma amaldiçoada..."
+.byte WaitForA
+.byte ScrollText
+.text "Você está tentando fazer da"
 .byte NewLine
-.text "You trying to turn my Mareeta into one of"
+.text "minha Mareeta um dos seus"
 .byte NewLine
-.text "your damned pitfighters with your little gift?"
+.text "malditos gladiadores com o seu “presente?”"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "My gift is cursed, you say?"
+.text "Meu presente está amaldiçoado? "
 .byte NewLine
-.text "Well, this is the first I'm hearing of it."
+.text "É isso que quer dizer?"
+.byte NewLine
+.text "Bem, é a primeira vez que eu ouço algo assim."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I'll rip that lying tongue right out of your"
+.text "Eu vou arrancar essa sua língua mentirosa da"
 .byte NewLine
-.text "mouth! How... How dare you do this to Mar—" ; interrupt
+.text "boca! Como... Como ousa fazer isso com min—" ; interrupt
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Amusing as your threats are, shouldn't you be"
+.text "Suas ameaças são... interessantes,"
 .byte NewLine
-.text "worrying about yourself right now?"
+.text "mas não acha que tem algo mais importante"
+.byte NewLine
+.text "para você se preocupar agora?"
 .byte WaitForA
 .byte ScrollText
-.text "The Shadow Sword bears incredible power—"
+.text "A Espada Sombria possui um poder incrível..."
+.byte WaitForA
+.byte ScrollText
+.text "um presente excepcional para"
 .byte NewLine
-.text "an exceptional gift for an exceptional woman!"
+.text "uma mulher excepcional!"
 .byte NewLine
 .text "Ahahaha...!"
 .byte WaitForA
@@ -411,7 +455,7 @@ dialogueChapter05MareetaAppears4
 .word mareeta_portrait
 
 .byte Right_Slot
-.text "Mareeta, look at me! Snap out of it!"
+.text "Mareeta, olhe para mim! Acorde!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -425,45 +469,52 @@ dialogueChapter05MareetaDialogue
 .byte Right_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "What's the meaning of this?"
+.text "O que significa isto?"
 .byte NewLine
-.text "The girl wields the Shadow Sword,"
+.text "A garota está com a Espada Sombria em mãos,"
 .byte NewLine
-.text "yet she struggles to finish the job!"
+.text "e mesmo assim tem dificuldade!"
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word veld_portrait
-.text "Hmm... The blade does not appear"
+.text "Hmm... Não parece que a espada a"
 .byte NewLine
-.text "to rule over her completely."
+.text "dominou por completo."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "That's absurd!"
+.text "Isso é um absurdo!"
 .byte NewLine
-.text "As if that mere child could...could—" ; interrupt
+.text "Como se uma simples criança pudesse..." ; interrupt
+.byte NewLine
+.text "pudesse—"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "The memories of her mother make her falter"
+.text "As memórias da mãe dela a"
 .byte NewLine
-.text "and hesitate."
+.text "fazem vacilar e hesitar."
 .byte WaitForA
 .byte ScrollText
-.text "Her emotions dull the sword's strength"
+.text "Suas emoções cegam o poder da espada,"
 .byte NewLine
-.text "the same as running its edge across stone."
+.text "tal qual correr sua lâmina pela pedra."
 .byte WaitForA
 .byte ScrollText
-.text "She's like a caged animal, desperately throwing"
+.text "Ela é como um animal aprisionado,"
 .byte NewLine
-.text "herself against her binds. Or have you not even"
+.text "desesperadamente lutando"
 .byte NewLine
-.text "noticed her tears, you imbecile?"
+.text "lutando contra suas correntes."
+.byte WaitForA
+.byte ScrollText
+.text "Ou será que você não conseguiu"
+.byte NewLine
+.text "notar o choro dela, imbecil?"
 .byte WaitForA
 
 .byte EndText
@@ -481,13 +532,13 @@ dialogueChapter05MareetaCaptured
 .byte Left_Slot
 .text "Agh...!"
 .byte NewLine
-.text "Let go..."
+.text "Me larga..."
 .byte NewLine
-.text "LET GO..."
+.text "ME LARGA..."
 .byte WaitForA
 
 .byte Right_Slot
-.text "...Sorry about this, Mareeta."
+.text "...Me desculpe por isso, Mareeta."
 .byte WaitForA
 
 .byte Left_Slot
@@ -503,24 +554,24 @@ dialogueChapter05MareetaCaptured
 .byte Left_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "What...?! She's been knocked out cold..."
+.text "Quê...?! Ela foi nocauteada..."
 .byte NewLine
-.text "Is this some kind of jest...?!"
+.text "Isso é algum tipo de piada...?!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Raydrik, you hellspawn..."
+.text "...Raydrik, seu desgraçado..."
 .byte WaitForA
 .byte ScrollText
-.text "As long as my heart beats,"
+.text "Enquanto meu coração bater,"
 .byte NewLine
-.text "I'll never forgive you..."
+.text "eu nunca irei te perdoar..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Th-The woman's a beast...!"
+.text "A-a mulher é uma besta...!"
 .byte WaitForA
 .byte ScrollText
 
@@ -535,30 +586,34 @@ dialogueChapter05MareetaKilled
 .byte Right_Slot
 .word LoadPortrait
 .word eyvel_portrait
-.text "...Mareeta... I'm sorry... I'm so sorry..."
+.text "...Mareeta... eu sinto muito..."
+.byte NewLine
+.text "Muito mesmo..."
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "She prevailed against even the Shadow Sword..."
+.text "Ela prevalesceu mesmo "
 .byte NewLine
-.text "Is this some kind of jest...?!"
+.text "contra a Espada Sombria..."
+.byte NewLine
+.text "Isso é algum tipo de piada...?!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Raydrik, you hellspawn..."
+.text "...Raydrik, seu desgraçado..."
 .byte WaitForA
 .byte ScrollText
-.text "As long as my heart beats,"
+.text "Enquanto meu coração bater,"
 .byte NewLine
-.text "I'll never forgive you..."
+.text "eu nunca irei te perdoar..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Th-The woman's a beast...!"
+.text "A-a mulher é uma besta...!"
 .byte WaitForA
 .byte ScrollText
 
@@ -577,16 +632,16 @@ dialogueChapter05RaydrikPanicsA
 .byte Right_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "F-Fine, the girl wasn't enough for you?!"
+.text "O-ok, a garota não foi o suficiente"
 .byte NewLine
-.text "Let's see how you do"
+.text "pra você?! Vamos ver como você lida"
 .byte NewLine
-.text "against my entire garrison!"
+.text "com o meu exército inteiro!"
 .byte WaitForA
 .byte ScrollText
-.text "All hands, enter the arena and stain the ground"
+.text "Homens, entrem na arena e"
 .byte NewLine
-.text "with her blood!"
+.text "derramem o sangue dela!"
 .byte WaitForA
 
 .word PlayMusic
@@ -595,16 +650,16 @@ dialogueChapter05RaydrikPanicsA
 .byte Left_Slot
 .word LoadPortrait
 .word veld_portrait
-.text "Panicking already, Raydrik?"
+.text "Já está em pânico, Raydrik?"
 .byte NewLine
-.text "Fear not. I'll clean up your mess for you."
+.text "Não tenha medo. Eu vou dar um jeito nisto."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .word LoadPortrait
 .word eyvel_portrait
-.text "Wh-What...?!"
+.text "Qu-quê...?!"
 .byte WaitForA
 
 .byte EndText
@@ -615,32 +670,34 @@ dialogueChapter05EyvelCaptured
 .word LoadPortrait
 .word raydrik_portrait
 
-.text "Tch..."
+.text "Tsh..."
 .byte NewLine
-.text "In the end, she was a shadow"
+.text "No fim, ela era apenas uma sombra"
 .byte NewLine
-.text "of what the rumors made her out to be."
+.text "do que os boatos diziam."
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word guard_portrait
-.text "What do you want done with her, sire?"
+.text "O que você quer que seja"
+.byte NewLine
+.text "feito com ela, milorde?"
 .byte WaitForA
 .byte ScrollText
 
 .word LoadPortrait
 .word veld_portrait
-.text "Don't kill her, Raydrik."
+.text "Não a mate, Raydrik."
 .byte NewLine
-.text "Leave her fate in my hands."
+.text "Deixe ela em minhas mãos."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .word LoadPortrait
 .word eyvel_portrait
-.text "Wh-What...?"
+.text "Qu-quê...?"
 .byte WaitForA
 
 .byte EndText
@@ -656,11 +713,11 @@ dialogueChapter05EyvelPetrify
 .word veld_portrait
 
 .byte Left_Slot
-.text "G-Gods' breath... Your spellcraft is truly"
+.text "P-pelos deuses... Sua feitiçaria é realmente"
 .byte NewLine
-.text "a sight to behold, Your Eminence. Not even"
+.text "algo a se admirar, Vossa Eminência. Nem mesmo"
 .byte NewLine
-.text "the wildest fable could compare to this..."
+.text "a fábula mais maluca tem comparação..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -669,11 +726,11 @@ dialogueChapter05EyvelPetrify
 
 .byte Left_Slot
 .byte ScrollText
-.text "A-And now I have a perfect statue of the proud"
+.text "E-e agora tenho uma estátua perfeita da"
 .byte NewLine
-.text "warrior of Fiana—an eternal monument"
+.text "guerreira de Fiana—um monumento eterno ao"
 .byte NewLine
-.text "to the price of defiance! Ahahaha!"
+.text "preço da rebeldia! Ahahaha!"
 .byte WaitForA
 .byte ScrollText
 
@@ -694,23 +751,23 @@ dialogueChapter05NannaLeftAlone
 .byte Left_Slot
 .word LoadPortrait
 .word guard_portrait
-.text "...What about Finn's little brat?"
+.text "...E quanto à pirralha do Finn?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Hmm... Leave the girl be. That fragile little"
+.text "Hmm... Deixe-a em paz. Aquela coitadinha"
 .byte NewLine
-.text "thing couldn't escape the castle."
+.text "não poderia nem sair do castelo."
 .byte WaitForA
 .byte ScrollText
-.text "After this, I'm sure she'll serve"
+.text "Depois disto, estou certo de que ela irá"
 .byte NewLine
-.text "as a most entertaining diversion!"
+.text "será uma diversão ainda mais interessante!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "As you wish, sire."
+.text "Seu desejo é uma ordem, milorde."
 .byte WaitForA
 .byte ScrollText
 .word ClearPortrait
@@ -731,22 +788,24 @@ dialogueChapter05ArenaOpenEyvelNanna
 .byte Right_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "Nanna! You're safe!"
+.text "Nanna! Você está a salvo!"
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word nanna_portrait
-.text "L-Lord Leif! Please, you have to help Eyvel!"
+.text "L-Lorde Leif! Por favor,"
 .byte NewLine
-.text "I don't know how much more of this"
+.text "você tem que ajudar a Eyvel!"
 .byte NewLine
-.text "she can take!"
+.text "Eu não sei quanto mais ela vai aguentar!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Leave it to us—but stay behind me, Nanna!"
+.text "Deixe isso conosco—"
+.byte NewLine
+.text "mas fique atrás de mim, Nanna!"
 .byte WaitForA
 .byte ScrollText
 
@@ -756,33 +815,37 @@ dialogueChapter05ArenaOpenEyvelNanna
 .word eyvel_portrait
 
 .byte Right_Slot
-.text "Commander, are you all right?"
+.text "Eyvel, você está bem?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Little Lord! Everyone!"
+.text "Leif! Pessoal!"
 .byte NewLine
-.text "Heh, good to see you all made it!"
+.text "Heh, é bom saber que todos"
+.byte NewLine
+.text "vocês estão seguros!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I can't begin to thank you for protecting Nanna"
+.text "Eu nem sei como agradecer"
 .byte NewLine
-.text "in this ghastly place."
+.text "por ter protegido a Nanna"
+.byte NewLine
+.text "neste lugar horripilante."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Would that I could've done the same"
+.text "Eu queria ter feito o mesmo"
 .byte NewLine
-.text "for my own kin..."
+.text "pra minha filha..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "No... What's happened to Mareeta?"
+.text "Não... o que houve com a Mareeta?"
 .byte WaitForA
 
 .byte EndText
@@ -798,32 +861,37 @@ dialogueChapter05ArenaOpenNannaCaptured
 .word eyvel_portrait
 
 .byte Right_Slot
-.text "Commander, are you all right?"
+.text "Eyvel, você está bem?"
 .byte WaitForA
 
 .byte Left_Slot
-.text "Leif... I'm so sorry..."
+.text "Leif... Me desculpe..."
 .byte NewLine
-.text "Nanna was here, she was right here with me,"
+.text "Nanna estava aqui, bem aqui comigo,"
 .byte NewLine
-.text "and I let her get taken by Raydrik's goons!"
+.text "mas eu deixei os capangas do Raydrik"
+.byte WaitForA
+.byte NewLine
+.text "levarem ela!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Nanna... No, as long as she's still alive,"
+.text "Nanna... Não, enquanto ela ainda"
 .byte NewLine
-.text "we can always rescue her! This isn't over!"
+.text "estiver viva, nós podemos resgatá-la!"
+.byte NewLine
+.text "Isto ainda não acabou!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I failed her and Mareeta both..."
+.text "Eu falhei com ela, e com a Mareeta..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "No... What's happened to Mareeta?"
+.text "Não... o que houve com a Mareeta?"
 .byte WaitForA
 
 .byte EndText
@@ -839,27 +907,25 @@ dialogueChapter05ArenaOpenNannaDead
 .word eyvel_portrait
 
 .byte Right_Slot
-.text "Commander, are you all right?"
+.text "Eyvel, você está bem?"
 .byte WaitForA
 
 .byte Left_Slot
-.text "Leif... I'm so sorry..."
+.text "Leif... Me desculpe..."
 .byte NewLine
-.text "Nanna was here, she was right here"
+.text "Nanna estava aqui, bem aqui comigoo,"
 .byte NewLine
-.text "with me, and I couldn't... I couldn't..."
+.text "e eu não... eu não..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "No... Gods, NO! Th-That's not possible!"
+.text "Não... deuses, NÃO! I-Impossível!"
 .byte WaitForA
 .byte ScrollText
-.text "Oh, Nanna... After everything"
+.text "Oh, Nanna... Depois de tudo "
 .byte NewLine
-.text "we've been through together... What a waste..."
-.byte NewLine
-.text "What a senseless waste..."
+.text "que passamos juntos..." ; preferi omitir a parte do desperdício
 .byte WaitForA
 
 .byte EndText
@@ -869,18 +935,18 @@ dialogueChapter05RaydrikPanicsB1
 .byte Right_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "H-How did you escape from the dungeon?!"
+.text "C-como vocês escaparam da masmorra?!"
 .byte NewLine
-.text "Men, seize them! No, wait, kill them!"
+.text "Tropas, prendam-nos! Não, matem-nos!"
 .byte NewLine
-.text "Kill all of them!"
+.text "Matem todos eles!"
 .byte WaitForA
 .byte ScrollText
-.text "If that whelp gets free of the castle,"
+.text "Se o garoto fugir do castelo,"
 .byte NewLine
-.text "it'll be on my head! All hands, enter the arena"
+.text "vai sobrar para mim! Homens,"
 .byte NewLine
-.text "and stain the ground with their blood!"
+.text "entrem na arena e matem-os!"
 .byte WaitForA
 .byte ScrollText
 
@@ -894,16 +960,16 @@ dialogueChapter05RaydrikPanicsB2
 .byte Left_Slot
 .word LoadPortrait
 .word veld_portrait
-.text "Panicking already, Raydrik?"
+.text "Já está em pânico, Raydrik?"
 .byte NewLine
-.text "Fear not. I'll clean up your mess for you."
+.text "Não tenha medo. Eu vou dar um jeito nisto."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .word LoadPortrait
 .word eyvel_portrait
-.text "Wh-What...?!"
+.text "Qu-quê...?!"
 .byte WaitForA
 
 .byte EndText
@@ -918,14 +984,14 @@ dialogueChapter05RaydrikTaunt
 .byte Right_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "We've nothing to fear now!"
+.text "Não há nada a temer agora!"
 .byte NewLine
-.text "There's no rescuing a block of stone!"
+.text "Não há como salvar um bloco de pedra!"
 .byte WaitForA
 .byte ScrollText
-.text "Now, kill them all!"
+.text "Agora, matem todos eles!"
 .byte NewLine
-.text "Don't let any of them get away!"
+.text "Não deixem nenhum deles se safarem!"
 .byte WaitForA
 
 .byte EndText
@@ -940,26 +1006,28 @@ dialogueChapter05ArenaOpenNannaAlone
 .word LoadPortrait
 .word nanna_portrait
 
-.text "Lord Leif!"
+.text "Lorde Leif!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Nanna! You're safe!"
+.text "Nanna! Você está a salvo!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Y-Yes... I've managed, somehow."
+.text "S-Sim... Eu sobrevivi,"
+.byte NewLine
+.text "mesmo sem saber como."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Is the Commander with you?"
+.text "A Eyvel está contigo?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Eyvel, she... She..."
+.text "Eyvel, ela... ela..."
 .byte WaitForA
 .byte ScrollText
 .word ClearPortrait
@@ -975,14 +1043,14 @@ dialogueChapter05ArenaOpenEmpty
 .byte Right_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "No one's here..."
+.text "Não tem ninguém aqui..."
 .byte NewLine
-.text "Were we misled?"
+.text "Será que fomos enganados?"
 .byte NewLine
-.text "Was our information incorrect?"
+.text "Nossa informação estava incorreta?"
 .byte WaitForA
 .byte ScrollText
-.text "Ah! Th-That's...!"
+.text "Ah! I-isso é...!"
 .byte WaitForA
 .byte ScrollText
 
@@ -990,16 +1058,16 @@ dialogueChapter05ArenaOpenEmpty
 
 dialogueChapter05ArenaOpenAfterPetrify
 
-.text "No! Gods, NO!"
+.text "Não! Deuses, NÃO!"
 .byte NewLine
-.text "Commander! Commander Eyvel!"
+.text "Eyvel! O que fizeram contigo?!"
 .byte WaitForA
 .byte ScrollText
-.text "After everything you've done for me..."
+.text "Depois de tudo o que você fez por mim..."
 .byte NewLine
-.text "After how far I've come..."
+.text "Depois do quão longe eu cheguei..."
 .byte NewLine
-.text "How... How is such a thing possible...?!"
+.text "Como... como algo assim é possível...?!"
 .byte WaitForA
 
 .byte EndText
