@@ -2,81 +2,87 @@ shop_text .block
 
 _intro_armory
 
-	.text "Arms and armaments sold here."
+	.text "Eu vendo armas aqui."
 	.byte NewLine
-	.text "What can I do you for?"
+	.text "O que cê quer levar?"
 .byte EndTextNoPortraitFade
 
 _intro_shop
 
-	.text "This here's a general store."
+	.text "Bem vindo a minha loja!"
 	.byte NewLine
-	.text "How can I help you?"
+	.text "como posso ajudar?"
 .byte EndTextNoPortraitFade
 
 _buy_sell
 
-	.text "Buy        Sell"
+	.text "Comprar     Vender"
 .byte EndTextNoPortraitFade
 
 _buy_intro
 
-	.text "Something caught your eye?"
+	.text "Alguma coisa"
+	.byte NewLine
+	.text "te interessa aqui?"
 .byte EndTextNoPortraitFade
 
 _sell_intro
 
-	.text "What are you offering?"
+	.text "O que você quer me vender?"
 .byte EndTextNoPortraitFade
 
 _continue
 
-	.text "Anything else I can do for you?"
+	.text "Mais alguma coisa que eu"
+	.byte NewLine
+	.text "possa fazer por você?"
 .byte EndTextNoPortraitFade
 
 _too_expensive
 
-	.text "Seems you're short on coin, friend."
+	.text "Te falta dinheiro, amigo."
 .byte EndTextNoPortraitFade
 
 _buy_sell_confirm
 
-	.text "That sound fair?"
+	.text "Tá bom pra você?"
 .byte EndTextNoPortraitFade
 
 _yes_no
 
-	.text "Yes        No"
+	.text "Sim        Não"
 .byte EndTextNoPortraitFade
 
 _leave
 
-	.text "Come again."
+	.text "Volte sempre."
 .byte EndTextNoPortraitFade
 
 _after_sale
 
-	.text "Got anything else to part with?"
+	.text "Quer vender mais alguma coisa?"
 .byte EndTextNoPortraitFade
 
 _after_buy
 
-	.text "Thank you kindly. Anything else?"
+	.text "Muito obrigado. Mais alguma coisa?"
 .byte EndTextNoPortraitFade
 
 _no_items_to_sell
 
-	.text "You got nothin' I'm interested in."
+	.text "Você não tem nada pra me vender."
 .byte EndTextNoPortraitFade
 
 _inventory_full
 
-	.text "You can't carry anything else."
+	.text "Seus bolsos tão cheios."
+	.byte NewLine
+	.text "Volte quando tiver espaço."
 .byte EndTextNoPortraitFade
 
 _unsellable
 
-	.text "Not interested. Sorry."
+	.text "Não quero. Desculpa."
 .byte EndTextNoPortraitFade
 
 .bend

@@ -7,22 +7,20 @@ dialogueDemo1
 .byte Left_Slot
 .word LoadPortrait
 .word tanya_portrait
-.text "Papa, the fighting's started already!"
+.text "Papai, a luta já começou!"
 .word PauseDialogue
 .byte $5A
 
 .byte Right_Slot
-.text "Ain't no good way to go about this"
-.byte NewLine
-.text "damned battle..."
+.text "Não é assim que se faz..."
 .word PauseDialogue
 .byte $5A
 .byte ScrollText
-.text "Don't matter how good Eyvel is, there's only"
+.text "Não importa o quão boa a Eyvel seja,"
 .byte NewLine
-.text "one of her an' over a dozen of them."
+.text "sozinha ela num vai ganhar de todos eles."
 .byte NewLine
-.text "We need to hurry."
+.text "Filha, temos que correr."
 .word PauseDialogue
 .byte $5A
 
@@ -41,9 +39,9 @@ dialogueDemo1
 .byte Right_Slot
 .word LoadPortrait
 .word marty_portrait
-.text "Oh, fer cryin' out loud!"
+.text "Ah, pelo amor dos deuses!"
 .byte NewLine
-.text "Not again..."
+.text "Lá vamos nós de novo..."
 .word PauseDialogue
 .byte $5A
 
@@ -59,28 +57,28 @@ dialogueDemo2
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait
-.text "Commander, over here!"
+.text "Eyvel, olhe!"
 .byte NewLine
-.text "That village is being raided!"
+.text "A vila está sendo atacada!"
 .word PauseDialogue
 .byte $5A
 
 .byte Right_Slot
-.text "Hmm... That's Lifis' crew, by the look of it."
+.text "Hmm... são os capangas do Lifis, pelo que parece."
 .byte NewLine
 .word PlayMusic
 .byte $23
-.text "They've been quiet as a mouse for a while,"
+.text "Eles ficaram quietos um bom tempo,"
 .byte NewLine
-.text "but I guess they move fast."
+.text "mas parece que voltaram."
 .word PauseDialogue
 .byte $5A
 
 .byte Left_Slot
 .byte ScrollText
-.text "And we have to move faster!"
+.text "Então tenhamos pressa!"
 .byte NewLine
-.text "We cannot stand by and allow this to happen!"
+.text "Temos que agir!"
 .word PauseDialogue
 .byte $5A
 
@@ -96,24 +94,26 @@ dialogueDemoRaydrik
 .byte Left_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "You're certain this is the village, Weismann?"
+.text "Tem certeza que este é o lugar certo,"
+.byte NewLine
+.text "Weismann?"
 .word PauseDialogue
 .byte $5A
 
 .byte Right_Slot
-.text "Quite certain, milord."
+.text "Tenho, meu senhor."
 .byte NewLine
-.text "There can be no mistake."
+.text "Tudo aponta para este lugar."
 .word PauseDialogue
 .byte $5A
 
 .byte Left_Slot
 .byte ScrollText
-.text "Then what are you waiting for?"
+.text "Então o que está esperando?"
 .byte NewLine
-.text "Find the prince!"
+.text "Ache o príncipe! Eu quero ver ele"
 .byte NewLine
-.text "I want him in chains within the hour!"
+.text "acorrentado o quanto antes!"
 .word PauseDialogue
 .byte $5A
 
@@ -123,7 +123,7 @@ dialogueDemoRaydrik
 dialogueDemoOsian
 .word $1400
 .byte $00
-.text "You're on, Halvan!"
+.text "Se prepara, Halvan!"
 .word PauseDialogue
 .byte $5A
 
@@ -132,11 +132,11 @@ dialogueDemoOsian
 
 dialogueDemoHalvan
 
-.text "Not bad!"
+.text "Nada mau!"
 .byte NewLine
-.text "But you've got a long way to go"
+.text "Mas ainda falta muito pra você"
 .byte NewLine
-.text "before you can beat me!"
+.text "conseguir me vencer!"
 .word PauseDialogue
 .byte $5A
 

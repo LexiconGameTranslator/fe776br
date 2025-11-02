@@ -571,7 +571,7 @@ dialogueChapter05MareetaCaptured
 
 .byte Left_Slot
 .byte ScrollText
-.text "A-a mulher é uma besta...!"
+.text "A-a mulher é uma fera...!"
 .byte WaitForA
 .byte ScrollText
 

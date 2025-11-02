@@ -80,7 +80,7 @@ SaveChapter
 .byte EndText
 
 ConfirmCancel
-.text "Confirmar      Cancelar"
+.text "Confirmar    Cancelar"
 .byte EndText
 
 ParagonMode
