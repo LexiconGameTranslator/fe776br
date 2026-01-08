@@ -77,7 +77,7 @@ dialogueChapter03Opening1
 .byte NewLine
 .text "Eu pensei que eles haviam sido exterminados,"
 .byte NewLine
-.text "mas eles retornaram à ativa recentemente."
+.text "mas retornaram à ativa recentemente."
 .byte WaitForA
 .byte ScrollText
 .text "Parece que esse bando de insetos"
@@ -396,11 +396,14 @@ dialogueChapter03Ending2
 .text "Sendo assim, acho melhor eu ir junto com ele."
 .byte WaitForA
 .byte ScrollText
-.text "Eu vou me entregar para eles;"
+.text "Eu vou me entregar para os imperiais;"
 .byte NewLine
-.text "imagino que eles também vão me prender."
+.text "imagino que também vão me prender."
 .byte NewLine
-.text "Assim, eu vou poder proteger ele de dentro."
+.text "Assim, eu vou poder proteger o príncipe"
+.byte WaitForA
+.byte NewLine
+.text "de dentro."
 .byte WaitForA
 .byte ScrollText
 .text "O resto de vocês, fujam daqui e"
@@ -546,7 +549,7 @@ dialogueChapter03LucciaHouseLuccia
 
 .text "Lúcia! Ah, minha garota, sã e salva!"
 .byte NewLine
-.text "Mais um pouco e eu ia morrer de nervoso!"
+.text "Mais um pouco e eu ia morrer de preocupação!"
 .byte WaitForA
 .byte ScrollText
 .text "Eu sou eternamente grata a ocê, estranho,"

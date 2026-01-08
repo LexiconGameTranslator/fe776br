@@ -188,7 +188,7 @@ dialogueChapter13GladeFinn
 .text "as muralhas de Tarrah."
 .byte WaitForA
 .byte ScrollText
-.text "Ouvimos que mais uma das divisões de Friege"
+.text "Ouvimos que mais uma das legiões de Friege"
 .byte NewLine
 .text "estão para chegar aqui, então por favor,"
 .byte NewLine

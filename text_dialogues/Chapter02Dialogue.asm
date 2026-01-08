@@ -157,11 +157,14 @@ dialogueChapter02Opening2B
 .byte WaitForA
 
 .byte Right_Slot
-.text "Estranho, senhor. Me parece ser o grupo daquele"
+.text "Estranho, senhor."
 .byte NewLine
-.text "pirata Lifis. Mas depois de tanto tempo de inatividade,"
+.text "Me parece ser o grupo daquele pirata, Lifis."
+.byte WaitForA
 .byte NewLine
-.text "eu pensei que eles tivessem se dispersado."
+.text "Mas depois de tanto tempo de inatividade,"
+.byte NewLine
+.text "eu pensei que tivessem se dispersado."
 .byte WaitForA
 
 .byte Left_Slot
@@ -233,11 +236,11 @@ dialogueChapter02RonanHouse
 .text "Eu quero me juntar a vocês!"
 .byte WaitForA
 .byte ScrollText	
-.text "Eu sei atirar com um arco e eu também"
+.text "Eu sei atirar com um arco e"
 .byte NewLine
-.text "consigo andar bem rápido."
+.text "consigo andar bem rápido, então eu acho"
 .byte NewLine
-.text "Eu não vou atrasar vocês."
+.text "que não vou atrapalhar."
 .byte WaitForA
 
 .byte Left_Slot
@@ -397,9 +400,9 @@ dialogueChapter02VulneraryHouse
 .text "Leva isso aqui pra te ajudar."
 .byte WaitForA
 .byte ScrollText
-.text "Se ocê conseguir achar ela,"
+.text "Se ocê conseguir achar ela, depois"
 .byte NewLine
-.text "fala pra nós que ela tá bem."
+.text "fala pra nós se ela tá bem."
 .byte WaitForA
 
 .byte EndText
@@ -420,12 +423,12 @@ dialogueChapter02VulneraryHouseVillageAttacked
 
 dialogueChapter02WorldMap1
 
-.text "Depois de descobrir que "
+.text "Ao descobrir do sequestro"
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0078 ;raydrik
 .word $0207 ;y then x
-.text "Raydrik raptou suas amigas,"
+.text "realizado por Raydrik,"
 .byte WaitForA
 .byte ScrollText
 .word LoadPortraitalt_1

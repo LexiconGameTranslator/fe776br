@@ -458,9 +458,9 @@ dialogueChapter02xEnding1
 	.byte ScrollText
 	.text "Infelizmente isso não foi o suficiente, pois"
 	.byte NewLine
-	.text "pouco tempo depois Rei Bloom convocou"
+	.text "pouco tempo depois Rei Bloom pediu"
 	.byte NewLine
-	.text "algumas divisões imperiais"
+	.text "algumas legiões do Exército Imperial"
 	.byte WaitForA
 	.byte NewLine
 	.text "e subiu um cerco contra a cidade."
