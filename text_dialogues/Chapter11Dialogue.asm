@@ -95,9 +95,9 @@ dialogueChapter11LeifFred
 .byte ScrollText
 .text "Quando lutamos contra suas forças"
 .byte NewLine
-.text "no Vale de Nowell, vocês lutaram"
+.text "no Vale de Nowell, eu respeitei a"
 .byte NewLine
-.text "com honra e respeito!"
+.text "honra com que se conduziram!"
 .byte WaitForA
 .byte ScrollText
 .text "Mas parece que foi uma exceção!"
