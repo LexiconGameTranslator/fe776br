@@ -66,7 +66,7 @@ dialogueChapter04Opening1
 .byte ScrollText
 .text "Jovens?"
 .byte NewLine
-.text "Você está falando... da Mareeta e da Nanna?"
+.text "Você está falando... de Mareeta e Nanna?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -160,7 +160,7 @@ dialogueChapter04Opening3
 .word macha_portrait
 .text "Tamos contando com você, Lara."
 .byte NewLine
-.text "Acha que consegue lidar com as portas?"
+.text "Acha que consegue abrir as portas?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -193,7 +193,7 @@ dialogueChapter04Opening3
 .byte ScrollText
 .word LoadPortrait
 .word macha_portrait
-.text "Então que bom que eu e o"
+.text "Então que bom que eu e"
 .byte NewLine
 .text "Brighton tamos aqui!"
 .byte NewLine
@@ -391,7 +391,9 @@ dialogueChapter04LeifDialogue
 .word LoadPortrait
 .word fergus_portrait
 
-.text "Hm, do nada deu uma agitação aqui em baixo."
+.text "Hm, de repente começou uma gritaria"
+.byte NewLine
+.text "aqui em baixo."
 .byte NewLine
 
 .byte Left_Slot
@@ -638,7 +640,7 @@ dialogueChapter04LeifDialogue
 .text "até lá, pelo menos?"
 .byte WaitForA
 .byte ScrollText
-.text "Francamente, tamos numa prisão!"
+.text "Francamente, estamos numa prisão!"
 .byte NewLine
 .text "Não é como se desse pra fugir"
 .byte NewLine

@@ -3,7 +3,7 @@ dialogueChapter12xPerneSalem
 .byte Right_Slot
 .word LoadPortrait
 .word salem_portrait
-.text "That's enough, Perne! No more violence."
+.text "Chega, Perne! Abaixe suas armas, por favor."
 .byte WaitForA
 
 .byte Left_Slot
@@ -11,69 +11,63 @@ dialogueChapter12xPerneSalem
 .word pan_portrait
 .text "Salem?!"
 .byte NewLine
-.text "The hell you doin' fightin' with the enemy?"
+.text "Porque que cê tá com os imperiais?"
 .byte NewLine
-.text "What, have you sold us out already?"
-.byte WaitForA
-.byte NewLine
-.text "How much is the Empire payin' you for this?"
+.text "Já nos traiu? Tão pagando bem pelo menos?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "You've got it all wrong, you idiot."
+.text "Você se enganou, idiota. Não são imperiais,"
 .byte NewLine
-.text "These people aren't with the Empire."
+.text "e sim homens do Exército de Libertação,"
+.byte NewLine
+.text "comandados por Leif."
 .byte WaitForA
-.byte ScrollText
-.text "This is Prince Leif's Liberation Army,"
 .byte NewLine
-.text "and they're no enemy of ours."
+.text "Posso garantir que não são hostis."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "“Liberation Army”?"
+.text "E quem são esses?"
 .byte NewLine
-.text "Never heard of 'em. Who are they?"
+.text "Nunca ouvi falar deles."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "They're people who share our value"
+.text "São gente que compartilha dos nossos"
 .byte NewLine
-.text "of independence, and that should be"
+.text "ideais e nossa sede de liberdade,"
 .byte NewLine
-.text "all you need to know."
+.text "assim como também são oponentes do Império."
 .byte WaitForA
 .byte ScrollText
-.text "I can explain the rest later, but for now,"
+.text "Posso lhe explicar melhor depois, mas"
 .byte NewLine
-.text "you have to lower your sword!"
+.text "no momento, peço que abaixe as armas."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hmm... Clearly, there's a bigger picture here"
+.text "Hmm... imagino que você saiba mais do"
 .byte NewLine
-.text "I'm not seein'. You just want us to stop fightin'"
+.text "que eu. Cê quer que a gente resolva isso"
 .byte NewLine
-.text "and hash this thing out peaceful-like, right?"
+.text "amigavelmente, né?"
 .byte WaitForA
 .byte ScrollText
-.text "...Well, if this is comin' from YOU,"
+.text "Eu gosto de você, e do pouco que"
 .byte NewLine
-.text "I expect you've thought through"
+.text "te conheço, sei que tem uma"
 .byte NewLine
-.text "all the angles already."
+.text "cabeça boa, então vou na sua."
 .byte WaitForA
+
+.byte Right_Slot
 .byte ScrollText
-.text "Oh, Salem, that's no fair!"
-.byte NewLine
-.text "You know I've got a soft spot for you!"
-.byte NewLine
-.text "All right, all right, we'll do things your way."
-.byte WaitForA
+.text "Perfeito. Obrigado, Perne."
 
 .byte EndText
 
@@ -83,125 +77,113 @@ dialogueChapter12xPerneLifis
 .byte Right_Slot
 .word LoadPortrait
 .word lithis_portrait
-.text "Ah, hell..."
-.byte NewLine
-.text "Not good!"
-.byte WaitForA
+.text "Ah, não..."
 
 .byte Left_Slot
 .word LoadPortrait
 .word pan_portrait
-.text "What in the...?"
+.text "Caramba..."
 .byte NewLine
-.text "Lifis, is that you?"
+.text "Lifis, é você? Fala, meu velho amigo!"
 .byte NewLine
-.text "You old dog! How long's it been?"
+.text "Quanto tempo que eu não te vejo!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Y-Yeah, uh, I've been gone a while..."
-.byte NewLine
-.text "Er, Perne...sir..."
+.text "É-é, quanto tempo... Perne."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hah! You haven't changed a bit, kiddo!"
+.text "Hah! Não mudou nada, garoto!"
 .byte NewLine
-.text "You at least learn to stop wetting the bed,"
+.text "Pelo menos cê parou de molhar"
 .byte NewLine
-.text "junior?"
+.text "a cama?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "H-Hey, gimme some credit, wouldja?"
+.text "E-ei, deixa disso!"
 .byte NewLine
-.text "Let's not talk too much about ancient history!"
+.text "É do tempo da minha vovozinha isso!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Really? 'Cause I remember you bein'"
+.text "Sério? Lembro que cê era o mais"
 .byte NewLine
-.text "the biggest crybaby in the village,"
+.text "chorão da vila! Vai chorar por causa"
 .byte NewLine
-.text "an' we're just talkin' here, right?"
-.byte WaitForA
-.byte NewLine
-.text "Not gonna cry about it, are you?"
+.text "disso também?"
 .byte WaitForA
 .byte ScrollText
-.text "Ah, seems like it was just yesterday that"
+.text "Ah, lembro como se fosse ontem da galera"
 .byte NewLine
-.text "all the kids would chase you 'round the village"
+.text "correndo atrás de você pra te pegar e"
 .byte NewLine
-.text "an' beat you somethin' fierce..."
+.text "te encher de pancada..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...You were always the ringleader."
-.byte NewLine
-.text "Every time, you were the one"
-.byte NewLine
-.text "that started it, Perne..."
+.text "...E você era sempre o primeiro."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Hm?"
 .byte NewLine
-.text "You say somethin', kiddo?"
+.text "Falou alguma coisa?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "N-No, nothing. Nothing at all..."
+.text "N-não, nada. Nadinha..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Oh, that's right, you joined up"
+.text "Ah, queria te perguntar, cê tá com esses"
 .byte NewLine
-.text "with this “Liberation Army,” right?"
+.text "tais “Libertadores,” não é?"
 .byte NewLine
-.text "Been hearin' rumors about 'em."
+.text "Eu ouvi falar deles."
+.byte WaitForA
+.byte NewLine
+.text "Parece uma aventura bacana."
 .byte WaitForA
 .byte ScrollText
-.text "Looks like they keep you pretty busy, huh?"
+.text "É seu dia de sorte, mano Lifis! Eu vou pro"
 .byte NewLine
-.text "Seems mighty interestin'."
-.byte WaitForA
-.byte ScrollText
-.text "Well, Li'l Lifis, looks like it's your lucky day!"
+.text "seu lado! Tenho que ficar de olho em você,"
 .byte NewLine
-.text "I'm in the mood to join up with 'em an' keep"
-.byte NewLine
-.text "an eye on you. Where's your leader at?"
+.text "não é? Aí, quem é seu chefe?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "What?!"
+.text "Quê?!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hey, you got a problem with that?!"
+.text "E qual é o problema, maninho?!"
 .byte NewLine
-.text "I'm all ears, Li'l Lifis!"
+.text "Sou todo ouvidos!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...No, there's no problem..."
+.text "...Nada não..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "It'll be just like the old days! You'll see!"
+.text "Vai ser igual nos velhos tempos!"
+.byte NewLine
+.text "Vai ser bom, você vai ver!"
 .byte WaitForA
 
 .byte ScrollText
@@ -210,33 +192,31 @@ dialogueChapter12xPerneLifis
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ugh... It's happening all over again..."
+.text "Ugh... De novo não..."
 .byte NewLine
-.text "I'm stuck with the bumpkin"
+.text "Vou ter que ficar com esse"
 .byte NewLine
-.text "born from Loptous' own bosom..."
+.text "maldito por perto de novo..."
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word pan_portrait
-.text "Hey, you feelin' OK there, little buddy?"
+.text "Ei amigo, cê tá bem?"
 .byte NewLine
-.text "You're lookin' pretty pale."
+.text "Tá com uma cara de doente."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Huh? Oh, uh, I am?"
+.text "Hã? Estou? Devo ter pegado... uma gripe..."
 .byte NewLine
-.text "Uh, I must've...caught a cold. Just now."
-.byte NewLine
-.text "Yeah, that's it! A cold. Ahahaha..."
+.text "É! Isso. Uma gripe. Hahaha..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Huh...?"
+.text "...Hein?"
 .byte WaitForA
 
 .byte EndText
@@ -246,20 +226,26 @@ dialogueChapter12xPerneLifis2
 
 .byte Right_Slot
 .byte ScrollText
-.text "Oh, Perne? While you're in such a generous"
+.text "Ah, Perne? Enquanto você tá nesse bom"
 .byte NewLine
-.text "mood, could you do something about"
+.text "humor, que tal avisar pro seu amigo que"
 .byte NewLine
-.text "that mercenary? He's givin' my people trouble."
+.text "vai ficar com a gente? Ele tá sendo"
+.byte WaitForA
+.byte NewLine
+.text "meio problemático."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hm? Oh, you mean Trude?"
+.text "Hm? Ah, tá falando do Trude?"
 .byte NewLine
-.text "Leave it to me! Trude is one of my best men."
+.text "Deixa comigo! Ele é um bom camarada."
 .byte NewLine
-.text "I'll talk to him before he gets himself killed."
+.text "É melhor eu falar com ele antes que ele"
+.byte WaitForA
+.byte NewLine
+.text "morra nessa bagunça."
 .byte WaitForA
 
 .byte EndText
@@ -276,164 +262,156 @@ dialogueChapter12xPerneLara
 .byte Left_Slot
 .word LoadPortrait
 .word pan_portrait
-.text "Yeah?"
+.text "Quem é?"
 .byte NewLine
-.text "Huh...? Lara? Is that you?"
-.byte NewLine
-.text "What're you doing here?"
+.text "...Lara? Que que cê tá fazendo aqui?"
 .byte WaitForA
 .byte ScrollText
-.text "Wait, don't tell me!"
+.text "Pera aí, não me diga!"
 .byte NewLine
-.text "You just missed me so much you couldn't help"
+.text "Você sentiu tanta falta de mim que resolveu"
 .byte NewLine
-.text "but come runnin' back into my arms, right?"
+.text "voltar correndo pros meus braços! Acertei?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Er... Would it make you happy"
+.text "Er... vai ficar feliz se eu"
 .byte NewLine
-.text "if I actually said that?"
+.text "disser sim?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "H-Hey, what's got you so serious?"
+.text "Que cara feia é essa, menina?"
 .byte NewLine
-.text "Yer face is all scrunched up"
-.byte NewLine
-.text "like ya just swallowed a whole lemon."
+.text "Parece até que chupou um limão."
 .byte WaitForA
 .byte ScrollText
-.text "C'mon, now. Get real."
+.text "...Eu tava só brincando. Pra que que eu ia"
 .byte NewLine
-.text "What would I want with some little kid runnin'"
+.text "querer uma criança como você aqui,"
 .byte NewLine
-.text "around me, gettin' all up in my business?"
+.text "atrapalhando o tráfego?" ;referência ao chico buarque
 .byte WaitForA
 .byte ScrollText
-.text "Turn 'round and get yerself back to Munster,"
+.text "Dá meia volta e vai pra Munster,"
 .byte NewLine
-.text "kiddo."
+.text "garota."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "So that's it then, huh? You're shooing me away"
+.text "Então vai ser assim? Vai me chutar fora"
 .byte NewLine
-.text "like a stray dog, just like before..."
+.text "que nem um cão sarnento, igual antes..."
 .byte WaitForA
 .byte ScrollText
-.text "I at least thought you liked it when I danced."
+.text "Eu pensei que você gostava de me ver dançar."
 .byte WaitForA
 .byte ScrollText
-.text "I still remember you comin' to see me perform,"
+.text "Eu lembro de quanto você me assistiu aquela"
 .byte NewLine
-.text "watchin' me like I was the only thing"
+.text "vez. Era como se eu fosse a única coisa"
 .byte NewLine
-.text "in the world..."
+.text "no seu mundo..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "W-Well, yeah, but that was before I realized"
+.text "É verdade, mas isso foi antes de eu"
 .byte NewLine
-.text "you were just a kid."
+.text "perceber que você era uma criança."
 .byte WaitForA
 .byte ScrollText
-.text "*Sigh*"
+.text "Olha, se te importa tanto assim,"
 .byte NewLine
-.text "Look, if it means that much to ya..."
-.byte NewLine
-.text "Yeah, I did like watchin' you dance."
+.text "eu gostava de ver suas danças."
 .byte WaitForA
 .byte ScrollText
-.text "An' it was more'n, like, attraction or whatever."
+.text "Acho que não era uma questão de atração."
 .byte NewLine
-.text "It just made me feel...alive."
+.text "Acho que... me fazia me sentir vivo,"
 .byte NewLine
-.text "Like... I was invigorated, y'know?"
+.text "de algum jeito. Era revigorante, sabe?"
 .byte WaitForA
 .byte ScrollText
-.text "But ya hated it, right?"
+.text "Mas você odiava fazer aquilo, não é?"
 .byte NewLine
-.text "So it's for the best that you quit."
+.text "Então que bom que cê parou."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Y-Yeah..."
+.text "É-é... na verdade,"
 .byte NewLine
-.text "Well, I didn't hate dancing, I just hated"
+.text "não é que eu não goste de dançar, mas eu"
 .byte NewLine
-.text "the way that troupe treated me, is all."
+.text "detestava ser forçada a isso na tropa."
 .byte WaitForA
 .byte ScrollText
-.text "So... If you want me to, Perne,"
+.text "...Se você quiser Perne, eu posso voltar"
 .byte NewLine
-.text "I can go back to doin' it for you."
+.text "a dançar. Por você."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Look, don't be stupid..."
+.text "Garota, não seja idiota..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Not JUST for you, I mean! For everybody!"
+.text "Não só pra você! Pra todo mundo!"
 .byte NewLine
-.text "Maybe I could make everyone feel"
+.text "Talvez eu possa alegrar os outros com"
 .byte NewLine
-.text "a little bit more lively with my dancing..."
+.text "minha dança..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Huh? Who's “everybody”?"
+.text "E quem são os outros?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Prince Leif an' the whole North Thracian"
+.text "O Príncipe Leif e o Exército de Libertação!"
 .byte NewLine
-.text "Liberation Army! That's who I'm here with,"
+.text "Eu estou aqui com eles, sabia? Não que eu"
 .byte NewLine
-.text "y'know! Not that I'm much help, myself..."
+.text "ajude muito..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Oh-ho! So that's what got all this ruckus"
+.text "Ah, então é por isso que tá esse"
 .byte NewLine
-.text "started, huh?"
+.text "alvoroço todo aqui?"
 .byte WaitForA
 .byte ScrollText
-.text "All right, Lara, I'll tell ya what:"
+.text "Certo, Lara: você volta a dançar, e eu"
 .byte NewLine
-.text "you go back to dancin', an' I'll come along"
-.byte NewLine
-.text "with you an' the Liberation Army."
+.text "passo pro seu lado."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "R-Really, Perne?!"
+.text "S-sério, Perne?!"
 .byte NewLine
-.text "All right, it's a deal!"
+.text "Então temos um acordo!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Good! I wasn't keen on holin' up in Dacia"
+.text "Ótimo! Eu também não quero ficar entocado"
 .byte NewLine
-.text "Forest an' robbin' people forever, anyhow."
+.text "nessa floresta roubando gente pra sempre."
 .byte WaitForA
 .byte ScrollText
-.text "Liberating North Thracia, huh...?"
+.text 'Além disso, ser um "libertador"'
 .byte NewLine
-.text "Oh, this is gonna be SO much fun!"
+.text "parece mais interessante também!"
 .byte WaitForA
 
 .byte EndText
@@ -448,69 +426,59 @@ dialogueChapter12xPerneTrude
 .byte Left_Slot
 .word LoadPortrait
 .word pan_portrait
-.text "Hey, Trude, sheathe your sword!"
+.text "Ei, Trude, pode parar!"
 .byte NewLine
-.text "There's no need to fight anymore."
+.text "Não vamos mais lutar."
 .byte WaitForA
 
 .byte Right_Slot
-.text "Huh? But...why?"
+.text "Hm? Porquê?"
 .byte NewLine
-.text "What's goin' on?"
+.text "Algum problema?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "These folks are with the Liberation Army,"
+.text "Esses caras são do Exército de Libertação,"
 .byte NewLine
-.text "an' I'm throwin' my lot in with 'em. You're"
+.text "e eu resolvi ir pro lado deles. Se você"
 .byte NewLine
-.text "more'n welcome to come along, if it suits you."
+.text "quiser, pode vir comigo também."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ah, I get it... So THESE folks are"
+.text "Ah, faz sentido... de fato, eles pareciam"
 .byte NewLine
-.text "the liberators I've been hearin' so much about."
+.text "bem mais determinados do que o soldado"
+.byte NewLine
+.text "imperial costumeiro."
 .byte WaitForA
 .byte ScrollText
-.text "I thought their morale was too high"
+.text "Tá bom então, se você tá dentro,"
 .byte NewLine
-.text "fer them to be Imperial troops."
-.byte WaitForA
-.byte ScrollText
-.text "So yer joinin' up with 'em, huh?"
+.text "eu também. Os Dentes-de-leão tem que"
 .byte NewLine
-.text "Looks fun enough, I s'pose."
-.byte WaitForA
-.byte ScrollText
-.text "Then sure, I'll come with you."
-.byte NewLine
-.text "We men of the Dandelion"
-.byte NewLine
-.text "gotta stick together, right?"
+.text "ficar unidos, não é?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hey, that's the spirit!"
+.text "É isso aí! Eu não ia gostar de te"
 .byte NewLine
-.text "I tell ya, you've had my back for so long,"
+.text "dispensar depois de tanto tempo ao"
 .byte NewLine
-.text "I'd hate for things to go south now."
+.text "meu lado."
 .byte WaitForA
 .byte ScrollText
-.text "I'll be countin' on ya now more than ever,"
+.text "Tô contando contigo, Trude!"
 .byte NewLine
-.text "Trude. You'd better be up for it!"
+.text "Espero que esteja pronto!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Hah! “Let the die be cast,” as they say."
-.byte NewLine
-.text "Leave everything to me!"
+.text "Claro que estou. Não se preocupe."
 .byte WaitForA
 
 .byte EndText
@@ -523,194 +491,174 @@ dialogueChapter12xTinaSafy
 .word safie_portrait
 .text "Tina?!"
 .byte NewLine
-.text "Wh-What in blazes are you doing here?"
+.text "P-Porquê está aqui?"
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word tina_portrait
-.text "Oh, Big Sis!"
-.byte NewLine
-.text "*Sniffle, whimper*"
+.text "Ah, irmãzona! Sniff..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Tina, dear, why the tears?"
+.text "Tina, querida, porque choras?"
 .byte NewLine
-.text "What's happened to you?"
+.text "O que aconteceu?"
 .byte WaitForA
 .byte ScrollText
-.text "Start from the beginning."
+.text "Fale do começo, por favor."
 .byte NewLine
-.text "Why did you leave Tahra?"
+.text "Porque saiu de Tarrah?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I w-wanted to help you!"
+.text "Eu queria ir te ajudar..."
 .byte NewLine
-.text "*Sniffle*"
+.text "Eu não conseguia suportar pensar no que"
+.byte NewLine
+.text "você podia tá passando sozinha nesse mundão!"
+.byte WaitForA
+.byte NewLine
+.text "Então eu fui atrás de você!"
 .byte WaitForA
 .byte ScrollText
-.text "Just thinkin' of you out there, all on your"
+.text "Mas aí aquele malvado Perne me pegou!"
 .byte NewLine
-.text "lonesome... Well, I just couldn't stand"
-.byte NewLine
-.text "the thought of it! So I left the city!"
-.byte WaitForA
-.byte ScrollText
-.text "But then that big bully Perne caught hold of me!"
-.byte NewLine
-.text "He's a thief, an' he's been treatin' me"
-.byte NewLine
-.text "as his personal slave!"
+.text "Ele é um ladrão, e ele me faz de escrava!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "A slave?!"
+.text "E-escrava?!"
 .byte NewLine
-.text "Th-That can't be!"
-.byte NewLine
-.text "Who would do such a thing?"
+.text "Não é possível uma maldade dessas!"
 .byte WaitForA
-.byte ScrollText
-.text "...Tina, what exactly did he make you do?"
+.byte NewLine
+.text "...Tina, o que ele te fez fazer?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Steal things for him, mostly..."
+.text "Roubar coisas pra ele... com os meus"
 .byte NewLine
-.text "With my Thief and Unlock staves, you know?"
+.text "cajados de Furto e Abrir, sabe?"
 .byte NewLine
-.text "He said those were what made me useful..."
+.text "Ele me falou que eu era útil por isso..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "W-Well, couldn't you just refuse?"
+.text "E porquê você não recusou? Certamente"
 .byte NewLine
-.text "Surely he'd listen to the objections of a little"
+.text "Ele iria ouvir os protestos de uma criança..."
 .byte NewLine
-.text "girl scarcely old enough to lift a broom..."
-.byte WaitForA
-.byte NewLine
-.text "Wouldn't he?"
+.text "Ou será que não?" ;cosmo
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "You don't understand! If I said no,"
+.text "Você não entende! Quando eu não obedeço,"
 .byte NewLine
-.text "he'd do awful, horrible, terrible things to me!"
+.text "ele faz coisas terríveis comigo!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "H-He would?!"
+.text "C-como?!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Uh-huh..."
+.text "Coisas nojentas..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Tina, please, you must tell me what he did"
+.text "Tina, por favor. Me diga o que ele fez"
 .byte NewLine
-.text "to you! Gods give me strength... I've steeled"
-.byte NewLine
-.text "myself for whatever wickedness it is!"
+.text "contigo. São Bragi, me dê forças..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "*Sniffle, whimper*"
+.text "...E-ele pegava uns insetos"
+.byte NewLine
+.text "e jogava em mim!"
+.byte NewLine
+.text "As vezes até na minha cara!"
 .byte WaitForA
 .byte ScrollText
-.text "H-He... He'd take a big, hairy caterpillar"
+.text "Foi tão nojento..."
 .byte NewLine
-.text "and wave it in front of my face!"
-.byte NewLine
-.text "Or even drop it on top of my head!"
-.byte WaitForA
-.byte ScrollText
-.text "It was so gross and icky..."
-.byte NewLine
-.text "I thought I'd die right then and there!"
+.text "Quase que eu morri, Safy!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Is that all?"
+.text "...Só isso?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Uh-huh..."
+.text "Ahã..."
 .byte NewLine
-.text "Oh, Big Sis, it was so awful!"
+.text "Mas foi terrível! Eu tô me arrepiando só"
 .byte NewLine
-.text "I'm gettin' shivers just tellin' you about it now!"
+.text "de te contar!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "*Sigh*"
-.byte NewLine
-.text "Oh, Tina..."
+.text "Ah, Tina..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Yeah?"
+.text "Que foi?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...It's nothing. Listen, I told you to wait"
+.text "...Não é nada. Olha, eu tinha te falado"
 .byte NewLine
-.text "in Tahra until I returned. Promise me"
+.text "pra ficar em Tarrah. Promete que não vai"
 .byte NewLine
-.text "you'll do as I say from now on, all right?"
+.text "me desobedecer de novo, por favor?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Yeah, of course!"
+.text "Claro!"
 .byte NewLine
-.text "I'm sorry, Big Sis."
+.text "Me desculpa, irmãzona."
 .byte WaitForA
 .byte ScrollText
-.text "Say, I saw that Lord Leif fella fightin' earlier..."
+.text "Ei, aquele príncipe... Leif, né?"
 .byte NewLine
-.text "He's awful cute, isn't he? Aw, somebody"
+.text "Ele é lindo... acho que é o"
 .byte NewLine
-.text "like him would be my dream guy!"
+.text "homem dos meus sonhos!"
 .byte WaitForA
 .byte ScrollText
-.text "Hmm... But he couldn't just have good looks,"
+.text "Meu príncipe, literalmente!"
 .byte NewLine
-.text "he'd have to be a prince, too..."
-.byte NewLine
-.text "What do you think, Big Sis?"
+.text "O que você acha dele?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Tina... I..."
+.text "Tina... eu..."
 .byte NewLine
-.text "I'm a little worn-out right now."
+.text "Estou um tanto cansada agora."
 .byte NewLine
-.text "Let's...talk about this later, all right?"
+.text "Vamos falar disso depois, tudo bem?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Okie-dokie, Big Sis!"
+.text "Tá bom!"
 .byte WaitForA
 
 .byte EndText
@@ -718,117 +666,113 @@ dialogueChapter12xTinaSafy
 
 dialogueChapter12xOpening1
 
-.byte Right_Slot
-.word LoadPortrait
-.word trude_portrait
-
 .byte Left_Slot
 .word LoadPortrait
 .word pan_portrait
-.text "Something's fishy..."
+.text "Sinto que tem algo de errado..."
 .byte NewLine
-.text "What's goin' on outside?"
+.text "Trude! "
 .byte WaitForA
+.byte Right_Slot
+.word LoadPortrait
+.word trude_portrait
+.byte Left_Slot
+.text "Que que tá acontecendo?"
 
 .byte Right_Slot
-.text "Bad news, Perne."
+.text "Problema, Perne."
 .byte NewLine
-.text "Somebody's broken into the manor."
+.text "Alguém invadiu o esconderijo."
 .byte NewLine
-.text "Soldiers, by the look of it."
+.text "Ao que parece, alguns soldados."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Imperial guardsmen, maybe...?"
+.text "Será que são imperiais...?"
 .byte NewLine
-.text "Damn... What's happened to Salem?"
+.text "Falando nisso, cadê o Salem?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Didn't see him. He might be dead..."
+.text "Depois que ele saiu, eu não o vi..."
 .byte WaitForA
 .byte ScrollText
-.text "I'll go check it out. Wait here."
+.text "Eu vou lá ver, espera um pouco."
 .byte WaitForA
 .byte ScrollText
 .word LoadPortrait
 .word tina_portrait
-.text "Hey, what's got you guys in such a fuss?"
-.byte NewLine
-.text "Ya look more uptight than my sister"
-.byte NewLine
-.text "after a week of fasting!"
-.byte WaitForA
-.byte ScrollText
-.text "Has... Has somethin' happened?"
+.text "Ei, porquê vocês tão agitados assim?"
+;.byte NewLine
+;.text "Vocês parecem mais duros do que minha"
+;.byte NewLine
+;.text "irmã depois de um jejum!" Essa frase é uma adição em relação ao japonês, da época do Project Exile
+;.byte WaitForA                   Ela não faz muito sentido nesse contexto, então vou tirar, mas ela vai
+;.byte ScrollText                 ficar aqui como comentário. Acho que eu deveria fazer isso outras vezes, se não bugar o arquivo
+.text "Tem alguma coisa acontecendo?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "The Imperial Army's come to bring the"
+.text "Os imperiais tão vindo nos pegar,"
 .byte NewLine
-.text "hammer down on us, that's what."
+.text "é esse o acontecido de hoje."
 .byte WaitForA
 .byte ScrollText
-.text "Argh, a pox on 'em all! Those entitled louts..."
+.text "Maldito sejam esses parasitas..." ;eu amaldiçoo a cidade do rio de janeiro
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Th-The Empire's here...?"
+.text "O Império...?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "You got an awful funny look on your face,"
+.text "Essa carinha me diz tudo, menina!"
 .byte NewLine
-.text "kiddo. Don't tell me you were thinkin'"
+.text "Não me diga que você quer se mandar"
 .byte NewLine
-.text "of runnin' off while the army's got us busy!"
+.text "enquanto estivermos lutando!"
 .byte WaitForA
 .byte ScrollText
-.text "Don't be stupid, young'un. I'd never let"
+.text "Tire o cavalinho da chuva! Eu não vou"
 .byte NewLine
-.text "such a useful little moppet just slip away!"
+.text "deixar alguém tão útil ir embora!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "B-But why...?"
+.text "Porque você tem que ser tão mau comigo?"
 .byte NewLine
-.text "Why you gotta be so cruel to me all the time?"
-.byte NewLine
-.text "L-Look, I wasn't thinkin' anything funny!"
+.text "Eu não ia fazer nada, eu juro! Me larga..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Nuh-uh, you ain't gettin' off that easy."
+.text "Não não não. Ó, se você só pensar em fugir,"
 .byte NewLine
-.text "If you keep gettin' stupid ideas about runnin'"
+.text "vai tomar castigo, igual da outra vez."
 .byte NewLine
-.text "away, I won't hesitate to punish you again."
-.byte WaitForA
-.byte NewLine
-.text "You got that?"
+.text "Entendeu?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Eeek! No, no, not another punishment!"
+.text "Eca! Não, de novo não!"
 .byte NewLine
-.text "I'm sorry! I'll be good, I promise!"
+.text "Me desculpa! Eu vou ser boa, eu prometo!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Well, we'll just see about that, won't we?"
+.text "Acho bom! Agora seja uma menina boa e"
 .byte NewLine
-.text "Now be a good girl and go help Trude with"
+.text "Use seu cajado de roubo pra ajudar o Trude."
 .byte NewLine
-.text "that Thief staff of yours. Get a move on, runt!"
+.text "Não demora não!"
 .byte WaitForA
 
 .byte EndText
@@ -839,26 +783,26 @@ dialogueChapter12xOpening2Salem
 .byte Right_Slot
 .word LoadPortrait
 .word salem_portrait
-.text "Perne is a reasonable man."
+.text "Perne é um homem razoável."
 .byte NewLine
-.text "If I can just talk to him, I'm sure"
+.text "Eu vou falar com ele. Espero que"
 .byte NewLine
-.text "I can make him understand the situation."
+.text "ele entenda a situação."
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait
-.text "Are you...offering to help us, Salem?"
+.text "Então... você vai nos ajudar, Salem?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Truth be told, I haven't made up my mind yet."
+.text "Ainda não sei, mas no momento,"
 .byte NewLine
-.text "But we've more pressing concerns at present,"
+.text "temos problemas urgentes para tratar,"
 .byte NewLine
-.text "do we not?"
+.text "não é mesmo?"
 .byte WaitForA
 
 .byte EndText
@@ -873,65 +817,63 @@ dialogueChapter12xOpening3Lifis
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "Is something amiss, Lifis?"
+.text "Tem algo errado, Lifis?"
 .byte NewLine
-.text "You look terribly pale."
+.text "Você tá parecendo meio mal..."
 .byte WaitForA
 
 .byte Right_Slot
-.text "Ergh... Look, Prince, here's the thing..."
+.text "Bem... olha, príncipe, é..."
 .byte NewLine
-.text "If it's all the same to you, can I just sit this"
+.text "Você se importa se eu não vier dessa vez?"
 .byte NewLine
-.text "one out? Can't somebody else fill in for me?"
+.text "Pode colocar outro no meu lugar."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .word LoadPortrait
 .word augustus_portrait
-.text "...You wouldn't happen to be acquainted"
+.text "...Por acaso tens alguma ligação com"
 .byte NewLine
-.text "with these bandits, would you? You mentioned"
+.text "estes bandidos, senhor? Lembro-me que"
 .byte NewLine
-.text "you lived near here when you were a child."
+.text "disses uma vez que cresceu nesta região."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Heh, well, about that..."
+.text "Heh, bem, sabe como é..."
 .byte NewLine
-.text "There's just this one guy that I, uh,"
+.text "Tinha um cara por aqui que... bem, eu não"
 .byte NewLine
-.text "don't get along with too well. If he's here..."
+.text "gostava muito dele. Se ele tiver aqui..."
 .byte WaitForA
 .byte ScrollText
-.text "Look, just leave me out of this one, OK?"
+.text "Olha, pode me deixar de fora dessa?"
 .byte NewLine
-.text "Pretty please?"
+.text "Por favor?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Is that it? Bah, what a petty reason..."
+.text "Hah! Temo que não, soldado..."
 .byte NewLine
-.text "Report to the front lines at once!"
+.text "Retorne à seu posto!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "C'mon, don't make me beg!"
+.text "Por favor, senhor!"
 .byte NewLine
-.text "Just this once? Please?"
-.byte NewLine
-.text "Pretty please with sugar on top?"
+.text "Só dessa vez!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "The prince has spoken!"
+.text "O príncipe te escolheu!"
 .byte NewLine
-.text "You have your orders!"
+.text "Volte imediatamente!"
 .byte WaitForA
 
 .byte EndText
@@ -946,65 +888,65 @@ dialogueChapter12xOpening4Lara
 .byte Left_Slot
 .word LoadPortrait
 .word lara_portrait
-.text "Um, excuse me..."
+.text "Um, perdão..."
 .byte WaitForA
 
 .byte Right_Slot
 .text "Lara?"
 .byte NewLine
-.text "What's wrong?"
+.text "Tem algo de errado?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "The bandit leader, Perne, he's..."
+.text "O chefe dos bandidos, Perne, ele..."
 .byte NewLine
-.text "He's not a bad person, you know."
+.text "Ele não é um cara mau, sabe."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Hm? Do you know him, Lara?"
+.text "Hm? Conhece ele, Lara?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Yeah, I... I do."
+.text "Sim... eu conheço."
 .byte NewLine
-.text "Up until a year ago, I was a dancer"
+.text "Até um ano atrás, eu tava com uma tropa"
 .byte NewLine
-.text "in a traveling troupe of performers."
+.text "de artistas itinerantes."
 .byte WaitForA
 .byte ScrollText
-.text "They treated me like dirt, but there wasn't"
+.text "Eles me tratavam como lixo... mas eu"
 .byte NewLine
-.text "anything I could do about it because I..."
+.text "não podia fazer nada... porque era"
 .byte NewLine
-.text "Because I was their property."
+.text "escrava deles."
 .byte WaitForA
 .byte ScrollText
-.text "I'd been sold to them as a child."
+.text "Me compraram quando eu era pequena."
 .byte NewLine
-.text "Perne rescued me from that, an' set me free."
+.text "Perne me resgatou e me libertou."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "And from there, you became a thief..."
+.text "Então foi por isso que você virou"
 .byte NewLine
-.text "Is that about right?"
+.text "uma ladra?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "That's about the whole of it, yeah."
+.text "É por aí."
 .byte WaitForA
 .byte ScrollText
-.text "Lord Leif, please, you've got to let me"
+.text "Lorde Leif, por favor, deixa eu falar"
 .byte NewLine
-.text "talk to him. I just... I just need to see Perne,"
+.text "com ele. Tenho certeza que ele vai"
 .byte NewLine
-.text "an' talk this whole thing out!"
+.text "me ouvir!"
 .byte WaitForA
 
 .byte EndText
@@ -1019,11 +961,11 @@ dialogueChapter12xEnding1
 .byte Right_Slot
 .word LoadPortrait
 .word dorias_portrait
-.text "Dawn is breaking, and this battle has allowed"
+.text "Está amanhecendo agora. Creio que o resto"
 .byte NewLine
-.text "the rest of the men a much-needed breather."
+.text "dos homens apreciaram seu momento de descanso."
 .byte NewLine
-.text "We must make haste to Tahra!"
+.text "Agora vamos continuar nossa marcha!"
 .byte WaitForA
 
 .byte EndText
@@ -1035,16 +977,16 @@ dialogueChapter12xEnding2
 .byte ScrollText
 .word LoadPortrait
 .word pan_portrait
-.text "Well, I'll be damned! You actually got the"
+.text "Caramba, parece que vocês pegaram meu"
 .byte NewLine
-.text "better of ol' Trude, eh? Listen, cut him loose."
+.text "camarada, né? Aí, soltem ele por favor."
 .byte WaitForA
 .byte ScrollText
-.text "Trude's had my back for a long time, now."
+.text "Trude está comigo há muito tempo."
 .byte NewLine
-.text "No question in my mind he'll come along"
+.text "Tenho certeza que ele vai querer"
 .byte NewLine
-.text "an' help the Liberation Army, too."
+.text "ajudar vocês também."
 .byte WaitForA
 
 .byte EndText
@@ -1058,9 +1000,9 @@ dialogueChapter12xEnding3
 .word lithis_portrait
 
 .byte Left_Slot
-.text "Well, Perne proved to be a thoughtful man—"
+.text "Bem, esse Perne parece ser um bom homem,"
 .byte NewLine
-.text "and a friend of the Liberation Army as well."
+.text "e também um bom amigo para nós."
 .byte WaitForA
 
 .byte ScrollText
@@ -1068,12 +1010,12 @@ dialogueChapter12xEnding3
 .word RetractBox
 
 .byte Right_Slot
-.text "Prince, you've got no idea"
+.text "Príncipe, você não tem ideia de quem"
 .byte NewLine
-.text "who that snake really is..."
+.text "aquele cara é..."
 .byte WaitForA
 .byte ScrollText
-.text "Ah, dammit all..."
+.text "Ah, desgraça..."
 .byte WaitForA
 
 .byte EndText

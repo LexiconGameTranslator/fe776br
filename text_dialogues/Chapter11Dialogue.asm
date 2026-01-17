@@ -70,7 +70,9 @@ dialogueChapter11KempfTrapActivated
 .word LoadPortrait
 .word kempf_portrait
 ; "Ahahaha! Eles realmente caíram na minha trap! NO BRASIL!
-.text "Ahahaha! Aquele idiota caiu feito um patinho!"
+.text "Ahahaha! Caíram na minha armadilha,"
+.byte NewLine
+.text "de verde e amarelo!"
 .byte WaitForA
 .byte ScrollText
 .text "Certo, homens! Atirem à vontade!"
@@ -121,14 +123,14 @@ dialogueChapter11LeifFred
 .text "Esta desgraça é fruto dos atos dele."
 .byte WaitForA
 .byte ScrollText
-.text "Como um cavaleiro, recuso dar minha vida"
+.text "Como um cavaleiro, me recuso a dar minha"
 .byte NewLine
-.text "à serviço de um plano tão baixo."
+.text "vida à serviço de um plano tão vil."
 .byte WaitForA
 .byte ScrollText
-.text "Você me parece um jovem honrado."
+.text "Você parece um jovem honrado."
 .byte NewLine
-.text "Se puder prometer que não vai me atacar,"
+.text "Se prometer que não vai me atacar,"
 .byte NewLine
 .text "eu também não te atacarei."
 .byte WaitForA
@@ -137,9 +139,7 @@ dialogueChapter11LeifFred
 .byte ScrollText
 .text "...Se você não quer lutar, senhor,"
 .byte NewLine
-.text "então eu não há necessidade de nós"
-.byte NewLine
-.text "te atacarmos."
+.text "então também não queremos."
 .byte WaitForA
 .byte ScrollText
 .text "Vai ser melhor se nós cooperarmos para"

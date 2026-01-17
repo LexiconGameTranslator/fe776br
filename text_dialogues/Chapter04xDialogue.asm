@@ -773,7 +773,7 @@ dialogueChapter04xUpperCellUnlock
 .byte ScrollText
 .text "Então eu vou por ali e não vou parar"
 .byte NewLine
-.text "parar até chegar em casa...! O-obrigado!..."
+.text "até chegar em casa...! O-obrigado!..."
 .byte WaitForA
 
 .byte EndText
