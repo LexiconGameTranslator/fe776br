@@ -78,7 +78,7 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "O Lorde Leif era um dos"
 .byte NewLine
-.text "meus amigos íntimos, sabe?"
+.text "meus amigos próximos, sabe?"
 .byte WaitForA
 .byte ScrollText
 .text "A gente se separou em Tahra,"
