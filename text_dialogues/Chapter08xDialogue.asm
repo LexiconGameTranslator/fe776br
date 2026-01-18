@@ -7,57 +7,52 @@ dialogueChapter08xOsianTanyaTalk
 .byte Left_Slot
 .word LoadPortrait
 .word osian_portrait
-.text "Tanya! You're safe!"
+.text "Tânia! Você tá bem!"
 .byte NewLine
-.text "You...really had me worried there, you moron!"
+.text "Você me deixou preocupado, idiotinha!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Who you calling a moron, moron?!"
+.text "Idiotinha?! Olha quem fala!"
 .byte NewLine
-.text "Nobody asked you to fret over me!"
+.text "Eu não pedi pra você cuidar de mim!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Would it kill you to show a little gratitude?"
+.text "Vai te machucar me agradecer?"
 .byte NewLine
-.text "If we'd showed up any later,"
+.text "Se tivéssemos chegado só um pouco depois,"
 .byte NewLine
-.text "you'd just be a stain on the floor!"
+.text "talvez você seria só uma mancha no chão!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "What?! You're the one who started"
+.text "O quê?! Foi você que começou! Você chegou"
 .byte NewLine
-.text "this argument! I hadn't said one word to you"
+.text "gritando pra mim do nada!"
 .byte NewLine
-.text "when you started yelling at me!"
+.text "É sempre assim! Sempre estragando o clima..."
 .byte WaitForA
 .byte ScrollText
-.text "Ugh, you're always like this! Gloomy little"
+.text "Eu posso ser ingrata, mas você é um"
 .byte NewLine
-.text "Osian, always ready to kill the mood..."
-.byte WaitForA
-.byte ScrollText
-.text "Whatever I lack for gratitude,"
+.text "grosso! Você podia ser mais gentil,"
 .byte NewLine
-.text "you lack for manners! Just this once,"
-.byte NewLine
-.text "you could stand to be even a little friendly..."
+.text "pelo menos num momento desses..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "H-Hey! Wait, wait, don't cry, OK?"
+.text "E-ei! Por favor, não chore..."
 .byte NewLine
-.text "I... I just... I mean, I was really..."
+.text "Eu... eu só... digo, eu de verdade..."
 .byte WaitForA
 .byte ScrollText
-.text "...I'm glad you're safe."
+.text "...Eu tô muito feliz em te ver."
 .byte NewLine
-.text "Er... So, anyhow... Uh... Yeah."
+.text "É... então, bem... é isso."
 .byte WaitForA
 
 .byte EndText
@@ -72,29 +67,27 @@ dialogueChapter08xOpening
 .byte Left_Slot
 .word LoadPortrait
 .word dagdar_portrait
-.text "...Tanya, it's time fer you to go."
+.text "...Tânia, é hora d'ocê sair daqui."
 .byte NewLine
-.text "Make a break fer it on yer own—"
-.byte NewLine
-.text "I'll keep any of 'em from followin' ya."
+.text "Vai sozinha, eu seguro eles."
 .byte WaitForA
 
 .byte Right_Slot
-.text "No way, Papa! I leave when you leave!"
+.text "Nada disso, Papai! Eu só vou embora"
+.byte NewLine
+.text "se for com você!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "You stick around here, you'll just be a burden."
+.text "E se ocê ficar aqui, vai atrapalhar."
 .byte NewLine
-.text "Now just listen to yer old man"
-.byte NewLine
-.text "and don't give me lip!"
+.text "Agora obedece seu pai e vaza daqui!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I... I know I wouldn't be much help, but—"
+.text "Eu... sei que não vou conseguir ajudar, mas—"
 .byte WaitForA
 .byte ScrollText
 
@@ -102,73 +95,70 @@ dialogueChapter08xOpening
 .byte ScrollText
 .word LoadPortrait
 .word gomez_portrait
-.text "Aw, don't tell me you were thinkin' of leavin'"
+.text "Ah, num me diga que ocê já quer ir imbora."
 .byte NewLine
-.text "the party already. Nope, the only way you two"
+.text "Ocês só vão sair daqui por cima do meu"
 .byte NewLine
-.text "are gettin' out of here is in a casket."
+.text "cadáver!"
 .byte WaitForA
 
 .byte Right_Slot
 .word LoadPortrait
 .word dagdar_portrait
-.text "Listen up, Gomez!"
+.text "Gomez, eu num tenho nenhum motivo pra"
 .byte NewLine
-.text "I got no reason to fight you an' yer boys."
+.text "brigar co'ocê e seus amigos."
 .byte NewLine
-.text "Think about this afore you do somethin' rash."
+.text "Vamos conversar isso..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Naw, it's too late fer you"
-.byte NewLine
-.text "to be makin' excuses, Dagdar!"
+.text "Não! Tarde demais, Dagdar!"
 .byte WaitForA
 .byte ScrollText
-.text "The soil itself don't want us here!"
+.text "Pra que que nós tamo tentando plantar"
 .byte NewLine
-.text "Nothin' grows! Tryin' to till a field"
+.text "nessa terra?! É pedra pura! Num dá pra"
 .byte NewLine
-.text "is like sawing through rock!"
+.text "fazê nada crescer aqui!"
 .byte WaitForA
 .byte ScrollText
-.text "All I wanted was a full belly, but you let that"
+.text "A gente só queria comer, mas ocê deixou"
 .byte NewLine
-.text "wench Eyvel cheat you outta the good land!"
-.byte NewLine
-.text "She's got you wrapped around her little finger!"
+.text "aquela vadia Eyvel te inganar!"
 .byte WaitForA
 .byte ScrollText
-.text "You so desperate that you'd let"
+.text "Ocê deu a terra boa toda pra ela e a gente"
 .byte NewLine
-.text "everybody starve just to get lucky?"
+.text "ficou passando fome! Eu sei que ocê feiz"
 .byte NewLine
-.text "Shame on you, old man!"
+.text "feiz isso pra agradar ela!"
+.byte WaitForA
+.byte NewLine
+.text "Tá feliz cum ela, velho?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "What'd you say?!"
+.text "Como é que é?!"
 .byte WaitForA
 .byte ScrollText
-.text "Hmph, you talk big fer a glorified errand-boy!"
+.text "Ocê fala demais, garoto!"
 .byte NewLine
-.text "You ain't never known real hardship—"
+.text "Ocê nunca passou aperto de verdade,"
 .byte NewLine
-.text "just my petty chores!"
+.text "só fazia o básico!"
 .byte WaitForA
 .byte ScrollText
-.text "You know why? 'Cause I knew I could never"
+.text "E sabe porque? Porque ocê só sabia fazer"
 .byte NewLine
-.text "trust you with more! Fact is, I could barely"
-.byte NewLine
-.text "trust you with my laundry, junior!"
+.text "isso, imprestável!"
 .byte WaitForA
 .byte ScrollText
-.text "Fine! You want yerself a fight so bad,"
+.text "Se ocê quer brigar comigo, intão vem,"
 .byte NewLine
-.text "you got one!"
+.text "garotinho!"
 .byte WaitForA
 
 .byte EndText
@@ -183,196 +173,201 @@ dialogueChapter08xEnding
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "I pity Dagdar and his men, truly, but..."
+.text "Eu tenho pena de Dagdar e seus homens..."
 .byte NewLine
-.text "Why couldn't they just earn their food"
+.text "Mas porque eles não tentaram ganhar a vida"
 .byte NewLine
-.text "through honest labor?"
+.text "com trabalho honesto?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "And where would they labor?"
+.text "E onde eles encontrariam trabalho?"
 .byte NewLine
-.text "Their very land was infertile."
+.text "A terra aqui é infértil."
 .byte WaitForA
 .byte ScrollText
-.text "Many of these men were children of"
+.text "Muitos deles são filhos de camponeses"
 .byte NewLine
-.text "Thracian farmers. Abandoned by their parents,"
+.text "trácios. Abandonados, eles recorreram ao"
 .byte NewLine
-.text "they turned to banditry out of sheer necessity."
+.text "crime por pura e simples necessidade."
 .byte WaitForA
 .byte ScrollText
-.text "Their choice was simple: steal or starve."
+.text "Entre morrer e matar, muitos escolheriam"
+.byte NewLine
+.text "o último."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Then they had cowards for parents,"
+.text "Seus pais deviam ser uns covardes pra"
 .byte NewLine
-.text "to have forsaken their children so!"
+.text "serem capazes de abandonar seus filhos!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "And how would you know? You've been"
+.text "E como sabes disso para julgar? É verdade que"
 .byte NewLine
-.text "on the run for your whole life, true,"
+.text "vivestes a vida em fuga, mas jamais"
 .byte NewLine
-.text "but you've never known the pains of hunger."
+.text "passou pelas dores da fome."
 .byte WaitForA
 .byte ScrollText
-.text "Just where do you think your food came from"
+.text "Diga-me, de onde sua comida veio"
 .byte NewLine
-.text "during all those days you were fleeing"
-.byte NewLine
-.text "from the Empire?"
+.text "durante todos estes anos?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Where my food came from? I...don't know."
+.text "Hm? Eu... não sei dizer."
 .byte NewLine
-.text "I never had to worry about hunger."
+.text "Mas eu sempre tive o que comer..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Then you were fortunate to have had such"
+.text "Então bem-aventurado fostes de ter a"
 .byte NewLine
-.text "loyal allies and retainers, "
+.text "teu lado bons cavalheiros e cuidadores,"
 .byte WaitForA
-.text "but it has left you"
 .byte NewLine
-.text "lacking the perspective to truly understand"
+.text "mas isso lhe privou da visão para entender"
 .byte NewLine
-.text "how the common folk suffer."
-.byte WaitForA
-.byte ScrollText
-.text "South Thracia is a land dominated by"
-.byte NewLine
-.text "mountains—steep, imposing crags dot the"
-.byte NewLine
-.text "landscape, and a cliff lies around every corner."
+.text "o sofrimento do homem comum." ;a dor do homem comum
 .byte WaitForA
 .byte ScrollText
-.text "By nature, the land demands severity"
+.text "A Trácia Meridional é dominada por montanhas,"
 .byte NewLine
-.text "and discipline from all who live in it."
+.text "grandes picos, e também grandes declives."
 .byte WaitForA
 .byte ScrollText
-.text "Farmers work themselves to the bone to"
+.text "Por natureza, é uma terra difícil, que"
 .byte NewLine
-.text "cultivate what few crops the land will provide,"
+.text "exige severidade e disciplina de todos"
 .byte NewLine
-.text "but even so, it is not enough to survive on."
+.text "que a habitam."
 .byte WaitForA
 .byte ScrollText
-.text "And thus they are left with a terrible dilemma:"
+.text "Os camponeses dão tudo de si para produzir"
 .byte NewLine
-.text "for every one person who gets fed,"
+.text "o pouco que a terra dá, e ainda assim, não"
 .byte NewLine
-.text "two others must go hungry."
+.text "é o suficiente para sobreviver."
 .byte WaitForA
 .byte ScrollText
-.text "Dagdar's men, abandoned in their youth,"
+.text "Portanto, diariamente, eles têm de lidar"
 .byte NewLine
-.text "are the result of this ruthless arithmetic."
+.text "com um terrível dilema:"
+.byte WaitForA
+.byte ScrollText
+.text "para um comer, dois devem passar fome."
+.byte WaitForA
 .byte NewLine
-.text "This is the reality of living in South Thracia."
+.text "Esses homens foram abandonados em sua"
+.byte NewLine
+.text "juventude, por resultado dessa atroz"
+.byte NewLine
+.text "equação."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Th-Then they should just import food"
+.text "E-então eles deveriam importar sua comida!"
 .byte NewLine
-.text "from elsewhere! In North Thracia, cities had"
+.text "No Norte, as cidades tem uma abundância de"
 .byte NewLine
-.text "an abundance of crops—buy their excess!"
+.text "comida, comprem deles!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ah, but the whole of North Thracia—"
+.text "Ah, mas os reinos do norte, a antiga"
 .byte NewLine
-.text "the old coalition of Munster—resolved long ago"
+.text "coalizão de Munster, há muito decidiram"
 .byte NewLine
-.text "to prohibit trade with South Thracia."
+.text "restringir o comércio com o sul."
 .byte WaitForA
 .byte ScrollText
-.text "Food, especially, was closely guarded."
+.text "Especialmente em respeito à alimentos."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Wh-Why would the North do such a thing?!"
+.text "...M-mas porquê eles fariam isso?!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Historically? Recall the war between Njörun"
+.text "Por motivos históricos. Talvez não tenhas"
 .byte NewLine
-.text "and Dáinn's children, 100 years ago, "
-.byte WaitForA
-.text "that led to"
-.byte NewLine
-.text "the province of Munster declaring"
-.byte NewLine
-.text "independence from the rest of Thracia."
+.text "tido tempo de aprender?"
 .byte WaitForA
 .byte ScrollText
-.text "The two have considered each other enemies"
+.text "Há 100 anos, houve uma guerra entre os"
 .byte NewLine
-.text "ever since, and this hostility persists because"
+.text "filhos de Dáinn e Njörun, que levou a"
 .byte NewLine
-.text "they are mutually unwilling to communicate."
+.text "região de Munster a declarar independência"
+.byte WaitForA
+.byte NewLine
+.text "do resto da trácia."
 .byte WaitForA
 .byte ScrollText
-.text "The noble houses of Munster, in particular,"
+.text "Desde então, o Norte e o Sul se consideram"
 .byte NewLine
-.text "remained stubborn and selfish"
+.text "inimigos um do outro, e essa situação"
 .byte NewLine
-.text "for a century afterward."
+.text "persiste porque ambos se recusam à conversar."
+.byte WaitForA
+.byte ScrollText
+.text "Os nobres de Munster em particular seguem"
+.byte NewLine
+.text "ressentidos, além de serem avarentos e"
+.byte NewLine
+.text "teimosos."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I...had been told that Thracia"
+.text "Eu...cresci achando que a Trácia era"
 .byte NewLine
-.text "was all but a military state,"
+.text "apenas uma terra de guerreiros bárbaros,"
 .byte NewLine
-.text "that it was an infamously belligerent kingdom."
+.text "um reino beligerante, sempre em guerras com"
+.byte WaitForA
+.byte NewLine
+.text "o norte."
 .byte WaitForA
 .byte ScrollText
-.text "But if they are merely the product"
+.text "Mas se eles são apenas produto de"
 .byte NewLine
-.text "of such wretched conditions..."
+.text "suas condições..."
 .byte WaitForA
 .byte ScrollText
-.text "How did things all go so wrong? The North"
+.text "Quando que as coisas deram errado? Um dia"
 .byte NewLine
-.text "and South were a single kingdom once..."
+.text "o Norte e o Sul foram um único reino..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "It all returns to the Tragedy of the Gáe Bolg,"
+.text "Isto é devido à Tragédia de Gáe Bolg e"
 .byte NewLine
-.text "to the misfortune that seems to befall"
+.text "Gungnir, e a má sorte que parece afligir"
 .byte NewLine
-.text "all those who wield either of the holy lances."
+.text "todos que empunham uma ou outra das lanças."
 .byte WaitForA
 .byte ScrollText
-.text "North Thracia has been plagued by selfish"
+.text "Desde então, ambos Norte e Sul sofreram"
 .byte NewLine
-.text "and short-sighted rulers. You must learn"
+.text "sob o governo de maus líderes. Aprenda"
 .byte NewLine
-.text "from their example—learn how not to govern."
+.text "com os erros deles; como não governar."
 .byte WaitForA
 .byte ScrollText
-.text "If nothing else, you must learn enough"
-.byte NewLine
-.text "to not repeat your father's mistake..."
+.text "Ao menos, não cometa o erro de seu pai..."
 .byte WaitForA
 
 .byte EndText

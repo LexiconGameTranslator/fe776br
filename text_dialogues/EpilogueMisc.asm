@@ -3,7 +3,7 @@
 .byte $00, $26
 .byte EndText
 .byte $09
-.text " Turns"
+.text " Turnos"
 .byte $01
 .here
 
@@ -12,11 +12,11 @@
 .byte $00, $26
 .byte $03
 .byte $09
-.text "W"
+.text "V"
 .byte $00, $27
 .byte $03
 .byte $09
-.text "L"
+.text "D"
 .byte $01
 .here
 
@@ -36,9 +36,9 @@ dialogueEpilogueCaptured
 .byte $09
 .word $1200
 .byte $04
-.text "Missing in action"
+.text "Capturado em combate"
 .byte NewLine
-.text "as of the above mission."
+.text "durante esta missão."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -54,9 +54,9 @@ dialogueEpilogueKilled
 .byte $09
 .word $1200
 .byte $04
-.text "Killed in action"
+.text "Morto em combate"
 .byte NewLine
-.text "during the above mission."
+.text "durante esta missão."
 .word PauseDialogue
 .byte $5A
 .byte $0F

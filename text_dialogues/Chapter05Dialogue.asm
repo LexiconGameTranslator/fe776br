@@ -341,12 +341,12 @@ dialogueChapter05MareetaAppears4
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Matar... Matar... MATAR..."
+.text "...Sangue... sangue... SANGUE..."
 .byte WaitForA
 .byte ScrollText
-.text "COM ESTA ESPADA... TODOS... TODOS..."
+.text "EU MATAREI... TODOS VOCÊS..."
 .byte NewLine
-.text "TODOS VOCÊS... MATAR TODOS VOCÊS!"
+.text "EU PRECISO... EU QUERO SEU SANGUE!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -389,14 +389,14 @@ dialogueChapter05MareetaAppears4
 .text "tesouros deste mesmo castelo."
 .byte WaitForA
 .byte ScrollText
-.text "...A espada sombria,"
+.text "...A espada maldita,"
 .byte NewLine
 .text "creio que esse é o nome dela."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "A espada sombria, uma arma amaldiçoada..."
+.text "A espada maldita, uma arma amaldiçoada..."
 .byte WaitForA
 .byte ScrollText
 .text "Você está tentando fazer da"
@@ -431,7 +431,7 @@ dialogueChapter05MareetaAppears4
 .text "para você se preocupar agora?"
 .byte WaitForA
 .byte ScrollText
-.text "A Espada Sombria possui um poder incrível..."
+.text "A Espada maldita possui um poder incrível..."
 .byte WaitForA
 .byte ScrollText
 .text "um presente excepcional para"
@@ -469,7 +469,7 @@ dialogueChapter05MareetaDialogue
 .word raydrik_portrait
 .text "O que significa isto?"
 .byte NewLine
-.text "A garota está com a Espada Sombria em mãos,"
+.text "A garota está com a Espada Maldita em mãos,"
 .byte NewLine
 .text "e mesmo assim tem dificuldade!"
 .byte WaitForA
@@ -477,7 +477,7 @@ dialogueChapter05MareetaDialogue
 .byte Left_Slot
 .word LoadPortrait
 .word veld_portrait
-.text "Hmm... Não parece que a espada a"
+.text "Hmm... parece que a espada não a"
 .byte NewLine
 .text "dominou por completo."
 .byte WaitForA
@@ -487,8 +487,6 @@ dialogueChapter05MareetaDialogue
 .text "Isso é um absurdo!"
 .byte NewLine
 .text "Como se uma simples criança pudesse..." ; interrupt
-.byte NewLine
-.text "pudesse—"
 .byte WaitForA
 
 .byte Left_Slot
@@ -498,7 +496,7 @@ dialogueChapter05MareetaDialogue
 .text "fazem vacilar e hesitar."
 .byte WaitForA
 .byte ScrollText
-.text "Suas emoções cegam o poder da espada,"
+.text "Suas emoções travam o poder da espada,"
 .byte NewLine
 .text "tal qual correr sua lâmina pela pedra."
 .byte WaitForA
@@ -507,10 +505,10 @@ dialogueChapter05MareetaDialogue
 .byte NewLine
 .text "desesperadamente lutando"
 .byte NewLine
-.text "lutando contra suas correntes."
+.text "contra suas correntes."
 .byte WaitForA
 .byte ScrollText
-.text "Ou será que você não conseguiu"
+.text "Ou será que não conseguiste"
 .byte NewLine
 .text "notar o choro dela, imbecil?"
 .byte WaitForA
@@ -592,9 +590,9 @@ dialogueChapter05MareetaKilled
 .byte Left_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "Ela prevalesceu mesmo "
+.text "Ela prevaleceu mesmo "
 .byte NewLine
-.text "contra a Espada Sombria..."
+.text "contra a Espada maldita..."
 .byte NewLine
 .text "Isso é algum tipo de piada...?!"
 .byte WaitForA
@@ -726,7 +724,7 @@ dialogueChapter05EyvelPetrify
 .byte ScrollText
 .text "E-e agora tenho uma estátua perfeita da"
 .byte NewLine
-.text "guerreira de Fiana—um monumento eterno ao"
+.text "guerreira de Fiana, um monumento eterno ao"
 .byte NewLine
 .text "preço da rebeldia! Ahahaha!"
 .byte WaitForA
@@ -801,7 +799,7 @@ dialogueChapter05ArenaOpenEyvelNanna
 
 .byte Right_Slot
 .byte ScrollText
-.text "Deixe isso conosco—"
+.text "Deixe isso conosco,"
 .byte NewLine
 .text "mas fique atrás de mim, Nanna!"
 .byte WaitForA
@@ -911,7 +909,7 @@ dialogueChapter05ArenaOpenNannaDead
 .byte Left_Slot
 .text "Leif... Me desculpe..."
 .byte NewLine
-.text "Nanna estava aqui, bem aqui comigoo,"
+.text "Nanna estava aqui, bem aqui comigo,"
 .byte NewLine
 .text "e eu não... eu não..."
 .byte WaitForA
