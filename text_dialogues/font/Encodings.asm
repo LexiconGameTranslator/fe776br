@@ -183,7 +183,7 @@
 .edef "ç", $D2
 .edef "Ð", $D3
 .edef "ð", $D4
-.edef "ᵃ", $D5
+.edef "ª", $D5
 .edef "Þ", $D6
 .edef "þ", $D7
 .edef "Õ", $D8
