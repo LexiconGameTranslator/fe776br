@@ -293,7 +293,7 @@ dialogueChapter11Opening1 ;marcação
 .byte ScrollText
 .text "O Forte Dundrum só é impenetrável porquê" 
 .byte NewLine
-.text "a 12a Legião de Friege o protege!"
+.text "a 12ᵃ Legião de Friege o protege!"
 .byte WaitForA
 .byte NewLine
 .text "Sem os soldados, um forte é só um"
@@ -301,14 +301,16 @@ dialogueChapter11Opening1 ;marcação
 .text "edifício de pedra!"
 .byte WaitForA
 .byte ScrollText
-.text "Se eu não tiver informações completas"
+.text "Enquanto eu não tiver informações"
 .byte NewLine
-.text "sobre o inimigo, não posso arriscar colocar"
+.text "completas sobre o inimigo, não arriscarei"
 .byte NewLine
-.text "a legião em combate."
+.text "colocar as tropas em combate."
 .byte WaitForA
 .byte NewLine
-.text "Eu estaria enfraquecendo nossa posição!"
+.text "Eu estaria enfraquecendo nossa posição"
+.byte NewLine
+.text "sem um bom motivo!"
 .byte WaitForA
 
 .byte Left_Slot
