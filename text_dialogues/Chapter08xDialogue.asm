@@ -353,7 +353,7 @@ dialogueChapter08xEnding
 
 .byte Right_Slot
 .byte ScrollText
-.text "Isto é devido à Tragédia de Gáe Bolg e"
+.text "Talvez seja devido à Tragédia de Gáe Bolg e"
 .byte NewLine
 .text "Gungnir, e a má sorte que parece afligir"
 .byte NewLine
