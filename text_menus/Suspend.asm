@@ -22,8 +22,8 @@
 
 menutextSuspendPrompt
 
-	.text "Suspend the ga[me?\n"
-	.text "    Yes     +No \n"
+	.text "Pausar o jogo?\n"
+	.text "    Si[m    +Não\n"
 	.text "\n"
 
 ;	Suspend paragraph text
@@ -32,10 +32,9 @@ menutextSuspendPrompt
 
 menutextSuspendParagraph
 
-	.text "You [may resu[me\n"
-	.text "this chapter\n"
-	.text "fro[m the [main \n"
-	.text "[menu \n"
+	.text "Você pode reto[mar\n"
+	.text "este capítulo pelo\n"
+	.text "[menu principal \n"
 	.text "\n"
 
 .here

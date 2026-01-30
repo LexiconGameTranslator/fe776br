@@ -98,25 +98,25 @@ aCopyInventoryItemInfoWindowBackgroundLayerWindowInfo ; 81/FA97
 	.long $7F8614
 
 aCopyInventorySkillInfoWindowTextLayerWindowInfo ; 81/FAA0
-	.byte 12, 15
+	.byte 12, 17
 	.long aBG3TilemapBuffer
 	.byte $00
 	.long $7F8614
 
 aCopyInventorySkillInfoWindowBackgroundLayerWindowInfo ; 81/FAA9
-	.byte 12, 15
+	.byte 12, 17
 	.long aBG2TilemapBuffer
 	.byte $00
 	.long $7F8614
 
 aCopyTradeItemInfoWindowTextLayerWindowInfo ; 81/FAB2
-	.byte 12, 22
+	.byte 12, 18
 	.long aBG3TilemapBuffer
 	.byte $00
 	.long $7F8614
 
 aCopyTradeItemInfoWindowBackgroundLayerWindowInfo ; 81/FABB
-	.byte 12, 22
+	.byte 12, 18
 	.long aBG2TilemapBuffer
 	.byte $00
 	.long $7F8614
@@ -280,7 +280,7 @@ rlCopyInventorySkillInfoWindowTilemaps ; 81/FBC4
 
 	lda #>`aBG3TilemapBuffer
 	sta lR18+1
-	lda #<>aBG3TilemapBuffer + ((2 + (30 * $20)) * 2)
+	lda #<>aBG3TilemapBuffer + ((2 + (28 * $20)) * 2)
 	sta lR18
 	lda #<>$7F9214
 	sta lR19
@@ -288,13 +288,13 @@ rlCopyInventorySkillInfoWindowTilemaps ; 81/FBC4
 	sta lR19+1
 	lda #15
 	sta wR0
-	lda #15
+	lda #17
 	sta wR1
 	jsl rlCopyWindowTilemapRect
 
 	lda #>`aBG2TilemapBuffer
 	sta lR18+1
-	lda #<>aBG2TilemapBuffer + ((2 + (30 * $20)) * 2)
+	lda #<>aBG2TilemapBuffer + ((2 + (28 * $20)) * 2)
 	sta lR18
 	lda #<>$7F8C14
 	sta lR19
@@ -302,7 +302,7 @@ rlCopyInventorySkillInfoWindowTilemaps ; 81/FBC4
 	sta lR19+1
 	lda #15
 	sta wR0
-	lda #15
+	lda #17
 	sta wR1
 	jsl rlCopyWindowTilemapRect
 
@@ -322,7 +322,7 @@ rlCopyInventorySkillInfoWindowTilemaps ; 81/FBC4
 	sta aCurrentTilemapInfo.wBaseTile,b
 	jsl $87D7FD
 
-	ldx #((2 + (30 * $20)) * 2)
+	ldx #((2 + (28 * $20)) * 2)
 	jsl $87D4DD
 
 	lda #<>aCopyInventorySkillInfoWindowBackgroundLayerWindowInfo
@@ -337,16 +337,16 @@ rlCopyInventorySkillInfoWindowTilemaps ; 81/FBC4
 	sta aCurrentTilemapInfo.wBaseTile,b
 	jsl $87D6FC
 
-	ldx #((2 + (30 * $20)) * 2)
+	ldx #((2 + (28 * $20)) * 2)
 	jsl $87D4DD
 
 	jsl rlDMAByStruct
 
-	.dstruct structDMAToVRAM, aBG2TilemapBuffer+$0780, $03C0, VMAIN_Setting(true), $F780
+	.dstruct structDMAToVRAM, aBG2TilemapBuffer+$0700, $0440, VMAIN_Setting(true), $F700
 
 	jsl rlDMAByStruct
 
-	.dstruct structDMAToVRAM, aBG3TilemapBuffer+$0780, $03C0, VMAIN_Setting(true), $A780
+	.dstruct structDMAToVRAM, aBG3TilemapBuffer+$0700, $0440, VMAIN_Setting(true), $A700
 
 	lda #$000C
 	jsl rlUnknown808C87
@@ -361,7 +361,7 @@ rlRevertInventorySkillInfoWindowTilemaps ; 81/FC82
 
 	lda #>`aBG3TilemapBuffer
 	sta lR19+1
-	lda #<>aBG3TilemapBuffer + ((2 + (30 * $20)) * 2)
+	lda #<>aBG3TilemapBuffer + ((2 + (28 * $20)) * 2)
 	sta lR19
 	lda #<>$7F9214
 	sta lR18
@@ -369,13 +369,13 @@ rlRevertInventorySkillInfoWindowTilemaps ; 81/FC82
 	sta lR18+1
 	lda #15
 	sta wR0
-	lda #15
+	lda #17
 	sta wR1
 	jsl rlRevertWindowTilemapRect
 
 	lda #>`aBG2TilemapBuffer
 	sta lR19+1
-	lda #<>aBG2TilemapBuffer + ((2 + (30 * $20)) * 2)
+	lda #<>aBG2TilemapBuffer + ((2 + (28 * $20)) * 2)
 	sta lR19
 	lda #<>$7F8C14
 	sta lR18
@@ -383,16 +383,16 @@ rlRevertInventorySkillInfoWindowTilemaps ; 81/FC82
 	sta lR18+1
 	lda #15
 	sta wR0
-	lda #15
+	lda #17
 	sta wR1
 	jsl rlRevertWindowTilemapRect
 	jsl rlDMAByStruct
 
-	.dstruct structDMAToVRAM, aBG2TilemapBuffer+$0780, $03C0, VMAIN_Setting(true), $F780
+	.dstruct structDMAToVRAM, aBG2TilemapBuffer+$0700, $0440, VMAIN_Setting(true), $F700
 
 	jsl rlDMAByStruct
 
-	.dstruct structDMAToVRAM, aBG3TilemapBuffer+$0780, $03C0, VMAIN_Setting(true), $A780
+	.dstruct structDMAToVRAM, aBG3TilemapBuffer+$0700, $0440, VMAIN_Setting(true), $A700
 
 	lda #$0021
 	jsl rlUnknown808C87

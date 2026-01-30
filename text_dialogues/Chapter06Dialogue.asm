@@ -445,7 +445,7 @@ dialogueChapter06Opening2
 .word augustus_portrait
 .text "...Então temos uma forma de fugir sem muito"
 .byte NewLine
-.text "problema. A questão então é se vale a pena"
+.text "problema. A questão agora é se vale a pena"
 .byte NewLine
 .text "visitarmos a cidade..."
 .byte WaitForA

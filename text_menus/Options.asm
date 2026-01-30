@@ -147,11 +147,11 @@ rsCopyOptionsPointerData
 		.word $38A0	;  Option icon 
 		.word $0003	;  Number of options
 		.word $0000	;  Position 1
-		.word $0001	;  Tiles to highlight
-		.word $0003	;  Position 2
 		.word $0002	;  Tiles to highlight
-		.word $0007	;  Position 3
-		.word $0004	;  Tiles to highlight
+		.word $0004	;  Position 2
+		.word $0003	;  Tiles to highlight
+		.word $0008	;  Position 3
+		.word $0006	;  Tiles to highlight
 		
 
 		aOptionsMenuTerrainOption
@@ -164,11 +164,11 @@ rsCopyOptionsPointerData
 		.word $38A2	;  Option icon 
 		.word $0003	;  Number of options
 		.word $0000	;  Position 1
-		.word $0003	;  Tiles to highlight
-		.word $0005	;  Position 2
 		.word $0004	;  Tiles to highlight
-		.word $000B	;  Position 3 
-		.word $0002	;  Tiles to highlight
+		.word $0006	;  Position 2
+		.word $0004	;  Tiles to highlight
+		.word $000C	;  Position 3 
+		.word $0003	;  Tiles to highlight
 		
 		aOptionsMenuUnitOption
 		.word $0000
@@ -180,11 +180,11 @@ rsCopyOptionsPointerData
 		.word $38A4	;  Option icon 
 		.word $0003	;  Number of options
 		.word $0000	;  Position 1
-		.word $0003	;  Tiles to highlight
-		.word $0005	;  Position 2
 		.word $0004	;  Tiles to highlight
-		.word $000B	;  Position 3 
-		.word $0002	;  Tiles to highlight
+		.word $0006	;  Position 2
+		.word $0004	;  Tiles to highlight
+		.word $000C	;  Position 3 
+		.word $0003	;  Tiles to highlight
 		
 		aOptionsMenuAutocursorOption
 		.word $0000
@@ -196,9 +196,9 @@ rsCopyOptionsPointerData
 		.word $38A6	;  Option icon 
 		.word $0002	;  Number of options
 		.word $0000	;  Position 1
-		.word $0001	;  Tiles to highlight
-		.word $0003	;  Position 2
 		.word $0002	;  Tiles to highlight
+		.word $0004	;  Position 2
+		.word $0003	;  Tiles to highlight
 		
 		aOptionsMenuTextSpeedOption
 		.word $0000
@@ -214,7 +214,7 @@ rsCopyOptionsPointerData
 		.word $0005	;  Position 2
 		.word $0004	;  Tiles to highlight
 		.word $000B	;  Position 3
-		.word $0002	;  Tiles to highlight
+		.word $0003	;  Tiles to highlight
 		
 		aOptionsMenuUnitSpeedOption
 		.word $0000
@@ -228,7 +228,7 @@ rsCopyOptionsPointerData
 		.word $0000	;  Position 1
 		.word $0004	;  Tiles to highlight
 		.word $0006	;  Position 2
-		.word $0002	;  Tiles to highlight
+		.word $0003	;  Tiles to highlight
 		
 		aOptionsMenuHiddenInfoOption
 		.word $0000
@@ -274,8 +274,8 @@ rsCopyOptionsPointerData
 		.word $38AC	;  Option icon 
 		.word $0002	;  Number of options
 		.word $0000	;  Position 1
-		.word $0003	;  Tiles to highlight
-		.word $0005	;  Position 2
+		.word $0004	;  Tiles to highlight
+		.word $0006	;  Position 2
 		.word $0003	;  Tiles to highlight
 		
 		aOptionsMenuBGMOption
@@ -288,9 +288,9 @@ rsCopyOptionsPointerData
 		.word $38AE	;  Option icon 
 		.word $0002	;  Number of options
 		.word $0000	;  Position 1
-		.word $0001	;  Tiles to highlight
-		.word $0003	;  Position 2
 		.word $0002	;  Tiles to highlight
+		.word $0004	;  Position 2
+		.word $0003	;  Tiles to highlight
 		
 		aOptionsMenuVolumeOption
 		.word $0000
@@ -308,7 +308,7 @@ rsCopyOptionsPointerData
 		.word $0009	;  Position 3
 		.word $0001	;  Tiles to highlight
 		.word $000C	;  Position 4
-		.word $0002	;  Tiles to highlight
+		.word $0003	;  Tiles to highlight
 		
 		aOptionsMenuTileSettingOption
 		.word $0000
@@ -341,92 +341,93 @@ rsCopyOptionsPointerData
 ;	Option character limit: 18
 ;	This can be expanded by pushing the position of the settings further right.
 
-;	Settings character limit: 30 characters total for all settings
+;	Settings character limit: 28 characters total for all settings
 ;	Spaces after a settings count for 4 characters (5 if the setting has an odd number of characters)
 
 ;	Description character limit: 57
 
+;	Explain later if i misunderstood any of those instructions and grossly broke the limits
+
 	.section OptionMenuTextSection
 
 		aOptionMenuAnimationName
-		.text "An{im}ations\n"
+		.text "An{im}ações \n"
 		
 		aOptionMenuAnimationSubtext
-		.text "Turn attack an{im}ations on or off\n"
+		.text "Ligar ou desligar an{im}ações de co[mbate \n"
 		
 		aOptionMenuAnimationChoices
-		.text "On"
+		.text "Lig."
 		.word $2020
 		.word $2020
-		.text "Off "
+		.text "Desl. "
 		.word $2020
-		.word $2020
-		.text "By Unit \n"
+		.text "Por unidade \n"
 		
 		
 		aOptionMenuTerrainName
-		.text "(Map Data \n"
+		.text "Dados do [mapa\n"
 		
 		aOptionMenuTerrainSubtext
-		.text "Turn terrain ]windo]w and {H}{P} bars on or off \n"
+		.text "Ligar ou desligar a janela de terreno e a barra de  {P}{V}\n"
 		
 		aOptionMenuTerrainChoices
 		aOptionMenuUnitChoices
-		.text "Detail"
+		.text "Detalhes"
 		.word $2020
 		.word $2020
-		.text "Si[mple "
+		.text "Si[mples"
 		.word $2020
 		.word $2020
-		.text "Off \n"
+		.text "Desl. \n"
 		
 		aOptionMenuUnitName
-		.text "Units )Windo12\n"
+		.text "Janela de unidades\n"
 		
 		aOptionMenuUnitSubtext
-		.text "Set the unit ]windo]w's level of detail \n"
+		.text "Escolher o nível de detalhe da janela de unidade\n"
 		
 		aOptionMenuAutocursorName
 		.text "Autocursor\n"
 		
 		aOptionMenuAutocursorSubtext
-		.text "Set cursor to start on Leif \n"
+		.text "Iniciar os turnos co[m o cursor se[mpre no Leif \n"
 		
 		aOptionMenuAutocursorChoices
 		aOptionMenuBGMChoices
-		.text "On"
+		.text "Lig."
 		.word $2020
 		.word $2020
-		.text "Off \n"
+		.text "Desl. \n"
 		
 		
 		aOptionMenuTextSpeedName
-		.text "(Message Speed\n"
+		.text "Vel. do texto \n"
 		
 		aOptionMenuTextSpeedSubtext
-		.text "Adjust ho]w fast text [messages display \n"
+		.text "Ajustar a velocidade de scroll do texto \n"
 		
 		aOptionMenuTextSpeedChoices
-		.text "Slo12 "
+		.text "Lento "
 		.word $2020
 		.word $2020
 		aOptionMenuUnitSpeedChoices
 		.text "+Nor[mal"
 		.word $2020
 		.word $2020
-		.text "Fast\n"
+		.text "Rápido\n"
 		
 		aOptionMenuUnitSpeedName
-		.text "Ga[me Speed \n"
+		.text "Vel. de jogo\n"
 		
 		aOptionMenuUnitSpeedSubtext
-		.text "Adjust ho]w fast the ga[me progresses \n"
+		.text "Ajuste a velocidade que o jogo anda \n"
 		
 		aOptionMenuHiddenInfoName
-		.text "Hidden Data \n"
+		.text "Infor[mação extra \n"
 		
 		aOptionMenuHiddenInfoSubtext
-		.text "{0}: +None {1}: Inventory {2}: Chapter {3}: Hidden Skills \n"
+		.text "{0}: +Nada {1}: Inventário  {2}: (Missão {3}: Habilidades \n"
 		
 		aOptionMenuHiddenInfoChoices
 		.text "{0}"
@@ -441,10 +442,10 @@ rsCopyOptionsPointerData
 		.text "{3}\n"
 		
 		aOptionMenuPrepsName
-		.text "Deploy[ment \n"
+		.text "Sel. de unidades\n"
 		
 		aOptionMenuPrepsSubtext
-		.text "{0}: Default {1}: Display units {2}: Rearrange units \n"
+		.text "{0}: Vanilla {1}: Trocar orde[m {2}: (Mover unidades \n"
 		
 		aOptionMenuPrepsChoices
 		.text "{0}"
@@ -456,28 +457,28 @@ rsCopyOptionsPointerData
 		.text "{2}\n"
 		
 		aOptionMenuAudioSettingName
-		.text "Audio \n"
+		.text "Áudio \n"
 		
 		aOptionMenuAudioSettingSubtext
-		.text "Adjust audio settings \n"
+		.text "Ajustar configuração de áudio \n"
 		
 		aOptionMenuAudioSettingChoices
-		.text "Stereo"
+		.text "Estéreo "
 		.word $2020
 		.word $2020
 		.text "(Mono \n"
 		
 		aOptionMenuBGMName
-		.text "(Music\n"
+		.text "(Música \n"
 		
 		aOptionMenuBGMSubtext
-		.text "Turn [music on or off \n"
+		.text "Desligar ou ligar [música \n"
 		
 		aOptionMenuVolumeName
-		.text "Sound Effects \n"
+		.text "Efeitos sonoros \n"
 		
 		aOptionMenuVolumeSubtext
-		.text "Adjust volu[me of sound effects \n"
+		.text "Ajustar volu[me dos efeitos sonoros \n"
 		
 		aOptionMenuVolumeChoices
 		.text "{note}{note}{note}"
@@ -489,13 +490,13 @@ rsCopyOptionsPointerData
 		.text "{note}"
 		.word $2020
 		.word $2020
-		.text "Off \n"
+		.text "Desl. \n"
 		
 		aOptionMenuTileSettingName
-		.text ")Windo]w Pattern\n"
+		.text "Padrão da janela\n"
 		
 		aOptionMenuTileSettingSubtext
-		.text "Change the [menu ]windo12 \n"
+		.text "Trocar o padrão da janela do [menu\n"
 		
 		aOptionMenuTileSettingChoices
 		.text "{1}"
@@ -623,13 +624,13 @@ rsCopyOptionsPointerData
 	.section OptionMenuTintTextSection
 
 		aOptionMenuTintUpperTintName
-		.text "Set color for the upper layer \n"
+		.text "Escolher a cor da parte superior da janela\n"
 
 		aOptionMenuTintLowerTintName
-		.text "Set color for the lo]wer layer\n"
+		.text "Escolher a cor da parte inferior da janela\n"
 
 		aOptionMenuTintRestoreName
-		.text "Restore color to default\n"
+		.text "Voltar a cor pro padrão \n"
 
 	.endsection OptionMenuTintTextSection
 
@@ -686,16 +687,16 @@ rsCopyOptionsPointerData
 .logical lorom($02D749, 1)
 
 WindowColorName
-.text ")Windo]w Color\n"
+.text "Cor da janela \n"
 
 UpperSettingName
-.text "Upper \n"
+.text "Superior\n"
 
 LowerSettingName
-.text "Lo]wer\n"
+.text "Inferior\n"
 
 DefaultSettingName
-.text "Default \n"
+.text "Padrão\n"
 
 .here
 

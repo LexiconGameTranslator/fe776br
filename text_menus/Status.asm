@@ -20,18 +20,18 @@
 			.text "{-}{-}{-}{-}  \n"
 		
 		menutextSleepStatus
-			.text "Sleep \n"
+			.text "Sono\n"
 		
 		menutextPoisonStatus
-			.text "Poison\n"
+			.text "Veneno\n"
 		
 		menutextSilenceStatus
-			.text "Silence \n"
+			.text "Silêncio\n"
 		
 		menutextBerserkStatus
-			.text "Berserk \n"
+			.text "Loucura \n"
 		
 		menutextStoneStatus
-			.text "Stone \n"
+			.text "Pedra \n"
 
 	.endsection StatusTextDataSection

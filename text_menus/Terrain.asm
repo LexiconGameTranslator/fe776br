@@ -80,111 +80,111 @@
 			.text "{-}{-}\n"
 		
 		menutextTerrainPeak
-			.text "Peak\n"
+			.text "Cu[me \n"
 		
 		menutextTerrainThicket
-			.text "Thicket \n"
+			.text "(Matagal\n"
 		
 		menutextTerrainCliff
-			.text "Cliff \n"
+			.text "Penhasco\n"
 		
 		menutextTerrainPlain
-			.text "Plain \n"
+			.text "Planície\n"
 		
 		menutextTerrainForest
-			.text "Forest\n"
+			.text "Floresta\n"
 		
 		menutextTerrainSea
-			.text "Sea \n"
+			.text "(Mar\n"
 		
 		menutextTerrainRiver
-			.text "River \n"
+			.text "Rio \n"
 		
 		menutextTerrainMountain
-			.text "(Mountain \n"
+			.text "(Montanha \n"
 		
 		menutextTerrainSand
-			.text "Sand\n"
+			.text "Areia \n"
 		
 		menutextTerrainCastle
-			.text "Castle\n"
+			.text "Castelo \n"
 		
 		menutextTerrainFort
-			.text "Fort\n"
+			.text "Forte \n"
 		
 		menutextTerrainHouseOpen
-			.text "House \n"
+			.text "Casa\n"
 		
 		menutextTerrainGate
-			.text "Gate\n"
+			.text "Portão\n"
 		
 		menutextTerrainDesert
 		menutextTerrainSandySoil
-			.text ")Wasteland\n"
+			.text "Er[mo \n"
 		
 		menutextTerrainBridge
-			.text "Bridge\n"
+			.text "Ponte \n"
 		
 		menutextTerrainLake
-			.text "Lake\n"
+			.text "Lago\n"
 		
 		menutextTerrainVillage
-			.text "Village \n"
+			.text "Vila\n"
 		
 		menutextTerrainRuins
-			.text "Ruins \n"
+			.text "Ruínas\n"
 		
 		menutextTerrainSupply
-			.text "Supply\n"
+			.text "Depósito\n"
 		
 		menutextTerrainChurchOpen
-			.text "Church\n"
+			.text "Igreja\n"
 		
 		menutextTerrainHouseClosed
 		menutextTerrainChurchClosed
-			.text "Closed\n"
+			.text "Fechado \n"
 		
 		menutextTerrainRoad
-			.text "Road\n"
+			.text "Estrada \n"
 		
 		menutextTerrainArmory
-			.text "Ar[mory \n"
+			.text "Arsenal \n"
 		
 		menutextTerrainVendor
-			.text "Vendor\n"
+			.text "Loja\n"
 		
 		menutextTerrainArena
 			.text "Arena \n"
 		
 		menutextTerrainFloor
-			.text "Floor \n"
+			.text "Chão\n"
 		
 		menutextTerrainThrone
-			.text "Throne\n"
+			.text "Trono \n"
 		
 		menutextTerrainDoor
-			.text "Door\n"
+			.text "Porta \n"
 		
 		menutextTerrainChestIndoors
 		menutextTerrainChestOutdoors
-			.text "Chest \n"
+			.text "Baú \n"
 		
 		menutextTerrainExit
-			.text "Exit\n"
+			.text "Saída \n"
 		
 		menutextTerrainPillar
-			.text "Pillar\n"
+			.text "Pilar \n"
 		
 		menutextTerrainDrawbridge
-			.text "Dra]wbridge \n"
+			.text "Ponte lev.\n" ;Correctly it would be Ponte levadiça, but its too big, just ponte works perfectly
 		
 		menutextTerrainSecret
-			.text "Secret\n"
+			.text "Segredo \n"
 		
 		menutextTerrainAltar
 			.text "Altar \n"
 		
 		menutextTerrainSeal
-			.text "Seal\n"
+			.text "Selo\n"
 
 	.endsection TerrainTextDataSection

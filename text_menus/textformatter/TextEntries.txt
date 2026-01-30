@@ -1,82 +1,79 @@
 //THESE WORDS ARE BAKED INTO TILEMAPS
 
-List
-Trade
-Ar[mory
-Supply
-Discard
+Lista
+Trocar
+Arsenal
+Depósito
+Descartar
 
-Select Units
-Status
+Selecionar unidades
+Estado
 
-+Na[me
-Class
-Equip[ment
-Attack
-Hit
-Avoid
-Str
++No[me
+Classe
+Equipa[mento
+Atq
+Prec
+Esq
+For
 (Mag
-Skl
-Spd
-Lck
+Des
+Vel
+Sor
 Def
 Con
 (Mov
-Fatg
-Status
-Traveler
-Skills
+Fadg
+Estado
+Carregando
+Habilidades
 
-Objective
-Captures
-)Wins
-Turn
-Funds
-Factions
-//Commander, with nn for tilemap sanity
-  Connnander
+Objetivo:
+Capturas
+(Mortes
+Turno
+Dinheiro
+ Facções
+Co[mandante
 
 
-Atk
-Crit
-Rng
-Avo
-Ddg
+Atq
+Crít
+Alc
+Esq
+Eva
+(Multi
 
-Affil.
-Auth.
+Afil.
+Auto.
 Vigor
-Trv
+Car
 (Mov
-Fatigue
-Status
+Fadiga
+Estado
 
-Take
-Give
-Discard
-
-//"Status" kept for sanity
-Cond
+Pegar
+Dar
+Descartar
 
 //Combat forecast
 
 
 //NAMES-----------------------------
 
-Supply
+Depósito
 Leif
 Finn
 Osian
 Halvan
 Eyvel
 Dagdar
-Tanya
+Tânia
 (Marty
 Ronan
 Safy
 Lifis
-(Macha
+(Machyua
 Brighton
 Lara
 Fergus
@@ -90,21 +87,20 @@ Callion
 Selphina
 Kane
 Alba
-Robert
+Roberto
 Fred
 Ol]wen
 (Mareeta
-//Salem
-  Sale
+Sale[m
 Perne
 Trude
 Tina
 Glade
-Dean
+Deen
 Eda
-Ho[mer
+Ho[mero
 Linoan
-Ralph
+Ralf
 Ilios
 Schroff
 (Misha
@@ -158,7 +154,7 @@ Cohen
 Reinhardt
 Alphan
 Farden
-Coulter
+Gortach
 Altena
 Raydrik
 Porcus
@@ -169,17 +165,17 @@ Draco
 Tigris
 Veld
 
-Ro[meo
-Luccia
+Ro[meu
+Lúcia
 Jubel
 Cairpre
 E[mily
 Bella
-Cliff
+Colino
 (Murphy
 Leena
 Bo]wie
-Hannibal
+Aníbal
 Rosa
 Sera
 Peter
@@ -187,34 +183,35 @@ Peter
 (Mia
 Frieda
 Chris
-Daphnée
+Catarina
 Stella
-Edgar
+Sérgio
 A[my
 +Nira
 (Marlon
 Frank
-Charles
+Carlos
 Dirk
-Sean
+Sa[muel
 Ed]ward
 Andre]w
 +Nicholas
 
-Ulster
-Lifis Pirates
+Úlster
+Pir. do Lifis
 Friege
 Gelbenritter
-Pitfighter
+Gladiador
+Guardião
 Leonster
-Loptrian
+Loptiriano
 (Magi
 (Munster
-Sells]word
-Resistance
+(Mercenário
+Rebelde
 Silesse
-Tahra
-Thracia
+Tarrah
+Trácia
 
 //-Archer
 //-Ballistician
@@ -249,1087 +246,1100 @@ Travant
 
 //FACTIONS-------------------------------------------------
 
-Leif's Ar[my
-Raydrik's Unit
-Unkno]wn Party
-Tahra's Ar[my
-//Leonster's Ar[my
-  Leonster34Ar[my
-//(Munster's Ar[my
-  (Munster34Ar[my
-Thracia's Ar[my
-Civilians
-Friege's Ar[my
- Division
+Exé. do Leif
+Exé. do Raydrik
+Desconhecido
+Exé. de Tarrah
+Exé. de Leonster
+Exé. de (Munster
+Exé. da Trácia
+Civis
+Exé. de Friege
+Legião
 Gelbenritter
-Ulster's Ar[my
+Exé. de Úlster
 )Welkenrosen
-Lifis Pirates
-(Magi Squad
-Bandits
-Resistance
-Pegasus Corps
-Colho's Boys
-Dandelion
-Sells]words
+Piratas do Lifis
+(Magi
+Bandidos
+Rebeldes
+Uni. de Pégasos
+(Manos do Colho
+Dente-de-Leão
+(Mercenários
 
 
 //TERRAIN--------------------------------------------------
 
-Peak
-Thicket
-Cliff
-Plain
-Forest
-Sea
-River
-(Mountain
-Sand
-Castle
-Fort
-House
-Gate
-)Wasteland
-Bridge
-Lake
-Village
-Ruins
-Supply
-Church
-Closed
-Road
-Ar[mory
-Vendor
+Cu[me
+(Matagal
+Penhasco
+Planície
+Floresta
+(Mar
+Rio
+(Montanha
+Areia
+Castelo
+Forte
+Casa
+Portão
+Er[mo
+Ponte
+Lago
+Vila
+Ruínas
+Depósito
+Igreja
+Fechado
+Estrada
+Arsenal
+Loja
 Arena
-Floor
-Throne
-Door
-Chest
-Exit
-Pillar
-Dra]wbridge
-Secret
+Chão
+Trono
+Porta
+Baú
+Saída
+Pilar
+Ponte lev.
+Segredo
 Altar
-Seal
+Selo
 
 
 //MENU COMMANDS---------------------------------------------
 
-Seize
-Escape
-Arrive
-Talk
-Attack
-Capture
-Steal
+To[mar
+Escapar
+Chegar
+Falar
+Atacar
+Capturar
+Roubar
 Arena
-Ar[mory
-Door
-Secret
-Visit
-Supply
-Vendor
-Bridge
-Chest
-Dance
-)Wait
-Staff
-Ite[m
-Rescue
-Drop
-Release
-Give
-Take
-Trade
-(Mount
-Dis[mount
-//Animation
-  Anation
+Arsenal
+Porta
+Segredo
+Visitar
+Depósito
+Loja
+Ponte
+Baú
+Dançar
+Esperar
+Cajado
+Itens
+Resgatar
+Soltar
+Libertar
+Dar
+Pegar
+Trocar
+(Montar
+Des[montar
+//Animação
+  Anação
 
-Use
-Equip
-Drop
-Yes
-+No
-On
-Off
+Usar
+Equip.
+Soltar
+Si[m
++Não
+Ligar
+Desl.
 
 
 //TEXTINSTALLER--------------------------------------------
 
-Type
-Hit
-(Might
-Crit
-Range
-)Weight
+Tipo
+Prec.
+Poder
+Crít.
+Alc.
+Peso
 
-Type
-)Weight
+Tipo
+Peso
 
-Type
-Atk
-Hit
-Crit
-Avo
+Tipo
+Atq
+Prec.
+Crít.
+Esq.
 
-//+No commander is deployed
-+No conander is deployed
+Se[m co[mandante e[m ca[mpo
 
-Prf
+Exc.
 
+Fadg
+Estado
+Carg.
+Habs.
 
-Trvlr
-Skills
-
-Vulnerary used
-Pure )Water used
-Poisoned
-Torch used
-By Ethlyn used
-Brionac used
-Antitoxin used
+Usou u[ma solução
+Usou água benta
+Envenenado
+Usou tocha
+para de xeretar coisa vai jogar o jogo
+para de xeretar coisa vai jogar o jogo
+Usou u[m antídoto
 
 
 //MENU COMMANDS 2---------------------------------------------
 
-Unit
-Status
-Options
-Suspend
-End
+Unidades
+Estado
+Opções
+Suspender
+Fi[m
 
 
 //PREP OPTIONS------------------------------------------------
 
-(Map
-Ite[ms
-Deploy
-Unit
-Options
-Save
+(Mapa
+Itens
+Seleção
+Unidades
+Opções
+Salvar
 
 
 //PREP ITEM OPTIONS----------------------------------------
 
-Exit [menu
-Pick ite[ms fro[m a list
-Trade ite[ms a[mong units
-Visit Supply
-Discard ite[ms
-Visit the shop
+Organizar itens
+Sair do [menu
+Escolher itens de u[ma lista
+Trocar itens entre unidades
+Visitar o depósito
+Descartar itens
+Visitar a loja
 
-Type
-Alphabet
-Holder
+Tipo
+Alfabeto
+Dono
 
-Discard ite[m?
-Yes
-+No
+Descartar iten?
+Si[m
++Não
 
 
 //STATUS TEXT----------------------------------------------
 
-Fatigued
-S Drink
+Fadigado
+Revigorado
 
-Sleep
-Poison
-Silence
-Berserk
-Stone
+Sono
+Veneno
+Silêncio
+Loucura
+Pedra
 
 
 //CLASSES----------------------------------------------------
 
-Cavalier
-Lance Knight
-Arch Knight
-Axe Knight
-S]word Knight
-Troubadour
-Knight Lord
-Duke Knight
-(Master Knight
-Paladin
-Bo]w Knight
-Ranger
-(Mage Knight
-Great Knight
-Pegasus Knight
-Falcon Knight
-Dracorider
-Dracoknight
-Dragon[master
-Archer
-(Myr[midon
-S]word[master
-Sniper
-Hero
+Cavaleiro
+Cav. Lança
+Cav. Arco
+Cav. (Machado
+Cav. Espada
+Trovadora
+Cav. Lorde
+Cav. Duque
+Cav. (Mestre
+Cav. (Mestra
+Paladino
+Paladina
+Sagitário
+Sagitária
+Patrulheiro
+Cav. (Mago
+Catafrata
+Cav. Pégaso
+Cav. Falcão
+Sol. Dragão
+Cav. Dragão
+(Mestre Dragão
+(Mestra Dragão
+Arqueiro
+Arqueira
+Espadach
+(Mestre Espada
+(Mestra Espada
+Atirador
+Atiradora
+Herói
+Heróina
 General
 E[mperor
-Baron
-Ar[mored Lance
-Ar[mored Axe
-Ar[mored Bo12
-Ar[mored S]word
+Barão
+Guar. Lança
+Guar. (Machado
+Guar. Arco
+Guar. Espada
 Berserker
-Brigand
-)Warrior
-Hunter
-Pirate
-Lord
-Prince
-Dancer
-Priest
-Cleric
-Priestess
-(Mage
-Sorcerer
-High Priest
-High Priestess
-Bishop
-Sage
-Bard
-Dark Bishop
-Thief
-Rogue
-Civilian
-Ballistician
-Dark Prince
-Fighter
-Pegasus Rider
-Soldier
-Loptrian (Mage
+Bandido
+Guerreiro
+Caçador
+Pirata
+Lorde
+Príncipe
+Dançarina
+Acólito
+Clériga
+Acólita
+(Mago
+(Maga
+Feiticeiro
+Presbítero
+Presbítera
+Bispo
+Sábio
+Sábia
+Bardo
+Bispo Lopt.
+Ladrão
+Ladra
+Bandoleiro
+Bandoleira
+Civil
+Balisteiro
+Príncipe +Negro
+Lutador
+Sol. Pégaso
+Soldado
+Acólito Lopt.
+Acólita Lopt.
 
 
 //ITEMS-------------------------------------------
 
-Iron S]word
-Steel S]word
-Silver S]word
-Iron Blade
-Killing Edge
-Venin Edge
-Berserk Edge
-Sleep Edge
-Beo Blade
-Blessed S]word
-Loptrian Fang
-Bragi's Blade
-Light Brand
-Brave S]word
-King[maker
-Lands S]word
-)Wind S]word
-Fla[me S]word
-Lightning S]word
-Paragon S]word
-Ar[morslayer
-Rapier
-Shorts]word
-Longs]word
-Greats]word
-(Master S]word
-Shado]w S]word
-//(Mareeta's S]word
-  (Mareeta34S]word
-//Slim S]word
-  Sl S]word
+Esp. de ferro
+Esp. de aço
+Esp. de prata
+Espada larga
+Espada (matadora
+Esp. venenosa
+Espada louca
+Esp. sonífera
+Esp. do Beo]wolf
+Esp. abençoada
+Garra de Loptous
+Esp. de Bragi
+Esp. de luz
+Espada heróica
+Esp. dos reis
+Esp. de terra
+Esp. de vento
+Esp. de fogo
+Esp. de trovão
+Esp. Prodígio
+Corta-aço
+Rapieira
+Espada curta
+Espada longa
+Espada grande
+Espada [mestra
+Espada [maldita
+Esp. da (Mareeta
+Espada esguia
+Espada quebrada
 
-Iron Lance
-Steel Lance
-Silver Lance
-Venin Lance
-Dragonpike
-Brave Lance
-Short Lance
-Long Lance
-Greatlance
-Javelin
-(Master Lance
-Ridersbane
-Killer Lance
-//Slim Lance
-  Sl Lance
+Lança de ferro
+Lança de aço
+Lança de prata
+Lança venenosa
+Lança dracônica
+Lança heróica
+Lança curta
+Lança longa
+Lança grande
+Azagaia
+Lança [mestra
+(Mata-cavalos
+Lança [matadora
+Lança esguia
+Lança quebrada
 
-Iron Axe
-Venin Axe
-Steel Axe
-Silver Axe
-Hand Axe
-//Hammer
-  Haner
-Killer Axe
-//Vouge			Moved to the fuse box
-Brave Axe
-Devil Axe
-Battle Axe
-Poleax
-(Master Axe
+(Mac. de ferro
+(Mac. venenoso
+(Mac. de aço
+(Mac. de prata
+(Machadinha
+(Martelo
+(Mac. [matador
+Vouge
+(Machado heróico
+(Mac. diabólico
+(Mac. de batalha
+Alabarda
+(Machado [mestre
+(Mac. quebrado
 
-Iron Bo12
-Steel Bo12
-Silver Bo12
-Venin Bo12
-Killer Bo12
-Brave Bo12
-Shortbo12
-Longbo12
-Greatbo12
-(Master Bo12
-Ballista
-Iron Ballista
-Venin Ballista
+Arco de ferro
+Arco de aço
+Arco de prata
+Arco venenoso
+Arco [matador
+Arco heróico
+Arco curto
+Arco longo
+Arco grande
+Arco [mestre
+Balista
+Balista de ferro
+Balista venenosa
+Arco quebrado
 
-Fire
-Elfire
-Thunder
-Dire Thunder
+Fogo
+Incêndio
+Trovão
+Grande Trovoada
 Thoron
-)Wind
+Vento
 Grafcalibur
 Tornado
 Forseti
-Light
+Luz
 +Nosferatu
 J0r[mungandr
 Fenrir
 Hel
-(Meteor
-Bolting
-Blizzard
-Venin
-Petrify
+(Meteoro
+Relâ[mpago
++Nevasca
+Veneno
+Petrificar
+To[mo drenado
 
-Heal
-(Mend
-Recover
-Physic
-Fortify
-Rescue
-)Warp
-Restore
-Silence
-Sleep
-Torch
-//Hammerne
-  Hanerne
-Thief
-Berserk
-Unlock
-Ensorcel
-Re]warp
+Cura
+Re[mendo
+Recuperar
+Cura distante
+Fortificar
+Resgatar
+Teleporte
+Restauração
+Silêncio
+Ador[mecer
+Tocha [mágica
+Reparo
+Roubo
+Enlouquecer
+Abrir
+Enfeitiçar
+Auto-transporte
 Kia
+Cajado quebrado
 
-Luck Ring
-Life Ring
-Speed Ring
-(Magic Ring
-Strength Ring
-Body Ring
-Shield Ring
-Skill Ring
-Leg Ring
+Anel da sorte
+Anel da vida
+Anel da vel.
+Anel da [magia
+Anel da força
+Anel encorpador
+Anel protetor
+Anel da destreza
+Anel da agilidade
 
-(Master Seal
-Chest Key
-Door Key
-Bridge Key
-Lockpick
-Sta[mina Drink
-Vulnerary
-Pure )Water
-Antitoxin
-(Me[mber Card
+Certificado
+Chave de baú
+Chave de porta
+Chave de ponte
+Gazua
+Energético
+Solução
+Água benta
+Antídoto
+Cartão VIP
 
-Od's Scroll
-Baldr's Scroll
-Hoðr's Scroll
-Dáinn's Scroll
-+Njörun's Scroll
-+Nál's Scroll
-Ullr's Scroll
-Thrud's Scroll
-Fjalar's Scroll
-Ced's Scroll
-Bragi's Scroll
-//Heim's Scroll
-  He's Scroll
+Perg. de Od
+Perg. de Baldr
+Perg. de Hoðr
+Perg. de Dáinn
+Perg. de +Njörun
+Perg. de +Nál
+Perg. de Ullr
+Perg. de Thrud
+Perg. de Fjalar
+Perg. de Ced
+Perg. de Bragi
+//Perg. de Heim
+Perg. de Hei[m
 
-Paragon (Manual
-Accost (Manual
-Vantage (Manual
-)Wrath (Manual
-Adept (Manual
-+Nihil (Manual
-Sol (Manual
-Luna (Manual
+(Man. Prodígio
+(Man. Duelo
+(Man. Vantage[m
+(Man. Fúria
+(Man. Adepto
+(Man. +Nulidade
+(Man. Sol
+(Man. Luna
 
 
 //MISC BOXES-----------------------------------------------
 
- received
-(Mov increased
-)Weapon level increased
-Too [many ite[ms.
-Pick an ite[m to
-send to Supply
-Unit escaped
- ]was stolen
- purchased
- ]was taken
+Recebeu
+(Mov au[mentou!
++Nível de proficiência au[mentou
+Inventário cheio.
+Escolha u[m ite[m para
+ir pro depósito.
+Ini[migo escapou
+ Roubou
+ Co[mprou
+ Recebeu
+(Moedas
 
 
 //SUSPEND TEXT---------------------------------------------
 
-Suspend the ga[me?
-You [may resu[me
-this chapter
-fro[m the [main
-[menu.
+Pausar o jogo?
+Você pode reto[mar
+este capítulo pelo
+[menu principal.
 
 
 //SKILL DESCRIPTIONS----------------------------------------
 
-)Wrath
-Anchor
-Adept
+Fúria
+Ancorado
+Adepto
 Pavise
-//Charm
-  Char
-+Nonco[mbatant
-+Nihil
-(Miracle
-//(Miracle+
-Vantage
-Accost
+Caris[ma
+Protegido
++Nulidade
+(Milagre
+//(Milagre+
+Vantage[m
+Duelo
 Astra
 Luna
 Sol
-Rene]wal
-Paragon
-Steal
-Dance
-Bargain
+Renovação
+Prodígio
+Furto
+Dançar
+Barganha
 
-If ene[my attacks
-first, the user's
-counterattack ]will
-be a critical hit
+Nu[m ataque ini[migo
+o contra-ataque
+desta unidade será
+se[mpre u[m crítico
 
-Prevents unit fro[m
-being captured
+Esta unidade não
+pode ser capturada
 
- chance
-to perfor[m a
-consecutive attack
+Chance igual a
+de realizar
+u[m ataque a [mais
 
- chance 
-to negate ene[my's
-attack
+Chance igual a 
+de bloquear
+u[m ataque ini[migo
 
-Gives
- Hit and
-Avoid to allies
-]within
- tiles
-of the user
+Concede
+ de
+Precisão e Esquiva
+à aliados nu[m
+raio de
+ espaços
 
-Prevents unit fro[m
-being attacked
+Essa unidade não
+será atacada
 
-+Negates all ene[my
-co[mbat skills
-except for
-+Nihil itself 
++Nega todas as
+habilidades de
+co[mbate do ini[migo
+exceto +Nulidade
 
-Lck x
-chance to avoid all
-fatal da[mage for
-the rest of co[mbat
+Chance de
+Sor x
+de evitar todo dano
+fatal até o fi[m
+do co[mbate
 
-+Nullifies ene[my
-staves and status
-conditions. Avoids
-all fatal da[mage
+Anula condições
+provocadas pelo
+ini[migo. Esta
+unidade é i[mortal,
+[mas é capturável
 
-User attacks first
-]when the ene[my
-initiates co[mbat
+Unidade se[mpre
+ataca pri[meiro,
+exceto se o oponente
+possuir Vantage[m
 
-If user's
- and
- are higher than
-the ene[my's, adds
-one round of co[mbat
+Se a unidade
+possuir
+ e
+ [maior que o
+oponente, o co[mbate
+é repetido
 
-Skl
- chance
-to attack five
-consecutive ti[mes
+Chance igual a
+Des
+ de atacar
+cinco vezes
+consecutivas
 
-Skl
- chance
-for attack to ignore
-ene[my's defense
+Chance igual a
+Des
+ de atacar
+ignorando a defesa
+ini[miga
 
-Skl
- chance
-for attack to heal
-for da[mage dealt
+Chance igual a
+Des
+ de realizar
+u[m ataque que suga
+a vida do ini[migo
 
-Recover
-of [maxi[mu[m
-every turn
+Unidade recupera
+entre
+ e
+ do
+[máxi[mo todo turno
 
-Doubles experience
-gained by the user
+Dobra o ganho de
+experiência desta
+unidade
 
-If user outspeeds a
-target, can Steal an
-ite[m ]with less )Wt
-than the user's Con 
+Esta unidade pode
+roubar u[m ite[m
+co[m peso [menor que
+sua Con. de u[m
+ini[migo [mais lento
 
-//Use Dance command
-  Use Dance conand
-to grant an ally
-another action
+Pode usar o co[mando
+Dançar para dar a
+u[m aliado u[ma
+segunda ação
 
-Allo]ws user to
-buy fro[m shops
-at half price
+Esta unidade te[m
+desconto de
+ e[m todas
+as lojas
 
-Class Skill
-Personal Skill
-)Weapon Skill
+Habilidade de classe
+Habilidade pessoal
+Habilidade da ar[ma
 
- learned
+ Aprendeu
 
 
 //ITEM DESCRIPTIONS-----------------------
 
-Strength
-(Magic
-Skill
-Speed
-Luck
-Defense
-Constitution
-(Move[ment
+Força
+(Magia
+Destreza
+Velocidade
+Vel.
+Sorte
+Defesa
+Constituição
+Con.
+(Movi[mento
+(Mov.
 
-//Common, quality
-  Conon, quality
-Strong, quality
-Rare, quality
-//Common, simple
-  Conon, sple
-Strong, si[mple
-(Massive, si[mple
-s]word
-lance
-axe
- axe
-bo12
- bo12
+U[ma espada co[mu[m,
+U[ma espada forte
+U[ma espada rara
+U[ma lança co[mu[m
+U[ma lança forte
+U[ma lança rara
+U[m [machado co[mu[m
+U[m [machado forte
+U[m [machado raro
+U[m arco co[mu[m
+U[m arco forte
+U[m arco raro
+e de boa qualidade
 
-High critical rate
+U[ma espada
+U[ma lança
+U[m arco
+si[mples e co[mu[m
+si[mples e forte
+si[mples e grande
 
-Deadly axe, but
- s]word,
-difficult to ]wield
-Light]weight and
-si[mple to hit ]with
+U[ma espada poderosa
+U[m [machado poderoso
+e difícil de usar
 
-Basic
-Potent
-Superior
-Long range
-Super long range
+U[ma espada leve
+U[ma lança leve
+e precisa
 
-fire [magic
- fire [magic
-thunder [magic
-]wind [magic
-light [magic
- light [magic
-dark [magic
- dark [magic
+Alta taxa de crítico
+
+Pode atacar à curta
+e longa distância
+
+Longo alcance
+Longuíssi[mo alcance
+
+(Magia de fogo
+(Magia de trovão
+(Magia de vento
+(Magia de luz
+(Magia negra
+básica
+potente
+superior
+de longo alcance, 
 
 Anti
-Ar[mor
-Cavalry
-Fliers
+Ar[madura
+Cavalaria
+Alados
 
-Berserks a target
-Silences a target
-]with lo]wer (Mag
-Puts a target ]with
-lo]wer (Mag to Sleep
-Ene[mies on thrones
-//or gates are immune
-  or gates are inune
-
-Berserks the target
-on hit
-Puts the target to
-Sleep on hit
-Targets on thrones
-//or gates are immune
-  or gates are inune
-
-Poisons on hit
-Poisons the target
-on hit
-on hit if used
-by ene[my [mages
-
-Turns into an iron
-]weapon if stolen
-
-Gives
- (Mag
- Skl
- Spd
+Concede 
+e
  Def
+ (Mag
+ Des
+ Vel
 
-Casts fire [magic
-Casts thunder [magic
-Casts ]wind [magic
-at range
+Ataca co[m fogo
+Ataca co[m trovão
+Ataca co[m vento
+à distância
 
-Increases
-Teaches
-Can attack at range
-Vanishes after use
-Blocks criticals
-(Modifies gro]wths
+Envenena o alvo
+Ador[mece o alvo
+Enfurece o alvo
+se acertar
+Vira u[ma ar[ma de
+ferro se for roubada
 
- & Str
-Skl & Spd
-Lck & Def
+envenena o alvo
+petrifica o alvo
+Vira Fenrir se roub.
 
-Restore
-user's (Mag
-Restore all
-to an ally
-to all allies
+Alvos e[m tronos ou
+portões são i[munes
 
-Transports an ally
-to a traversable
-tile next to
-the user		
+Alcance
 
-Transports an ally
-to any traversable
-tile on the [map
+Ador[mece o alvo se
+Enfurece o alvo se
+Silencia o alvo se
+superar a (Mag dele
+Alvos e[m tronos ou
+portões são i[munes
 
-Re[moves any status
-except Stone
-fro[m an ally
+Restaura
+Restaura todo
+à u[m aliado
+à todos os aliados
 
-Gives
- vision
-in fog of ]war
-Effect decreases by
- every turn
+Re[move qualquer
+condição
+exceto
+petrificado
+de u[m aliado
 
-Gives
-vision in fog of
-]war. Effect
-decreases by
- every turn
+Teleporta u[m aliado
+Teleporta o usuário
 
-Safy
-Restore an ally's
-staff or ]weapon to
-pristine condition
+para u[m espaço que
+ele possa acessar
+próxi[mo ao usuário
 
-Tina, Steals a
-]weapon, staff or
-ite[m fro[m a target
-]with lo]wer (Mag
+para qualquer espaço
+que ele possa
+acessar
 
-Tina
-Opens a door or
-chest, or lo]wers
-a dra]wbridge
+Quando usado,
+ de visão
+na névoa de guerra
+O efeito di[minui
+a cada turno
 
-Gives
+Concede
+para u[m aliado
+
+Chance de
+-Sorte
+de [machucar aquele
+que está usando
+
+Drena o
+ini[migo
+
+Envenena se for
+usada pelo ini[migo
+
+Loptirianos
+Reduz o
+ do
+ini[migo para
+Não pode [matar
+
+Leif, ataca co[m
+luz à distância
+ de Sorte. Use 
+para curar o
+
++Nanna, ataca co[m
++Nosferatu
+a distância
+Drena 
+ ini[migo 
+
+(Mareeta,
+Alta taxa de crítico
+Concede +Nulidade 
+
+Fergus, Diar[muid 
+Alta taxa de crítico
+Concede Vantage[m 
+e Fúria 
+
+Ol]wen
+Anti
+Cavalaria 
+, dá (Milagre 
+e 
  (Mag 
-to an ally
-Effect decreases by
- every turn
 
-Gives
- (Mag to
-the user. Effect
-decreases by
- every turn
+Filho de rebeldes 
+Anula a Garra Lopt. 
+Anti
+Ar[madura 
+Concede (Milagre
 
-Transports the user
-to any traversable
-tile on the [map
-
-Sara
-Re[moves the Stone
-status fro[m an ally
-
-Opens chests
-Opens a door
-Lo]wers a
-dra]wbridge
-Opens doors and
-chests, or lo]wers
-dra]wbridges
-Units ]with the
-Steal skill
-
-Leif, Casts light
-[magic at range
-Increases Lck
-Use to heal all
+Raydrik 
+Reduz o ataque do 
+oponente
+ (Mag 
 
 Finn,
-Increases Lck
+ de Sorte 
 
-Osian
-High critical rate
-Can attack at range
+Dean, Altena
+,
+Concede Vantage[m
 
-Asbel
-High critical rate
-Anti
-Fliers
+Osian 
+Pode atacar à curta 
+e longa distância 
+Alta taxa de crítico
 
-+Nanna
-Casts potent light
-[magic at range
-Drains target's
+Safy
+Repara a ar[ma ou 
+cajado de u[m 
+co[mpanheiro
 
-(Mareeta, 
-Gives +Nihil
+Tina, rouba u[m 
+ite[m qualquer
+de u[m alvo co[m
+(Mag [menor
+
+Tina
+Abre u[ma porta ou
+baú, ou abaixa u[ma 
+ponte levadiça
+
+Sara
+Despetrifica u[m
+aliado
 
 Ol]wen, Reinhardt
 
-Ol]wen, High crit
+Asbel 
+Alta taxa de crítico
 Anti
-Cavalry
-, Gives (Miracle
-Gives (Mag
+Alados
 
-Dean, Altena
-, Gives Vantage
-
-Fergus, Diar[muid
-High critical rate
-Gives Vantage
-and )Wrath
-
-Ced, Gives 
-Skl & Spd, High crit
-Exalted ]wind [magic
+Ced, dá 
+de Des & Vel. (Magia
+de vento exaltada 
 Anti
-Fliers
+Alados
 
-Raydrik
-Halves ene[my's
-attack po]wer
-Increases (Mag
+Au[menta
+por
+So[me depois de
+ser usado
 
-Heirs of rebels
-Pierces Fang's curse
-Anti
-Ar[mor
-Gives (Miracle
+Abre baús
+Abre portas
 
-Potent light [magic
-Drains target's
+Abaixa u[ma
+ponte levadiça
 
-Long range [magic
-Applies Sleep on hit
-Targets on thrones
-//or gates are immune
-  or gates are inune
+Abre portas, baús,
+abaixa pontes
+levadiças
+Unidades co[m a
+habilidade Roubo
 
-Long range dark
-[magic, Poisons on
-hit, Turns into
-Fenrir if stolen
+Restaura todo
+do usuário
 
-Long range dark
-[magic, Petrifies on
-hit, Turns into
-Fenrir if stolen
+Cura veneno
 
-Luck
-chance to da[mage
-its user instead
+Zera a fadiga ou
+per[mite que u[m
+personage[m
+fadigado
+seja levado
+para a batalha
+    
+Eleva a [maioria
+dos personagens 
+e[m classe base 
+e abaixo do
+nível
+para u[ma classe
+avançada
 
-Loptrians
-Reduces target's
- to
-Cannot kill
+Se algué[m parar
+no lugar certo
+co[m esse 
+cartão... 
 
-Pro[motes [most
-base class units
-that are at least
-Level 
- to
-an advanced class
+Protege de crítico
+(Muda T. de cresc.
 
-Re[moves Fatigue
-or allo]ws a
-fatigued unit
-to be deployed
+ & For
+Des & Vel
+Sor & Def
 
-Restore all
-to the user
+Ao usar, concede
+a habilidade
+à aquele que usou
+So[me após usar
 
-Re[moves Poison
-status
+U[ma ar[ma quebrada
+Quase inutilizável
 
-If so[meone ]with
-this card stops
-in a suspicious
-space...
-
-Increases
-Luck by
- by
-Speed by
-(Magic by
-Strength by
-Constitution by
-Defense by
-Skill by
-(Move[ment by
-
-A broken ]weapon
-Al[most unusable
-
-Drained of its
-[magic and
-unusable
+U[m to[mo que teve
+sua [magia drenada
+Inutilizável
 
 //OPTIONS--------------------------------------------------
 
-//Animations
-  Anations
-//Turn attack animations on or off
-  Turn attack anations on or off
-On
-Off
-By Unit
+//Animações
+  Anações
+//Ligar ou desligar animações de combate
+  Ligar ou desligar anações de co[mbate
+Lig.
+Desl.
+Por unidade
 
-(Map Data
-Turn terrain ]windo]w and 
- bars on or off
-Detail
-Si[mple
-Off
+Dados do [mapa
+Ligar ou desligar a janela de terreno e a barra de
+Detalhes
+Si[mples
+Desl.
 
-Units )Windo12
-Set the unit ]windo]w's level of detail
+Janela de unidades
+Escolher o nível de detalhe da janela de unidade
 
 Autocursor
-Set cursor to start on Leif
+Iniciar os turnos co[m o cursor se[mpre no Leif
 
-(Message Speed
-Adjust ho]w fast text [messages display
-Slo12
+Vel. do texto
+Ajustar a velocidade de scroll do texto
+Lento
 +Nor[mal
-Fast
+Rápido
 
-Ga[me Speed
-Adjust ho]w fast the ga[me progresses
+Vel. de jogo
+Ajuste a velocidade que o jogo anda
 
-Hidden Data
-: +None
-: Inventory
-: Chapter
-: Hidden Skills
+Infor[mação extra
+: +Nada
+: Inventário
+: (Missão
+: Habilidades
 
-Deploy[ment
-: Default
-: Display units
-: Rearrange units
+Sel. de unidades
+: Vanilla
+: Trocar orde[m
+: (Mover unidades
 
-Audio
-Adjust audio settings
-Stereo
+Áudio
+Ajustar configuração de áudio
+Estéreo
 (Mono
 
-(Music
-Turn [music on or off
+(Música
+Desligar ou ligar [música
 
-Sound Effects
-Adjust volu[me of sound effects
+Efeitos sonoros
+Ajustar volu[me dos efeitos sonoros
 
-)Windo]w Pattern
-Change the [menu ]windo12
+Padrão da janela
+Trocar o padrão da janela do [menu
 
-)Windo]w Color
-Upper
-Lo]wer
-Default
+Cor da janela
+Superior
+Inferior
+Padrão
 
-Set color for the upper layer
-Set color for the lo]wer layer
-Restore color to default
+Escolher a cor da parte superior da janela
+Escolher a cor da parte inferior da janela
+Voltar a cor pro padrão
 
 //SOUND ROOM----------------------------
-//Sound Room
-  Sound Roo
- to play
- to stop
-Start to exit
+Trilha sonora
+ para tocar [música
+ para parar [música
+Start para sair
 
-Thracia
-Leif's Search for Victory
-Pressing Threat
-Serving Justice
-A[midst the Battle
-Chapter End
-(Mid Chapter
+Trácia
+Leif buscando a vitória
+A[meaça i[minente
+Servindo justiça
+E[m [meio à batalha
+Fi[m do capítulo
+(Meio do capítulo
 Finale
 
-Begins
-Fire E[mble[m The[me
-(Map
-(Map
-(Map
-Sally Forth
+Co[meço
+Te[ma do Fire E[mble
+(Mapa
+(Mapa
+(Mapa
+Seguir e[m frente
 
 Base
-Assault
-Assault
-Adversity
-The Cusp of Victory
-The Edge of Defeat
-Reconnoissance
+Assalto
+Assalto
+Adversidade
+A vitória e[m [mãos
+A derrota ronda
+Reconheci[mento
 Leif
 
 Base
 Base
-Assault
-Dark Bishops
-Reconnoissance
-Endga[me
+Assalto
+Bispos de Loptous
+Reconheci[mento
+Final
 
-Attack
-Defense
-Recovery
-Recovery
-Dance
-Class Change
-Boss Battle
-Against Raydrik
-Against Veld
-Arena Battle
-Level Up
-Level Up
+Ataque
+Defesa
+Cura
+Cura
+Dança
+Troca de classe
+Luta de chefe
+Luta contra Raydrik
+Luta contra Veld
+Co[mbate na rena
+Subiu de nível!
+Subiu de nível!
 
-Crisis
-Assault
-Destiny
-Battalion
-Bandits
+Crise
+Assalto
+Destino
+Batalhão
+Bandidos
 Raydrik
-Loptrians
-Thracia
-Loptrians
-Battalion
+Loptirianos
+Trácia
+Loptirianos
+Batalhão
 
-Victory
-(Minor Victory
-August Speaks
-August Speaks
-Go, Leif, Go!
-Conquest
+Vitória
+Vitória [menor
+Augusto fala
+Augusto fala
+Vai, Leif, vai!
+Conquista
 
-Arena's Front Desk
-Recruit[ment
-Encounters and Reunions
-Co[mic Relief
-Church
-Sorro12
+U[m novo aliado
+Encontros e reencontros
+Alívio cô[mico
+Igreja
+Tristeza
 Sara
 Eyvel
 
-Ga[me Over
-Results
-Epilogue
-Ballad
-(Music Box
+Resultados
+Epílogo
+Balada
+Caixa de [música
 
 //UNUSED ITEMS-----------------------
 
-(Miracle (Manual
-Teaches (Miracle
-Vanishes after use
-
-Bargain (Manual
-Teaches Bargain
-Vanishes after use
-
-Bolganone
-Superior fire [magic
-
-Aura
-Superior
-light [magic
-
-Shado]w Spear
-Can attack at range
-Gives +Nihil
+Lança so[mbria
+Pode atacar à curta 
+e longa distância 
+Concede +Nulidade 
 
 Gáe Bolg
-High crit rate,
-Gives 
- Str, 
-+Nihil, )Wrath
-//Vantage and Charm
-  Vantage and Char
+Crítico alto,
+ For, 
+Vantage[m, Fúria,
++Nulidade e Caris[ma
 
 Gungnir
-High crit rate,
-Gives 
- Def,
-+Nihil, )Wrath
-Vantage and Paragon
+Crítico alto,
+ Def, 
+Vantage[m, Fúria,
++Nulidade e Prodígio 
 
-Killer Ballista
-Long range
-High critical rate
+Bal. [matadora
+Longo alcance 
+Alta taxa de crítico
 Anti
-Fliers
+Alados
+
+Retorno
+(Manda u[m aliado 
+e[mbora do [mapa
+
+Observação
+Revela áreas
+escondidas debaixo
+de u[m teto 
+
+Aura
+(Magia de luz 
+superior
+
+Vulcão
+(Magia de fogo
+superior
 
 Valfla[me
-Exalted fire [magic
-High critical rate
+(Magia de fogo
+exaltada
+Alta taxa de crítico
 
 (Mjölnir
-Exalted thunder
-[magic
-High critical rate
+(Magia de trovão
+exaltada
+Alta taxa de crítico
 
 Loptous
-+No special effect
+Se[m efeito 
 
-Return
-Allo]ws an ally
-to escape
-the chapter
+Selo de [mestre
++Nu[m faz nada
 
-)Watch
-Reveals concealed
-areas under a roof
+(Man. Barganha
+Ao usar, concede
+a habilidade
+Barganha 
+à aquele que usou 
+So[me depois de 
+ser usado 
 
-(Master Cro]wn
-Does nothing
-
+(Man. (Milagre
+Ao usar, concede
+a habilidade
+(Milagre 
+à aquele que usou 
+So[me depois de 
+ser usado 
 
 //CONTROL GROUP-----------------
 
-Vouge

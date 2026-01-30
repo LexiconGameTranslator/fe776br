@@ -183,8 +183,8 @@ OptionMenuCursorFixHook
 
 
 
-* = $48D440
-.logical $11D440
+* = $48E800
+.logical $11E800
 
 OptionsMenuLeftPress
 
@@ -338,7 +338,7 @@ NybbleShiftingSaver ; A has new selected option value to store
 
 	+ ; finished shifting 
 	and #$FFF0 		; null the thing to be modified and keep the other 3 nybbles
-	ora #1,s 		; ora the value onto it
+	ora $01,s 		; ora the value onto it
 	ldx wR1 
 	-
 	cpx #0
@@ -411,9 +411,9 @@ rsHighAndUnHighlightTilesCycle
 	asl
 	asl
 	tay
-	lda $A947,y 	; position 1,y
+	lda $A947,y 	; position 1,Y 
 	sta wR0
-	lda $A949,y 	; tiles to highlight,y
+	lda $A949,y 	; tiles to highlight,Y 
 	sta wR1 
 	plx
 	lda $A99F
@@ -444,9 +444,9 @@ rsHighAndUnHighlightTilesInit
 	asl
 	asl
 	tay
-	lda $A947,y 	; position 1,y
+	lda $A947,y 	; position 1,Y 
 	sta wR0
-	lda $A949,y 	; tiles to highlight,y
+	lda $A949,y 	; tiles to highlight,Y 
 	sta wR1 
 	plx
 	jsr rsHightlightTiles
@@ -483,13 +483,13 @@ rsHightlightTiles
 	lda wR0 		; position 
 	asl
 	clc
-	adc aHighAndUnHighlightTilesCoordTable,x
+	adc aHighAndUnHighlightTilesCoordTable,x 
 	tay 
 	ldx wR1 
 	dex
 
 	-
-	lda $E77C,y
+	lda $E77C,y 
 	and #$FBFF
 	sta $E77C,y
 	lda $E7BC,y
@@ -510,7 +510,7 @@ rsRepointed85E07E
 	lda $A99F
 	asl
 	tax 
-	lda $85D5C3,x
+	lda $85D5C3,x 
 	xba
 	and #$00FF
 	asl
@@ -538,7 +538,7 @@ rsOptionDMAtoVRAM
 	tax 
 	lda #$7EE7
 	sta lR18+1
-	lda $85D5C3,x
+	lda $85D5C3,x 
 	xba
 	and #$00FF
 	asl
@@ -1508,25 +1508,25 @@ rlCritInBattleActualStats
 	and #$0F00
 	bne _Modified
 
-	lda _LevelCombatStatTable,x
+	lda _LevelCombatStatTable,x 
 	inx 
 	inx 
 	pha 
-	lda _LevelCombatStatTable,x
+	lda _LevelCombatStatTable,x 
 	sta lR18
 	inx 
-	lda _LevelCombatStatTable,x
+	lda _LevelCombatStatTable,x 
 	bra +
 
 	_Modified
-	lda _CritCombatStatTable,x
+	lda _CritCombatStatTable,x 
 	inx 
 	inx 
 	pha 
-	lda _CritCombatStatTable,x
+	lda _CritCombatStatTable,x 
 	sta lR18
 	inx 
-	lda _CritCombatStatTable,x
+	lda _CritCombatStatTable,x 
 
 	+
 	sta lR18+1

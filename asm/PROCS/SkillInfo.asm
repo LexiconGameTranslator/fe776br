@@ -137,7 +137,7 @@ rlProcSkillInfoOnCycle ; 81/F8FA
 	jsr rlProcSkillInfoDrawSkillType
 	jsl rlDMAByStruct
 
-	.dstruct structDMAToVRAM, aBG3TilemapBuffer+$0780, $03C0, VMAIN_Setting(true), $A780
+	.dstruct structDMAToVRAM, aBG3TilemapBuffer+$0700, $0440, VMAIN_Setting(true), $A700
 
 	plb
 	plp
@@ -155,7 +155,7 @@ rsProcSkillInfoClearTilemap ; 81/F94F
 	sta wR0
 	lda #10
 	sta wR1
-	lda #13
+	lda #15
 	sta wR2
 	jsl rlFillTilemapRectByWord
 	plx
@@ -290,7 +290,7 @@ rlProcSkillInfoDrawSkillType ; 81/F9CE
 
 	lda aProcSystem.aBody1,b,x
 	clc
-	adc #0 | (11 << 8) 	; 4 | 9 in vanilla
+	adc #0 | (13 << 8) 	; 4 | 9 in vanilla
 	tax
 	jsl $87E728
 	plx

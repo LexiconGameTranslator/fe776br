@@ -134,122 +134,139 @@
 		
 		menutextClassCavalierName
 		menutextClassCavalierDismountedName
-			.text "Cavalier\n"
+			.text "Cavaleiro \n"
 		
 		menutextClassLanceKnightName
 		menutextClassLanceKnightDismountedName
-			.text "Lance Knight\n"
+			.text "Cav. Lança\n"
 		
 		menutextClassBowKnightName
 		menutextClassBowKnightFName
 		menutextClassBowKnightDismountedName
 		menutextClassBowKnightFDismountedName
-			.text "Bo]w Knight \n"
+			.text "Cav. Arco \n"
 		
 		menutextClassAxeKnightName
 		menutextClassAxeKnightDismountedName
-			.text "Axe Knight\n"
+			.text "Cav. (Machado \n"
 		
 		menutextClassSwordKnightName
 		menutextClassSwordKnightDismountedName
-			.text "S]word Knight \n"
+			.text "Cav. Espada \n"
 		
 		menutextClassTroubadourName
 		menutextClassTroubadourDismountedName
-			.text "Troubadour\n"
+			.text "Trovadora \n"
 		
 		menutextClassKnightLordName				; Unused
 		menutextClassKnightLordDismountedName	; Unused
-			.text "Knight Lord \n"
+			.text "Cav. Lorde\n"
 		
 		menutextClassDukeKnightName
 		menutextClassDukeKnightDismountedName
-			.text "Duke Knight \n"
+			.text "Cav. Duque\n"
 		
 		menutextClassMasterKnightName				; Unused
-		menutextClassMasterKnightFName				; Unused
 		menutextClassMasterKnightDismountedName		; Unused
+			.text "Cav. (Mestre\n"
+		
+		menutextClassMasterKnightFName				; Unused
 		menutextClassMasterKnightFDismountedName	; Unused
-			.text "(Master Knight\n"
+			.text "Cav. (Mestra\n"
 		
 		menutextClassPaladinName
-		menutextClassPaladinFName
 		menutextClassPaladinDismountedName
+			.text "Paladino\n"
+			
+		menutextClassPaladinFName
 		menutextClassPaladinFDismountedName
-			.text "Paladin \n"
+			.text "Paladina\n"
 			
 		menutextClassArchKnightName
-		menutextClassArchKnightFName
 		menutextClassArchKnightDismountedName
+			.text "Sagitário \n"
+			
+		menutextClassArchKnightFName
 		menutextClassArchKnightFDismountedName
-			.text "Arch Knight \n"
+			.text "Sagitária \n"
 		
 		menutextClassRangerName
 		menutextClassRangerDismountedName
-			.text "Ranger\n"
+			.text "Patrulheiro \n"
 		
 		menutextClassMageKnightName
-		menutextClassMageKnightFName
 		menutextClassMageKnightDismountedName
+			.text "Cav. (Mago\n"
+			
+		menutextClassMageKnightFName
 		menutextClassMageKnightFDismountedName
-			.text "(Mage Knight\n"
+			.text "Cav. (Maga\n"
 		
 		menutextClassGreatKnightName
 		menutextClassGreatKnightDismountedName
-			.text "Great Knight\n"
+			.text "Catafrata \n"
 		
 		menutextClassPegasusRiderName
 		menutextClassPegasusRiderDismountedName
-			.text "Pegasus Rider \n"
+			.text "Sol. Pégaso \n"
 		
 		menutextClassPegasusKnightName
 		menutextClassPegasusKnightDismountedName
-			.text "Pegasus Knight\n"
+			.text "Cav. Pégaso \n"
 		
 		menutextClassFalconKnightName			; Unused
 		menutextClassFalconKnightDismountedName	; Unused
-			.text "Falcon Knight \n"
+			.text "Cav. Falcão \n"
 		
 		menutextClassDracoriderName
 		menutextClassDracoriderFName
 		menutextClassDracoriderDismountedName
 		menutextClassDracoriderFDismountedName
-			.text "Dracorider\n"
+			.text "Sol. Dragão \n"
 		
 		menutextClassDracoknightName
 		menutextClassDracoknightFName
 		menutextClassDracoknightDismountedName
 		menutextClassDracoknightFDismountedName
-			.text "Dracoknight \n"
+			.text "Cav. Dragão \n"
 		
 		menutextClassDragonmasterName				; Unused
-		menutextClassDragonmasterFName				; Unused
 		menutextClassDragonmasterDismountedName		; Unused
+			.text "(Mestre Dragão\n"
+		
+		menutextClassDragonmasterFName				; Unused
 		menutextClassDragonmasterFDismountedName	; Unused
-			.text "Dragon[master \n"
+			.text "(Mestra Dragão\n"
 		
 		menutextClassArcherName
+			.text "Arqueiro\n"
+		
 		menutextClassArcherFName
-		menutextClassArcherEnemyName
-			.text "Archer\n"
+			.text "Arqueira\n"
 		
 		menutextClassMyrmidonName
 		menutextClassMyrmidonFName
-			.text "(Myr[midon\n"
+			.text "Espadach{im}\n"
 		
 		menutextClassSwordmasterName
+			.text "(Mestre Espada\n"
+			
 		menutextClassSwordmasterFName
-			.text "S]word[master \n"
+			.text "(Mestra Espada\n"
 		
 		menutextClassSniperName
+			.text "Atirador\n"
+		
 		menutextClassSniperFName
-			.text "Sniper\n"
+			.text "Atiradora \n"
 		
 		menutextClassHeroName
-		menutextClassHeroFName
 		menutextClassHeroFE4Name				; Unused
+			.text "Herói \n"
+			
+		menutextClassHeroFName
 		menutextClassHeroFE4FName				; Unused
-			.text "Hero\n"
+			.text "Heróina \n"
 		
 		menutextClassGeneralName
 			.text "General \n"
@@ -259,114 +276,125 @@
 		
 		menutextClassBaronName
 		menutextClassBaronGlitchedName			; Unused
-			.text "Baron \n"
+			.text "Barão \n"
 		
 		menutextClassArmoredLanceName
-			.text "Ar[mored Lance\n"
+			.text "Guar. Lança \n"
 		
 		menutextClassArmoredAxeName
-			.text "Ar[mored Axe\n"
+			.text "Guar. (Machado\n"
 		
 		menutextClassArmoredBowName
-			.text "Ar[mored Bo12 \n"
+			.text "Guar. Arco\n"
 		
 		menutextClassArmoredSwordName
-			.text "Ar[mored S]word \n"
+			.text "Guar. Espada\n"
 		
 		menutextClassBerserkerName
 			.text "Berserker \n"
 			
 		menutextClassBrigandName
 		menutextClassBrigandAlternateName
-			.text "Brigand \n"
+			.text "Bandido \n"
 			
 		menutextClassWarriorName
-			.text ")Warrior\n"
+			.text "Guerreiro \n"
 		
 		menutextClassHunterName
-			.text "Hunter\n"
+			.text "Caçador \n"
 		
 		menutextClassPirateName
-			.text "Pirate\n"
+			.text "Pirata\n"
 		
 		menutextClassLordName
 		menutextClassJuniorLordName			; Unused
-			.text "Lord\n"
+			.text "Lorde \n"
 		
 		menutextClassPrinceName
-			.text "Prince\n"
+			.text "Príncipe\n"
 		
 		menutextClassDancerName
-			.text "Dancer\n"
+			.text "Dançarina \n"
 		
 		menutextClassPriestName
-			.text "Priest\n"
+			.text "Acólito \n"
 		
 		menutextClassMageName				; Unused
-		menutextClassMageFName				; Unused
 		menutextClassThunderMageName
-		menutextClassThunderMageFName
 		menutextClassWindMageName
+			.text "(Mago \n"
+			
+		menutextClassMageFName				; Unused
+		menutextClassThunderMageFName
 		menutextClassWindMageFName
-			.text "(Mage \n"
+			.text "(Maga \n"
 		
 		menutextClassLoptrianMageName
+			.text "Acólito Lopt. \n"
+			
 		menutextClassLoptrianMageFName		; Unused
-			.text "Loptrian (Mage\n"
+			.text "Acólita Lopt. \n"
 		
 		menutextClassHighPriestName
-			.text "High Priest \n"
+			.text "Presbítero\n"
 		
 		menutextClassBishopName
-			.text "Bishop\n"
+			.text "Bispo \n"
 		
 		menutextClassSageName
+			.text "Sábio \n"
+			
 		menutextClassSageFName
-			.text "Sage\n"
+			.text "Sábia \n"
 		
 		menutextClassBardName
-			.text "Bard\n"
+			.text "Bardo \n"
 		
 		menutextClassClericName
-			.text "Cleric\n"
+			.text "Clériga \n"
 		
 		menutextClassSorcererName
-			.text "Sorcerer\n"
+			.text "(Mago Lopt. \n"
 			
 		menutextClassDarkBishopName
-			.text "Dark Bishop \n"
+			.text "Bispo Lopt. \n"
 		
 		menutextClassThiefName
+			.text "Ladrão\n"
+			
 		menutextClassThiefFName
-			.text "Thief \n"
+			.text "Ladra \n"
 		
-		menutextClassRogueName
+		menutextClassRogueName			; Unused
+			.text "Bandoleiro\n"
+			
 		menutextClassRogueFName
 		menutextClassThiefRogueName			; Unused
-			.text "Rogue \n"
+			.text "Bandoleira\n"
 		
 		menutextClassCivilianName
-			.text "Civilian\n"
+			.text "Civil \n"
 		
 		menutextClassBallisticianName
 		menutextClassIronBallisticianName
 		menutextClassKillerBallisticianName	; Unused
 		menutextClassVeninBallisticianName
-			.text "Ballistician\n"
+			.text "Balisteiro\n"
 			
 		menutextClassDarkPrinceName			; Unused
-			.text "Dark Prince \n"
+			.text "Príncipe +Negro \n"
 		
 		menutextClassFighterName
-			.text "Fighter \n"
+			.text "Lutador \n"
 			
 		menutextClassPriestessName
-			.text "Priestess \n"
+			.text "Acólita \n"
 		
 		menutextClassHighPriestessName
-			.text "High Priestess\n"
+			.text "Presbítera\n"
 			
 		menutextClassSoldierName
-			.text "Soldier \n"
+		menutextClassArcherEnemyName
+			.text "Soldado \n"
 		
 	.endsection ClassNamesSection

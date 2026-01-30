@@ -75,37 +75,37 @@
 	.section SkillNamesSection
 
 		menutextWrathName
-			.text "  )Wrath\n"
+			.text "  Fúria \n"
 			
 		menutextAnchorName
-			.text "  Anchor\n"
+			.text "  Ancorado\n"
 		
 		menutextAdeptName
-			.text "  Adept \n"
+			.text "  Adepto\n"
 		
 		menutextPaviseName
 			.text "  Pavise\n"
 		
 		menutextCharmName
-			.text "  Char{m}\n"
+			.text "  Caris[ma\n"
 		
 		menutextNoncombatantName
-			.text "  +Nonco[mbatant\n"
+			.text "  Protegido \n"
 		
 		menutextNihilName
-			.text "  +Nihil\n"
+			.text "  +Nulidade \n"
 		
 		menutextMiracleName
-			.text "  (Miracle\n"
+			.text "  (Milagre\n"
 		
 		menutextMiraclePlusName
-			.text "  (Miracle{+}\n"
+			.text "  (Milagre{+}\n"
 		
 		menutextVantageName
-			.text "  Vantage \n"
+			.text "  Vantage[m \n"
 		
 		menutextAccostName
-			.text "  Accost\n"
+			.text "  Duelo \n"
 		
 		menutextAstraName
 			.text "  Astra \n"
@@ -117,19 +117,19 @@
 			.text "  Sol \n"
 		
 		menutextRenewalName
-			.text "  Rene]wal\n"
+			.text "  Renovação \n"
 		
 		menutextParagonName
-			.text "  Paragon \n"
+			.text "  Prodígio\n"
 		
 		menutextStealName
-			.text "  Steal \n"
+			.text "  Roubo \n"
 		
 		menutextDanceName
-			.text "  Dance \n"
+			.text "  Dançar\n"
 		
 		menutextBargainName
-			.text "  Bargain \n"
+			.text "  Barganha\n"
 		
 	.endsection SkillNamesSection
 
@@ -144,121 +144,135 @@
 	.section SkillDescriptionsSection
 
 		menutextWrathDescription
-			.text "If ene[my attacks \n"
-			.text "first, the user's \n"
-			.text "counterattack ]will \n"
-			.text "be a critical hit \n"
+			.text "Nu[m ataque ini[migo\n"
+			.text "o contra-ataque \n"
+			.text "desta unidade será\n"
+			.text "se[mpre u[m crítico \n"
 			.text "\n"
 		
 		menutextAnchorDescription
-			.text "Prevents unit fro[m \n"
-			.text "being captured\n"
+			.text "Esta unidade não\n"
+			.text "pode ser capturada\n"
 			.text "\n"
 		
 		menutextAdeptDescription
-			.text "{A}{S}{%} chance \n"
-			.text "to perfor[m a \n"
-			.text "consecutive attack\n"
+			.text "Chance igual a\n"
+			.text "{V}{A}{%}\n"
+			.text "de realizar \n"
+			.text "u[m ataque a [mais\n"
 			.text "\n"
 		
 		menutextPaviseDescription
-			.text "{L}{V}{%} chance \n"
-			.text "to negate ene[my's\n"
-			.text "attack\n"
+			.text "Chance igual a\n"
+			.text "{N}{V}{%}\n"
+			.text "de bloquear \n"
+			.text "u[m ataque ini[migo \n"
 			.text "\n"
 		
 		menutextCharmDescription
-			.text "Gives {+}{1}{0} Hit and\n"
-			.text "Avoid to allies \n"
-			.text "]within {3} tiles\n"
-			.text "of the user \n"
+			.text "Concede {+}{1}{0} de \n"
+			.text "Precisão e Esquiva\n"
+			.text "à aliados nu[m\n"
+			.text "raio de {3} espaços\n"
 			.text "\n"
 		
 		menutextNoncombatantDescription
-			.text "Prevents unit fro[m \n"
-			.text "being attacked\n"
+			.text "Essa unidade não\n"
+			.text "será atacada\n"
 			.text "\n"
 		
 		menutextNihilDescription
-			.text "+Negates all ene[my \n"
-			.text "co[mbat skills\n"
-			.text "except for\n"
-			.text "+Nihil itself \n"
+			.text "+Nega todas as\n"
+			.text "habilidades de\n"
+			.text "co[mbate do ini[migo\n"
+			.text "exceto +Nulidade\n"
 			.text "\n"
 		
 		menutextMiracleDescription
-			.text "{(}Lck x {3}{)}{%}\n"
-			.text "chance to avoid all \n"
-			.text "fatal da[mage for \n"
-			.text "the rest of co[mbat \n"
+			.text "Chance de \n"
+			.text "{(}Sor x {3}{)}{%}\n"
+			.text "de evitar todo dano \n"
+			.text "fatal até o fi[m\n"
+			.text "do co[mbate \n"
 			.text "\n"
 		
 		menutextMiraclePlusDescription
-			.text "+Nullifies ene[my \n"
-			.text "staves and status \n"
-			.text "conditions. Avoids\n"
-			.text "all fatal da[mage \n"
+			.text "Anula condições \n"
+			.text "provocadas pelo \n"
+			.text "ini[migo. Esta\n"
+			.text "unidade é i[mortal, \n"
+			.text "[mas é capturável \n"
 			.text "\n"
 		
 		menutextVantageDescription
-			.text "User attacks first\n"
-			.text "]when the ene[my\n"
-			.text "initiates co[mbat \n"
+			.text "Unidade se[mpre \n"
+			.text "ataca pri[meiro,\n"
+			.text "exceto se o oponente\n"
+			.text "possuir Vantage[m \n"
 			.text "\n"
 		
 		menutextAccostDescription
-			.text "If user's {H}{P} and\n"
-			.text "{A}{S} are higher than\n"
-			.text "the ene[my's, adds\n"
-			.text "one round of co[mbat\n"
+			.text "Se a unidade\n"
+			.text "possuir {V}{A} e\n"
+			.text "{P}{V} [maior que o \n"
+			.text "oponente, o co[mbate\n"
+			.text "é repetido\n"
 			.text "\n"
 		
 		menutextAstraDescription
-			.text "Skl {%} chance \n"
-			.text "to attack five\n"
-			.text "consecutive ti[mes\n"
+			.text "Chance igual a\n"
+			.text "Des {%} de atacar\n"
+			.text "cinco vezes \n"
+			.text "consecutivas\n"
 			.text "\n"
 		
 		menutextLunaSkillDescription
-			.text "Skl {%} chance \n"
-			.text "for attack to ignore\n"
-			.text "ene[my's defense\n"
+			.text "Chance igual a\n"
+			.text "Des {%} de atacar\n"
+			.text "ignorando a defesa\n"
+			.text "ini[miga\n"
 			.text "\n"
 		
 		menutextSolDescription
-			.text "Skl {%} chance \n"
-			.text "for attack to heal\n"
-			.text "for da[mage dealt \n"
+			.text "Chance igual a\n"
+			.text "Des {%} de realizar\n"
+			.text "u[m ataque que suga \n"
+			.text "a vida do ini[migo\n"
 			.text "\n"
 		
 		menutextRenewalDescription
-			.text "Recover {5}{~}{1}{0}{%}\n"
-			.text "of [maxi[mu[m {H}{P}\n"
-			.text "every turn\n"
+			.text "Unidade recupera\n"
+			.text "entre {5} e\n"
+			.text "{1}{0}{%} do {P}{V}\n"
+			.text "[máxi[mo todo turno \n"
 			.text "\n"
 		
 		menutextParagonDescription
-			.text "Doubles experience\n"
-			.text "gained by the user\n"
+			.text "Dobra o ganho de\n"
+			.text "experiência desta \n"
+			.text "unidade \n"
 			.text "\n"
 		
 		menutextStealDescription
-			.text "If user outspeeds a \n"
-			.text "target, can Steal an\n"
-			.text "ite[m ]with less )Wt\n"
-			.text "than the user's Con \n"
+			.text "Esta unidade pode \n"
+			.text "roubar u[m ite[m\n"
+			.text "co[m peso [menor que\n"
+			.text "sua Con. de u[m \n"
+			.text "ini[migo [mais lento\n"
 			.text "\n"
 		
 		menutextDanceDescription
-			.text "Use Dance co{mm}nand\n"
-			.text "to grant an ally\n"
-			.text "another action\n"
+			.text "Pode usar o co[mando\n"
+			.text "Dançar para dar a \n"
+			.text "u[m aliado u[ma \n"
+			.text "segunda ação\n"
 			.text "\n"
 		
 		menutextBargainDescription
-			.text "Allo]ws user to \n"
-			.text "buy fro[m shops \n"
-			.text "at half price \n"
+			.text "Esta unidade te[m \n"
+			.text "desconto de \n"
+			.text "{5}{0}{%} e[m todas\n"
+			.text "as lojas\n"
 			.text "\n"
 		
 	.endsection SkillDescriptionsSection
@@ -283,12 +297,12 @@
 	.section SkillTypeTextSection
 
 		menuTextClassSkill
-			.text "Class Skill \n"
+			.text "Habilidade de classe\n"
 		
 		menutextPersonalSkill
-			.text "Personal Skill\n"
+			.text "Habilidade pessoal\n"
 		
 		menutextWeaponSkill
-			.text ")Weapon Skill \n"
+			.text "Habilidade da ar[ma \n"
 
 	.endsection SkillTypeTextSection

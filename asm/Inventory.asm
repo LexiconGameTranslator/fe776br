@@ -2137,7 +2137,7 @@ rsInventoryHandleInput ; 81/DC27
 	lda #3 ; X
 	sta wR0
 
-	lda #33
+	lda #31
 	sta wR1
 
 	jsl rlDrawSkillInfo

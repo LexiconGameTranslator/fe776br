@@ -4,17 +4,17 @@
 	.section InventoryItemStatLabelsSection
 
 		menutextInventoryItemStatLabels
-			.text "Type\n"		  ; Character limit: 6
-			.text "Hit \n"        ; Character limit: 6
-			.text "(Might\n"      ; Character limit: 8
-			.text "Crit\n"        ; Character limit: 8
-			.text "Range \n"      ; Character limit: 6
-			.text ")Weight \n"    ; Character limit: 8
+			.text "Tipo\n"		    ; Character limit: 6
+			.text "Prec. \n"        ; Character limit: 6
+			.text "Poder \n"        ; Character limit: 8
+			.text "Crít. \n"        ; Character limit: 8
+			.text "Alc.\n"          ; Character limit: 6
+			.text "Peso\n"          ; Character limit: 8
 			.word 0
 
 		menutextInventoryStaffStatLabels
-			.text "Type\n"		  ; Character limit: 6
-			.text ")Weight \n"    ; Character limit: 6 (8 it can't go go over 99)
+			.text "Tipo\n"		  ; Character limit: 6
+			.text "Peso\n"        ; Character limit: 6 (8 it can't go go over 99)
 			.word 0
 		
 	.endsection InventoryItemStatLabelsSection
@@ -25,11 +25,11 @@
 * = $03A728
 .logical lorom($03A728, 1)
 
-	.text "Type    \n"        ; Character COUNT: 8          
-	.text "Atk   \n"          ; Character COUNT: 6       
-	.text "Hit     \n"        ; Character COUNT: 8           
-	.text "Crit    \n"        ; Character COUNT: 8            
-	.text "Avo   \n"          ; Character COUNT: 6           
+	.text "Tipo    \n"        ; Character COUNT: 8          
+	.text "Atq   \n"          ; Character COUNT: 6       
+	.text "Prec.   \n"        ; Character COUNT: 8           
+	.text "Crít.   \n"        ; Character COUNT: 8            
+	.text "Esq.  \n"          ; Character COUNT: 6           
 	.word 0
 
 .here
@@ -41,7 +41,7 @@
 .logical lorom($02EE2F, 1)
 
 	Funds_arena
-		.text "Funds \n"
+		.text "(Moedas \n"
 
 .here
 
@@ -51,7 +51,7 @@
 * = $02EE6B
 .logical lorom($02EE6B, 1)
 
-	.text "{G}"
+	.text "{M}"
 
 .here
 
@@ -62,7 +62,7 @@
 .logical lorom($01FCF0, 1)
 
 	Prf_rank
-		.text "Prf \n"
+		.text "Exc.\n" ;Exc. for exclusivo
 
 .here
 
@@ -92,12 +92,12 @@
 
 	.section GrowthWindowLabelsSection
 
-		.text "{H}{P}      {%}\n"
-		.text "Str       {%}\n"
+		.text "{P}{V}      {%}\n"
+		.text "For       {%}\n"
 		.text "(Mag      {%}\n"
-		.text "Skl       {%}\n"
-		.text "Spd       {%}\n"
-		.text "Lck       {%}\n"
+		.text "Des       {%}\n"
+		.text "Vel       {%}\n"
+		.text "Sor       {%}\n"
 		.text "Def       {%}\n"
 		.text "Con       {%}\n"
 		.text "(Mov      {%}\n"
@@ -125,7 +125,7 @@
 .logical lorom($475C50, 1)
 
 nocommander
-.text "+No co{mm}nander on the field \n"	; Character limit: 28
+.text "Se[m co[mandante e[m ca[mpo \n"	; Character limit: 28
 
 .here
 
@@ -184,49 +184,49 @@ nocommander
 	.section UnitMenuTextSection
 
 		menutextUnitMenuNameText
-			.text "+Na[me\n"
+			.text "+No[me\n"
 		
 		menutextUnitMenuClassText
-			.text "Class \n"
+			.text "Classe\n"
 		
 		menutextUnitMenuLevelText
-			.text "Level \n"
+			.text "+Nível\n"
 		
 		menutextUnitMenuExPText
 			.text "{E}{X}{P}\n"
 		
 		menutextUnitMenuHPText
-			.text "  {H}{P}\n"
+			.text "  {P}{V}\n"
 		
 		menutextUnitMenuMHPText
-			.text "{M}{H}{P}\n"
+			.text "{M}{A}{X}\n"
 		
 		menutextUnitMenuEquipText
-			.text "Equip \n"
+			.text "Equip.\n"
 		
 		menutextUnitMenuAttackText
-			.text "Attack\n"
+			.text "Atq \n"
 		
 		menutextUnitMenuHitText
-			.text "Hit \n"
+			.text "Prec\n"
 		
 		menutextUnitMenuAvoidText
-			.text "Avoid \n"
+			.text "Esq \n"
 		
 		menutextUnitMenuStrText
-			.text "Str \n"
+			.text "For \n"
 		
 		menutextUnitMenuMagicText
 			.text "(Mag\n"
 		
 		menutextUnitMenuSkillText
-			.text "Skl \n"
+			.text "Des \n"
 		
 		menutextUnitMenuSpeedText
-			.text "Spd \n"
+			.text "Vel \n"
 		
 		menutextUnitMenuLuckText
-			.text "Lck \n"
+			.text "Sor \n"
 		
 		menutextUnitMenuDefText
 			.text "Def \n"
@@ -238,15 +238,15 @@ nocommander
 			.text "(Mov\n"
 		
 		menutextUnitMenuFatgText
-			.text "Fatg\n"
+			.text "Fadg\n"
 		
 		menutextUnitMenuStatusText
-			.text "Cond\n"
+			.text "Estado\n"
 		
 		menutextUnitMenuTrvlrText
-			.text "Trvlr \n"
+			.text "Carg. \n"
 		
 		menutextUnitMenuSkillsText
-			.text "Skills\n"
+			.text "Habs. \n"
 
 	.endsection UnitMenuTextSection

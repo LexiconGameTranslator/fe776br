@@ -462,7 +462,7 @@
 	.section UnitNameTextSection
 
 		menutextUnitSupplyName
-			.text "Supply"
+			.text "Depósito"
 		menutextUnitNoneName
 			.text "\n"
 		
@@ -485,7 +485,7 @@
 			.text "Dagdar\n"
 		
 		menutextUnitRalphName
-			.text "Ralph \n"
+			.text "Ralf\n"
 		
 		menutextUnitMartyName
 			.text "(Marty\n"
@@ -515,7 +515,7 @@
 			.text "Asbel \n"
 		
 		menutextUnitMachaName
-			.text "(Macha\n"
+			.text "(Machyua\n"
 		
 		menutextUnitHicksName
 			.text "Hicks \n"
@@ -548,7 +548,7 @@
 			.text "Alba\n"
 		
 		menutextUnitRobertName
-			.text "Robert\n"
+			.text "Roberto \n"
 		
 		menutextUnitFredName
 			.text "Fred\n"
@@ -566,16 +566,16 @@
 			.text "Karin \n"
 		
 		menutextUnitDeanName
-			.text "Dean\n"
+			.text "Deen\n"
 		
 		menutextUnitShannamName
-			.text "Shanna{m}\n"
+			.text "Shanna[m\n"
 		
 		menutextUnitTrudeName
 			.text "Trude \n"
 		
 		menutextUnitTanyaName
-			.text "Tanya \n"
+			.text "Tânia \n"
 		
 		menutextUnitLinoanName
 			.text "Linoan\n"
@@ -584,7 +584,7 @@
 			.text "(Misha\n"
 		
 		menutextUnitSalemName
-			.text "Sale{m}\n"
+			.text "Sale[m\n"
 		
 		menutextUnitSchroffName
 			.text "Schroff \n"
@@ -605,7 +605,7 @@
 			.text "Cono[mor\n"
 		
 		menutextUnitHomerName
-			.text "Ho[mer\n"
+			.text "Ho[mero \n"
 		
 		menutextUnitDiarmuidName
 			.text "Diar[muid \n"
@@ -638,16 +638,16 @@
 			.text "Jabal \n"
 		
 		menutextUnitLifisCrewName
-			.text "Lifis Pirates \n"
+			.text "Pir. do Lifis \n"
 		
 		menutextUnitLobosName
 			.text "Lobos \n"
 		
 		menutextUnitRomeoName
-			.text "Ro[meo\n"
+			.text "Ro[meu\n"
 		
 		menutextUnitLucciaName
-			.text "Luccia\n"
+			.text "Lúcia \n"
 		
 		menutextUnitJubelName
 			.text "Jubel \n"
@@ -671,7 +671,7 @@
 			.text "Bella \n"
 		
 		menutextUnitCliffName
-			.text "Cliff \n"
+			.text "Colino\n"
 		
 		menutextUnitBowieName
 			.text "Bo]wie\n"
@@ -680,7 +680,7 @@
 			.text "Leena \n"
 		
 		menutextUnitHiredSwordName
-			.text "Sells]word\n"
+			.text "(Mercenário \n"
 		
 		menutextUnitGalzusName
 			.text "Galzus\n"
@@ -689,13 +689,13 @@
 			.text "Eisenhau\n"
 		
 		menutextUnitHannibalName
-			.text "Hannibal\n"
+			.text "Aníbal\n"
 		
 		menutextUnitBrigandName
-			.text "Brigand \n"
+			.text "Bandido \n"
 			
 		menutextUnitWarriorName
-			.text ")Warrior\n"
+			.text "Guerreiro \n"
 		
 		menutextUnitLemayName
 			.text "Le[may\n"
@@ -707,7 +707,7 @@
 			.text "(Merloch\n"
 		
 		menutextUnitThraciaName
-			.text "Thracia \n"
+			.text "Trácia\n"
 		
 		menutextUnitAltenaName
 			.text "Altena\n"
@@ -734,7 +734,7 @@
 			.text "Peter \n"
 		
 		menutextUnitCoulterName
-			.text "Coulter \n"
+			.text "Gortach \n"
 		
 		menutextUnitLisztName
 			.text "Liszt \n"
@@ -759,13 +759,13 @@
 			.text "Charles \n"
 			
 		menutextUnitLeonsterite4Name
-			.text "Dirk\n"
+			.text "Carlos\n"
 			
 		menutextUnitLeonsterite5Name
 			.text "Sean\n"
 			
 		menutextUnitLeonsterite6Name
-			.text "Ed]ward \n"
+			.text "Sa[muel \n"
 			
 		menutextUnitLeonsterite7Name
 			.text "Andre]w \n"
@@ -783,10 +783,10 @@
 			.text "Codha \n"
 		
 		menutextUnitLoptrianName
-			.text "Loptrian\n"
+			.text "Loptiriano\n"
 		
 		menutextUnitCivilianName
-			.text "Civilian\n"
+			.text "Civil \n"
 			
 		; Xavier hostages. Names are a Lil' Manster QoL addition, and act as mini-credits.
 		menutextUnitCivilian1Name
@@ -799,13 +799,13 @@
 			.text "Chris \n"
 			
 		menutextUnitCivilian4Name
-			.text "Daphnée \n"
+			.text "Catarina\n"
 			
 		menutextUnitCivilian5Name
 			.text "Stella\n"
 			
 		menutextUnitCivilian6Name
-			.text "Edgar \n"
+			.text "Sérgio\n"
 			
 		menutextUnitCivilian7Name
 			.text "A[my\n"
@@ -814,10 +814,10 @@
 			.text "+Nira \n"
 		
 		menutextUnitThiefName
-			.text "Thief \n"
+			.text "Ladrão\n"
 		
 		menutextUnitPriestName
-			.text "Priest\n"
+			.text "Sacerdote \n"
 		
 		menutextUnitFrieges21stName
 			.text "Friege\n"
@@ -853,13 +853,13 @@
 			.text "Gustav\n"
 		
 		menutextUnitDancerName
-			.text "Dancer\n"
+			.text "Dançarina \n"
 		
 		menutextUnitClericName
-			.text "Cleric\n"
+			.text "Clériga \n"
 		
 		menutextUnitMannheimName
-			.text "(Mannhei{m}\n"
+			.text "(Mannhei[m\n"
 		
 		menutextUnitFrausName
 			.text "Fraus \n"
@@ -886,7 +886,7 @@
 			.text "+Nancy\n"
 		
 		menutextUnitTahraName
-			.text "Tahra \n"
+			.text "Tarrah\n"
 		
 		menutextUnitFriegeName
 			.text "Friege\n"
@@ -898,7 +898,7 @@
 			.text "(Manfroy\n"
 		
 		menutextUnitPitfighterName
-			.text "Pitfighter\n"
+			.text "Gladiador \n"
 		
 		menutextUnitBandoleName
 			.text "Bandole \n"
@@ -910,16 +910,16 @@
 			.text "(Magi \n"
 		
 		menutextUnitBishopName
-			.text "Bishop\n"
+			.text "Bispo \n"
 		
 		menutextUnitDvorakName
 			.text "Dvorak\n"
 		
 		menutextUnitArcherName
-			.text "Archer\n"
+			.text "Arqueiro\n"
 		
 		menutextUnitBallisticianName
-			.text "Ballistician\n"
+			.text "Balisteiro\n"
 		
 		menutextUnitEichnerName
 			.text "Eichner \n"
@@ -928,16 +928,16 @@
 			.text "Seil\n"
 		
 		menutextUnitSoldierName
-			.text "Soldier \n"
+			.text "Soldado \n"
 		
 		menutextUnitIliosName
 			.text "Ilios \n"
 		
 		menutextUnitPaladinName
-			.text "Paladin \n"
+			.text "Paladino\n"
 		
 		menutextUnitBowKnightName
-			.text "Bo]w Knight \n"
+			.text "Sagitário \n"
 		
 		menutextUnitBerserkerName
 			.text "Berserker \n"
@@ -946,19 +946,19 @@
 			.text "Xavier\n"
 		
 		menutextUnitResistanceName
-			.text "Resistance\n"
+			.text "Rebelde \n"
 		
 		menutextUnitBharatName
-			.text "Bharat\n"
+			.text "Bhárat\n" ;tf? rururu
 		
 		menutextUnitUlsterName
-			.text "Ulster\n"
+			.text "Úlster\n"
 		
 		menutextUnitGelbenritterName
 			.text "Gelbenritter\n"
 		
 		menutextUnitSniperName
-			.text "Sniper\n"
+			.text "Atirador\n"
 		
 		menutextUnitMusName
 			.text "(Mus\n"
@@ -976,16 +976,16 @@
 			.text "Porcus\n"
 		
 		menutextUnitDracoriderName
-			.text "Dracorider\n"
+			.text "Sol. Dragão \n"
 		
 		menutextUnitPirateName
-			.text "Pirate\n"
+			.text "Pirata\n"
 		
 		menutextUnitWolfeName
 			.text ")Wolfe\n"
 		
 		menutextUnitArmoredSwordName
-			.text "Knight\n"
+			.text "Guardião\n"
 		
 		menutextUnitDracoName
 			.text "Draco \n"
