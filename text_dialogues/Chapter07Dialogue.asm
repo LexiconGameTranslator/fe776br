@@ -146,7 +146,7 @@ dialogueChapter07Opening1
 .byte NewLine
 .text "que temos agora é morte certa."
 .byte NewLine
-.text "Tu desejas uma morte prematura?"
+.text "Tu desejas um fim prematuro?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -255,7 +255,7 @@ dialogueChapter07Ending1
 .byte ScrollText
 .text "Hmm... para alguém tão jovem, você parece"
 .byte NewLine
-.text "muito tenaz. Qual é o seu nome, rapaz?"
+.text "muito tenaz. Qual é o seu nome, garoto?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -431,12 +431,12 @@ dialogueChapter07Ending7
 .byte Left_Slot
 .text "Boa gente, este é Callion, um de meus"
 .byte NewLine
-.text "cavaleiros."
+.text "cavaleiros. As montanhas estão"
 .byte NewLine
-.text "As montanhas estão perigosas nesse momento."
+.text "perigosas nesse momento."
 .byte WaitForA
 .byte ScrollText
-.text "Nesse momento estamos conduzindo uma"
+.text "Por isso, estamos conduzindo uma"
 .byte NewLine
 .text "operação contra os bandidos ao redor do"
 .byte NewLine
@@ -668,7 +668,7 @@ dialogueChapter07FinnSafyAppear4A
 .word finn_portrait
 .text "Preciso alcançar o Lorde Leif imediatamente..."
 .byte NewLine
-.text "Ah, oro para que ele esteja bem..."
+.text "Oro aos céus para que ele esteja bem..."
 .byte WaitForA
 
 .byte EndText
@@ -1242,21 +1242,21 @@ dialogueChapter07EisenhauSpawn
 
 .byte Right_Slot
 .byte ScrollText
-.text "No papel... e nada mais."
+.text "Ah, isso é simples. Nós dois"
 .byte NewLine
-.text "A Trácia e o Império se misturam"
+.text "sabemos que a Trácia e o Império"
 .byte NewLine
-.text "tão bem quanto água e óleo."
+.text "misturam tão bem quanto água e óleo."
 .byte WaitForA
 .byte ScrollText
-.text "Podemos ser aliados, mas certamente"
+.text "Podemos ser aliados no papel, mas"
 .byte NewLine
-.text "não somos amigos. Se os rebeldes tiverem um"
+.text "certamente não somos amigos. Se os"
 .byte NewLine
-.text "pouco de bom senso, eles certamente fugirão"
+.text "rebeldes tiverem um pouco de bom senso,"
 .byte WaitForA
 .byte NewLine
-.text "para lá."
+.text "eles certamente fugirão para lá."
 .byte WaitForA
 
 .byte Left_Slot

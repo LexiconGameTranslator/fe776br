@@ -3,9 +3,9 @@ dialogueChapter11xOltophFlees
 .byte Right_Slot
 .word LoadPortrait
 .word oltoph_portrait
-.text "Hmph! Orders be damned, I'll not just sit here"
+.text "Hmph! Dane-se as ordens, eu não vou ficar"
 .byte NewLine
-.text "and wait to die!"
+.text "aqui para morrer!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -14,24 +14,30 @@ dialogueChapter11xOltophFlees
 
 .byte Right_Slot
 .byte ScrollText
-.text "I must be off. I'll report how dire"
+.text "Eu irei me retirar. Preciso relatar a"
 .byte NewLine
-.text "our situation is to the General—or to whatever"
+.text "gravidade de nossa situação ao General,"
+.byte WaitForA
 .byte NewLine
-.text "commanding officer still remains here."
+.text "ou para o oficial de comando que ainda"
+.byte NewLine
+.text "estiver presente."
 .byte WaitForA
 
 .byte Left_Slot
-.text "If that's the case, Bishop, perhaps I—"
+.text "Se é apenas para isso, Bispo, então eu—"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "No, I'll go! It has to be me, you understand?"
+.text "Não, eu devo ir! É imperativo que seja eu"
 .byte NewLine
-.text "I entrust you with this unit's command."
+.text "a levar essa informação para eles!"
+.byte WaitForA
 .byte NewLine
-.text "The rest is in your hands."
+.text "Eu lhe confio o comando das tropas."
+.byte NewLine
+.text "Eles estão em suas mãos."
 .byte WaitForA
 .byte ScrollText
 .word ClearPortrait
@@ -49,7 +55,7 @@ dialogueChapter11xFredArrives
 .byte Right_Slot
 .word LoadPortrait
 .word fred_portrait
-.text "Lady Olwen! Are you down here?!"
+.text "Madame Olwen! Estás aqui?!"
 .byte WaitForA
 .byte ScrollText
 .word ClearPortrait
@@ -57,23 +63,23 @@ dialogueChapter11xFredArrives
 .byte Left_Slot
 .word LoadPortrait
 .word fred_portrait
-.text "Please, say something!"
+.text "Por favor, responda se estiver ouvindo!"
 .byte WaitForA
 
 .byte Right_Slot
 .word LoadPortrait
 .word olwen_portrait
-.text "Fred?! You came back for me..."
+.text "Fred?! Você veio me salvar?"
 .byte WaitForA
 .byte ScrollText
-.text "I'm over here!"
+.text "Eu estou aqui!"
 .byte NewLine
-.text "And children have been locked up with me, too!"
+.text "E tem algumas crianças comigo também!"
 .byte WaitForA
 .byte ScrollText
-.text "But Kempf still has men stationed here!"
+.text "Mas tome cuidado, Kempf deixou alguns"
 .byte NewLine
-.text "Don't get careless!"
+.text "guardas aqui!"
 .byte WaitForA
 
 .byte EndText
@@ -88,86 +94,86 @@ dialogueChapter11xLeifOlwen
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait
-.text "I can see you protected those children"
+.text "Vejo que protegeu as crianças durante"
 .byte NewLine
-.text "during the battle... May I ask who you are?"
+.text "a batalha... pode me quem você é?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "I would ask the same of you, sir."
+.text "Eu te faço a mesma pergunta, senhor."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...My name is Leif, and I command this army."
+.text "...Eu sou Leif, comandante desse exército."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Leif?!"
 .byte NewLine
-.text "So you're Prince Leif of House Leonster,"
-.byte NewLine
-.text "are you not?"
+.text "Então você é o príncipe de Leonster?"
 .byte WaitForA
 .byte ScrollText
-.text "I... I am Olwen, Mage Knight"
+.text "Eu... sou Olwen, maga cavaleira"
 .byte NewLine
-.text "of House Friege, at your service."
+.text "da casa de Friege."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "House Friege, you say?"
+.text "Friege?"
 .byte NewLine
-.text "Then...why did you—"
+.text "Mas então... porque você-"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Frankly, I'm not sure where to begin."
+.text "Francamente, não sei como te dizer."
 .byte NewLine
-.text "It's quite the long story..."
+.text "É uma longa história..."
 .byte WaitForA
 .byte ScrollText
-.text "I've...come to learn a number"
+.text "Eu... descobri muitas coisas terríveis"
 .byte NewLine
-.text "of terrible truths in a very short time,"
+.text "em um curto espaço de tempo, e ainda estou"
 .byte NewLine
-.text "and my mind is in disarray..."
+.text "um tanto perturbada por elas..."
 .byte WaitForA
 .byte ScrollText
-.text "Prince Leif, if you can forgive"
+.text "Príncipe Leif, se você puder perdoar"
 .byte NewLine
-.text "my choice of allegiance, I would ask"
+.text "minhas velhas lealdades, eu quero ficar"
 .byte NewLine
-.text "to stay in your company for a time."
+.text "em sua companhia por um tempo."
 .byte WaitForA
 .byte ScrollText
-.text "Just while I come to terms"
+.text "Pelo menos enquanto eu estiver lidando"
 .byte NewLine
-.text "with what I've learned, I assure you."
+.text "com essas revelações."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Your past is of no issue to me."
+.text "Por mim, não há problema. Mas antes, eu"
 .byte NewLine
-.text "However, I must consult my advisors,"
+.text "irei conversar com os meus conselheiros"
 .byte NewLine
-.text "August and Dorius, on this matter."
+.text "sobre a sua situação."
 .byte WaitForA
 .byte ScrollText
-.text "You'll have to wait until this battle is over"
+.text "Você vai ter que esperar um tempo até eu"
 .byte NewLine
-.text "before I can render judgment on your request."
+.text "poder julgar seu pedido."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Of course. It was unreasonable of me to ask"
+.text "Claro. Faz sentido ter cautela comigo."
 .byte NewLine
-.text "such a thing of you so suddenly... I apologize."
+.text "Me perdoe por lhe fazer um pedido assim"
+.byte NewLine
+.text "de forma tão repentina."
 .byte WaitForA
 
 .byte EndText
@@ -182,129 +188,134 @@ dialogueChapter11xOlwenFred
 .byte Left_Slot
 .word LoadPortrait
 .word fred_portrait
-.text "Lady Olwen!"
+.text "Madame Olwen!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Fred! Thank you..."
+.text "Fred! Muito obrigado..."
 .byte NewLine
-.text "You've saved me from a fate most terrible."
+.text "Você me salvou de um destino terrível."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Think nothing of it, milady. I'm just glad"
+.text "Não há de quê, madame. Só estou feliz"
 .byte NewLine
-.text "you're safe. Now, we must move quickly"
+.text "que está bem. Venha comigo, temos que"
 .byte NewLine
-.text "if we're to escape..."
+.text "ser rápidos se quisermos fugir..."
 .byte WaitForA
 .byte ScrollText
-.text "Hm? What's come over you?"
+.text "Hm? O que aconteceu com você?"
 .byte NewLine
-.text "You're white as a sheet!"
+.text "Você está pálida como uma folha de papel!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Fred..."
 .byte NewLine
-.text "What have we really been fighting for?"
+.text "Pelo quê que estávamos lutando?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "What do you mean, milady?"
+.text "Como assim, madame?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "What exactly have I accomplished?"
+.text "O que eu estava fazendo esse tempo todo?"
 .byte NewLine
-.text "How many children have been stolen"
+.text "Quantas crianças será que foram"
 .byte NewLine
-.text "from their families under my watch?"
+.text "sequestradas com minha ajuda?"
 .byte WaitForA
 .byte ScrollText
-.text "How many caravans of children"
+.text "Quantas caravanas eu ajudei mandar"
 .byte NewLine
-.text "have I helped send to Belhalla?"
+.text "para Belhalla?"
 .byte WaitForA
 .byte ScrollText
-.text "How many... How many sacrifices to Loptous"
+.text "...Quantos sacrifícios à Loptous eu"
 .byte NewLine
-.text "have I made possible?"
+.text "tornei possível?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Lady Olwen..."
+.text "Madame Olwen..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Never before have I had such...doubts..."
+.text "Nunca antes eu havia duvidado do que"
 .byte NewLine
-.text "about what I've done."
+.text "fazia."
 .byte WaitForA
 .byte ScrollText
-.text "I believed that as long as I followed"
+.text "Eu fui em frente, acreditando que, se eu"
 .byte NewLine
-.text "my brother, there could be no questioning"
+.text "seguisse o meu irmão, eu jamais faria"
 .byte NewLine
-.text "the righteousness of my path."
+.text "algo errado."
 .byte WaitForA
 .byte ScrollText
-.text "But now... Now I'm as blind as a newborn!"
+.text "Mas agora... eu percebi minha tolice!"
 .byte NewLine
-.text "I can't be certain of anything!"
+.text "Eu não tenho certeza de mais nada"
 .byte NewLine
-.text "I have nothing to believe in!"
+.text "na minha vida agora."
 .byte WaitForA
 .byte NewLine
-.text "I... I don't know what to do..."
+.text "...Eu não sei o que fazer..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Lady Olwen, I can tell you only one thing"
+.text "...Olwen, de uma coisa você pode ter"
 .byte NewLine
-.text "for certain: your place isn't with the Empire"
+.text "certeza: seu lugar não é mais no"
 .byte NewLine
-.text "and its army. Not anymore."
+.text "Exército Imperial."
 .byte WaitForA
 .byte ScrollText
-.text "But perhaps there could be a place for us"
+.text "Mas talvez tenhamos um lugar no exército"
 .byte NewLine
-.text "in Prince Leif's army."
+.text "do Príncipe Leif."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Join Prince Leif?!"
+.text "Nos juntaremos aos rebeldes?!"
 .byte NewLine
-.text "H-He's the enemy! He always has been!"
+.text "E-eles são nossos inimigos, sempre foram!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...I met Prince Leif, albeit briefly. Just from"
+.text "...Eu conversei com o Príncipe,"
 .byte NewLine
-.text "what little I saw, his values are far more in line"
-.byte NewLine
-.text "with ours than the Empire's are."
+.text "por um breve momento."
 .byte WaitForA
 .byte ScrollText
-.text "Whatever it is you've lost sight of,"
+.text "Do que eu pude inferir dele, percebi que"
 .byte NewLine
-.text "Lady Olwen, we can find it again in his army!"
+.text "os valores dele se alinham aos nossos,"
+.byte NewLine
+.text "muito mais do que os do Império."
+.byte WaitForA
+.byte ScrollText
+.text "Se você se perdeu, Madame Olwen, talvez"
+.byte NewLine
+.text "possa se reencontrar em sua companhia!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...If you're that convinced of Prince Leif's"
+.text "...Se você tem tanta confiança nele, Fred,"
 .byte NewLine
-.text "honor, Fred, then that's where we'll go."
+.text "então eu confiarei também."
 .byte WaitForA
 
 .byte EndText
@@ -319,129 +330,129 @@ dialogueChapter11xOpening1
 .byte Left_Slot
 .word LoadPortrait
 .word kempf_portrait
-.text "Bishop Oltoph, listen closely:"
+.text "Bispo Oltoph, preste atenção:"
 .byte NewLine
-.text "these attackers are none other than"
+.text "Esses que nos atacam são nada mais,"
 .byte NewLine
-.text "the motley survivors of House Leonster."
+.text "nada menos que os rebeldes da"
+.byte WaitForA
+.byte NewLine
+.text "Casa de Leonster."
 .byte WaitForA
 .byte ScrollText
-.text "They seem to be led by Leif, the rebel prince"
+.text "Parece que eles são liderados por um tal"
 .byte NewLine
-.text "who caused a stir when he escaped"
+.text "Leif, "
+.byte WaitForA
+.text "o príncipe rebelde que causou um"
 .byte NewLine
-.text "from the dungeons of Castle Munster."
+.text "alvoroço depois de fugir das masmorras"
+.byte NewLine
+.text "de Munster."
 .byte WaitForA
 .byte ScrollText
-.text "This has escalated beyond a mere"
+.text "Isso já não é mais um incidente qualquer."
 .byte NewLine
-.text "border skirmish. I must ride out at once"
+.text "Eu devo sair daqui imediatamente para"
 .byte NewLine
-.text "and alert the Imperial Army's high command."
+.text "alertar o alto comando em Leonster."
 .byte WaitForA
 .byte ScrollText
-.text "Not to imply that this relieves you"
+.text "Mas, isso não significa que você está"
 .byte NewLine
-.text "of your duties, of course. I still have orders"
+.text "dispensado. Eu tenho ordens para ti"
 .byte NewLine
-.text "for you and your men."
+.text "e para seus homens."
 .byte WaitForA
 .byte ScrollText
-.text "Your platoon is to barricade itself inside"
+.text "Pegue quem ainda está aqui em baixo e"
 .byte NewLine
-.text "this wing of the fortress, and stall the rebels"
+.text "monte uma defesa desta área do forte."
+.byte WaitForA
+.byte ScrollText
+.text "Preciso que você atrase os rebeldes"
 .byte NewLine
-.text "for as long as possible. Buy me time."
+.text "para mim, entendeu?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "B-But General, the enemy has already"
+.text "M-mas General, o inimigo já está no"
 .byte NewLine
-.text "breached the fort's interior! My men and I"
+.text "interior do forte! Não iremos resistir"
 .byte NewLine
-.text "cannot possibly withstand a prolonged siege!"
+.text "à um cerco!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Nonsense! You still have one final"
+.text "Bobagem! Vocês ainda podem se defender no"
 .byte NewLine
-.text "means of defense in the southern corridor."
+.text "corredor sul."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Are you implying we are to huddle"
+.text "...Você quer que eu mande meus homens"
 .byte NewLine
-.text "behind the gaps in the corridor's walls"
+.text "ficar atirando às cegas pelas brechas"
 .byte NewLine
-.text "and take potshots at the invaders?!"
+.text "do corredor?!"
 .byte WaitForA
 .byte ScrollText
-.text "Y-You're asking us to die...!"
-.byte NewLine
-.text "We'll be sitting ducks!"
+.text "I-isso é morte certa para eles...!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "No, I'm ordering you to kill the invaders"
+.text "Não se vocês matarem eles primeiro."
 .byte NewLine
-.text "before they kill you."
-.byte NewLine
-.text "There's a tremendous difference."
+.text "Isso vai resolver as coisas."
 .byte WaitForA
 .byte ScrollText
-.text "Mind you, no part of my orders"
+.text "Eu não mandei você sacrificar ninguém por"
 .byte NewLine
-.text "require you to die. In fact, if you die,"
+.text "este forte, mandei? Se você, ou algum"
 .byte NewLine
-.text "you have only yourself to blame."
+.text "de seus homens morrer, é por culpa sua."
 .byte WaitForA
 .byte ScrollText
-.text "Oh, and I'm not “asking” anything."
+
+.byte Right_Slot
+.byte ScrollText
+.text "Entendo... se é uma ordem, então eu"
 .byte NewLine
-.text "You used that word, not I. These are orders."
+.text "não tenho escolha senão obedecer..."
+.byte WaitForA
+
+.byte Left_Slot
+.byte ScrollText
+.text "Ótima observação, Bispo."
+.byte WaitForA
+.byte NewLine
+.text "Agora faça o que eu lhe ordenei, ou você"
+.byte NewLine
+.text "irá ficar na prisão junto com aquela"
+.byte NewLine
+.text "garota atrevida."
+.byte WaitForA
+.byte ScrollText
+.text "Ah, falando nisso, não esqueça de eliminar"
+.byte NewLine
+.text "os prisioneiros. Se eles saírem vivos"
+.byte NewLine
+.text "daqui, vai ser um problema a mais para nós."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I...understand. If... If this is an order,"
-.byte NewLine
-.text "I have no choice in the matter."
+.text "...Como quiser, General."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "That's the first smart thing you've said, Bishop."
-.byte WaitForA
+.text "Alegre-se, Bispo! Se você morrer aqui,"
 .byte NewLine
-.text "Take your own advice and follow my orders—"
-.byte NewLine
-.text "otherwise, you'll be keeping Olwen company"
-.byte NewLine
-.text "in the dungeon."
-.byte WaitForA
-.byte ScrollText
-.text "Ah, speaking of which, you mustn't forget"
-.byte NewLine
-.text "to dispose of the prisoners. They'll only cause"
-.byte NewLine
-.text "trouble if they manage to survive all this."
-.byte WaitForA
-
-.byte Right_Slot
-.byte ScrollText
-.text "...As you wish, General."
-.byte WaitForA
-
-.byte Left_Slot
-.byte ScrollText
-.text "Don't look so glum, Bishop."
-.byte NewLine
-.text "If you should happen to die here, you can rest"
-.byte NewLine
-.text "knowing your death served a purpose."
+.text "saiba que vai ser por uma boa causa!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -461,54 +472,52 @@ dialogueChapter11xOpening2
 .byte Left_Slot
 .word LoadPortrait
 .word boy_portrait
-.text "Y-Yer an Imperial soldier...!"
+.text "O-ocê é uma soldada imperial!"
 .byte WaitForA
 .byte NewLine
-.text "You witch! All you do is go around"
+.text "Sua bruxa! Tudo que ocê faz é"
 .byte NewLine
-.text "spreadin' misery to other folk!"
+.text "maltratar a gente! Agora ocẽ tá aqui"
 .byte NewLine
-.text "An' now yer here to kill us, ain'tcha?!"
+.text "pra nos matar, não é?!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "No, that's... That's not why I'm here!"
+.text "Não, não... eu não estou aqui para isso!"
 .byte NewLine
-.text "I was arrested!"
+.text "Eu fui presa também!"
 .byte NewLine
-.text "Wh-What are you kids doing here?!"
+.text "O-o quê vocês estão fazendo aqui?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .word LoadPortrait
 .word girl2_portrait
-.text "S-Soldiers were raidin' our village..."
+.text "S-soldados atacaram nossa vila..."
 .byte NewLine
-.text "They took me an' brought me here,"
+.text "Eles pegaram a gente e levaram"
 .byte NewLine
-.text "even when I kicked an' screamed...!"
+.text "pra cá!"
 .byte WaitForA
 .byte ScrollText
-.text "Wh-What's gonna happen to us...?"
+.text "O-o que vai acontecer comigo...?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .word LoadPortrait
 .word boy_portrait
-.text "Yer talkin' like they ain't already decided"
+.text "Ocê não sabe o que eles fazem?"
 .byte NewLine
-.text "what to do with us!"
-.byte NewLine
-.text "They're gonna sacrifice us to Loptous!"
+.text "Eles vão sacrificar a gente pra Loptous!"
 .byte WaitForA
 .byte ScrollText
-.text "They're gonna send us to Belhalla an' kill"
+.text "Eles mandam a gente pra Belhalla pra"
 .byte NewLine
-.text "every last one of us... I know 'cause my sister"
+.text "morrer... eu sei disso porquê eles levaram"
 .byte NewLine
-.text "got taken there an' she never came back!"
+.text "minha irmã e ela nunca mais voltou!"
 .byte WaitForA
 .byte ScrollText
 .word LoadPortrait
@@ -518,11 +527,11 @@ dialogueChapter11xOpening2
 .byte ScrollText
 .word LoadPortrait
 .word girl_portrait
-.text "No! P-Please don't take us away!"
+.text "Não! N-não leva a gente embora!"
 .byte NewLine
-.text "I jus' wanna go back home..."
+.text "Eu quero voltar pra casa..."
 .byte NewLine
-.text "I jus' wanna see Mama and Papa again...!"
+.text "Eu quero meu papai e minha mamãe..."
 .byte WaitForA
 
 .byte ScrollText
@@ -531,52 +540,53 @@ dialogueChapter11xOpening2
 
 .byte Right_Slot
 .byte ScrollText
-.text "It can't be..."
+.text "Não pode ser..."
 .byte NewLine
-.text "Has the Empire really been conducting"
+.text "O Império está mesmo fazendo"
 .byte NewLine
-.text "child hunts?"
+.text "as caçadas?"
 .byte WaitForA
 .byte ScrollText
-.text "I'd heard rumors, but..."
+.text "Eu ouvi boatos, mas... eu achei que eram"
 .byte NewLine
-.text "I was sure it was just rebel propaganda."
-.byte NewLine
-.text "I never even considered that it could be true..."
+.text "apenas mentiras espalhadas pelos rebeldes..."
 .byte WaitForA
 .byte ScrollText
-.text "For the Empire to be doing"
+.text "Nunca passou pela minha cabeça que poderia"
 .byte NewLine
-.text "something so heinous... This is inexcusable!"
+.text "ser verdade..."
+.byte WaitForA
+.byte NewLine
+.text "Algo tão horrível assim... é inaceitável!"
 .byte WaitForA
 .byte ScrollText
-.text "I believed in the Empire,"
+.text "Eu lutei pelo Império, lutei por Friege..."
 .byte NewLine
-.text "I trusted in House Friege..."
+.text "Acreditei no que me disseram... é por isso"
 .byte NewLine
-.text "and this is what they've been doing all along?!"
+.text "que eu estava lutando esse tempo todo?!"
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word girl_portrait
-.text "Please, ma'am, help us!"
+.text "Por favor, moça, nos ajude!"
 .byte NewLine
-.text "Take us back home!"
+.text "Leva a gente de volta pra casa!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Everything's going to be all right."
+.text "...Vai ficar tudo bem."
 .byte NewLine
-.text "You don't have to worry anymore, little one."
+.text "Você não precisa ter medo, menina."
 .byte NewLine
-.text "They won't lay a finger on you ever again."
+.text "Eles não vão te machucar."
 .byte WaitForA
 .byte ScrollText
-.text "On my honor, I'll protect each and every one"
+.text "Juro que não vou deixar! Mesmo que"
 .byte NewLine
-.text "of you! Even if it costs me my life...!"
+.text "eu morra para isso, eu vou lhes proteger!"
 .byte WaitForA
 
 .byte EndText
@@ -587,133 +597,131 @@ dialogueChapter11xClosing1
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "Yet more children caged... It's easy to see"
+.text "Mais crianças presas... entendo porque"
 .byte NewLine
-.text "why the people of Tahra rebelled."
+.text "os tarranos se rebelaram."
 .byte WaitForA
 
 .byte Right_Slot
 .word LoadPortrait
 .word dorias_portrait
-.text "Indeed. But that makes the Empire all the more"
+.text "Certamente. E é por isso que o Império"
 .byte NewLine
-.text "desperate to make an example of Tahra"
+.text "quer acabar com a revolta deles o mais"
 .byte NewLine
-.text "and stamp out their uprising."
+.text "rápido possível."
 .byte WaitForA
 .byte ScrollText
-.text "Supposing they allowed Tahra to defy them,"
+.text "Se eles permitirem que uma revolta"
 .byte NewLine
-.text "countless cities would follow suit."
+.text "sobreviva, certamente muitas outras"
+.byte NewLine
+.text "virão."
 .byte WaitForA
 .byte ScrollText
-.text "It's for this very reason that the Empire"
+.text "É por isso que o Império empenhou tantas"
 .byte NewLine
-.text "has summoned troops from across Jugdral"
-.byte NewLine
-.text "just to attack one city: "
+.text "forças nesse cerco. "
 .byte WaitForA
-.text "they move to crush"
+.text "Eles querem destruir"
 .byte NewLine
-.text "both Tahra and its hopes all at once."
+.text "Tarrah e também a esperança que ela"
+.byte NewLine
+.text "pode trazer à outras pessoas."
 .byte WaitForA
 .byte ScrollText
-.text "I've even heard tell that the Gelbenritter"
+.text "Ouvi até que tiraram a Gelbenritter"
 .byte NewLine
-.text "have been recalled from Belhalla"
-.byte NewLine
-.text "to join in the assault."
+.text "de Belhalla para participar do cerco."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "The Gelbenritter... That's House Friege's"
+.text "A Gelbenritter... se não me engano, essa é"
 .byte NewLine
-.text "elite battalion of knights, correct?"
+.text "a legião de cavaleiros de elite de Friege."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Indeed, but they are no mere knights."
+.text "Isso mesmo, mas não são meros cavaleiros"
 .byte WaitForA
 .byte NewLine
-.text "They're Mage Knights, each of them"
+.text "São cavaleiros magos, cada um deles"
 .byte NewLine
-.text "handpicked for the job, and each of them"
+.text "escolhido a dedo dentre os nobres da"
 .byte NewLine
-.text "a noble from House Friege's inner circle."
-.byte WaitForA
-.byte ScrollText
-.text "They're one of the strongest, if not"
-.byte NewLine
-.text "THE strongest, battalion of knights"
-.byte NewLine
-.text "on the continent."
+.text "casa de Friege."
 .byte WaitForA
 .byte ScrollText
-.text "To make matters worse, they're led"
+.text "Eles talvez sejam os melhores soldados que"
 .byte NewLine
-.text "by none other than Princess Ishtar—the woman"
-.byte NewLine
-.text "widely feared as the Goddess of Thunder."
+.text "o Império tem."
 .byte WaitForA
 .byte ScrollText
-.text "And her adjutant, Sir Reinhardt,"
+.text "Para piorar a situação, eles são liderados"
 .byte NewLine
-.text "is a damned fine warrior in his own right."
+.text "pela Princesa Ishtar, chamada por muitos"
+.byte NewLine
+.text "de Deusa do Trovão."
 .byte WaitForA
 .byte ScrollText
-.text "Some even believe him to be"
+.text "E seu conselheiro, Reinhardt, é também"
 .byte NewLine
-.text "the reincarnation of the crusader Thrud."
+.text "um grande cavaleiro."
+.byte WaitForA
+.byte ScrollText
+.text "Alguns até dizem que ele é a reincarnação"
+.byte NewLine
+.text "do próprio Thrud, cruzado de Friege."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .word LoadPortrait
 .word augustus_portrait
-.text "A man who readily lends his hand"
+.text "Um homem que sequestra crianças sem"
 .byte NewLine
-.text "to child hunting is what you call"
-.byte NewLine
-.text "a “damned fine warrior”?"
+.text "questionar é um “grande cavaleiro”?"
 .byte WaitForA
 .byte ScrollText
-.text "How typical... Knights are so hopeless."
+.text "Se isso é cavalheirismo para ti, então"
 .byte NewLine
-.text "You've lost sight of reality!"
+.text "está louco, pois já perdeu de vista a"
+.byte NewLine
+.text "realidade!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "August! You insult me, speaking so brashly!"
+.text "Augusto! Não me insulte dessa maneira!"
 .byte NewLine
-.text "Just what is it that I'm unaware of?!"
+.text "Já que discorda de mim, por favor, fale"
 .byte NewLine
-.text "Please, do tell!"
+.text "o que exatamente perdi de vista!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Need I spell it out?"
+.text "Por acaso não percebe quem Reinhardt é?"
 .byte NewLine
-.text "Reinhardt is Ishtar's adjutant and guardian."
+.text "Ele é o conselheiro e guardião de Ishtar."
 .byte NewLine
-.text "Ishtar is the betrothed of Crown Prince Julius."
+.text "E ela é noiva do Príncipe Imperial Julius."
 .byte WaitForA
 .byte ScrollText
-.text "Julius—the very same man the people call"
+.text "Julius, o detestado “Filho da escuridão”,"
 .byte NewLine
-.text "the “Scion of Darkness,” need I remind you—"
+.text "que, devo lembrar-lhe, é o próprio"
 .byte NewLine
-.text "is the vessel of the dark god Loptous!"
+.text "Loptous reencarnado!"
 .byte WaitForA
 .byte ScrollText
-.text "Ultimately, anyone who serves Julius"
+.text "Sendo assim, aqueles que o servem"
 .byte NewLine
-.text "in any way is ushering the world"
+.text "contribuem para a destruição do"
 .byte NewLine
-.text "closer to destruction!"
+.text "nosso mundo!"
 .byte WaitForA
 
 .byte EndText
@@ -725,30 +733,30 @@ dialogueChapter11xClosing2
 .byte ScrollText
 .word LoadPortrait
 .word olwen_portrait
-.text "It's not like that at all!"
+.text "Não é nada disso! Meu grande irmão,"
 .byte NewLine
-.text "My brother... My lord brother, Reinhardt,"
+.text "Reinhardt... ele jamais serviria à"
 .byte NewLine
-.text "is no servant of Loptous!"
+.text "Loptous!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...And who might you be?"
+.text "...E quem és tu?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Olwen, sister of Sir Reinhardt."
+.text "Olwen, irmã de Reinhardt."
 .byte WaitForA
 .byte ScrollText
 .word LoadPortrait
 .word leif_portrait
-.text "For her own reasons, she wishes to accompany"
+.text "Por razões pessoais, ela quer nos"
 .byte NewLine
-.text "our army. I gave her leave to do so,"
+.text "acompanhar. Por mim, ela pode ir conosco,"
 .byte NewLine
-.text "unless you have objections."
+.text "mas eu gostaria de saber sua opinião."
 .byte WaitForA
 
 .byte ScrollText
@@ -757,11 +765,14 @@ dialogueChapter11xClosing2
 
 .byte Left_Slot
 .byte ScrollText
-.text "...I see. If that's the case, Olwen, take a good,"
+.text "...Entendo, sendo assim, Olwen, veja bem"
 .byte NewLine
-.text "hard look at what the Empire has done here."
+.text "o que o Império fez aqui, e o que fazem"
 .byte NewLine
-.text "See them for what they truly are."
+.text "todo dia em todo lugar."
+.byte WaitForA
+.byte NewLine
+.text "Veja quem eles são de verdade."
 .byte WaitForA
 
 .byte EndText
