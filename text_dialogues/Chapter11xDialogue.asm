@@ -477,7 +477,7 @@ dialogueChapter11xOpening2
 .byte NewLine
 .text "Sua bruxa! Tudo que ocê faz é"
 .byte NewLine
-.text "maltratar a gente! Agora ocẽ tá aqui"
+.text "maltratar a gente! Agora ocê tá aqui"
 .byte NewLine
 .text "pra nos matar, não é?!"
 .byte WaitForA

@@ -41,7 +41,7 @@
 .logical lorom($02EE2F, 1)
 
 	Funds_arena
-		.text "(Moedas \n"
+		.text "(Moeda\n"	; The 's' will be done manually because it's tight here.
 
 .here
 
