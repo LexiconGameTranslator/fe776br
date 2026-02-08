@@ -251,7 +251,7 @@ dialogueChapter12SalemTina
 .byte ScrollText
 .text "S-sério mesmo?!"
 .byte NewLine
-.text "Muito obrigado, Salem!"
+.text "Muito obrigada, Salem!"
 .byte NewLine
 .text "Você é o melhor!"
 .byte WaitForA
@@ -749,7 +749,7 @@ dialogueChapter12Opening2
 
 .byte Right_Slot
 .byte ScrollText
-.text "Muito obrigado, Bispo. Se cuide."
+.text "Muito obrigada, Bispo. Se cuide."
 .byte WaitForA
 
 .byte EndText

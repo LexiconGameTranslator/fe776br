@@ -192,7 +192,7 @@ dialogueChapter11xOlwenFred
 .byte WaitForA
 
 .byte Right_Slot
-.text "Fred! Muito obrigado..."
+.text "Fred! Muito obrigada..."
 .byte NewLine
 .text "Você me salvou de um destino terrível."
 .byte WaitForA

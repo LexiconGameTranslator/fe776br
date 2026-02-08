@@ -277,7 +277,7 @@ dialogueChapter13GladeSelphinaA
 .byte ScrollText
 .text "Isso é um arco heróico!"
 .byte NewLine
-.text "É quase impossível achar esses arcos!"
+.text "É quase impossível achar um desses!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -296,9 +296,9 @@ dialogueChapter13GladeSelphinaA
 .byte ScrollText
 .text "Mas é claro que sim!"
 .byte NewLine
-.text "Muito obrigado querido!"
+.text "Muito obrigada querido!"
 .byte NewLine
-.text "Muito obrigado mesmo!"
+.text "Muito obrigada mesmo!"
 .byte WaitForA
 
 .byte EndText
@@ -508,7 +508,7 @@ dialogueChapter13GladeSelphinaB
 .byte ScrollText
 .text "Isso é um arco heróico!"
 .byte NewLine
-.text "É quase impossível achar esses arcos!"
+.text "É quase impossível achar um desses!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -527,9 +527,9 @@ dialogueChapter13GladeSelphinaB
 .byte ScrollText
 .text "Mas é claro que sim!"
 .byte NewLine
-.text "Muito obrigado querido!"
+.text "Muito obrigada querido!"
 .byte NewLine
-.text "Muito obrigado mesmo!"
+.text "Muito obrigada mesmo!"
 .byte WaitForA
 
 .byte EndText
