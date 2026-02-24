@@ -274,11 +274,11 @@ dialogueChapter08xEnding
 
 .byte Left_Slot
 .byte ScrollText
-.text "E-então eles deveriam importar sua comida!"
+.text "E-então eles deveriam importar seu alimento!"
 .byte NewLine
-.text "No Norte, as cidades tem uma abundância de"
+.text "No Norte, as cidades tem uma abundância"
 .byte NewLine
-.text "comida, comprem deles!"
+.text "disso, comprem deles!"
 .byte WaitForA
 
 .byte Right_Slot

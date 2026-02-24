@@ -519,7 +519,7 @@ dialogueChapter09Opening1
 .byte NewLine
 .text "Ele vai ter que se esforçar mais"
 .byte NewLine
-.text "quiser me impressionar."
+.text "se quiser me impressionar."
 .byte WaitForA
 
 .byte Right_Slot
