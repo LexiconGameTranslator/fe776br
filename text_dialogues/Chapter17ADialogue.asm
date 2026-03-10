@@ -642,7 +642,7 @@ dialogueChapter17AOpening1
 .byte NewLine
 .text "desobedeceu minhas ordens e foi ao ataque,"
 .byte WaitForA
-.byet NewLine
+.byte NewLine
 .text "querendo ganhar sua vitória gloriosa."
 .byte WaitForA
 .byte ScrollText
