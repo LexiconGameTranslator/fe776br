@@ -88,13 +88,13 @@ dialogueChapter10OlwenFredArrive
 .byte NewLine
 .text "Você tem que voltar para o forte para"
 .byte NewLine
-.text "avisá-los! Eu defenderei a zona."
+.text "avisá-los! Eu ficarei aqui."
 .byte WaitForA
 
 .byte Right_Slot
-.text "Se você me permitir, General, eu vou"
+.text "Se você me permitir, General, eu"
 .byte NewLine
-.text "ficar e lutar à seu lado!"
+.text "quero lutar à seu lado!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -124,7 +124,7 @@ dialogueChapter10OlwenFredArrive
 
 .byte Right_Slot
 .byte ScrollText
-.text "Obrigado, General!"
+.text "Muito obrigada, General!"
 .byte WaitForA
 .byte ScrollText
 
