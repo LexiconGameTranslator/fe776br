@@ -125,8 +125,8 @@
 
 .here
 
-* = $456BA0
-.logical lorom($456BA0,1)
+* = $476800
+.logical lorom($476800,1)
 
 statlabels .binary "InventoryBrownBars.4bpp.fe4"
 
