@@ -3,23 +3,21 @@ dialogueChapter20SilenceHouse
 .byte Right_Slot
 .word LoadPortrait
 .word oldlady3_portrait
-.text "Oh dear..."
+.text "Ai ai..."
 .byte NewLine
-.text "Is the castle finally about to fall?"
+.text "Será que esse finalmente será o fim?"
 .byte WaitForA
 .byte ScrollText
-.text "Well, don't let them silence the voice"
+.text "Não deixe que eles calem a voz de"
 .byte NewLine
-.text "of our people! Literally, in this case—here's a"
+.text "nosso povo! Leve esse cajado com você,"
 .byte NewLine
-.text "staff that'll shut up even the loudest loudmouth."
+.text "e cale esses imperiais! Literalmente!"
 .byte WaitForA
 .byte ScrollText
-.text "Now don't lose this battle, you hear?"
+.text "Eu não quero voltar a ser súdita do"
 .byte NewLine
-.text "I couldn't stand going back"
-.byte NewLine
-.text "to those horrible days of Imperial rule!"
+.text "Império! Então não percam essa batalha!"
 .byte WaitForA
 
 .byte EndText
@@ -34,142 +32,151 @@ dialogueChapter20Opening1
 .byte Left_Slot
 .word LoadPortrait
 .word reinhardt_portrait
-.text "How goes the war, Lord Bharat?"
+.text "Como vai o cerco, General Bhárat?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Ah, Reinhardt. I've been waiting for you."
+.text "Ah, Reinhardt. Eu estava te esperando."
 .byte NewLine
-.text "You've brought my reinforcements, I trust?"
+.text "Então, posso presumir que irei receber os"
+.byte NewLine
+.text "reforços que pedi?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "A battalion is on its way here from Ulster."
+.text "Não precisa se preocupar com isso."
 .byte NewLine
-.text "They should be arriving shortly."
+.text "Nesse momento, há um batalhão a"
+.byte NewLine
+.text "caminho daqui."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Hmm... Yes, that should do it."
+.text "Hmm... ótimo. Deve ser o suficiente para"
 .byte NewLine
-.text "We've already seized most of the castle."
+.text "limparmos a rebelião."
+.byte WaitForA
+.byte ScrollText
+.text "Temos posse da maior parte do castelo,"
 .byte NewLine
-.text "These few halls are the rebels' last refuge."
+.text "aos rebeldes só restam alguns salões em"
+.byte NewLine
+.text "seu controle."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Normally that would be good news, but..."
+.text "Certo. Em circunstâncias normais, isso"
+.byte NewLine
+.text "seria ótimo, mas..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Hmm? What do you mean?"
-.byte NewLine
-.text "Is something amiss?"
+.text "Hm? Pode me dizer qual o problema?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "This siege has gone on for half a year,"
+.text "O cerco já dura seis meses, mas"
 .byte NewLine
-.text "yet Leonster still stands."
+.text "Leonster ainda está de pé."
 .byte NewLine
-.text "King Bloom is...displeased."
+.text "Rei Bloom está... irritado."
 .byte WaitForA
 .byte ScrollText
-.text "I don't mean to speak out of turn,"
+.text "Não quero ser rude contigo, que és"
 .byte NewLine
-.text "especially to one of my elders, but..."
+.text "meu sênior, mas..."
 .byte NewLine
-.text "I'd suggest you hurry."
+.text "Eu sugiro que acelere o cerco."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...You're not telling me anything"
-.byte NewLine
-.text "I don't already know."
+.text "...Eu já sei disso."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "The king's temper worsens by the day."
+.text "O Rei tem estado a cada dia mais irritado."
 .byte NewLine
-.text "The loss of Prince Ishtore at Fort Mergen"
+.text "A morte do Príncipe Ishtore no castelo de"
 .byte NewLine
-.text "has been taking its toll on him..."
+.text "Mergen certamente o estremeceu..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "What of the Isaachian rebels?"
+.text "E quanto aos rebeldes de Isaach?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I hear they've already crossed the border"
+.text "O último relato que ouvi disse que eles"
 .byte NewLine
-.text "into the Thracian Peninsula."
+.text "já adentraram no território da Trácia"
+.byte NewLine
+.text "própriamente dito."
 .byte WaitForA
 .byte ScrollText
-.text "But they're not entering unopposed:"
+.text "Mas já foi organizada uma resposta:"
 .byte WaitForA
 .byte NewLine
-.text "Cohen and the 26th Division, Banba and"
+.text "Cohen e a 26ª Legião, Banba e suas irmãs,"
 .byte NewLine
-.text "her sisters, as well as Lady Tinni and her unit"
+.text "além de Tinni e sua unidade de magos,"
 .byte NewLine
-.text "of mages, are all moving to intercept them."
+.text "estão à postos para enfrentá-los."
 .byte WaitForA
 .byte ScrollText
-.text "Still, the rebels were able to best Lady Liza..."
+.text "Mas, se os rebeldes conseguiram derrotar"
 .byte NewLine
-.text "I fear the coming battle will be"
+.text "a Madame Liza e o Príncipe..."
 .byte NewLine
-.text "a most arduous one indeed."
+.text "Certamente a batalha será árdua."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "And what does His Highness himself"
+.text "O que Sua Majestade pretende fazer"
 .byte NewLine
-.text "intend to do?"
+.text "nessa situação?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I believe the king plans to personally"
+.text "Creio que ele planeja tomar o comando"
 .byte NewLine
-.text "take command of the troops at Ulster."
+.text "da defesa de Úlster pessoalmente."
 .byte WaitForA
 .byte ScrollText
-.text "Should the Isaachian rebels break through"
+.text "Se os rebeldes conseguirem atingir a"
 .byte NewLine
-.text "to the city, I imagine he'll send for you."
+.text "cidade, imagino que ele irá lhe chamar."
 .byte WaitForA
 .byte ScrollText
-.text "But if Leonster should still remain"
+.text "Porém, se Leonster ainda não estiver"
 .byte NewLine
-.text "in enemy hands by that time,"
+.text "totalmente recuperada nesse momento,"
 .byte NewLine
-.text "your future will be...most uncertain."
+.text "creio que... haverão problemas para ti."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Ah..."
 .byte NewLine
-.text "Very well. You've made yourself clear."
+.text "Entendo perfeitamente."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Then I must be returning to Connaught."
+.text "Sendo assim, irei retornar para Connacht."
 .byte NewLine
-.text "If you'll excuse me..."
+.text "Com sua licença..."
 .byte WaitForA
 
 .byte EndText
@@ -180,34 +187,34 @@ dialogueChapter20Opening2
 .byte Right_Slot
 .word LoadPortrait
 .word bharat_portrait
-.text "You! Get over here!"
+.text "Você! Venha aqui, rápido!"
 .byte WaitForA
 
 .byte Left_Slot
 .word LoadPortrait
 .word dvorak_portrait
-.text "Uh..."
+.text "Hm..."
 .byte NewLine
-.text "Y-Yes, sir?"
+.text "S-sim, senhor?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Send word to all the troops: we're launching"
+.text "Espalhe essa ordem entre as tropas:"
 .byte NewLine
-.text "an all-out assault on Castle Leonster!"
+.text "todos deverão atacar o castelo de imediato!"
 .byte WaitForA
 .byte ScrollText
-.text "There will be no retreat!"
+.text "Eu os proíbo de recuar! Dêem tudo de si"
 .byte NewLine
-.text "Fight with all your soul if you want to live!"
+.text "se quiserem viver!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Ah!"
 .byte NewLine
-.text "At once, sir!"
+.text "Entendido, senhor!"
 .byte WaitForA
 
 .byte EndText
@@ -222,87 +229,96 @@ dialogueChapter20Opening3
 .byte Left_Slot
 .word LoadPortrait
 .word augustus_portrait
-.text "...The enemy has begun their assault,"
+.text "...O inimigo começou um novo ataque,"
 .byte NewLine
-.text "Prince Leif."
+.text "Príncipe Leif."
 .byte WaitForA
 
 .byte Right_Slot
-.text "Can we mount a defense?"
+.text "Será que poderemos resistir?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I've already ordered as much."
+.text "Já havia dito a todos para estarem"
 .byte NewLine
-.text "Everyone that can stand upright"
+.text "prontos para tal possibilidade."
 .byte NewLine
-.text "is fortifying the castle."
+.text "Todos os aptos para combate estão à postos."
 .byte WaitForA
 .byte ScrollText
-.text "If we fall here, we have nowhere to run."
+.text "Este é nosso último reduto, não há espaço"
+.byte NewLine
+.text "para pouparmos ninguém."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "We've done quite well against such an"
+.text "Nós nos saímos muito bem considerando a"
 .byte NewLine
-.text "enormous army, considering everything."
+.text "situação. Já foram seis meses de cerco,"
 .byte NewLine
-.text "Holding out for half a year, under siege..."
+.text "contra um exército muito maior."
 .byte WaitForA
 .byte NewLine
-.text "But we'll reach our limit before long."
+.text "Mas acho que nosso tempo está acabando..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Bah, you've become overfond"
+.text "Príncipe, não sejas tão pessimista."
+.byte WaitForA
 .byte NewLine
-.text "of such feeble whining."
+.text "Lembre-se do porquê estamos lutando, e de"
 .byte NewLine
-.text "It's unseemly for a prince of your stature."
+.text "todos os sacrifícios que foram precisos"
+.byte NewLine
+.text "para chegarmos até aqui."
 .byte WaitForA
 .byte ScrollText
-.text "If you're not willing to fight to the last breath,"
+.text "Se não mostrar a determinação para lutar"
 .byte NewLine
-.text "you're betraying the memory of all who"
+.text "até o seu último suspiro, fará desfeita"
 .byte NewLine
-.text "have sacrificed themselves to get us this far."
+.text "àqueles que morreram por ti."
 .byte WaitForA
 .byte ScrollText
-.text "Don't forget the bigger picture."
-.byte WaitForA
+.text "Mais importante, não esqueça que nossa"
 .byte NewLine
-.text "We're keeping the bulk of the enemy's forces"
-.byte NewLine
-.text "busy here, which frees Seliph's army to march"
-.byte NewLine
-.text "through Thracia unimpeded."
+.text "resistência serve para ajudar Seliph."
 .byte WaitForA
 .byte ScrollText
-.text "You mustn't give up before we're able to"
+.text "Enquanto resistirmos, o Império será"
 .byte NewLine
-.text "merge our forces!"
+.text "forçado a dividir seus homens,"
+.byte NewLine
+.text "facilitando seu avanço."
+.byte WaitForA
+.byte ScrollText
+.text "Temos que nos manter de pé até"
+.byte NewLine
+.text "o momento que pudermos juntar"
+.byte NewLine
+.text "forças com ele."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I'm sorry, August. I know..."
+.text "Me perdoe, Augusto. Eu sei disso..."
 .byte WaitForA
 .byte ScrollText
-.text "And I do want to meet Lord Seliph myself,"
+.text "Eu quero muito ver meu primo, mas é"
 .byte NewLine
-.text "but how else do you expect me to feel,"
+.text "muito difícil para mim ver meus homens"
 .byte NewLine
-.text "having to watch our soldiers die one by one?"
+.text "morrendo, um por um..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "If it pains you so, that's all the more reason to"
+.text "Se sente a dor dessas perdas, então"
 .byte NewLine
-.text "honor their memory by fighting to the last man!"
+.text "honre-as lutando até o fim, Príncipe."
 .byte WaitForA
 
 .byte EndText
@@ -317,85 +333,87 @@ dialogueChapter20Closing1
 .byte Left_Slot
 .word LoadPortrait
 .word augustus_portrait
-.text "Prince Leif, the enemy is retreating!"
+.text "Principe Leif, o inimigo está recuando!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "What?!"
+.text "Como é?!"
 .byte NewLine
-.text "Why would they do that?"
+.text "Porquê eles fariam isso?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Because Seliph's army has arrived!"
+.text "Porquê finalmente Seliph chegou!"
 .byte NewLine
-.text "They've already surrounded Castle Ulster,"
+.text "Seu exército já cercou Úlster, e agora"
 .byte NewLine
-.text "and are mounting an assault as we speak!"
+.text "mesmo estão atacando o castelo!"
 .byte WaitForA
 .byte ScrollText
-.text "This is our salvation!"
+.text "Estamos salvos, Príncipe!"
 .byte NewLine
-.text "We've done it! We're saved!"
+.text "Nós conseguimos!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Truly...?"
+.text "Conseguimos mesmo?"
 .byte NewLine
-.text "Lord Seliph...has..."
+.text "Lorde Seliph...ele..."
 .byte WaitForA
 .byte ScrollText
-.text "Hold a moment, August."
+.text "Um momento, Augusto."
 .byte NewLine
-.text "How do you know this?"
+.text "Como que você sabe disso?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Ah, listen to me go on..."
+.text "Ah, perdão, Principe. Em minha alegria,"
 .byte NewLine
-.text "I've forgotten myself."
+.text "esqueci disso."
 .byte WaitForA
 .byte ScrollText
-.text "Just now, an emissary of Lord Seliph arrived."
+.text "Há pouco tempo, chegou um mensageiro"
 .byte NewLine
-.text "He awaits you inside the other chamber."
+.text "enviado por Seliph. Ele te espera no"
+.byte NewLine
+.text "salão vizinho."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Lord Seliph's emissary?!"
+.text "Verdade?!"
 .byte NewLine
-.text "I must meet him!"
+.text "Eu preciso vê-lo!"
 .byte NewLine
-.text "Please, send him in!"
+.text "Por favor, chame-o!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .word LoadPortrait
 .word dermott_portrait
-.text "So we meet at last, Prince Leif."
+.text "Enfim nos encontramos, Príncipe."
 .byte NewLine
-.text "I'm a soldier in the service of Lord Seliph."
+.text "Me chamo Diarmuid, venho aqui"
 .byte NewLine
-.text "I go by Diarmuid."
+.text "representando Seliph, meu senhor."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Diarmuid?!"
 .byte NewLine
-.text "But that would make you..."
+.text "Então você é o irmão mais"
 .byte NewLine
-.text "Are you Nanna's older brother?!"
+.text "velho da Nanna?!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I am."
+.text "Sou."
 .byte WaitForA
 
 .byte EndText
@@ -405,25 +423,28 @@ dialogueChapter20Closing2NannaDead
 
 .byte Left_Slot
 .byte ScrollText
-.text "I was looking forward to meeting her, but..."
+.text "Eu queria ver minha irmã de novo, mas..."
 .byte NewLine
-.text "Well, I suppose we all have regrets."
+.text "Acho que eu terei que viver com esse"
+.byte NewLine
+.text "arrependimento."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I'm sorry."
-.byte NewLine
-.text "I...wasn't strong enough..."
+.text "Me perdoe. Eu não consegui protegê-la..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "No, Lord Leif, it's not your fault."
+.text "Não, Príncipe, não é culpa sua."
+.byte WaitForA
 .byte NewLine
-.text "I... I'm sure my sister was happy to live her life"
+.text "Eu...tenho certeza que minha irmã deve ter"
 .byte NewLine
-.text "by your side, no matter how things ended."
+.text "sido feliz contigo, mesmo que tenha"
+.byte NewLine
+.text "acabado dessa forma."
 .byte WaitForA
 
 .byte Right_Slot
@@ -438,45 +459,44 @@ dialogueChapter20Closing2
 
 .byte Left_Slot
 .byte ScrollText
-.text "Lord Leif, this is a letter from Lord Seliph."
+.text "Príncipe, tenho aqui uma carta escrita por"
 .byte NewLine
-.text "Give it a read, if you would, sire."
+.text "Seliph para ti. Se puder, leia-a."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Very well..."
+.text "Tudo bem..."
 .byte WaitForA
 .byte ScrollText
-.text "It states that seizing Ulster"
+.text "Se entendi bem, falta pouco para"
 .byte NewLine
-.text "shouldn't take very long at all."
+.text "conseguirem libertar Úlster."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Indeed."
+.text "Exato."
 .byte NewLine
-.text "It will fall to our army within a few days."
+.text "Creio que conseguiremos tomar a cidade"
+.byte NewLine
+.text "dentro de poucos dias."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Then there's no reason to delay!"
+.text "Então não há porquê ficarmos aqui!"
 .byte NewLine
-.text "We must meet with Lord Seliph"
+.text "Saíremos agora mesmo, para"
 .byte NewLine
-.text "as soon as possible!"
-.byte WaitForA
-.byte NewLine
-.text "We head for Ulster!"
+.text "nos reunirmos o quanto antes!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I'm pleased to hear it, sire."
+.text "É bom ver esse entusiasmo, senhor."
 .byte NewLine
-.text "I can guide you there."
+.text "Eu irei te levar até ele."
 .byte WaitForA
 
 .byte EndText
@@ -486,126 +506,129 @@ dialogueChapter20Closing3
 
 .byte Right_Slot
 .byte ScrollText
-.text "Was there anything else you needed"
-.byte NewLine
-.text "to tell me on behalf of Lord Seliph?"
+.text "Tem algo mais que precise me falar?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "No, sire."
+.text "Não, senhor."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Then now that that's done,"
+.text "Sendo assim, fico feliz em poder"
 .byte NewLine
-.text "it's my honor to introduce you to Nanna."
+.text "te introduzir à Nanna."
 .byte WaitForA
 .byte ScrollText
 .word LoadPortrait
 .word nanna_portrait
 .text "Diarmuid..."
 .byte NewLine
-.text "Brother..."
+.text "É bom poder te ver, irmão..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Nanna?!"
 .byte NewLine
-.text "Nanna, it's really you!"
+.text "Nanna, é você mesmo!"
+.byte NewLine
+.text "Me perdoe por demorar tanto, irmã..."
 .byte WaitForA
 .byte ScrollText
-.text "I'm so sorry it took me such a long time"
+.text "Se eu soubesse que estava aqui antes,"
 .byte NewLine
-.text "to find you..."
+.text "já estaria à seu lado."
 .byte WaitForA
 .byte ScrollText
-.text "If I had just known you were here"
+.text "Eu só soube que estava com o Príncipe"
 .byte NewLine
-.text "from the start, I would've dropped everything"
-.byte NewLine
-.text "to be by your side."
-.byte WaitForA
-.byte ScrollText
-.text "I only finally learned of you"
-.byte NewLine
-.text "through Lord Lewyn..."
+.text "por meio do mestre Lewyn..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Lord Lewyn...?"
+.text "Lewyn está com vocês?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "He's Lord Seliph's tactician."
+.text "Ele é o estrategista de Seliph"
 .byte NewLine
-.text "There's nothing the man doesn't know..."
+.text "Parece que não há nada que ele não saiba..."
 .byte WaitForA
 .byte ScrollText
-.text "And he told me about Mother, too..."
+.text "Ele me contou do que aconteceu com"
 .byte NewLine
-.text "How she was trying to reach Isaach,"
+.text "nossa mãe também..."
+.byte WaitForA
+.byte ScrollText
+.text "Ele me contou que ela tentou ir para"
 .byte NewLine
-.text "but vanished in the Aed Desert..."
+.text "Isaach, mas sumiu quando passava pelo"
+.byte NewLine
+.text "deserto de Aed."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Ah!"
 .byte NewLine
-.text "She's...not with you?"
+.text "Então... ela não está contigo?"
 .byte NewLine
-.text "I... I see..."
+.text "Eu... compreendo."
 .byte WaitForA
 .byte ScrollText
-.text "I had resigned myself to the fact that"
+.text "Eu já imaginava que nunca mais ia a ver,"
 .byte NewLine
-.text "I'd likely never see her again, but even so..."
+.text "mas ainda dói..."
 .byte WaitForA
 .byte ScrollText
-.text "Mother... Oh, gods..."
+.text "Mãe..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I'm sorry, Nanna."
+.text "Me perdoe, Nanna."
 .byte NewLine
-.text "Mother was traveling all that way for me..."
+.text "Isso aconteceu porque ela queria me ver..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "No, don't think like that."
+.text "Não, irmão, não pense assim."
 .byte WaitForA
 .byte ScrollText
-.text "I used to resent her for leaving,"
+.text "Eu costumava detestar ela"
 .byte NewLine
-.text "but now that I'm older,"
-.byte NewLine
-.text "I understand how Mother felt..."
+.text "por ter ido embora,"
 .byte WaitForA
 .byte ScrollText
-.text "All women feel the same deep love"
+.text "mas com o tempo, eu comecei a entender"
 .byte NewLine
-.text "for their children. I've seen as much..."
+.text "o porquê dela ter feito isso."
+.byte WaitForA
+.byte ScrollText
+.text "Toda mãe sente esse amor profundo"
+.byte NewLine
+.text "pelos filhos. Eu pude ver isso..."
+.byte NewLine
+.text "Tenho certeza que ela queria muito te ver."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I haven't given up, Nanna."
+.text "Eu ainda não desisti, Nanna."
 .byte NewLine
-.text "Lord Lewyn said Mother was still alive."
+.text "Lewyn disse que nossa mãe ainda está viva."
 .byte WaitForA
 .byte ScrollText
-.text "We can search for her together"
+.text "Nós podemos procurá-la juntos depois"
 .byte NewLine
-.text "when the war is finally over."
+.text "que essa guerra acabar, então por favor,"
 .byte NewLine
-.text "So...don't cry anymore, OK?"
+.text "não chore."
 .byte WaitForA
 .byte ScrollText
 
@@ -615,27 +638,29 @@ dialogueChapter20Closing3
 .word leif_portrait
 
 .byte Left_Slot
-.text "Prince Leif, I have a request, if I may."
+.text "Principe Leif, quero lhe pedir uma coisa."
 .byte NewLine
-.text "Would you permit me"
+.text "Você permite que eu me junte às"
 .byte NewLine
-.text "to transfer into your army?"
+.text "suas forças?"
 .byte WaitForA
 .byte ScrollText
-.text "I'll ask Lord Seliph for his leave to do so"
+.text "Eu pedirei também a permissão de"
 .byte NewLine
-.text "once we rejoin him."
+.text "Lorde Seliph, assim que estivermos"
+.byte NewLine
+.text "com ele."
 .byte WaitForA
 
 .byte Right_Slot
-.text "Of course!"
+.text "Claro!"
 .byte NewLine
-.text "I'd be glad to have you along"
+.text "Será ótimo ter você conosco,"
 .byte NewLine
-.text "to support Nanna."
+.text "ainda mais ao lado de sua irmã."
 .byte WaitForA
 .byte ScrollText
-.text "I'll explain the situation to Lord Seliph."
+.text "Eu irei explicar a situação para o Seliph."
 .byte WaitForA
 
 .byte EndText
@@ -646,14 +671,14 @@ dialogueChapter20Fall
 .byte Right_Slot
 .word LoadPortrait
 .word augustus_portrait
-.text "Prince Leif, the Friege army"
+.text "Príncipe, o exército imperial"
 .byte NewLine
-.text "has captured the throne!"
+.text "conseguiu capturar o trono!"
 .byte NewLine
-.text "Our troops are fleeing en masse!"
+.text "Nossas tropas estão fugindo!"
 .byte WaitForA
 .byte ScrollText
-.text "Our war...is over..."
+.text "A nossa luta acabou..."
 .byte WaitForA
 
 .byte EndText
@@ -661,38 +686,38 @@ dialogueChapter20Fall
 
 dialogueChapter20WorldMap
 
-.text "...Half a year has passed."
+.text "...Seis meses se passaram."
 .byte WaitForA
 .byte ScrollText
-.text "The army of House Friege, led by Bharat, has"
+.text "Nesse meio tempo, o Exército de Friege,"
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $007E ;TF?rururu
 .word $090B ;y then x
 .byte NewLine
-.text "waged a relentless onslaught against Leonster,"
+.text "liderado pelo General Bhárat, atacou"
 .byte WaitForA
 .byte NewLine
-.text "seeking to recapture the castle."
+.text "incessantemente o castelo de Leonster."
 .byte WaitForA
 .byte ScrollText
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0101 ;leify-left
 .word $0013 ;y then x
-.text "Leif's Liberation Army has fought well,"
+.text "O Exército de Libertação resistiu bem,"
 .byte NewLine
-.text "but has been gradually worn down"
+.text "mas, pouco a pouco, eles foram perdendo"
 .byte WaitForA
 .byte NewLine
-.text "and forced into a small corner of the castle—"
+.text "terreno, e eventualmente, acabaram"
 .byte NewLine
-.text "with no way out."
+.text "encurralados em um pequeno setor do castelo."
 .byte WaitForA
 .byte ScrollText
-.text "Everyone could see it was only a matter of time"
+.text "Para todos, ficava claro que a derrota era"
 .byte NewLine
-.text "until Castle Leonster fell..."
+.text "apenas questão de tempo..."
 .byte WaitForA
 
 .byte EndText
