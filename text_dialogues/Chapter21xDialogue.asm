@@ -3,11 +3,11 @@ dialogueChapter21xWelkenrosen
 .byte Right_Slot
 .word LoadPortrait
 .word codha_portrait
-.text "Soldiers of Leonster yet remain here...?"
+.text "Ainda restam soldados de Leonster aqui?"
 .byte NewLine
-.text "Hah! Now they'll witness the sublime power"
+.text "Hah! Agora eles irão testemunhar o"
 .byte NewLine
-.text "of Loptous!"
+.text "sublime poder de Loptous!"
 .byte WaitForA
 
 .byte EndText
@@ -24,34 +24,36 @@ dialogueChapter21xOpening1
 .word zaun_portrait
 .text "Hmm..."
 .byte NewLine
-.text "The fort is in terrible danger,"
+.text "O forte parece estar em perigo,"
 .byte NewLine
-.text "and it only seems to be getting worse..."
+.text "e não parece que vai melhorar."
 .byte WaitForA
 
 .byte Right_Slot
-.text "...We have word that the rebels have already"
+.word LoadPortrait
+.word dvorak_portrait
+.text "Senhor. Parece que os rebeldes já tomaram"
 .byte NewLine
-.text "gained control of the gates, sir."
+.text "controle dos portões do forte."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hmph! I suppose it was only a matter of time"
+.text "Hmph! Eu já esperava que eles logo viriam"
 .byte NewLine
-.text "until the rebels came to free the prisoners."
+.text "atrás dos prisioneiros."
 .byte WaitForA
 .byte ScrollText
-.text "Well, we're ready for it."
+.text "Bem, nossas defesas estão prontas."
 .byte NewLine
-.text "If worse comes to worst, go ahead with our..."
+.text "E, se precisarmos, usaremos nosso..."
 .byte NewLine
-.text "last resort. Do I make myself clear?"
+.text "trunfo. Ficou claro?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Clear as a vial of Pure Water, sir."
+.text "Claro como a luz do sol, senhor."
 .byte WaitForA
 
 .byte EndText
@@ -66,43 +68,45 @@ dialogueChapter21xOpening2
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "So this is the Imperial prison camp..."
+.text "Então este é o campo de prisioneiros."
 .byte WaitForA
 
 .byte Right_Slot
-.text "As I understand it, most of the soldiers"
+.text "Pelos relatórios que recebi, a maioria dos"
 .byte NewLine
-.text "captured throughout Thracia are sent here."
+.text "dos soldados capturados na Trácia são"
+.byte NewLine
+.text "mantidos aqui."
 .byte WaitForA
 .byte ScrollText
-.text "It's extremely likely that troops captured"
+.text "É bastante provável que algum dos nossos"
 .byte NewLine
-.text "from our army are in this very camp—yet this"
+.text "esteja preso aqui neste campo. Mas,"
 .byte NewLine
-.text "chance will be squandered if you don't hurry."
+.text "não podemos demorar aqui."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "What do you mean?"
+.text "Qual o problema?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Have you already forgotten?"
+.text "Por acaso já se esqueceu?"
 .byte NewLine
-.text "We've a report that clearly states"
+.text "Há pouco lhe falei que um batalhão"
 .byte NewLine
-.text "a battalion of Loptrian mages are en route."
+.text "de magos Loptirianos está à caminho daqui."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Could it be the Welkenrosen...?"
+.text "Será que é a Welkenrose?"
 .byte NewLine
-.text "Well, let's not stay and find out!"
+.text "Melhor não ficarmos para descobrir!"
 .byte NewLine
-.text "We must make haste to rescue the prisoners!"
+.text "Temos que nos apressar então!"
 .byte WaitForA
 
 .byte EndText
@@ -120,169 +124,187 @@ dialogueChapter21xClosing
 .text "Hmm..."
 .byte WaitForA
 .byte NewLine
-.text "It's not enough that Bloom is struggling to hold"
+.text "Não basta Bloom estar sofrendo para lidar"
 .byte NewLine
-.text "Connaught against the Isaachian rebels—"
+.text "com aqueles rebeldezinhos de Isaach, "
+.byte WaitForA
+.text "agora"
 .byte NewLine
-.text "now the Friege army has lost this fort as well."
+.text "Friege também perdeu Danzig"
+.byte NewLine
+.text "para a ralé de Leonster."
 .byte WaitForA
 .byte ScrollText
-.text "What a spectacular family of failures..."
+.text "Que grande família de fracassados..."
 .byte NewLine
-.text "House Friege is a joke."
+.text "A casa de Friege é uma piada."
 .byte WaitForA
 
 .byte Right_Slot
-.text "I... I apologize on behalf of my kin..."
+.text "Eu... peço perdão em nome de"
+.byte NewLine
+.text "minha família, Lorde Julius."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Heh, heh..."
 .byte NewLine
-.text "You're hardly at fault, Ishtar."
+.text "Não é culpa sua, Ishtar."
 .byte NewLine
-.text "There's no need for you to apologize."
+.text "Não é você que tem de se desculpar."
 .byte WaitForA
 .byte ScrollText
-.text "Yet having said that, I can't allow you to"
+.text "Dito isso, eu não posso deixar que vá"
 .byte NewLine
-.text "join the battle in Connaught yourself."
+.text "para Connacht agora. Preciso de você"
 .byte NewLine
-.text "I...need you with me."
+.text "comigo."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "As you wish..."
+.text "Como quiser, senhor..."
 .byte NewLine
-.text "But where are we to go instead?"
+.text "Mas... para onde vamos então?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Miletos."
 .byte NewLine
-.text "Hilda has been pestering me to come."
+.text "Hilda tem me perturbado para eu ir lá."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Mother...?"
-.byte NewLine
-.text "Whatever for?"
+.text "Mas o que minha mãe quer contigo?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "To see the results of her harvest, of course."
+.text "Quer me mostrar os resultados da “colheita”"
 .byte NewLine
-.text "I must say, she's been quite delighted with"
+.text "dela."
+.byte WaitForA
+.byte ScrollText
+.text "Ela parece estar se divertindo muito"
 .byte NewLine
-.text "governing the city since I gave her the throne."
+.text "com aquela cidade desde que eu a"
+.byte NewLine
+.text "fiz Rainha de Miletos."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Mother...has..."
+.text "Minha mãe... tem feito"
 .byte NewLine
-.text "She's been conducting child hunts..."
+.text "as caçadas também?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "You know, Miletos' climate is quite pleasant"
+.text "Sabia que o clima de Miletos é ótimo"
 .byte NewLine
-.text "this time of year. I think it would be an ideal"
+.text "nesse período do ano? Vai ser um ótimo"
 .byte NewLine
-.text "place for two people to spend time together."
+.text "lugar para passarmos um tempo juntos."
 .byte WaitForA
 .byte ScrollText
-.text "Yes, that sounds perfect..."
+.text "Sim, vai ser ótimo... vou até comprar"
 .byte NewLine
-.text "I'll buy you a dress of fine silk, Ishtar."
+.text "um belo vestido de seda para você, Ishtar."
 .byte WaitForA
 .byte ScrollText
-.text "And what else would go nicely with it...?"
+.text "Ah... mais o que..."
 .byte NewLine
-.text "Ah, I know just the thing!"
-.byte NewLine
-.text "A ruby tiara!"
+.text "Já sei! Uma tiara de rubis!"
 .byte WaitForA
 .byte ScrollText
-.text "Hilda is already arranging"
+.text "Hilda certamente vai preparar um banquete"
 .byte NewLine
-.text "a most splendid banquet for us, I'm sure."
+.text "para nós."
 .byte WaitForA
 .byte ScrollText
-.text "Ishtar, you can dress up"
+.text "Ishtar, você vai pegar todos"
 .byte NewLine
-.text "and take everyone by surprise"
+.text "de surpresa com as roupas novas"
 .byte NewLine
-.text "with your captivating beauty."
+.text "que eu vou te dar"
 .byte WaitForA
 .byte ScrollText
-.text "I'm dearly looking forward to it..."
+.text "Mal posso esperar pela hora que"
 .byte NewLine
-.text "Oh, Ishtar, I'm so glad to"
+.text "chegarmos lá... ah, como é bom"
 .byte NewLine
-.text "have you by my side..."
+.text "te ter comigo, minha querida Ishtar."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "L-Lord Julius..."
+.text "L-Lorde Julius..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Ishtar..."
 .byte NewLine
-.text "That man, Reinhardt..."
+.text "Aquele detestável homem..."
 .byte NewLine
-.text "I don't want him near us anymore."
+.text "Eu não quero mais ver ele na minha frente."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Reinhardt?!"
 .byte NewLine
-.text "He's watched over me since I was a child!"
+.text "Ele cuida de mim desde que eu era pequena!"
 .byte NewLine
-.text "I rely on him every day!"
+.text "Ele é de muita ajuda para mim!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I don't care!"
+.text "Não me importa!"
 .byte NewLine
-.text "I hate the way he looks at you!"
+.text "Eu detesto o jeito que"
 .byte NewLine
-.text "If I see him, I'll pluck out his eyes myself!"
+.text "ele olha para você!"
+.byte WaitForA
+.byte ScrollText
+.text "Se eu o ver de novo,"
+.byte NewLine
+.text "vou arrancar-lhe os olhos!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Ah...!"
 .byte NewLine
-.text "I... I understand..."
+.text "Entendo..."
 .byte WaitForA
 .byte ScrollText
-.text "Forgive me, but I must ask this of you:"
+.text "Me perdoe, mas quero apenas pedir-te"
 .byte NewLine
-.text "let Reinhardt go home. Please."
+.text "que deixe-o voltar para o ducado."
+.byte NewLine
+.text "Por favor."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Heh, heh..."
 .byte NewLine
-.text "Very well, we'll leave him be."
+.text "Tudo bem, o deixarei de lado"
+.byte NewLine
+.text "por agora."
 .byte WaitForA
 .byte ScrollText
-.text "Let's be off!"
+.text "Agora vamos!"
 .byte NewLine
-.text "Oh, Ishtar... How I love you!"
+.text "Ah, Ishtar... queria eu que"
+.byte NewLine
+.text "entendesse meu amor!"
 .byte WaitForA
 
 .byte EndText
