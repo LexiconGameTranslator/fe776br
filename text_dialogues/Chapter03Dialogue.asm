@@ -57,7 +57,7 @@ dialogueChapter03Opening1
 .text "virão aqui buscá-los."
 .byte WaitForA
 .byte ScrollText
-.text "Talvez os Magi venham ao resgate delas;"
+.text "E talvez os Magi venham ao resgate delas;"
 .byte NewLine 
 .text "mantenha seus homens em guarda para um"
 .byte NewLine
@@ -142,7 +142,7 @@ dialogueChapter03Opening2
 .byte WaitForA
 
 .byte Right_Slot
-.text "Porquê?"
+.text "Por quê?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -426,7 +426,7 @@ dialogueChapter03Ending3
 .byte ScrollText
 .text "Lorde Leif, aguente firme!"
 .byte NewLine
-.text "Eu juro que irei voltar para te salvar!"
+.text "Eu juro que voltarei para te salvar!"
 .byte WaitForA
 
 .byte EndText
@@ -439,9 +439,9 @@ dialogueChapter03Ending4
 
 .text "Bem... fico surpreso que duramos tanto assim."
 .byte NewLine
-.text "Porém, ninguém pode dizer"
+.text "Ao menos, ninguém pode dizer"
 .byte NewLine
-.text "que não demos nosso máximo..."
+.text "que não demos nosso melhor..."
 .byte WaitForA
 
 .byte EndText
@@ -554,7 +554,7 @@ dialogueChapter03LucciaHouseLuccia
 .byte ScrollText
 .text "Eu sou eternamente grata a ocê, estranho,"
 .byte NewLine
-.text "por ter a salvado. Infelizmente,"
+.text "por ter salvado ela. Infelizmente,"
 .byte NewLine
 .text "eu num tenho muito jeito de te recompensar..."
 .byte WaitForA
@@ -568,7 +568,7 @@ dialogueChapter03LucciaHouseLuccia
 .byte ScrollText
 .text "Mas eu percebi que segurar ele te deixa mais"
 .byte NewLine
-.text "forte de algum jeito. Espero que te ajude."
+.text "forte de algum jeito. Espero que ajude."
 .byte WaitForA
 
 .byte EndText
@@ -599,7 +599,7 @@ dialogueChapter03JubelHouseJubel
 
 .text "Santo Heim! Jubel, ocê tá bem!"
 .byte NewLine
-.text "Eu...tava muito preocupada co ocê..."
+.text "Eu...tava muito preocupada co' ocê..."
 .byte NewLine
 .text "Eu tô tão feliz em te ver de novo."
 .byte WaitForA
@@ -616,7 +616,7 @@ dialogueChapter03JubelHouseJubel
 .byte ScrollText
 .text "Olha, meu irmão Dalsin é um soldado imperial,"
 .byte NewLine
-.text "se ocês verem ele, falem o que que o império"
+.text "se ocês verem ele, falem o que que o Império"
 .byte NewLine
 .text "fez com o irmãozinho dele."
 .byte WaitForA
