@@ -15,7 +15,7 @@ dialogueChapter04Opening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Dalsin! Os cavaleiros de Connaught logo"
+.text "Dalsin! Os cavaleiros de Connacht logo"
 .byte NewLine
 .text "virão aqui para buscar o garoto de Leonster."
 .byte WaitForA
@@ -80,7 +80,7 @@ dialogueChapter04Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Você vai mesmo me deixar ver elas?"
+.text "...Você vai mesmo me deixar vê-las?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -127,13 +127,13 @@ dialogueChapter04Opening2
 .byte Right_Slot
 .text "Brighton, eu quero que você,"
 .byte NewLine
-.text "a Macha e a Lara deêm uma volta na prisão"
+.text "Macha e Lara deêm uma volta na prisão"
 .byte NewLine
 .text "e libertem todos que encontrarem."
 .byte WaitForA
 
 .byte Left_Slot
-.text "Sim senhor! Assim que libertarmos estas pobres"
+.text "Sim, senhor! Assim que libertarmos estas pobres"
 .byte NewLine
 .text "almas, iremos nos encontrar com você."
 .byte WaitForA
@@ -224,7 +224,7 @@ dialogueChapter04DalsinRecruitment
 .byte NewLine
 .text "Vô virar a casaca!"
 .byte NewLine
-.text "Eu vô com ocês! Tô a seu dispor, príncipe!"
+.text "Eu vô co' ocês! A seu dispor, príncipe!"
 .byte WaitForA
 
 .byte EndText
@@ -249,7 +249,7 @@ dialogueChapter04LifisDialogue
 .text "Ocê é aquele tal de Lifis, não é mermo?"
 .byte WaitForA
 .byte ScrollText
-.text "Ocê num era o líder duma grande tropa"
+.text "Cê num era o líder duma grande tropa"
 .byte NewLine
 .text "de piratas ou algo assim?"
 .byte NewLine
@@ -435,7 +435,7 @@ dialogueChapter04LeifDialogue
 .word fergus_portrait
 
 .byte Right_Slot
-.text "Ah, vai! Você não tentou só impedí-los,"
+.text "Ah, mesmo? Você não tentou só impedí-los,"
 .byte NewLine
 .text "você quase espancou um deles até a morte!"
 .byte WaitForA
@@ -549,12 +549,12 @@ dialogueChapter04LeifDialogue
 .byte NewLine
 .text "reuniram na cidade de Tófa, e eles se"
 .byte NewLine
-.text "juntaram em torno da família real."
+.text "reuniram em torno da família real."
 .byte WaitForA
 .byte ScrollText
 .text "Quando eu for uma cavaleira de pégaso"
 .byte NewLine
-.text "de verdade, eu vou me juntar a eles."
+.text "de verdade, eu vou voltar para lá."
 .byte WaitForA
 
 .byte Left_Slot
@@ -592,7 +592,7 @@ dialogueChapter04LeifDialogue
 
 .byte Left_Slot
 .byte ScrollText
-.text "Por que o príncipe saiu de Silesse"
+.text "E por que o príncipe saiu de Silesse"
 .byte NewLine
 .text "pra começo de conversa?"
 .byte WaitForA
@@ -604,7 +604,7 @@ dialogueChapter04LeifDialogue
 .text "fugiu para ir atrás do nosso rei,"
 .byte WaitForA
 .byte ScrollText
-.text "Que por acaso também fugiu a alguns anos"
+.text "Que por acaso também fugiu a alguns anos,"
 .byte NewLine
 .text "abandonando todos nós."
 .byte WaitForA
@@ -619,9 +619,9 @@ dialogueChapter04LeifDialogue
 .text "e assuma o trono o Príncipe Ced."
 .byte WaitForA
 .byte ScrollText
-.text "Eu fui mandada pra cá para encontrá-lo, mas"
+.text "Eu fui para aqui procurá-lo, mas acabei"
 .byte NewLine
-.text "acabei presa por causa desse cabeça de ovo."
+.text "presa por causa desse cabeça de ovo."
 .byte WaitForA
 
 .byte Left_Slot
@@ -788,7 +788,7 @@ dialogueChapter04NPCDialogue
 .byte ScrollText
 .text "Eu sei lá. Quem sabe? Talvez eles tenham"
 .byte NewLine
-.text "uma chance, né? E se eles tiverem uma"
+.text "uma chance, né? E se eles tiverem mesmo uma"
 .byte NewLine
 .text "chance, a gente tem que acreditar neles."
 .byte WaitForA
@@ -802,7 +802,7 @@ dialogueChapter04NPCDialogue
 
 .byte Right_Slot
 .byte ScrollText
-.text "É, e ele faz jús a esse título."
+.text "É, e por um bom motivo."
 .byte NewLine
 .text "Antes dele aparecer, os Magi tinham"
 .byte NewLine
@@ -846,16 +846,16 @@ dialogueChapter04LeifCellUnlock
 
 .byte Left_Slot
 .byte ScrollText
-.text "E isso importa? Guarde essas perguntas"
+.text "Isso importa? Guarde essas perguntas"
 .byte NewLine
 .text "pra quando a gente tiver bem,"
 .byte NewLine
 .text "bem longe daqui."
 .byte WaitForA
 .byte ScrollText
-.text "Ah, Tem uma escadaria ao norte que leva para"
+.text "Ah, tem uma escadaria ao norte que"
 .byte NewLine
-.text "fora daqui."
+.text "leva para fora daqui."
 .byte WaitForA
 .byte ScrollText
 .text "Cê vai na frente; eu cuido dos soldados"
@@ -920,11 +920,11 @@ dialogueChapter04LeifCellUnlock
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ah, pelo amor! Se você acha isso, ainda"
+.text "Ah, pelo amor dos deuses! Se você acha isso,"
 .byte NewLine
-.text "deve estar meio grogue. Quer que a gente"
+.text "ainda deve estar meio grogue. Quer que"
 .byte NewLine
-.text "espere você acordar?"
+.text "a gente espere um pouco por você?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -953,7 +953,7 @@ dialogueChapter04LeifCellUnlock
 .text "Isso é imperdoável."
 .byte WaitForA
 .byte ScrollText
-.text "Se a gente puder dar uns bons tabefes"
+.text "Se a pudermos dar uns bons tabefes"
 .byte NewLine
 .text "nele, eu vou com você."
 .byte WaitForA
@@ -1024,9 +1024,7 @@ dialogueChapter04LifisCellUnlock
 .byte ScrollText
 .text "Bem, que fique de prova que, as vezes,"
 .byte NewLine
-.text "uma mentira deslavada"
-.byte NewLine
-.text "vira uma meia verdade!"
+.text "dá certo mentir na cara dura!"
 .byte WaitForA
 
 .byte EndText
@@ -1117,7 +1115,7 @@ dialogueChapter04Ending
 .byte NewLine
 .text "veementemente contra a prática de..."
 .byte NewLine
-.text '"caças à crianças."'
+.text '"caçadas de crianças."'
 .byte WaitForA
 .byte ScrollText
 .text "Meu próprio irmão está"
@@ -1291,9 +1289,9 @@ dialogueChapter04WorldMap2
 .text "conquistadores da Trácia Setentrional,"
 .byte WaitForA
 .byte ScrollText
-.text "a Casa de Friege, que foi apontada"
+.text "a Casa de Friege, a quem o Império"
 .byte NewLine
-.text "para o governo pelo Império de Grannvale."
+.text "concedeu o direito de governo."
 .byte WaitForA
 .byte ScrollText
 
@@ -1308,7 +1306,7 @@ dialogueChapter04WorldMap3
 .word $0078 ;raydrik
 .word $0B06 ;y then x
 .byte NewLine
-.text "do Reino de Connaught,"
+.text "do Reino de Connacht,"
 .byte WaitForA
 .byte ScrollText
 .text "mas fez um acordo com o Império,"
@@ -1318,10 +1316,10 @@ dialogueChapter04WorldMap3
 .byte ScrollText
 .text "Como parte desse acordo, ele recebeu"
 .byte NewLine
-.text "o título de Barão de Munster."
+.text "o título de Duque de Munster."
 .byte WaitForA
 .byte ScrollText
-.text "embora ainda seja subordinado ao Rei Bloom,"
+.text "Embora ainda seja subordinado ao Rei Bloom,"
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $017C ;blume
