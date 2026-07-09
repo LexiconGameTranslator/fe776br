@@ -84,6 +84,7 @@ dialogueChapter01Opening1
 	.text "São a milícia local, meu senhor."
 	.byte NewLine
 	.text "Pelo que eu entendi, um tempo atrás,"
+	.byte WaitForA
 	.byte NewLine
 	.text "essa vila estava sobre o controle de alguns"
 	.byte NewLine
@@ -285,7 +286,7 @@ dialogueChapter01Opening4
 	.text "tropas imperiais!"
 	.byte WaitForA
 	.byte NewLine
-	.text "Eles devem ter atacado"
+	.text "Eles devem ter entrado aqui"
 	.byte NewLine
 	.text "enquanto estávamos fora."
 	.byte WaitForA
@@ -598,7 +599,7 @@ dialogueChapter01OsianHouseOsian
 	
 	.byte Left_Slot
 	.byte ScrollText
-	.text "Então porque diabos ocê esquece ele"
+	.text "Então por que diabos ocê esquece ele"
 	.byte NewLine
 	.text "quase toda vez!?"
 	.byte WaitForA
@@ -683,9 +684,9 @@ dialogueChapter01VulneraryHouse
 	.text "Ocês chegaram! Até que enfim..."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Mas ó, sem Fiana, num teria "
+	.text "Mas ó, sem Fiana, num teria"
 	.byte NewLine
-	.text "a Legião de Fiana, né?"
+	.text "os Legionários, né?"
 	.byte WaitForA
 	.byte ScrollText
 	.text "Então num matem só piratas! Tem que"
@@ -735,7 +736,7 @@ dialogueChapter01IronSwordHouse
 	.byte ScrollText
 	.text "É difícil, mas se cê conseguir [Capturar]"
 	.byte NewLine
-	.text "um inimigo, ocê pode ficar com as coisas dele."
+	.text "um inimigo, ocê pode pegar com as coisas dele."
 	.byte WaitForA
 	.byte ScrollText
 	.text "Na real, outro dia eu consegui pegar"
@@ -757,7 +758,7 @@ dialogueChapter01IronSwordHouse
 	.text "então, deve te servir de alguma coisa."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Claro, se ocê também não precisar, ocê pode"
+	.text "Claro, se ocê também não precisar, pode"
 	.byte NewLine
 	.text "vender na loja pra ganhar uma grana."
 	.byte WaitForA
@@ -803,7 +804,7 @@ dialogueChapter01HalvanHouseHalvan
 	.byte ScrollText
 	.text "Agora vai lá fora e faça bom uso"
 	.byte NewLine
-	.text "desse machado!"
+	.text "dele!"
 	.byte WaitForA
 	
 	.byte EndText
@@ -930,7 +931,7 @@ dialogueChapter01EndingNoEyvel
 	
 	.byte Right_Slot
 	.byte ScrollText
-	.text "O que aconteceu com ela"
+	.text "O que aconteceu com ela?"
 	.byte WaitForA
 	
 	.byte Left_Slot
@@ -954,7 +955,7 @@ dialogueChapter01EndingNoEyvel
 	.byte ScrollText
 	.text "Eu num sei, meu sinhô. Um dos soldados"
 	.byte NewLine
-	.text "falaram que iam voltar pra Munster, mas"
+	.text "falô que iam voltar pra Munster, mas"
 	.byte NewLine
 	.text "eu só ouvi isso."
 	.byte WaitForA
@@ -1177,11 +1178,11 @@ dialogueChapter01OsianTanyaTalk
 	.byte Left_Slot
     .word LoadPortrait
     .word osian_portrait
-	.text "Tânia? Porque você está aqui?"
+	.text "Tânia? Por que você está aqui?"
 	.byte WaitForA
 	
 	.byte Right_Slot
-	.text "Porque será, Osian?"
+	.text "Por que será, Osian?"
 	.byte NewLine
 	.text "Eu vim aqui ajudar vocês, ora!"
 	.byte WaitForA
