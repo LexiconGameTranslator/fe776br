@@ -70,9 +70,9 @@ dialogueChapter05Opening1
 .text "me prometeu que eu veria minha filha!"
 .byte WaitForA
 .byte ScrollText
-.text "Você é tão ruim que nem sua"
+.text "Você é tão ruim que até aqui"
 .byte NewLine
-.text "palavra vale alguma coisa?!"
+.text "tem que me enganar?!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -132,7 +132,7 @@ dialogueChapter05Opening2
 .byte ScrollText
 .text "Agora vocês estão apresentados, portanto,"
 .byte NewLine
-.text "não digam que sou um mal anfitrião."
+.text "não digam que fui um mal anfitrião."
 .byte WaitForA
 
 .byte ScrollText
@@ -152,11 +152,11 @@ dialogueChapter05Opening2
 .byte WaitForA
 
 .byte Left_Slot
-.text "...Senhorita, isto aqui vai ficar perigoso,"
+.text "...Senhorita, vai ficar perigoso aqui,"
 .byte NewLine
 .text "e bem rápido."
 .byte NewLine
-.text "Tome cuidado e fique de cabeça baixa."
+.text "Tome cuidado e fique atrás de mim."
 .byte WaitForA
 
 .byte EndText
@@ -208,9 +208,8 @@ dialogueChapter05RaydrikDialogue
 
 .byte Left_Slot
 .byte ScrollText
-.text "*Suspiro*"
 .byte NewLine
-.text "Oh, pois bem. Bem que eu"
+.text "...Ah, pois bem. Bem que eu"
 .byte NewLine
 .text "poderia gozar de uma diversão efêmera."
 .byte WaitForA
@@ -219,12 +218,12 @@ dialogueChapter05RaydrikDialogue
 .byte ScrollText
 .text "Bem, agora tudo está nas mãos dela..."
 .byte NewLine
-.text "Vamos ver o que nossa Mestra Espadachim"
+.text "Vamos ver o que nossa mestra espadachim"
 .byte NewLine
-.text "tem a nos mostrar."
+.text "vai nos mostrar."
 .byte WaitForA
 .byte ScrollText
-.text "Nossa estrela já está no"
+.text "A estrela já está no"
 .byte NewLine
 .text "centro de seu palco!"
 .byte NewLine
@@ -248,7 +247,7 @@ dialogueChapter05MareetaAppears1
 .byte NewLine
 .text "Que encanto! Aqui, uma recompensa"
 .byte NewLine
-.text "apropriada a uma artista magnífica!"
+.text "apropriada à uma artista magnífica!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -389,26 +388,26 @@ dialogueChapter05MareetaAppears4
 .text "tesouros deste mesmo castelo."
 .byte WaitForA
 .byte ScrollText
-.text "...A espada maldita,"
+.text "...A Espada Maldita,"
 .byte NewLine
 .text "creio que esse é o nome dela."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "A espada maldita, uma arma amaldiçoada..."
+.text "Como pode..."
 .byte WaitForA
 .byte ScrollText
 .text "Você está tentando fazer da"
 .byte NewLine
-.text "minha Mareeta um dos seus"
+.text "minha Mareeta num dos seus"
 .byte NewLine
-.text "malditos gladiadores com o seu “presente?”"
+.text "“preciosos” gladiadores com esse “presente?”"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Meu presente está amaldiçoado? "
+.text "Então há algo de errado com meu presente?"
 .byte NewLine
 .text "É isso que quer dizer?"
 .byte NewLine
@@ -428,10 +427,10 @@ dialogueChapter05MareetaAppears4
 .byte NewLine
 .text "mas não acha que tem algo mais importante"
 .byte NewLine
-.text "para você se preocupar agora?"
+.text "para se preocupar agora?"
 .byte WaitForA
 .byte ScrollText
-.text "A Espada maldita possui um poder incrível..."
+.text "A Espada Maldita possui um poder incrível..."
 .byte WaitForA
 .byte ScrollText
 .text "um presente excepcional para"
@@ -493,10 +492,10 @@ dialogueChapter05MareetaDialogue
 .byte ScrollText
 .text "As memórias da mãe dela a"
 .byte NewLine
-.text "fazem vacilar e hesitar."
+.text "fazem hesitar."
 .byte WaitForA
 .byte ScrollText
-.text "Suas emoções travam o poder da espada,"
+.text "Suas emoções cegam o poder da espada,"
 .byte NewLine
 .text "tal qual correr sua lâmina pela pedra."
 .byte WaitForA
@@ -508,7 +507,7 @@ dialogueChapter05MareetaDialogue
 .text "contra suas correntes."
 .byte WaitForA
 .byte ScrollText
-.text "Ou será que não conseguiste"
+.text "Será que não conseguiste"
 .byte NewLine
 .text "notar o choro dela, imbecil?"
 .byte WaitForA
@@ -592,7 +591,7 @@ dialogueChapter05MareetaKilled
 .word raydrik_portrait
 .text "Ela prevaleceu mesmo "
 .byte NewLine
-.text "contra a Espada maldita..."
+.text "contra a Espada Maldita..."
 .byte NewLine
 .text "Isso é algum tipo de piada...?!"
 .byte WaitForA
@@ -648,7 +647,7 @@ dialogueChapter05RaydrikPanicsA
 .word veld_portrait
 .text "Já está em pânico, Raydrik?"
 .byte NewLine
-.text "Não tenha medo. Eu vou dar um jeito nisto."
+.text "Não tenha medo. Eu irei resolver."
 .byte WaitForA
 
 .byte Right_Slot
@@ -693,7 +692,7 @@ dialogueChapter05EyvelCaptured
 .byte ScrollText
 .word LoadPortrait
 .word eyvel_portrait
-.text "Qu-quê...?"
+.text "Q-quê...?"
 .byte WaitForA
 
 .byte EndText
@@ -753,12 +752,10 @@ dialogueChapter05NannaLeftAlone
 .byte Right_Slot
 .text "Hmm... Deixe-a em paz. Aquela coitadinha"
 .byte NewLine
-.text "não poderia nem sair do castelo."
+.text "não conseguirá nem sair daqui."
 .byte WaitForA
 .byte ScrollText
-.text "Depois disto, estou certo de que ela"
-.byte NewLine
-.text "será uma diversão ainda mais interessante!"
+.text "Deixe que os gladiadores cuidem dela."
 .byte WaitForA
 
 .byte Left_Slot
@@ -836,12 +833,12 @@ dialogueChapter05ArenaOpenEyvelNanna
 .byte ScrollText
 .text "Eu queria ter feito o mesmo"
 .byte NewLine
-.text "pra minha filha..."
+.text "com a minha filha..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Não... o que houve com a Mareeta?"
+.text "Não... o que aconteceu com a Mareeta?"
 .byte WaitForA
 
 .byte EndText
@@ -882,12 +879,12 @@ dialogueChapter05ArenaOpenNannaCaptured
 
 .byte Left_Slot
 .byte ScrollText
-.text "Eu falhei com ela, e com a Mareeta..."
+.text "Eu falhei com ela, e Mareeta..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Não... o que houve com a Mareeta?"
+.text "Não... o que aconteceu com ela?"
 .byte WaitForA
 
 .byte EndText
@@ -1006,7 +1003,7 @@ dialogueChapter05ArenaOpenNannaAlone
 .byte WaitForA
 
 .byte Right_Slot
-.text "Nanna! Você está a salvo!"
+.text "Nanna! Você está bem!"
 .byte WaitForA
 
 .byte Left_Slot
