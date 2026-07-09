@@ -178,7 +178,7 @@ dialogueChapter02xOpening2
 	.text "mas ainda dará para ver um pouco a sua frente."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Também é possível que tenha uma tocha em"
+	.text "Também é possível que haja uma tocha em"
 	.byte NewLine
 	.text "algum lugar da ilha."
 	.byte WaitForA
@@ -212,7 +212,7 @@ dialogueChapter02xReinforcementsDialogue
 	.text "contra o Império..."
 	.byte WaitForA
 	.byte ScrollText
-	.text "Se fô pá fazê isso, porquê a gente só"
+	.text "Se fô pá fazê isso, por que a gente só"
 	.byte NewLine
 	.text "não se mata? Vai sê mais rápido!"
 	.byte WaitForA
