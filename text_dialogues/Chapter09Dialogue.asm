@@ -7,7 +7,7 @@ dialogueChapter09LeifSelphinaTalk
 .byte Left_Slot
 .word LoadPortrait
 .word selphina_portrait
-.text "Príncipe Leif! Quanto tempo, milorde!"
+.text "Príncipe Leif! Quanto tempo!"
 .byte NewLine
 .text "Sou eu, Selphina!"
 .byte WaitForA
@@ -27,7 +27,7 @@ dialogueChapter09LeifSelphinaTalk
 .byte ScrollText
 .text "E você amava dormir no meu colo..."
 .byte NewLine
-.text "Agora você é um homem..."
+.text "Agora você já é um homem..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -39,7 +39,9 @@ dialogueChapter09LeifSelphinaTalk
 .text "morrido pra me proteger."
 .byte WaitForA
 .byte NewLine
-.text "...Eu pensei que nunca mais ia lhes ver."
+.text "...Eu pensei que nunca mais ia ver você"
+.byte NewLine
+.text "nem Dórias."
 .byte WaitForA
 .byte ScrollText
 .text "Eu... não conheci nem minha irmã nem minha mãe."
@@ -67,7 +69,7 @@ dialogueChapter09LeifSelphinaTalk
 .byte NewLine
 .text "assim de ti. Mas se você me diz isso, eu"
 .byte NewLine
-.text "irei aceitar, milorde."
+.text "irei aceitar, senhor."
 .byte WaitForA
 .byte ScrollText
 .text "Eu... imagino que a Lachesis ainda"
@@ -206,12 +208,12 @@ dialogueChapter09SelphinaFinnTalk2
 .byte ScrollText
 .text "É mesmo? Eu ainda lembro o que você fez com"
 .byte NewLine
-.text "a Lachesis. Você abandonou ela!"
+.text "a Lachesis. Você a abandonou!"
 .byte WaitForA
 .byte ScrollText
 .text "Dava para ver a tristeza no rosto dela,"
 .byte NewLine
-.text "mas você deixou ela ir embora."
+.text "mas você deixou-a ir embora."
 .byte WaitForA
 
 .byte Left_Slot
@@ -246,9 +248,9 @@ dialogueChapter09SelphinaFinnTalk2
 
 .byte Left_Slot
 .byte ScrollText
-.text "Não, eu... eu te entendo. Podemos conversar"
+.text "Não, eu... eu te entendo."
 .byte NewLine
-.text "mais tarde."
+.text "Podemos conversar mais tarde."
 .byte NewLine
 .text "Por enquanto, vamos focar na batalha."
 .byte WaitForA
@@ -328,7 +330,7 @@ dialogueChapter09CallionSelphinaTalk
 .byte NewLine
 .text "você se tornar um cavaleiro digno dela."
 .byte NewLine
-.text "Para mim, esse já é o caso."
+.text "Para mim, parece que você já é."
 .byte WaitForA
 
 .byte Right_Slot
@@ -431,7 +433,7 @@ dialogueChapter09StaminaDrinkHouse
 .byte ScrollText
 .text "Ah, deixa eu te avisar: além da linda"
 .byte NewLine
-.text "loja ao meu lado, só vendem essas coisas" ;fazendo parecer que o mano tá fazendo um ad do energético
+.text "loja ao meu lado, só vendem essas coisas" ;fazendo parecer que o mano tá fazendo um ad da redbull
 .byte NewLine
 .text "em Tarrah! É melhor guardar sua grana pra isso!"
 .byte WaitForA
@@ -452,7 +454,7 @@ dialogueChapter09Opening1
 .byte WaitForA
 
 .byte Right_Slot
-.text "Sim, milorde."
+.text "Sim, Vossa Majestade."
 .byte WaitForA
 
 .byte Left_Slot
@@ -481,7 +483,10 @@ dialogueChapter09Opening1
 .byte NewLine
 .text "isso, filha? É parte do meu dever me informar"
 .byte NewLine
-.text "dos problemas no reino, grandes ou pequenos."
+.text "dos problemas no reino,"
+.byte WaitForA
+.byte NewLine
+.text "sejam eles grandes ou pequenos."
 .byte WaitForA
 .byte ScrollText
 .text "Ademais, essa é uma ótima oportunidade"
@@ -579,7 +584,7 @@ dialogueChapter09Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Consegue lidar com isso sozinho,"
+.text "Consegue lidar com eles sozinho,"
 .byte NewLine
 .text "Merloch?"
 .byte WaitForA
@@ -617,7 +622,7 @@ dialogueChapter09Opening2
 .byte Left_Slot
 .word LoadPortrait
 .word selphina_portrait
-.text "Pai! Tem uma divisão de trácios ao sul!"
+.text "Pai! Há uma legião de trácios ao sul!"
 .byte NewLine
 .text "Parece que eles irão nos atacar!"
 .byte WaitForA
@@ -714,7 +719,7 @@ dialogueChapter09Opening3
 .byte Right_Slot
 .text "Tem algo estranho acontecendo... aqueles"
 .byte NewLine
-.text "soldados ali, eles são os do duque Dórias?"
+.text "soldados ali, eles são os do Duque Dórias?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -940,7 +945,7 @@ dialogueChapter09Ending2
 .byte ScrollText
 .text "Uma dragão... parece que ela está"
 .byte NewLine
-.text "se dirigindo às tropas no campo."
+.text "se dirigindo às tropas trácias."
 .byte NewLine
 .text "O que será que ela está dizendo?"
 .byte WaitForA
@@ -988,7 +993,7 @@ dialogueChapter09PlayerLoss
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "Como?!"
+.text "Como é?!"
 .byte NewLine
 .text "Então... perdemos o Duque..."
 .byte WaitForA
