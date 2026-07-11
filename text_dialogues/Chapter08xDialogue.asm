@@ -21,10 +21,14 @@ dialogueChapter08xOsianTanyaTalk
 .byte Left_Slot
 .byte ScrollText
 .text "Vai te machucar me agradecer?"
+.byte WaitForA
+.byte ScrollText
 .byte NewLine
 .text "Se tivéssemos chegado só um pouco depois,"
 .byte NewLine
-.text "talvez você seria só uma mancha no chão!"
+.text "talvez você acbaria virando só uma"
+.byte NewLine
+.text "mancha de sangue no chão!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -82,7 +86,7 @@ dialogueChapter08xOpening
 .byte ScrollText
 .text "E se ocê ficar aqui, vai atrapalhar."
 .byte NewLine
-.text "Agora obedece seu pai e vaza daqui!"
+.text "Agora me obedece e vaza daqui!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -131,12 +135,12 @@ dialogueChapter08xOpening
 .byte ScrollText
 .text "Ocê deu a terra boa toda pra ela e a gente"
 .byte NewLine
-.text "ficou passando fome! Eu sei que ocê feiz"
+.text "ficou passando fome! Eu sei que ocê"
 .byte NewLine
 .text "feiz isso pra agradar ela!"
 .byte WaitForA
 .byte NewLine
-.text "Tá feliz cum ela, velho?"
+.text "E tá feliz co ela, velho?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -144,16 +148,16 @@ dialogueChapter08xOpening
 .text "Como é que é?!"
 .byte WaitForA
 .byte ScrollText
-.text "Ocê fala demais, garoto!"
+.text "Olha o que fala, garoto!"
 .byte NewLine
 .text "Ocê nunca passou aperto de verdade,"
 .byte NewLine
 .text "só fazia o básico!"
 .byte WaitForA
 .byte ScrollText
-.text "E sabe porque? Porque ocê só sabia fazer"
+.text "E sabe porque? Porque eu só podia"
 .byte NewLine
-.text "isso, imprestável!"
+.text "te deixar com isso, imprestável!"
 .byte WaitForA
 .byte ScrollText
 .text "Se ocê quer brigar comigo, intão vem,"
@@ -188,7 +192,7 @@ dialogueChapter08xEnding
 .byte ScrollText
 .text "Muitos deles são filhos de camponeses"
 .byte NewLine
-.text "trácios. Abandonados, eles recorreram ao"
+.text "trácios. Abandonados, eles foram ao"
 .byte NewLine
 .text "crime por pura e simples necessidade."
 .byte WaitForA
@@ -200,7 +204,7 @@ dialogueChapter08xEnding
 
 .byte Left_Slot
 .byte ScrollText
-.text "Seus pais deviam ser uns covardes pra"
+.text "Então seus pais deviam ser uns covardes pra"
 .byte NewLine
 .text "serem capazes de abandonar seus filhos!"
 .byte WaitForA
@@ -364,7 +368,7 @@ dialogueChapter08xEnding
 .byte NewLine
 .text "sob o governo de maus líderes. Aprenda"
 .byte NewLine
-.text "com os erros deles; como não governar."
+.text "com os erros deles: como não governar."
 .byte WaitForA
 .byte ScrollText
 .text "Ao menos, não cometa o erro de seu pai..."
