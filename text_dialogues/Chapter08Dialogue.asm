@@ -10,9 +10,9 @@ dialogueChapter08LemayMount
 .byte ScrollText
 .text "Hmm... é melhor eu me mandar."
 .byte NewLine
-.text "Vai ser um problemão pra mim se eu for"
+.text "Vai ser um problemão pra mim se souberem"
 .byte NewLine
-.text "reconhecido aqui..."
+.text "que eu tô aqui..."
 .byte WaitForA
 
 .byte EndText
@@ -142,7 +142,7 @@ dialogueChapter08HalvanMartyTalk
 .byte ScrollText
 .text "Marty, você é alto igual um poleiro."
 .byte NewLine
-.text "Daria pra te ver lá de Belhalla."
+.text "Daria pra te ver lá de Leonster."
 .byte NewLine
 .text "Mas eu gostaria de saber o que faz aqui..."
 .byte WaitForA
@@ -160,7 +160,7 @@ dialogueChapter08HalvanMartyTalk
 .byte NewLine
 .text "Marty! Não basta você estar atacando aldeões"
 .byte NewLine
-.text "indefesos? Você tem que justificar isso ainda?"
+.text "indefesos? Tem que justificar isso ainda?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -180,7 +180,7 @@ dialogueChapter08HalvanMartyTalk
 .text "contra o que o Dagdar e a Capitã dizem agora?"
 .byte WaitForA
 .byte NewLine
-.text "Você virou um bandido comum?"
+.text "Vai fazer como um bandido comum?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -194,7 +194,7 @@ dialogueChapter08HalvanMartyTalk
 .byte ScrollText
 .text "Então você ainda é amigo dos Legionários,"
 .byte NewLine
-.text "certo? Vai lutar junto de nós?"
+.text "certo? Vai lutar com a gente?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -220,7 +220,7 @@ dialogueChapter08MartyCaptured
 .byte Right_Slot
 .word LoadPortrait
 .word marty_portrait
-.text "Er... olha, eu não queria"
+.text "Er... olha, eu não queria lutar"
 .byte NewLine
 .text "contra vocês! É sério!"
 .byte WaitForA
@@ -249,7 +249,7 @@ dialogueChapter08GomezAppear
 .text "o dia todo, mas eu sou do exército."
 .byte WaitForA
 .byte NewLine
-.text "Tenho hora pra voltar."
+.text "Tenho hora pra voltar, lugares para estar."
 .byte WaitForA
 
 .byte Right_Slot
@@ -260,11 +260,11 @@ dialogueChapter08GomezAppear
 .text "num deixe ninguém entrar aqui."
 .byte WaitForA
 .byte ScrollText
-.text "Eu num sei porque eles tão aqui, mas depois"
+.text "Eu num sei porque eles tão vindo, mas"
 .byte NewLine
-.text "que ocê lidar com eles, eu te dô seu"
+.text "depois que ocê lidar com eles, eu te"
 .byte NewLine
-.text "pagamento, entendeu?"
+.text "dô seu pagamento, entendeu?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -405,9 +405,9 @@ dialogueChapter08Opening
 
 .byte Left_Slot
 .byte ScrollText
-.text "Acha que o General não sabe quem és?"
+.text "Acha que o General não sabe quem é?"
 .byte NewLine
-.text "Ele sabe muito bem quem tu és,"
+.text "Ele já sabia desde que te viu,"
 .byte NewLine
 .text "e o povo também."
 .byte WaitForA
@@ -494,7 +494,7 @@ dialogueChapter08Opening
 .byte ScrollText
 .text "Hm? Não pensei que o General Aníbal fosse"
 .byte NewLine
-.text "ter uma mansão de veraneio nas montanhas..."
+.text "ter uma mansão nas montanhas..."
 .byte WaitForA
 
 .byte Left_Slot
@@ -577,7 +577,7 @@ dialogueChapter08Opening
 .text "Mas é claro, senhor!"
 .byte WaitForA
 .byte ScrollText
-.text "Hm, devo dizer que este ataque é bem estranho."
+.text "Mas, devo dizer que este ataque é estranho."
 .byte NewLine
 .text "Dagdar comanda esse território, e ele havia"
 .byte NewLine
@@ -689,7 +689,7 @@ dialogueChapter08Ending1A
 
 .byte Right_Slot
 .byte ScrollText
-.text "Onde estão o dono daquela"
+.text "Onde estão o dono da"
 .byte NewLine
 .text "mansão e a sua filha?"
 .byte WaitForA
