@@ -292,7 +292,7 @@ dialogueChapter11Opening1 ;marcação
 .text "Já pensou nisso, menina?"
 .byte WaitForA
 .byte ScrollText
-.text "O Forte Dundrum só é impenetrável porquê" 
+.text "O Forte Dundrum só é impenetrável porque" 
 .byte NewLine
 .text "a 12ª Legião de Friege o protege!"
 .byte WaitForA
