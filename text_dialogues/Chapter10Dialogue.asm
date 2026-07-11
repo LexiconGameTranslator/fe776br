@@ -353,7 +353,7 @@ dialogueChapter10Opening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Mas porquê? Se o ódio não é mútuo, não há"
+.text "Mas por quê? Se o ódio não é mútuo, não há"
 .byte NewLine
 .text "razão para ele continuar!"
 .byte WaitForA
