@@ -25,7 +25,7 @@ dialogueChapter11KempfLeif
 .byte ScrollText
 .text "Eles estão sendo liderados por..um menino?"
 .byte NewLine
-.text "Ora pois, ele não deve ter mais do que 15 anos!"
+.text "Ora, ele não deve ter mais do que 15 anos!"
 .byte NewLine
 .text "Eu tenho espadas mais velhas que ele!"
 .byte WaitForA
@@ -92,17 +92,17 @@ dialogueChapter11LeifFred
 .word leif_portrait
 .text "Os nobres cavaleiros de Friege"
 .byte NewLine
-.text "lutam usando golpes tão baixos assim?!"
+.text "lutam usando golpes baixos assim?!"
 .byte WaitForA
 .byte ScrollText
 .text "Quando lutamos contra suas forças"
 .byte NewLine
-.text "no Vale de Nowell, eu respeitei a"
+.text "no Vale de Nowell, elas se conduziam"
 .byte NewLine
-.text "honra com que se conduziram!"
+.text "com honra!"
 .byte WaitForA
 .byte ScrollText
-.text "Mas parece que foi uma exceção!"
+.text "Mas parece ter sido uma exceção!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -167,7 +167,7 @@ dialogueChapter11LeifFred
 .byte NewLine
 .text "pela porta sul, nós iremos cuidar"
 .byte NewLine
-.text "lidar com o portão."
+.text "do o portão."
 .byte WaitForA
 .byte ScrollText
 .text "Está bom pra você?"
@@ -179,7 +179,7 @@ dialogueChapter11LeifFred
 .byte NewLine
 .text "Sou Fred, cavaleiro da casa de Stade."
 .byte NewLine
-.text "Eu gostaria de saber seu nome também, colega."
+.text "Eu gostaria de saber seu nome também, amigo."
 .byte WaitForA
 
 .byte Left_Slot
@@ -247,7 +247,7 @@ dialogueChapter11Opening1 ;marcação
 .byte NewLine
 .text "Eu te dei uma ordem bem simples:"
 .byte NewLine
-.text "reconhecimento."
+.text "fazer um reconhecimento."
 .byte WaitForA
 .byte ScrollText
 .text "Tendo eu te enviado para isso, eu esperava"
@@ -272,6 +272,7 @@ dialogueChapter11Opening1 ;marcação
 .byte NewLine
 .text "precisamente por causa disso! Eu precisava"
 .byte WaitForA
+.byte NewLine
 .text "te avisar do ataque o mais rápido possível!"
 .byte WaitForA
 .byte ScrollText
@@ -288,10 +289,10 @@ dialogueChapter11Opening1 ;marcação
 .byte NewLine
 .text "distração para nos tirar do forte?"
 .byte NewLine
-.text "Já pensou nisso, guria?"
+.text "Já pensou nisso, menina?"
 .byte WaitForA
 .byte ScrollText
-.text "O Forte Dundrum só é impenetrável porquê" 
+.text "O Forte Dundrum só é impenetrável porque" 
 .byte NewLine
 .text "a 12ª Legião de Friege o protege!"
 .byte WaitForA
@@ -303,7 +304,7 @@ dialogueChapter11Opening1 ;marcação
 .byte ScrollText
 .text "Enquanto eu não tiver informações"
 .byte NewLine
-.text "completas sobre o inimigo, não arriscarei"
+.text "precisas sobre o inimigo, não arriscarei"
 .byte NewLine
 .text "colocar as tropas em combate."
 .byte WaitForA
@@ -429,7 +430,7 @@ dialogueChapter11Opening1 ;marcação
 
 .byte Left_Slot
 .byte ScrollText
-.text "Calado! Eu não vou deixar você"
+.text "Cale-se! Eu não vou deixar você"
 .byte NewLine
 .text "difamar meu irmão desse jeito!"
 .byte WaitForA
@@ -467,7 +468,7 @@ dialogueChapter11Opening1 ;marcação
 .byte ScrollText
 .word LoadPortrait
 .word guard_portrait
-.text "Madame Olwen, no nome do Império,"
+.text "Madame Olwen, pela autoridade do Império,"
 .byte NewLine
 .text "você está sendo presa! Largue sua arma!"
 .byte WaitForA
@@ -527,7 +528,7 @@ dialogueChapter11Opening3
 .byte Right_Slot
 .text "Fred, meu caro rapaz, você parece um pouco"
 .byte NewLine
-.text "diferente do normal. Há algo de errado?"
+.text "estressado. Há algo de errado?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -582,9 +583,9 @@ dialogueChapter11Opening3
 .text "seu oficial superior?"
 .byte WaitForA
 .byte ScrollText
-.text "Se eu bem me lembro, isto é motim,"
+.text "Se eu bem me lembro, é tipificado como"
 .byte NewLine
-.text "e a pena é execução..."
+.text "motim, e a pena é execução..."
 .byte WaitForA
 
 .byte Left_Slot
@@ -617,7 +618,7 @@ dialogueChapter11Opening3
 .byte ScrollText
 .text "Lute até o fim, até a morte se for"
 .byte NewLine
-.text "preciso, ou a Olwen será executada!"
+.text "preciso, ou Olwen será executada!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -753,9 +754,9 @@ dialogueChapter11WorldMap2
 .text "agora estava diante deles."
 .byte WaitForA
 .byte ScrollText
-.text "Se eles não conseguirem tomar o Forte"
+.text "Se eles não conseguirem tomar o Forte,"
 .byte NewLine
-.text "jamais irão chegar em Tarrah a tempo..."
+.text "jamais chegarão em Tarrah a tempo..."
 .byte WaitForA
 
 .byte EndText

@@ -15,7 +15,7 @@ dialogueChapter04xOpening1
 .byte WaitForA
 
 .byte Right_Slot
-.text "Pense como o Raydrik:"
+.text "Pense como Raydrik:"
 .byte NewLine
 .text "você mandaria um comboio para Belhalla"
 .byte NewLine
@@ -64,7 +64,7 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "Isso mesmo."
 .byte NewLine
-.text "Ele caiu em uma armadilha do Raydrik"
+.text "Ele caiu em uma armadilha de Raydrik"
 .byte NewLine
 .text "e foi aprisionado dentro deste castelo."
 .byte WaitForA
@@ -90,7 +90,7 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "Por três anos inteiros,"
 .byte NewLine
-.text "eu estive procurando..."
+.text "eu o procurei..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -125,9 +125,9 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "Eu... pensei a respeito, mas não posso."
 .byte NewLine
-.text "Há muitas pessoas aqui em Munster, e todas"
+.text "Há muitas pessoas aqui em Munster que"
 .byte NewLine
-.text "elas precisam de minha ajuda."
+.text "ainda precisam de minha ajuda."
 .byte WaitForA
 
 .byte Left_Slot
@@ -153,7 +153,9 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "Se acha que me deve alguma coisa, então"
 .byte NewLine
-.text "pague a divída protegendo o Príncipe por mim."
+.text "pague a divída protegendo o Príncipe"
+.byte NewLine
+.text "em meu lugar."
 .byte WaitForA
 
 .byte Left_Slot
@@ -186,7 +188,7 @@ dialogueChapter04xOpening1
 .byte ScrollText
 .text "Munster...? T-tá! Entendido!"
 .byte NewLine
-.text "Vou tomar isso como uma promessa,"
+.text "Vou entender isso como uma promessa,"
 .byte NewLine
 .text "Senhor Ced!"
 .byte WaitForA
@@ -218,7 +220,7 @@ dialogueChapter04xOpening2
 .byte ScrollText
 .text "Não irrita os soldados de novo."
 .byte NewLine
-.text "Eles só vão nos mandar parar de “frescura”,"
+.text "Eles só vão gritar com a gente,"
 .byte NewLine
 .text "igual da última vez..."
 .byte WaitForA
@@ -262,7 +264,7 @@ dialogueChapter04xAsbelRecruitment
 .byte NewLine
 .text "Mas o que é que você está fazendo aqui?"
 .byte NewLine
-.text "Por que você não está em Tahra?"
+.text "Por que você não está em Tarrah?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -281,7 +283,7 @@ dialogueChapter04xAsbelRecruitment
 
 .byte Left_Slot
 .byte ScrollText
-.text "Você saiu de Tahra logo depois de eu ir embora?!"
+.text "Você saiu de Tarrah logo depois de eu ir embora?!"
 .byte NewLine
 .text "Então...você passou os últimos três"
 .byte NewLine
@@ -311,7 +313,7 @@ dialogueChapter04xAsbelRecruitment
 .text "Naquela época, eu não tinha outra escolha."
 .byte WaitForA
 .byte ScrollText
-.text "Tahra havia sido cercada pelo Império."
+.text "Tarrah havia sido cercada pelo Império."
 .byte NewLine
 .text "Eu tinha... Eu tinha me preparado"
 .byte NewLine
@@ -441,7 +443,7 @@ dialogueChapter04xKarinCedTalk
 .byte ScrollText
 .text "É-é..."
 .byte NewLine
-.text "...Lamento informá-lo que Vossa Majestade,"
+.text "...Lamento informá-lo que Sua Majestade,"
 .byte NewLine
 .text "a Rainha... ela, hm..."
 .byte WaitForA
@@ -478,7 +480,7 @@ dialogueChapter04xKarinCedTalk
 .byte ScrollText
 .text "E isso importa? Eu não consegui... meu pai..."
 .byte NewLine
-.text "Eu queria trazer ele de volta pra mamãe."
+.text "Eu queria trazer ele de volta para mamãe."
 .byte WaitForA
 
 .byte Left_Slot
@@ -513,7 +515,7 @@ dialogueChapter04xKarinCedTalk
 .text "você foi muito cruel, fugindo desse jeito."
 .byte WaitForA
 .byte ScrollText
-.text "Madame Fee ainda é só uma criança, e"
+.text "Ela ainda é só uma criança, e"
 .byte NewLine
 .text "você deixou nas mãos dela o fardo de"
 .byte NewLine
@@ -612,7 +614,7 @@ dialogueChapter04xKarinCedTalk
 .byte ScrollText
 .text "Eu creio que isso vai levar no máximo"
 .byte NewLine
-.text "meio ano."
+.text "seis meses."
 .byte WaitForA
 
 .byte Left_Slot
@@ -668,7 +670,7 @@ dialogueChapter04xKarinCedTalk
 
 .byte Left_Slot
 .byte ScrollText
-.text "Uh, o que é isso? Um lenço sujo?"
+.text "Hã, o que é isso? Um lenço sujo?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -687,7 +689,7 @@ dialogueChapter04xKarinCedTalk
 .text "o cruzado Ced."
 .byte WaitForA
 .byte ScrollText
-.text "Ele o imbuiu com potentes magias que"
+.text "Ele o encantou com potentes magias que"
 .byte NewLine
 .text "fortalecem quem o tiver em mãos."
 .byte WaitForA
@@ -711,14 +713,14 @@ dialogueChapter04xKarinCedTalk
 
 .byte Right_Slot
 .byte ScrollText
-.text "Karin... Eu falhei com a minha mãe,"
+.text "Karin... eu falhei com a minha mãe,"
 .byte NewLine
 .text "e sinto muito por isso."
 .byte WaitForA
 .byte ScrollText
-.text "Eu te devo muito por você ter"
+.text "Eu te devo muito por ter"
 .byte NewLine
-.text "ajudado a Fee na minha ausência."
+.text "ajudado Fee na minha ausência."
 .byte WaitForA
 .byte ScrollText
 .text "Veja isso como um agradecimento."

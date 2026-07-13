@@ -33,16 +33,16 @@ dialogueCh13BaldachBattleQuote		; Unused, but it's the same as his ch14 one
 dialogueCh16AConomorBattleQuote
 .text "Eu peço que não guardem mágoas,"
 .byte NewLine
-.text "esse é o destino. Perdoem-me!"
+.text "pois esse é o destino. Perdoem-me!"
 .byte WaitForA
 .byte EndText
 
 dialogueCh16AKempfBattleQuote
 .text "Você! VOCÊ!"
 .byte NewLine
-.text "Se vocês não tivessem"
+.text "Se não tivessem"
 .byte NewLine
-.text "vindo tão longe...!"
+.text "chegado tão longe...!"
 .byte WaitForA
 .byte EndText
 
@@ -133,7 +133,7 @@ dialogueGalzusBattleQuote
 dialogueEisenhauBattleQuote
 .text "Vocês idiotas convencidos"
 .byte NewLine
-.text "acham mesmoo que podem"
+.text "acham mesmo que podem"
 .byte NewLine
 .text "me derrotar?"
 .byte WaitForA
@@ -186,7 +186,7 @@ dialogueMerlochBattleQuote
 dialogueLargoBattleQuote
 .text "Qual o significado disto?!"
 .byte NewLine
-.text "Porque tu está violando"
+.text "Por que tu está violando"
 .byte NewLine
 .text "nossas terras?"
 .byte WaitForA
@@ -404,7 +404,7 @@ dialogueAmaldaBattleQuote
 .byte EndText
 
 dialogueBharatBattleQuote
-.text "Ratos! Vocês vão fazer"
+.text "Ratos imundos! Vocês vão fazer"
 .byte NewLine
 .text "eu ser rebaixado!"
 .byte WaitForA

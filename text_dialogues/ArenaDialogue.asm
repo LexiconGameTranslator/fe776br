@@ -40,7 +40,7 @@ dialogueArenaLost
 
 dialogueArenaNoMoney
 
-	.text "Tá liso? Dorme."
+	.text "Ih, sem grana não entra."
 .byte EndTextNoPortraitFade
 
 dialogueArenaDraw

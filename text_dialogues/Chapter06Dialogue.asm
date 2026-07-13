@@ -11,7 +11,7 @@ dialogueChapter06Opening1
 .byte WaitForA
 
 .byte Right_Slot
-.text "Augusto?! O que você está fazendo aqui?"
+.text "Augusto?! Por que está aqui?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -21,7 +21,7 @@ dialogueChapter06Opening1
 .text "isso não será mais necessário."
 .byte WaitForA
 .byte ScrollText
-.text "Vejo que tu estás bem, mas..."
+.text "Vejo que estás bem, mas..."
 .byte NewLine
 .text "Parece que algo lhe"
 .byte NewLine
@@ -47,7 +47,7 @@ dialogueChapter06Opening1
 .byte ScrollText
 .text "Raydrik é só mais um dos peões do Império,"
 .byte NewLine
-.text "fazendo todo tipo de maldade por suas ordens!"
+.text "fazendo todo tipo de maldade às suas ordens!"
 .byte WaitForA
 .byte ScrollText
 .text "Augusto... ensine-me como guerrear!"
@@ -158,9 +158,9 @@ dialogueChapter06Opening1
 .byte ScrollText
 .text "Se tens alguma dúvida,"
 .byte NewLine
-.text "apenas olhe à sua volta!"
+.text "apenas olhe à sua volta! É assim"
 .byte NewLine
-.text "É assim que a Igreja de Loptr age, Príncipe!"
+.text "que a Igreja de Loptous age, Príncipe!"
 .byte WaitForA
 .byte ScrollText
 .text "Somente na Península da Trácia, milhares—"
@@ -231,7 +231,7 @@ dialogueChapter06Opening1
 .byte NewLine
 .text "se rebelaram, eles queimam as suas"
 .byte NewLine
-.text "vilas natais, junto com todos os habitantes!"
+.text "vilas, junto com todos os habitantes!"
 .byte WaitForA
 .byte ScrollText
 .text "Não deveria lhe surpreender que o"
@@ -258,7 +258,7 @@ dialogueChapter06Opening1
 .byte NewLine
 .text "mas agora... a escuridão paira nessa terra."
 .byte NewLine
-.text "E as nuvens negras que tu vês nos céus"
+.text "E as nuvens negras que vês nos céus"
 .byte NewLine
 .text "são um lembrete diário dessa realidade."
 .byte WaitForA
@@ -279,12 +279,12 @@ dialogueChapter06Opening1
 .byte ScrollText
 .text "Quer seja por coragem ou por inteligência,"
 .byte NewLine
-.text "tu tens que superar os obstáculos que"
+.text "tens que superar os obstáculos que"
 .byte NewLine
 .text "se levantam à sua frente."
 .byte WaitForA
 .byte ScrollText
-.text "Príncipe Leif, tu carregas o sangue do"
+.text "Príncipe Leif, carregas o sangue do"
 .byte NewLine
 .text "leal Quan e da justa donzela Ethlyn."
 .byte NewLine
@@ -306,9 +306,9 @@ dialogueChapter06Opening1
 .byte ScrollText
 .text "Se isso acontecer,"
 .byte NewLine
-.text "Talvez será possível que o Império e"
+.text "talvez será possível expulsar o"
 .byte NewLine
-.text "a Igreja sejam expulsos da Trácia."
+.text "Império e a Igreja da Trácia."
 .byte WaitForA
 
 .byte Right_Slot
@@ -366,7 +366,7 @@ dialogueChapter06Opening1
 .byte NewLine
 .text "na cidade... sabe de alguma rota"
 .byte NewLine
-.text "de escape segura?"
+.text "de fuga segura?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -387,9 +387,9 @@ dialogueChapter06Opening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Eu não sei como evitarei ser visto"
+.text "Mas, não faço ideia de como"
 .byte NewLine
-.text "pelas patrulhas, porém..."
+.text "evitaremos as patrulhas..."
 .byte WaitForA
 
 .byte EndText
@@ -408,7 +408,7 @@ dialogueChapter06Opening2
 .text "pode contar comigo!"
 .byte WaitForA
 .byte ScrollText
-.text "Hermes e eu podemos levar o pessoal por"
+.text "Hermes e eu podemos levar as pessoas por"
 .byte NewLine
 .text "cima do muro um de cada vez. Assim facilmente"
 .byte NewLine
@@ -429,7 +429,7 @@ dialogueChapter06Opening2
 .byte ScrollText
 .text "Normalmente os pégasos não deixam homens"
 .byte NewLine
-.text "tocarem neles—talvez não gostam do cheiro."
+.text "tocarem neles—talvez não gostem do cheiro."
 .byte WaitForA
 .byte ScrollText
 .text "Mas o Hermes vai deixar todos subirem nele!"
@@ -467,7 +467,7 @@ dialogueChapter06SaiasGalzus1
 .byte WaitForA
 
 .byte Right_Slot
-.text "Esclareça-me uma coisa, Galzus. Tu disses que"
+.text "Esclareça-me uma coisa, Galzus. Disse que"
 .byte NewLine
 .text "trabalhas para o Barão, correto?"
 .byte WaitForA
@@ -576,7 +576,7 @@ dialogueChapter06GalzusSpawn
 .byte Left_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "Então o estimado espadachim Galzus"
+.text "Então o famoso espadachim Galzus"
 .byte NewLine
 .text "finalmente agracia-nos com sua presença!"
 .byte NewLine
@@ -619,7 +619,7 @@ dialogueChapter06DoorOpenDialogue1
 .byte NewLine
 .text "Ouvi o que aconteceu, é melhor"
 .byte NewLine
-.text "vocês se mandarem de uma vez!"
+.text "se mandarem de uma vez!"
 .byte WaitForA
 
 .byte EndText
@@ -630,7 +630,7 @@ dialogueChapter06DoorOpenDialogue2
 .byte ScrollText
 .text "Espere mais um pouco, logo o senhor Ced"
 .byte NewLine
-.text "deve aparecer com seus homens."
+.text "vai aparecer com os Magi."
 .byte NewLine
 .text "Vai facilitar as coisas pra vocês."
 .byte WaitForA
@@ -770,7 +770,7 @@ dialogueChapter06Ending
 .byte NewLine
 .text "ao ponto de contratar um mercenário"
 .byte NewLine
-.text "sem antes saber quem ele é."
+.text "do calibre dele sem analisar seu passado."
 .byte WaitForA
 .byte ScrollText
 .text "Ele de fato é da realeza Isaachiana."
@@ -1113,14 +1113,14 @@ dialogueChapter06OdsScrollHouseLeenaDead
 .byte NewLine
 .text "ilesos daquele castelo, mas minha irmã"
 .byte NewLine
-.text "Leena ainda tá presa naquele castelo!"
+.text "Leena ainda tá presa lá!"
 .byte WaitForA
 .byte ScrollText
 .text "Se ocês não conseguem nem libertar uma"
 .byte NewLine
 .text "garotinha, ocês acham que vão conseguir"
 .byte NewLine
-.text "salvar a região inteira?!"
+.text "salvar o país?!"
 .byte WaitForA
 
 .byte EndText

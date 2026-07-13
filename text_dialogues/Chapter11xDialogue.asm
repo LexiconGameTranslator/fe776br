@@ -37,7 +37,7 @@ dialogueChapter11xOltophFlees
 .byte NewLine
 .text "Eu lhe confio o comando das tropas."
 .byte NewLine
-.text "Eles estão em suas mãos."
+.text "Elas estão em suas mãos."
 .byte WaitForA
 .byte ScrollText
 .word ClearPortrait
@@ -55,7 +55,7 @@ dialogueChapter11xFredArrives
 .byte Right_Slot
 .word LoadPortrait
 .word fred_portrait
-.text "Madame Olwen! Estás aqui?!"
+.text "Madame Olwen! Está aqui?!"
 .byte WaitForA
 .byte ScrollText
 .word ClearPortrait
@@ -72,7 +72,7 @@ dialogueChapter11xFredArrives
 .text "Fred?! Você veio me salvar?"
 .byte WaitForA
 .byte ScrollText
-.text "Eu estou aqui!"
+.text "Estou aqui!"
 .byte NewLine
 .text "E tem algumas crianças comigo também!"
 .byte WaitForA
@@ -96,7 +96,7 @@ dialogueChapter11xLeifOlwen
 .word leif_portrait
 .text "Vejo que protegeu as crianças durante"
 .byte NewLine
-.text "a batalha... pode me quem você é?"
+.text "a batalha... pode me dizer quem você é?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -136,7 +136,7 @@ dialogueChapter11xLeifOlwen
 .byte ScrollText
 .text "Eu... descobri muitas coisas terríveis"
 .byte NewLine
-.text "em um curto espaço de tempo, e ainda estou"
+.text "em pouco tempo, e ainda estou"
 .byte NewLine
 .text "um tanto perturbada por elas..."
 .byte WaitForA
@@ -308,7 +308,7 @@ dialogueChapter11xOlwenFred
 .byte ScrollText
 .text "Se você se perdeu, Madame Olwen, talvez"
 .byte NewLine
-.text "possa se reencontrar em sua companhia!"
+.text "possa se reencontrar na companhia dele!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -334,7 +334,7 @@ dialogueChapter11xOpening1
 .byte NewLine
 .text "Esses que nos atacam são nada mais,"
 .byte NewLine
-.text "nada menos que os rebeldes da"
+.text "nada menos, que os rebeldes da"
 .byte WaitForA
 .byte NewLine
 .text "Casa de Leonster."
@@ -394,7 +394,7 @@ dialogueChapter11xOpening1
 .byte ScrollText
 .text "...Você quer que eu mande meus homens"
 .byte NewLine
-.text "ficar atirando às cegas pelas brechas"
+.text "ficarem atirando às cegas pelas brechas"
 .byte NewLine
 .text "do corredor?!"
 .byte WaitForA
@@ -494,11 +494,9 @@ dialogueChapter11xOpening2
 .byte ScrollText
 .word LoadPortrait
 .word girl2_portrait
-.text "S-soldados atacaram nossa vila..."
+.text "S-soldados entraram na nossa vila..."
 .byte NewLine
-.text "Eles pegaram a gente e levaram"
-.byte NewLine
-.text "pra cá!"
+.text "Eles pegaram a gente e levaram pra cá!"
 .byte WaitForA
 .byte ScrollText
 .text "O-o que vai acontecer comigo...?"
@@ -544,7 +542,7 @@ dialogueChapter11xOpening2
 .byte NewLine
 .text "O Império está mesmo fazendo"
 .byte NewLine
-.text "as caçadas?"
+.text "os raptos?"
 .byte WaitForA
 .byte ScrollText
 .text "Eu ouvi boatos, mas... eu achei que eram"
@@ -627,7 +625,7 @@ dialogueChapter11xClosing1
 .byte NewLine
 .text "Tarrah e também a esperança que ela"
 .byte NewLine
-.text "pode trazer à outras pessoas."
+.text "possa trazer à outras pessoas."
 .byte WaitForA
 .byte ScrollText
 .text "Ouvi até que tiraram a Gelbenritter"
@@ -661,9 +659,9 @@ dialogueChapter11xClosing1
 .byte ScrollText
 .text "Para piorar a situação, eles são liderados"
 .byte NewLine
-.text "pela Princesa Ishtar, chamada por muitos"
+.text "pela Princesa Ishtar, a temida"
 .byte NewLine
-.text "de Deusa do Trovão."
+.text '"Deusa do Trovão."'
 .byte WaitForA
 .byte ScrollText
 .text "E seu conselheiro, Reinhardt, é também"
@@ -673,7 +671,9 @@ dialogueChapter11xClosing1
 .byte ScrollText
 .text "Alguns até dizem que ele é a reincarnação"
 .byte NewLine
-.text "do próprio Thrud, cruzado de Friege."
+.text "do próprio Thrud, cruzado fundador de"
+.byte NewLine
+.text "Friege."
 .byte WaitForA
 
 .byte Left_Slot
@@ -710,9 +710,9 @@ dialogueChapter11xClosing1
 .text "E ela é noiva do Príncipe Imperial Julius."
 .byte WaitForA
 .byte ScrollText
-.text "Julius, o detestado “Filho da escuridão”,"
+.text "Julius, o “Filho da escuridão”,"
 .byte NewLine
-.text "que, devo lembrar-lhe, é o próprio"
+.text "que, devo lembrar-te, é o próprio"
 .byte NewLine
 .text "Loptous reencarnado!"
 .byte WaitForA

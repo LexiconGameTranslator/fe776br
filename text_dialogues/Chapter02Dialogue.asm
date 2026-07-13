@@ -196,7 +196,7 @@ dialogueChapter02Opening2C
 .text "daquele Lifis..."
 .byte WaitForA
 .byte ScrollText
-.text "Bem, então demos as boas vindas ao"
+.text "Bem, então daremos as boas vindas ao"
 .byte NewLine
 .text "nosso velho amigo! Todos, preparem-se!"
 .byte NewLine
@@ -416,7 +416,7 @@ dialogueChapter02VulneraryHouseVillageAttacked
 .byte NewLine
 .text "meio da briga. Não tem como ir pras Ilhas Corsárias"
 .byte NewLine
-.text "agora, nem se você quisesse..."
+.text "agora, nem se ocê quisesse..."
 .byte WaitForA
 
 .byte EndText
@@ -549,7 +549,7 @@ dialogueChapter02Ending1Gaiden
 .byte ScrollText
 .text "Hm?"
 .byte NewLine
-.text "Mas porquê um sacerdote como você"
+.text "Mas por que um sacerdote como você"
 .byte NewLine
 .text "saberia o caminho até as ilhas?"
 .byte WaitForA

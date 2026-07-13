@@ -24,7 +24,7 @@ dialogueChapter10WorldMap1
 .byte ScrollText
 .text "Sob o comando de Leif, esses três grupos"
 .byte NewLine
-.text "agora tem outro nome:"
+.text "agora possuem um novo nome:"
 .byte WaitForA
 .word ClearPortraitalt
 .long $82937A
@@ -101,9 +101,12 @@ dialogueChapter10OlwenFredArrive
 .byte ScrollText
 .text "Eu aprecio sua valentia, mas você tem que"
 .byte NewLine
-.text "cumprir suas ordens! É imperativo que"
+.text "cumprir suas ordens!"
+.byte WaitForA
+.byte ScrollText
+.text "É imperativo que avise às forças"
 .byte NewLine
-.text "avise o Forte Dundrum o mais rápido possível!"
+.text "do Forte Dundrum o mais rápido possível!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -171,14 +174,14 @@ dialogueChapter10RescueHouse
 .byte Right_Slot
 .word LoadPortrait
 .word oldlady_portrait
-.text "Pelas chamas de Fjalar!"
+.text "Pelo fogo de Fjalar!"
 .byte NewLine
 .text "Ocês são do Exército de Libertação, né?"
 .byte WaitForA
 .byte ScrollText
 .text "Então mostra pra esses imperiais como"
 .byte NewLine
-.text "nós Trácios tratamos gente mal educada"
+.text "nós Trácios tratamos invasores"
 .byte NewLine
 .text "como eles! Bota eles pra correr!"
 .byte WaitForA
@@ -268,9 +271,9 @@ dialogueChapter10Opening1
 .byte ScrollText
 .text "Eu não tenho a menor dúvida de que ele"
 .byte NewLine
-.text "fez isso por mal. Ela tem que fazer"
+.text "faz isso por maldade. Ela tem que fazer"
 .byte NewLine
-.text "essa viagem todos os dias..."
+.text "essa longa viagem todos os dias..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -350,7 +353,7 @@ dialogueChapter10Opening1
 
 .byte Right_Slot
 .byte ScrollText
-.text "Mas porquê? Se o ódio não é mútuo, não há"
+.text "Mas por quê? Se o ódio não é mútuo, não há"
 .byte NewLine
 .text "razão para ele continuar!"
 .byte WaitForA
@@ -373,7 +376,7 @@ dialogueChapter10Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Ah, me perdoe, eu já falei demais, é bom"
+.text "...Ah, me perdoe, eu já falei demais. É bom"
 .byte NewLine
 .text "poder falar com franqueza de vez em quando."
 .byte NewLine
@@ -418,7 +421,7 @@ dialogueChapter10Opening2
 .byte ScrollText
 .text "Nossos batedores dizem que a guarnição é"
 .byte NewLine
-.text "pequena, mas eles possuem algumas armas"
+.text "pequena, mas eles possuem armas"
 .byte NewLine
 .text "pesadas."
 .byte WaitForA
@@ -513,7 +516,7 @@ dialogueChapter10EndLargoAlive
 .byte ScrollText
 .text "Se uma pequena força lutou desse jeito,"
 .byte NewLine
-.text "eu tenho medo do momento que vamos ter que"
+.text "eu tenho medo do momento que teremos de"
 .byte NewLine
 .text "enfrentar uma força maior..."
 .byte WaitForA
@@ -546,7 +549,7 @@ dialogueChapter10EndLargoAlive
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ah... por causa de eu ter deixado"
+.text "Ah... diz isso por eu ter deixado"
 .byte NewLine
 .text "o General vivo ao invés de matá-lo?"
 .byte WaitForA
@@ -576,7 +579,7 @@ dialogueChapter10EndLargoAlive
 .byte NewLine
 .text "esse lado, eu só queria evitar"
 .byte NewLine
-.text "mortes desnecessárias."
+.text "uma morte a mais."
 .byte WaitForA
 
 .byte EndText
