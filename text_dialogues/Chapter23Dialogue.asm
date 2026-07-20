@@ -7,78 +7,83 @@ dialogueChapter23CoulterSpawn
 .byte Left_Slot
 .word LoadPortrait
 .word altena_portrait
-.text "What's the situation in Munster, Coulter?"
+.text "Como está a situação em Munster, Gortach?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Nothing unusual yet, but if our intelligence"
+.text "Nada de estranho até o momento, Princesa,"
 .byte NewLine
-.text "is accurate, there should be massive"
+.text "mas se nossos espiões estiverem corretos,"
 .byte NewLine
-.text "troop movements very shortly."
+.text "logo deve começar um enfrentamento aqui."
 .byte WaitForA
 .byte ScrollText
-.text "And in all that chaos,"
+.text "Aí teremos a oportunidade perfeita de"
 .byte NewLine
-.text "we'll have the perfect chance to strike..."
+.text "atacá-los."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "But such a plan risks dragging the civilians"
+.text "Mas com esse plano, arriscamos ferir"
 .byte NewLine
-.text "into our fighting..."
+.text "civis..."
 .byte WaitForA
 .byte ScrollText
-.text "Even if we don't conquer Munster, as long as"
+.text "Mesmo que não sejamos nós a tomar Munster,"
+.byte WaitForA
 .byte NewLine
-.text "it's liberated from the Empire, we'll have"
+.text "se o Império perder a cidade, será um"
 .byte NewLine
-.text "dealt a tremendous blow to our mutual enemy."
+.text "grande estrago no controle deles sobre"
+.byte NewLine
+.text "a península."
 .byte WaitForA
 .byte ScrollText
-.text "Why risk innocent lives when we could"
+.text "Por que não deixamos os rebeldes lidarem"
 .byte NewLine
-.text "simply join forces with the rebels and still"
+.text "com eles? Assim não arriscaremos inocentes,"
 .byte NewLine
-.text "do just as much damage to the Empire?"
+.text "e o objetivo ainda será cumprido, não?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Ah..."
 .byte NewLine
-.text "But this is a command"
+.text "Mas essa é uma ordem direta"
 .byte NewLine
-.text "directly from His Majesty..."
+.text "de Sua Majestade..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Then let me speak to Father."
+.text "...Sendo assim, eu irei ver esta"
 .byte NewLine
-.text "I can convince him."
+.text "situação com meu pai. Me espere."
 .byte WaitForA
 .word ClearPortrait
 .word RetractBox
 
 .byte Right_Slot
 .byte ScrollText
-.text "Bah, Lady Altena is too naive..."
+.text "Bah a Princesa é inocente demais..."
 .byte NewLine
-.text "We'll never have another opportunity like this"
+.text "Nunca mais teremos outra oportunidade"
 .byte NewLine
-.text "to seize Munster for ourselves."
+.text "como essa para tomar a cidade..."
 .byte WaitForA
 .byte ScrollText
-.text "His Majesty is always lenient with the princess,"
+.text "O rei é permissivo demais com ela,"
 .byte NewLine
-.text "but even he won't indulge her this time."
+.text "mas eu duvido que irá lhe dar razão"
+.byte NewLine
+.text "desta vez."
 .byte WaitForA
 .byte ScrollText
-.text "Our best chance is to strike Munster now,"
+.text "A hora é agora, e tenho ordens"
 .byte NewLine
-.text "just as His Majesty ordered..."
+.text "a cumprir!"
 .byte WaitForA
 
 .byte EndText
@@ -93,27 +98,27 @@ dialogueChapter23CedAlphand
 .byte Left_Slot
 .word LoadPortrait
 .word alphand_portrait
-.text "*Pant... Pant...*"
+.text "...C-como pode..."
 .byte NewLine
-.text "Wh-What manner of heathen are you?!"
+.text "Que tipo de infiel és tu?!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "I am Ced of the Magi."
+.text "Eu sou Ced, líder dos Magi."
 .byte NewLine
-.text "We've taken control of the city,"
+.text "Já tomamos controle da cidade,"
 .byte NewLine
-.text "save for one wing of the castle."
+.text "salvo pelo setor central do castelo."
 .byte WaitForA
 .byte NewLine
-.text "Surrender now and I'll spare your life."
+.text "Renda-se agora e eu pouparei sua vida."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Oh, how droll!"
+.text "Ha, jamais!"
 .byte NewLine
-.text "But I won't fall for such an obvious bluff!"
+.text "Não irei cair em um blefe tão óbvio!"
 .byte WaitForA
 
 .byte EndText
@@ -124,11 +129,11 @@ dialogueChapter23AltenaLeave
 .byte Right_Slot
 .word LoadPortrait
 .word coulter_portrait
-.text "Well, well!"
+.text "Veja só!"
 .byte NewLine
-.text "All of Munster is in disarray,"
+.text "Os espiões estavam certos, a cidade"
 .byte NewLine
-.text "just like our intelligence said it would be!"
+.text "realmente está jogada ao caos agora!"
 .byte WaitForA
 .byte ScrollText
 
@@ -137,61 +142,60 @@ dialogueChapter23AltenaLeave
 .word altena_portrait
 
 .byte Right_Slot
-.text "Now's our chance!"
+.text "Agora chegou nossa hora!"
 .byte NewLine
-.text "We couldn't ask for a better way"
-.byte NewLine
-.text "to take the city ourselves!"
+.text "É o melhor momento para atacarmos!"
 .byte WaitForA
 
 .byte Left_Slot
-.text "Hold! If we strike now, it's the civilians"
+.text "Espere, se atacarmos agora, vão ser os"
 .byte NewLine
-.text "who'll suffer most!"
+.text "civis que vão sofrer mais!"
 .byte NewLine
-.text "Perhaps I could talk them into surrendering..."
+.text "Talvez podemos pedir uma rendição!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "These are the king's orders, dammit!"
+.text "Princesa, estas são as ordens do Rei!"
 .byte NewLine
-.text "It's useless to keep stalling,"
-.byte NewLine
-.text "even if you're the princess!"
+.text "Não tente me impedir, caramba!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I'm in command here!"
+.text "Eu estou no comando aqui!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "And this is MY battalion!"
+.text "Esta é a MINHA tropa!"
 .byte NewLine
-.text "Besides, the king already sent word"
+.text "Além disso, o Rei já me disse para atacar"
 .byte NewLine
-.text "to attack Munster even if you refused!"
+.text "Munster mesmo se você não quisesse!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "He did...?"
+.text "É mesmo...?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "You can just stay here and watch,"
+.text "Pode ficar aqui olhando,"
 .byte NewLine
-.text "if it means that much to you. But my battalion"
+.text "se te incomoda tanto assim."
+.byte WaitForA
+.byte ScrollText
+.text "Mas minha tropa irá atacar, com ou"
 .byte NewLine
-.text "is moving in, with or without you!"
+.text "sem você!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Coulter, wait! Coulter!"
+.text "Gortach, espere! Volte aqui!"
 .byte WaitForA
 
 .byte ScrollText
@@ -202,9 +206,11 @@ dialogueChapter23AltenaLeave
 .byte ScrollText
 .word LoadPortrait
 .word altena_portrait
-.text "No..."
+.text "Não..."
 .byte NewLine
-.text "I must convince Father to halt this attack..."
+.text "Tenho que convencer meu pai a parar"
+.byte NewLine
+.text "este ataque..."
 .byte WaitForA
 
 .byte EndText
@@ -215,23 +221,23 @@ dialogueChapter23InfoHouse1
 .byte Right_Slot
 .word LoadPortrait
 .word oldlady3_portrait
-.text "That dark magic is some terrifying stuff..."
+.text "Magia negra me dá medo..."
 .byte NewLine
-.text "'Parently, it can even turn living flesh to stone!"
+.text "ouvi dizer que conseguem até transformar"
+.byte NewLine
+.text "gente em pedra com isso!"
 .byte WaitForA
 .byte ScrollText
-.text "From what I hear, though, them Loptrians"
+.text "Mas também ouvi que nas trevas os"
 .byte NewLine
-.text "in the castle also keep somethin' handy"
+.text "loptirianos escondem o antídoto pra"
 .byte NewLine
-.text "that can turn petrified folk back to normal."
+.text "essa maldição medonha."
 .byte WaitForA
 .byte ScrollText
-.text "It'd have to be some real powerful"
+.text "Deve ser algum artefato mágico"
 .byte NewLine
-.text "magical artifact, I'd wager."
-.byte NewLine
-.text "Like a staff or some such..."
+.text "poderoso..."
 .byte WaitForA
 
 .byte EndText
@@ -242,35 +248,34 @@ dialogueChapter23InfoHouse2
 .byte Right_Slot
 .word LoadPortrait
 .word youngman2_portrait
-.text "You can't beat Raydrik, you fools!"
+.text "Não subestimem Raydrik!"
 .byte NewLine
-.text "Turn back while you can!"
+.text "Desde que ele se aliou ao Império,"
 .byte WaitForA
 .byte ScrollText
-.text "He's got the Loptr Church on his side,"
 .byte NewLine
-.text "and they even gave him a relic of theirs:"
+.text "ele tem essa espada que a Igreja de Loptr"
 .byte NewLine
-.text "the Loptrian Fang."
+.text 'lhe deu: "a Garra de Loptous."'
 .byte WaitForA
 .byte ScrollText
-.text "As long as he's holdin' that thing,"
+.text "Enquanto ele tiver aquilo na mão,"
 .byte NewLine
-.text "he can't be defeated! Its magic stops him"
+.text "ele é invencível! Ela tem algum"
 .byte NewLine
-.text "from bein' hurt by anything!"
+.text "encantamento que o protege de tudo!"
 .byte WaitForA
 .byte ScrollText
-.text "But supposedly, there was another blade"
+.text "Mas parece também que tem uma espada no"
 .byte NewLine
-.text "bein' kept in the castle that could break"
+.text "castelo que consegue transpor a proteção"
 .byte NewLine
-.text "through the Loptrian Fang's power."
+.text "da espada."
 .byte WaitForA
 .byte ScrollText
-.text "Emphasis on “was.”"
+.text "Mas quem sabe se ela ainda está lá, depois"
 .byte NewLine
-.text "It was stolen from the castle in all this chaos..."
+.text "de tanta coisa que já aconteceu..."
 .byte WaitForA
 
 .byte EndText
@@ -281,14 +286,16 @@ dialogueChapter23VulneraryHouse
 .byte Right_Slot
 .word LoadPortrait
 .word braidedgirl_portrait
-.text "You've come so far already!"
+.text "Por favor, libertadores, salvem" ;a glória eterna
 .byte NewLine
-.text "Please, save our city from the Empire!"
+.text "nossa cidade do jugo do Império!"
 .byte WaitForA
 .byte ScrollText
-.text "This Vulnerary is all I can spare,"
+.text "Eu não tenho muito como ajudar,"
 .byte NewLine
-.text "but I hope it helps you folks..."
+.text "salvo dar a ti este remédio..."
+.byte NewLine
+.text "Espero que lhes ajude..."
 .byte WaitForA
 
 .byte EndText
@@ -299,16 +306,21 @@ dialogueChapter23PureWaterHouse
 .byte Right_Slot
 .word LoadPortrait
 .word oldlady_portrait
-.text "If you're serious about liberatin' Munster,"
+.text "Se 'ocês querem mesmo libertar Munster,"
 .byte NewLine
-.text "you best make sure you're prepared!"
+.text "é bom estarem preparados!"
 .byte WaitForA
 .byte ScrollText
-.text "The city's crawling with Loptrian bishops,"
+.text "A cidade tá cheia de loptirianos, então"
 .byte NewLine
-.text "so I never leave home without a vial of this"
+.text "ocês vão com certeza vão precisar de uma"
 .byte NewLine
-.text "in my back pocket."
+.text "ajudinha com eles."
+.byte WaitForA
+.byte ScrollText
+.text "Nesse caso, podem levar esse frasco"
+.byte NewLine
+.text "de água benta que eu tenho aqui."
 .byte WaitForA
 
 .byte EndText
@@ -319,18 +331,16 @@ dialogueChapter23PhysicHouse
 .byte Right_Slot
 .word LoadPortrait
 .word youngman_portrait
-.text "Looks like the folks who made a break for it"
+.text "Espero que as pessoas que fugiram"
 .byte NewLine
-.text "made it out in one piece."
-.byte NewLine
-.text "Wish I could get outta here that easy..."
+.text "de Munster tenham saído ilesas..."
 .byte WaitForA
 .byte ScrollText
-.text "Here, take this Physic staff with you."
+.text "Leve esse cajado consigo."
 .byte NewLine
-.text "It's only got a few charges left,"
+.text "Com ele, você vai conseguir curar"
 .byte NewLine
-.text "but mayhap you can get some use out of it..."
+.text "seus amigos de longe se necessário."
 .byte WaitForA
 
 .byte EndText
@@ -341,58 +351,60 @@ dialogueChapter23AlphandVenin1
 .byte Left_Slot
 .word LoadPortrait
 .word guard_portrait
-.text "You wished to see me, Lord Alphand?"
+.text "Me chamou, Bispo Alphand?"
 .byte WaitForA
 
 .byte Right_Slot
 .word LoadPortrait
 .word alphand_portrait
-.text "Ah, yes..."
+.text "Sim, sim, quero que me ajude."
 .byte NewLine
-.text "I seem to have misplaced my grimoire."
+.text "Não consegui encontrar meu grimório,"
+.byte NewLine
+.text "preciso que encontre-o para mim."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Oh gods, again?"
+.text "Pelos deuses, de novo?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Hm?"
 .byte NewLine
-.text "Speak up, I can't hear you!"
+.text "Como é?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Uh, it was nothing..."
+.text "N-nada, senhor..."
 .byte NewLine
-.text "So which book have you lost this time?"
+.text "Qual livro precisa que eu encontre?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "My tome of Venin—you know the one,"
+.text "Meu livro de Veneno, com ele eu poderei"
 .byte NewLine
-.text "it's what allows me to strike our foes"
-.byte NewLine
-.text "from great distances."
-.byte WaitForA
-.byte ScrollText
-.text "Should be easy to find—it's very distinctive."
+.text "eliminar nossos inimigos de longe."
 .byte WaitForA
 .byte NewLine
-.text "Bound in leather, dyed black as midnight"
+.text "É um livro bastante chamativo, será fácil"
 .byte NewLine
-.text "on a moonless night, every page written"
+.text "encontrá-lo."
+.byte WaitForA
 .byte NewLine
-.text "with snake venom... Ah, it's magnificent!"
+.text "Capa de couro preto como a noite,"
+.byte NewLine
+.text "páginas escritas com veneno de cobra..."
+.byte NewLine
+.text "Uma peça incrível, eu garanto!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I'm looking, I'm looking, hold your horses..."
+.text "Certo, senhor, irei procurá-lo..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -401,9 +413,9 @@ dialogueChapter23AlphandVenin1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Ohhh, I hope it's easier to find"
+.text "Eu espero que não demore tanto"
 .byte NewLine
-.text "than the last one..."
+.text "pra encontrar quanto a última vez..."
 .byte WaitForA
 
 .byte EndText
@@ -414,17 +426,15 @@ dialogueChapter23AlphandVenin2
 .byte Left_Slot
 .word LoadPortrait
 .word guard_portrait
-.text "Lord Alphand, I found it!"
+.text "Bispo Alphand, eu o encontrei!"
 .byte WaitForA
 
 .byte Right_Slot
 .word LoadPortrait
 .word alphand_portrait
-.text "Really? Splendid!"
+.text "Muito bom! Agora veja como os rebeldes"
 .byte NewLine
-.text "Now, watch as I unleash my horrifying magic"
-.byte NewLine
-.text "upon the unsuspecting rebels!"
+.text "tremerão perante o poder da magia negra!"
 .byte WaitForA
 
 .byte ScrollText
@@ -432,11 +442,9 @@ dialogueChapter23AlphandVenin2
 
 .byte Left_Slot
 .byte ScrollText
-.text "Well, before you make with the"
+.text "E eu tremi ao ver como o seu"
 .byte NewLine
-.text "horrifying magic, maybe you should"
-.byte NewLine
-.text "learn to tidy up your room first..."
+.text "quarto é bagunçado..."
 .byte WaitForA
 
 .byte EndText
@@ -451,267 +459,282 @@ dialogueChapter23LeifCed
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait
-.text "Aren't you...Sir Ced?!"
+.text "Ei... é você, Ced?!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Prince Leif?!"
+.text "Principe Leif?!"
 .byte NewLine
-.text "Hah, so you've finally arrived!"
+.text "Até que enfim você chegou!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Sorry to have kept you waiting."
+.text "Desculpe a demora, Ced."
 .byte NewLine
-.text "I never did get a chance to thank you"
+.text "Parando pra pensar, eu nem te agradeci"
 .byte NewLine
-.text "for rescuing me, Prince Ced..."
+.text "por ter me salvado daquela vez, Príncipe..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ah... So my secret is out, I see."
+.text "Ah... percebo que descobriu meu segredo."
 .byte NewLine
-.text "How did you learn that I'm a prince?"
-.byte NewLine
-.text "Did Karin tell you?"
+.text "Bem, e quem te contou isso? Foi Karin?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "She did. If what she said is true, you stayed"
+.text "Ela mesmo. Pelo que ela me disse, você ficou"
 .byte NewLine
-.text "behind here to protect the people of Munster"
+.text "aqui para ajudar o povo de Munster ao invés"
 .byte NewLine
-.text "instead of returning to your native Silesse."
+.text "de voltar para Silesse."
 .byte WaitForA
 .byte ScrollText
-.text "I'm sorry I've proven to be such a worthless"
+.text "Por favor, perdoe minha fraqueza, Ced."
 .byte NewLine
-.text "prince... Everything you've gone through"
-.byte NewLine
-.text "all comes down to my own weakness."
+.text "Sofreu muita coisa por causa de mim."
 .byte WaitForA
 .byte ScrollText
-.text "I had a chance to liberate the city"
+.text "Eu tive uma chance de te ajudar na última"
 .byte NewLine
-.text "when last I was here, but all I could do"
+.text "vez que estive em Munster, mas eu resolvi"
 .byte NewLine
-.text "was run. That was unforgivable of me."
+.text "correr pra me salvar."
+.byte WaitForA
+.byte NewLine
+.text "Foi um erro imperdoável..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "There's no need to apologize, Prince."
+.text "Não se engane desse jeito, Leif."
 .byte NewLine
-.text "It's no fault of yours—my plan was doomed"
+.text "Você não tem culpa aqui, o meu plano"
 .byte NewLine
-.text "from the start."
+.text "já não era dos melhores."
 .byte WaitForA
 .byte ScrollText
-.text "I had intended to liberate much more"
-.byte NewLine
-.text "of the city and its people, but not even my"
-.byte NewLine
-.text "holy weapon, the Tome of Forseti,"
+.text "Meu plano era liberar a cidade rapidamente,"
 .byte WaitForA
 .byte NewLine
-.text "could overcome the power of Raydrik's"
+.text "mas acabou que nem com o poder de Forseti"
 .byte NewLine
-.text "Loptrian Fang."
+.text "eu era capaz de derrotar Raydrik, protegido"
+.byte NewLine
+.text "pela barreira da Garra de Loptous."
 .byte WaitForA
 .byte ScrollText
-.text "Because of that one miscalculation, I lost"
+.text "Por causa disso, muitos dos que eu salvei"
 .byte NewLine
-.text "many of the very people I'd come here to save."
+.text "acabaram morrendo pouco depois."
 .byte NewLine
-.text "I'm to blame for all of this, not you."
+.text "Repito, você não tem culpa disso."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Even so...I envy you, Prince Ced."
+.text "Ainda assim... eu te invejo, Ced."
 .byte NewLine
-.text "The people hail you as a hero,"
+.text "O povo te vê como um grande herói,"
 .byte NewLine
-.text "and they're not wrong."
+.text "e não acho que eles estejam errados."
 .byte WaitForA
 .byte ScrollText
-.text "You're everything that I'm not: holy blood"
+.text "Você é tudo que eu não sou: o sangue"
 .byte NewLine
-.text "runs strong in your veins, and you can wield"
+.text "cruzado corre forte em ti, e você é"
 .byte NewLine
-.text "the very weapon your namesake once used."
+.text "tão poderoso quanto seu predecessor,"
+.byte WaitForA
+.byte NewLine
+.text "de quem recebeu seu nome."
 .byte WaitForA
 .byte ScrollText
-.text "And I... I have nothing."
+.text "Mas eu não tenho nada disso."
 .byte NewLine
-.text "I'm a world apart from the likes of"
+.text "Estou realmente muito abaixo de"
 .byte NewLine
-.text "you and Lord Seliph."
+.text "você e de Seliph, meu primo."
 .byte WaitForA
 .byte NewLine
-.text "I... I'm no Crusader..."
+.text "Eu não sou um cruzado de verdade..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Prince Leif..."
+.text "Príncipe Leif..."
 .byte NewLine
-.text "How could you say such a thing?!"
+.text "Como pode dizer uma coisa dessas?!"
 .byte WaitForA
 .byte ScrollText
-.text "Being a Crusader means more than just"
+.text "Ser um cruzado é mais do que estar"
 .byte NewLine
-.text "happening to inherit the right kind of blood."
+.text "em uma certa linhagem."
 .byte WaitForA
 .byte ScrollText
-.text "For centuries, Jugdral was ruled by"
+.text "Por séculos, Jugdral sofreu com o jugo"
 .byte NewLine
-.text "the Loptr Church and its Empire—the Crusaders"
-.byte NewLine
-.text "were the ones that overthrew their rule."
+.text "da Igreja de Loptr e seu velho Império."
 .byte WaitForA
 .byte ScrollText
-.text "And that's exactly what you've been doing"
+.text "Os cruzados foram todos aqueles que"
 .byte NewLine
-.text "for a whole year now, Prince Leif!"
+.text "lutaram para derrubar esse jugo."
 .byte WaitForA
 .byte ScrollText
-.text "You've fought and bled to liberate"
+.text "Não é exatamente isso que você tem"
 .byte NewLine
-.text "the people of Thracia. You walked a path"
-.byte NewLine
-.text "that would've broken lesser men."
+.text "feito, Leif?"
 .byte WaitForA
 .byte ScrollText
-.text "But on you marched, waging your own"
+.text "Você tem lutado e sofrido pelo povo"
 .byte NewLine
-.text "holy war to free countless souls"
+.text "da Trácia. São poucos os que resistiriam"
 .byte NewLine
-.text "from the grip of the Empire!"
+.text "ao que passou nesse ano passado."
 .byte WaitForA
 .byte ScrollText
-.text "Neither Lord Seliph nor I have any right"
+.text "E ainda assim. você manteu a cabeça"
 .byte NewLine
-.text "to call ourselves better than you."
+.text "levantada, travando sua própria guerra"
+.byte NewLine
+.text "para libertar o povo do Império!"
 .byte WaitForA
 .byte ScrollText
-.text "You're the youngest of us."
+.text "Nem eu nem Seliph temos o direito"
 .byte NewLine
-.text "You spent your childhood being hunted."
-.byte NewLine
-.text "And you've never stopped fighting!"
+.text "de nos acharmos melhor que ti."
 .byte WaitForA
 .byte ScrollText
-.text "In fact, you've been fighting"
+.text "Você é o mais jovem entre nós, passou"
 .byte NewLine
-.text "for longer than any of us have!"
+.text "a infância fugindo e se escondendo."
 .byte NewLine
-.text "If you're not a Crusader, who the hell is?!"
+.text "Mas ainda assim, nunca desistiu!"
 .byte WaitForA
 .byte ScrollText
-.text "Take heart, Prince Leif!"
+.text "Além disso, você começou sua luta antes"
 .byte NewLine
-.text "Your soul sings with the voice of Njörun!"
+.text "de nós dois! Se você não tem o direito"
 .byte NewLine
-.text "You've done her legacy proud!"
+.text "de se chamar de cruzado, quem tem?!"
+.byte WaitForA
+.byte ScrollText
+.text "Tenha fé em si, Leif!"
+.byte NewLine
+.text "Sua alma ressoa a força da Santa Njörun!"
+.byte WaitForA
+.byte ScrollText
+.text "Pode ter certeza que está muito bem"
+.byte NewLine
+.text "honrando seu legado!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Prince Ced..."
+.text "Ced..."
 .byte NewLine
-.text "I don't know how to thank you."
+.text "Nem sei como posso te agradecer..."
 .byte WaitForA
 .byte ScrollText
-.text "I look at you and Lord Seliph, see the scale of"
+.text "Quando eu penso na magnitude daquilo que"
 .byte NewLine
-.text "what you've accomplished, see the enormity"
+.text "conseguiram fazer, na escala dos exércitos"
 .byte NewLine
-.text "of your armies... "
+.text "que comandam, "
 .byte WaitForA
-.text "And then I think of"
+.text "e então comparo isso ao"
 .byte NewLine
-.text "my own mistakes, of the people I've failed,"
+.text "quanto que eu errei, as pessoas com quem"
 .byte NewLine
-.text "and I feel so...small. Small and weak."
+.text "eu falhei... eu me sinto fraco."
 .byte WaitForA
 .byte NewLine
-.text "Like a sickly child standing beside giants."
+.text "Como uma criança doente colocada"
+.byte NewLine
+.text "no meio dos adultos."
 .byte WaitForA
 .byte ScrollText
-.text "Heh. Perhaps I am still a child, in many ways."
+.text "Talvez eu ainda seja essa criança."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Then that would mean I, holy weapon and all,"
+.text "Então quer dizer que eu, com todo o poder"
 .byte NewLine
-.text "needed to be rescued by a child."
+.text "da minha linhagem, precisei ser salvo"
 .byte NewLine
-.text "Do you mean to insult me?"
+.text "por uma criança."
+.byte WaitForA
+.byte ScrollText
+.text "É isso mesmo, Príncipe?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Ah...!"
 .byte NewLine
-.text "N-No, that's not what—"
+.text "N-não, não é isso que eu quis—"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Hah! I was only joking, Prince Leif."
+.text "Hah! Calma, eu estava brincando."
 .byte NewLine
-.text "Though this is hardly the time to fool around..."
+.text "Desculpa, não era boa hora para isso..."
 .byte NewLine
-.text "Ahem. Back to the matter at hand."
+.text "Bem, melhor voltarmos para o agora."
 .byte WaitForA
 .byte ScrollText
-.text "My men and I have Raydrik pinned down"
+.text "Meus homens conseguiram encurralar"
 .byte NewLine
-.text "in a small wing of the castle—"
+.text "Raydrik no centro do castelo, e não"
 .byte NewLine
-.text "with no way for him to escape."
+.text "há como ele fugir dali."
 .byte WaitForA
 .byte ScrollText
-.text "Alas, there's a complication:"
+.text "Infelizmente, temos um problema:"
 .byte NewLine
-.text "he's using the few remaining children"
+.text "ele está usando algumas crianças que ele"
 .byte NewLine
-.text "in the castle dungeon as hostages."
+.text "ainda tinha no castelo como reféns."
 .byte WaitForA
 .byte ScrollText
-.text "The Magi don't have the manpower"
+.text "Além disso, nós não temos como atacar o"
 .byte NewLine
-.text "to both storm the castle and keep fighting"
+.text "interior do castelo e lutar nas ruas da"
 .byte NewLine
-.text "the Knights of Munster in the streets."
+.text "cidade ao mesmo tempo, "
+.byte WaitForA
+.text "não com os números"
+.byte NewLine
+.text "que temos."
 .byte WaitForA
 .byte ScrollText
-.text "Prince Leif, will you lend me your strength"
+.text "Principe, poderia ajudar-nos atacando o"
 .byte NewLine
-.text "and lead your forces into the castle"
+.text "interior do castelo enquanto os Magi"
 .byte NewLine
-.text "while the Magi keep order in the city?"
+.text "mantém o controle das ruas?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "It would be my honor to fight alongside you!"
+.text "Será uma honra, Ced! Eu também"
 .byte NewLine
-.text "I, too, have a score to settle with Raydrik."
+.text "tenho contas a acertar com Raydrik."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "How fitting that this fiend will meet his end"
+.text "Que irônico ver que o fim dele será"
 .byte NewLine
-.text "at the hands of the Prince of Leonster..."
+.text "justamente no fio da sua espada..."
 .byte NewLine
-.text "Gods be with you, Prince Leif!"
+.text "Que os deuses te ajudem, Príncipe!"
 .byte WaitForA
 
 .byte EndText
@@ -726,118 +749,120 @@ dialogueChapter23LeifSaias
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait
-.text "A...priest?!"
+.text "Um... padre?!"
 .byte NewLine
-.text "You're the one that led the children to safety?"
+.text "É você que está escoltando as crianças?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Indeed. I did so on behalf of Sir Ced"
+.text "Isso mesmo. Ced, líder dos Magi, me pediu"
 .byte NewLine
-.text "of the Magi. Thank you for taking us in."
+.text "para que as levasse para um lugar seguro."
+.byte NewLine
+.text "Obrigado por sua ajuda,"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Think nothing of it!"
+.text "Não há de quê!"
 .byte NewLine
-.text "If anything, you deserve all the thanks"
+.text "Na verdade, eu que deveria agradecer por"
 .byte NewLine
-.text "for seeing the children out of the city."
+.text "você ter levado elas pra fora da cidade."
 .byte WaitForA
 .byte ScrollText
-.text "Leave the rest of the fighting to us."
+.text "Deixe o resto conosco, Padre."
 .byte NewLine
-.text "You should get somewhere safe, Father."
+.text "Se possível, vá para um lugar seguro."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Ah..."
 .byte NewLine
-.text "Now that I get a good look at you,"
+.text "Agora que te vejo mais de perto, pode"
 .byte NewLine
-.text "I take it you're Prince Leif?"
+.text "me confirmar se você é o Principe Leif?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "That I am."
+.text "Sim, sou eu."
 .byte NewLine
-.text "How did you know?"
+.text "Mas, como você sabe?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "There's no time. Listen closely:"
+.text "Então preste atenção, Príncipe:"
 .byte NewLine
-.text "you must take this sword with you,"
+.text "Leve esta espada consigo, e cuide"
 .byte NewLine
-.text "and keep it close at hand."
+.text "bem dela."
 .byte WaitForA
 .byte ScrollText
-.text "This is Bragi's Blade."
+.text "Esta é a espada de Bragi, e você irá"
 .byte NewLine
-.text "You'll need it if you're to defeat Raydrik."
+.text "precisar dela se quiser derrotar Raydrik."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Bragi's Blade?!"
+.text "A espada de Bragi?!"
 .byte NewLine
-.text "You're...giving this to ME?"
+.text "Por que está dando ela para mim?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Make no mistake: Sir Ced wanted you"
+.text "Mestre Ced pediu que eu a entregasse"
 .byte NewLine
-.text "to have this. I gave him my word"
+.text "especificamente para ti. Prometi à ele"
 .byte NewLine
-.text "that I would deliver it to you."
+.text "que ela chegaria em tuas mãos."
 .byte WaitForA
 .byte ScrollText
-.text "It's a sacred blade that can only be wielded"
+.text "É uma espada que só pode ser empunhada"
 .byte NewLine
-.text "by someone of holy blood—but Sir Ced"
+.text "por pessoas de linhagem cruzada, mas Ced"
 .byte NewLine
-.text "knows little of swordplay himself, you see."
+.text "não é um bom espadachim, infelizmente."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "A sacred blade..."
+.text "Uma espada sagrada... a arma"
 .byte NewLine
-.text "The holy weapon of Bragi himself...!"
+.text "de São Bragi!"
 .byte WaitForA
 .byte ScrollText
-.text "The gods themselves must have sent"
+.text "Deve ser um ato da providência divina..."
 .byte NewLine
-.text "this sword as an act of providence..."
-.byte NewLine
-.text "I'll see that it meets Raydrik's neck before long."
+.text "Eu irei fazer bom uso dela."
 .byte WaitForA
 .byte ScrollText
-.text "Thank you for everything, Father."
+.text "Muito obrigado, Padre Saias."
+.byte WaitForA
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I'm...just happy to have played my part."
+.text "...Estou feliz em ter feito minha parte"
 .byte WaitForA
 .byte ScrollText
-.text "But remember: when the time comes"
+.text "Mas lembre-se: quando chegar o momento"
 .byte NewLine
-.text "to face Raydrik, you must bring that sword"
+.text "de enfrentar Raydrik, não esqueça de"
 .byte NewLine
-.text "with you—"
-.byte WaitForA
-.text "it's the only thing that can breach"
-.byte NewLine
-.text "the enchantment which protects him."
+.text "levar esta espada consigo."
 .byte WaitForA
 .byte ScrollText
-.text "May we meet again, Lord Leif."
+.text "Ela é a única arma capaz de transpor"
+.byte NewLine
+.text "a barreira que protege Raydrik."
+.byte WaitForA
+.byte ScrollText
+.text "Espero que nos vejamos de novo, Leif."
 .byte WaitForA
 
 .byte EndText
@@ -852,102 +877,104 @@ dialogueChapter23Opening1
 .byte Left_Slot
 .word LoadPortrait
 .word younglady_portrait
-.text "Sir Ced!"
+.text "Senhor Ced!"
 .byte NewLine
-.text "Raydrik has found our last safehouse!"
+.text "Raydrik encontrou nosso último esconderijo!"
 .byte WaitForA
 .byte ScrollText
-.text "There's nowhere for us to shelter"
+.text "Não tem mais onde nós"
 .byte NewLine
-.text "the children now!"
+.text "abrigarmos as crianças agora!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Blast! Would that I could escort them"
+.text "Droga! Eu gostaria de levá-las embora"
 .byte NewLine
-.text "out of here myself, but that would leave"
+.text "daqui eu mesmo, mas eu ainda preciso"
 .byte NewLine
-.text "our rebellion without a leader."
+.text "liderar a rebelião."
 .byte WaitForA
 .byte ScrollText
-.text "There just isn't anyone up to the task"
+.text "Não tem nenhum de nós que possa cuidar"
 .byte NewLine
-.text "of getting the children to safety on their own..."
+.text "disso sozinho..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .word LoadPortrait
 .word saias_portrait
-.text "I could carry out that duty, if you'd allow it."
+.text "Eu posso, se quiser."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Who goes there?!"
+.text "Quem está aí?!"
 .byte NewLine
-.text "Who... Who in blazes are you?"
+.text "Quem é você?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "A simple traveler, nothing more."
+.text "Um simples viajante, nada mais."
 .byte NewLine
-.text "I heard about the fighting"
+.text "Ouvi sobre a batalha que está"
 .byte NewLine
-.text "that had broken out here."
+.text "acontecendo aqui."
 .byte WaitForA
 .byte ScrollText
-.text "If you wish to spirit the children away"
+.text "Se quiser, posso levar as crianças para"
 .byte NewLine
-.text "from this foul place, perhaps I could help."
-.byte NewLine
-.text "Or are you unwilling to trust me?"
+.text "longe daqui. Mas, terá que confiar em mim."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
 .text "Hmm..."
 .byte NewLine
-.text "I sense your heart is enveloped"
+.text "Sinto um vento gentil em"
 .byte NewLine
-.text "in a gentle wind."
+.text "volta de seu coração."
 .byte WaitForA
 .byte ScrollText
-.text "You don't seem to mean us harm."
+.text "Você não parece ser nosso inimigo."
 .byte NewLine
-.text "Just who are you, exactly?"
+.text "Mas, poderia me dizer quem é exatamente?"
 .byte NewLine
-.text "You wear the robes of the royal priesthood..."
+.text "Você veste uma batina de sacerdote da corte..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "We haven't the time for me to explain"
+.text "Infelizmente, não tenho tempo para te"
 .byte NewLine
-.text "my life story, I'm afraid, but I give you"
+.text "explicar sobre a minha vida, "
+.byte WaitForA
+.text "mas posso te"
 .byte NewLine
-.text "my word that I'll see the children to safety."
+.text "garantir que irei levar as crianças para"
+.byte NewLine
+.text "um lugar seguro."
 .byte WaitForA
 .byte ScrollText
-.text "You can either trust me or not."
+.text "Mas, vai ter que confiar em mim."
 .byte NewLine
-.text "Choose now."
+.text "Não demore na sua escolha."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Very well."
+.text "...Certo."
 .byte NewLine
-.text "I have little alternative but to believe you."
+.text "Eu irei confiar em ti."
 .byte WaitForA
 .byte ScrollText
-.text "Ah, one more thing."
+.text "Ah, mais uma coisa."
 .byte WaitForA
 .byte NewLine
-.text "When you flee with the children, please,"
+.text "Quando fugir com as crianças, leve"
 .byte NewLine
-.text "you must make sure this sword escapes"
+.text "esta espada contigo também."
 .byte NewLine
 .text "the city as well."
 .byte WaitForA
@@ -957,78 +984,83 @@ dialogueChapter23Opening1
 .text "A sword...?"
 .byte WaitForA
 .byte NewLine
-.text "Ah! I'll gladly smuggle it out of Munster,"
+.text "Ah! Claro, eu irei levá-la comigo,"
 .byte NewLine
-.text "of course, but do you realize what this"
-.byte NewLine
-.text "weapon is?"
+.text "mas sabe que arma é essa?"
 .byte WaitForA
 .byte ScrollText
-.text "It's Bragi's Blade! I'd heard it was being kept"
+.text "É a Espada de Bragi! Achei que ela"
 .byte NewLine
-.text "in Castle Munster, under heavy guard."
-.byte WaitForA
-
-.byte Right_Slot
-.byte ScrollText
-.text "It was, but I saw to that."
-.byte WaitForA
-.byte ScrollText
-.text "You see, Raydrik is protected"
+.text "estivesse trancada as sete chaves"
 .byte NewLine
-.text "by an enchantment upon his own blade,"
-.byte NewLine
-.text "the Loptrian Fang."
-.byte WaitForA
-.byte ScrollText
-.text "Bragi's Blade is the only thing"
-.byte NewLine
-.text "that can breach its foul magic."
-.byte WaitForA
-
-.byte Left_Slot
-.byte ScrollText
-.text "I see..."
-.byte NewLine
-.text "So what would you have me do with it?"
+.text "no castelo de Munster."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "The blade can only be wielded by"
+.text "Sim, estava, mas eu já cuidei de"
 .byte NewLine
-.text "a swordsman of holy blood."
+.text "tirá-la de lá."
 .byte WaitForA
 .byte ScrollText
-.text "A rebel leader, Prince Leif, is marching"
+.text "Raydrik é protegido por um encantamento"
 .byte NewLine
-.text "his Liberation Army here as we speak."
+.text "colocado em sua espada, a Garra de Loptous."
+.byte WaitForA
+.byte ScrollText
+.text "Essa espada é a única arma que consegue"
 .byte NewLine
-.text "He can use it—I want you to deliver it to him."
+.text "transpor a barreira dela."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I understand."
+.text "Entendi..."
 .byte NewLine
-.text "I'll see that it reaches his hands."
+.text "Sendo assim, o que quer que eu fça com ela?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "You've my gratitude."
+.text "Preciso que a leve para o líder dos"
+.byte NewLine
+.text "rebeldes, Principe Leif."
 .byte WaitForA
 .byte ScrollText
-.text "Oh, Sir Priest!"
+.text "Apenas um espadachim descendente dos"
 .byte NewLine
-.text "You must give me your name, at least..."
+.text "cruzados pode empunhar a espada."
+.byte WaitForA
+.byte ScrollText
+.text "Ele é um destes, preciso que"
+.byte NewLine
+.text "entregue-a à ele."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Ah, forgive my rudeness."
+.text "Entendido."
 .byte NewLine
-.text "I am... I am Saias of House Velthomer."
+.text "Eu farei de tudo para que ela chegue"
+.byte NewLine
+.text "às mãos de Leif."
+.byte WaitForA
+
+.byte Right_Slot
+.byte ScrollText
+.text "Muito obrigado."
+.byte WaitForA
+.byte ScrollText
+.text "Ah, antes de ir, senhor."
+.byte NewLine
+.text "Poderia me dizer seu nome?"
+.byte WaitForA
+
+.byte Left_Slot
+.byte ScrollText
+.text "Ah, certo, eu ainda não o disse."
+.byte NewLine
+.text "Sou... Saias, da casa de Velthomer."
 .byte WaitForA
 
 .byte EndText
@@ -1043,26 +1075,29 @@ dialogueChapter23Opening2
 .byte Left_Slot
 .word LoadPortrait
 .word raydrik_portrait
-.text "What?!"
+.text "Como é?!"
 .byte NewLine
-.text "Those peasants dare to flee Munster?!"
+.text "Essa ralé ousa fugir de Munster?!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "I'm afraid so, sire."
+.text "Infelizmente sim, senhor Barão."
 .byte NewLine
-.text "And it seems the Magi have been sheltering"
+.text "Parece que os Magi também estavam"
 .byte NewLine
-.text "children—they're making a run for it right now."
+.text "escondendo crianças,"
+.byte WaitForA
+.byte NewLine
+.text "e eles estão fugindo com elas agora."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "That's unacceptable! Those cattle are"
+.text "Isso é inaceitável! Precisamos dessas"
 .byte NewLine
-.text "the only bargaining chips we have"
+.text "crianças, ou certamente o Império irá"
 .byte NewLine
-.text "to get the Empire to overlook this mess!"
+.text "nos punir por essa bagunça!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -1072,49 +1107,47 @@ dialogueChapter23Opening2
 
 .byte Left_Slot
 .byte ScrollText
-.text "Faden, cut them down in the streets!"
-.byte NewLine
-.text "Slay every last little brat!"
+.text "Faden, vá as ruas e mate todos eles!"
 .byte WaitForA
-.byte ScrollText
-.text "Let's show every damn peasant in Munster"
 .byte NewLine
-.text "what the price of fleeing is!"
+.text "Mostre para o resto desses camponeses"
+.byte NewLine
+.text "o que vai acontecer se tentarem fugir!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Leave it to me, milord."
+.text "Às tuas ordens, senhor."
 .byte WaitForA
 .byte ScrollText
 .word LoadPortrait
 .word alphand_portrait
-.text "You called, Lord Raydrik?"
+.text "Me chamou, Barão Raydrik?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Alphand, I want you to take command"
+.text "Alphand, quero que defenda o portão exterior"
 .byte NewLine
-.text "of the castle gates. Guard them with your life!"
+.text "da cidade. Não deixe ninguém passar!"
 .byte WaitForA
 .byte ScrollText
-.text "I hear Leonster's stray mutt is marching"
+.text "Aqueles malditos rebeldes de Leonster"
 .byte NewLine
-.text "on Munster, and the Magi have already"
+.text "vindo, e os Magi já conseguiram"
 .byte NewLine
-.text "breached the castle once..."
+.text "invadir o interior do castelo uma vez..."
 .byte WaitForA
 .byte ScrollText
-.text "They must not be allowed to seize control"
+.text "Não podemos permitir que consigam tomar"
 .byte NewLine
-.text "of the gates as well!"
+.text "o controle do portão exterior!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Of course, sire."
+.text "Entendido, senhor. Não pouparemos"
 .byte NewLine
-.text "We'll take every measure to secure the city!"
+.text "esforços na defesa da cidade!"
 .byte WaitForA
 
 .byte EndText
@@ -1129,44 +1162,45 @@ dialogueChapter23Opening3
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "We've reached Munster at last..."
+.text "Até que enfim, chegamos em Munster..."
 .byte WaitForA
 
 .byte Right_Slot
-.text "...It appears the fighting between the Magi"
+.text "...Parece que os Magi já estão lutando"
 .byte NewLine
-.text "and the Knights of Munster has broken out"
+.text "abertamente com os cavaleiros de Munster"
 .byte NewLine
-.text "into the streets."
+.text "pelo controle da cidade."
 .byte WaitForA
 .byte ScrollText
-.text "Things have escalated since last we were here."
+.text "Os cavaleiros certamente estão"
+.byte NewLine
+.text "enfraquecidos, mas ainda são uma força"
+.byte NewLine
+.text "perigosa para nós."
+.byte WaitForA
+.byte NewLine
+.text "Temo que se não conseguirmos nos juntar"
+.byte NewLine
+.text "aos Magi, será quase impossivel"
+.byte NewLine
+.text "adentrar em Munster."
 .byte WaitForA
 .byte ScrollText
-.text "The knights seem weaker than before,"
+.text "...Hm? Principe! Veja ali!"
 .byte NewLine
-.text "but they're still a force to be reckoned with."
-.byte WaitForA
+.text "Há uma multidão de crianças fugindo"
 .byte NewLine
-.text "Without the Magi's aid, I fear seizing Munster"
-.byte NewLine
-.text "will be nigh-impossible."
-.byte WaitForA
-.byte ScrollText
-.text "...Oh? What's this?"
-.byte NewLine
-.text "Look, there's movement around the city!"
-.byte NewLine
-.text "Whole groups of children are fleeing Munster!"
+.text "de Munster!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "What?!"
+.text "Como é?!"
 .byte NewLine
-.text "There's no time to lose!"
+.text "Então não temos tempo a perder!"
 .byte NewLine
-.text "Let's move!"
+.text "Soldados, ao ataque!"
 .byte WaitForA
 
 .byte EndText
@@ -1181,47 +1215,48 @@ dialogueChapter23Closing1
 .byte Left_Slot
 .word LoadPortrait
 .word augustus_portrait
-.text "It certainly wasn't easy, but the gates"
+.text "Não foi fácil, mas enfim conseguimos tomar"
 .byte NewLine
-.text "of Castle Munster are ours, Prince Leif."
+.text "controle do portão exterior, Príncipe Leif."
 .byte NewLine
-.text "How shall we proceed from here?"
+.text "O que acha que devemos fazer agora?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "The Magi can keep order in the streets"
+.text "Podemos deixar os Magi tomarem conta"
 .byte NewLine
-.text "while we storm the castle. Raydrik has fled"
-.byte NewLine
-.text "inside to make his last stand—"
+.text "da cidade em si."
 .byte WaitForA
-.text "and he means"
+.byte ScrollText
+.text "Enquanto isso, nós iremos invadir o"
 .byte NewLine
-.text "to use the captive children as hostages."
+.text "castelo e finalmente derrubar Raydrik!"
+.byte WaitForA
+.byte ScrollText
+.text "Ele deve ter algumas crianças de refém"
+.byte NewLine
+.text "lá dentro, temos que ter cuidado com isso."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Then we have our work cut out for us..."
+.text "Então nosso objetivo já está claro."
 .byte NewLine
-.text "Ah, there's something you should be aware of,"
+.text "Mas, tem algo que precisa saber,"
 .byte NewLine
-.text "my prince."
+.text "senhor."
 .byte WaitForA
 .byte ScrollText
-.text "I have intelligence stating that Raydrik's blade,"
+.text "Foi me dito que Raydrik possui a"
 .byte NewLine
-.text "the Loptrian Fang, is enchanted with"
+.text "Garra de Loptous, uma espada encantada"
 .byte NewLine
-.text "dark magic that shields him from all harm."
+.text "que o protege de qualquer ataque,"
+.byte WaitForA
+.byte NewLine
+.text "tanto físico quanto mágico."
 .byte WaitForA
 .byte ScrollText
-.text "If we're to defeat him, we must prepare"
-.byte NewLine
-.text "some kind of countermeasure"
-.byte NewLine
-.text "before we enter the castle."
-.byte WaitForA
 
 .byte EndText
 
@@ -1229,28 +1264,30 @@ dialogueChapter23Closing1
 dialogueChapter23NoBlade
 
 .byte ScrollText
-.text "It would be most reckless to charge inside"
+.text "Será arriscado atacarmos sem ter"
 .byte NewLine
-.text "without a plan, my prince."
+.text "um plano, Príncipe."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Then what do you propose, August?"
+.text "Então o que acha que podemos"
+.byte NewLine
+.text "fazer, Augusto?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Let's think through everything we know..."
+.text "Teremos que pensar em alguma forma"
 .byte NewLine
-.text "Is there anyone we've forgotten?"
-.byte NewLine
-.text "Anything we've lost?"
+.text "de derrotá-lo."
 .byte WaitForA
 .byte ScrollText
-.text "Without a way to harm Raydrik,"
+.text "Se não pudermos ferir Raydrik,"
 .byte NewLine
-.text "there's little we could accomplish..."
+.text "não poderemos fazer muita coisa..."
+.byte NewLine
+.text "Será que deixamos passar a solução?"
 .byte WaitForA
 
 .byte EndText
@@ -1260,32 +1297,32 @@ dialogueChapter23HasBlade
 
 .byte Right_Slot
 .byte ScrollText
-.text "Ah, I'm one step ahead of you. I received"
-.byte NewLine
-.text "a sword, Bragi's Blade, from the priest"
-.byte NewLine
-.text "that fled Munster with the children."
+.text "Ah, com isso não precisamos nos preocupar."
 .byte WaitForA
 .byte ScrollText
-.text "It's a holy weapon that's every bit the equal"
+.text "Um padre que estava protegendo as crianças"
 .byte NewLine
-.text "of Raydrik's blade—and more importantly,"
+.text "lá fora me entregou a Espada de Bragi,"
+.byte WaitForA
+.text " e"
 .byte NewLine
-.text "it can breach the magic protecting him."
+.text "segundo ele, ela é capaz de vencer"
+.byte NewLine
+.text "o encantamento da espada de Raydrik."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hmm..."
+.text "Muito bom, pelo menos desta vez os"
 .byte NewLine
-.text "That's quite fortuitous, for once."
+.text "céus parecem querer nos ajudar."
 .byte WaitForA
 .byte ScrollText
-.text "Just make absolutely certain"
+.text "Vamos fazer bom uso desta"
 .byte NewLine
-.text "you have Bragi's Blade in hand"
+.text "espada, Príncipe! Lembre-se de"
 .byte NewLine
-.text "before the next battle, my prince!"
+.text "levá-la consigo para dentro do castelo!"
 .byte WaitForA
 
 .byte EndText
@@ -1300,67 +1337,74 @@ dialogueChapter23SaiasBlade
 .byte ScrollText
 .word LoadPortrait
 .word saias_portrait
-.text "If I might interject, that matter has already"
+.text "Ah, senhores, não precisam se preocupar."
 .byte NewLine
-.text "been handled for you."
+.text "Mestre Ced já resolveu este problema."
 .byte WaitForA
 .byte ScrollText
-.text "Sir Ced bade me deliver this blade to you—"
+.text "Ele me pediu para te entregar esta espada,"
 .byte NewLine
-.text "as Crusader blood runs in your veins,"
+.text "Príncipe. Visto que você é de uma linhagem"
 .byte NewLine
-.text "Prince Leif, you should be able to wield it."
+.text "de cruzados, deve ser capaz de usá-la."
 .byte WaitForA
 
 .byte Right_Slot
-.text "I'm not sure I follow."
+.text "Hm, de fato, sou, mas no que esta"
 .byte NewLine
-.text "What does this sword have to do with"
+.text "espada vai nos ajudar em derrotar"
 .byte NewLine
-.text "overcoming Raydrik's dark magic?"
+.text "Raydrik?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "This is Bragi's Blade, and it's...something of a"
+.text "Esta é a Espada de Bragi, e ela é como"
 .byte NewLine
-.text "counterbalance to the Loptrian Fang."
+.text "um contraponto à Garra de Loptous"
+.byte NewLine
+.text "que está na posse de Raydrik."
 .byte WaitForA
 .byte ScrollText
-.text "It alone can breach the enchantment"
+.text "Ela tem o poder de superar o"
 .byte NewLine
-.text "protecting Raydrik."
+.text "encantamento que protege Raydrik."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "A sacred blade..."
+.text "Uma espada sagrada... a arma"
 .byte NewLine
-.text "The holy weapon of Bragi himself...!"
+.text "de São Bragi!"
 .byte WaitForA
 .byte ScrollText
-.text "The gods themselves must have sent"
+.text "Deve ser um ato da providência divina..."
 .byte NewLine
-.text "the sword as an act of providence..."
-.byte NewLine
-.text "I'll see that it meets Raydrik's neck before long."
+.text "Eu irei fazer bom uso dela."
 .byte WaitForA
 .byte ScrollText
-.text "Thank you for everything, Father Saias."
+.text "Muito obrigado, Padre Saias."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Please, save your thanks for Sir Ced."
+.text "O senhor tem de agradecer à"
 .byte NewLine
-.text "I was just the errand boy."
+.text "Ced por esta espada."
+.byte WaitForA
+.byte ScrollText
+.text "Ele conseguiu tomar a espada"
+.byte NewLine
+.text "dos cofres de Raydrik, eu apenas a"
+.byte NewLine
+.text "entreguei a ti."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Of course."
+.text "Certo, eu não esquecerei da ajuda dele,"
 .byte NewLine
-.text "I'll remember his role in this, as well."
+.text "mas também lembrarei de ti, Padre!"
 .byte WaitForA
 .byte ScrollText
 
@@ -1386,38 +1430,38 @@ dialogueCh23SaiasLoad
 dialogueChapter23SaiasBranch
 
 .byte Right_Slot
-.text "What will you do now, Father?"
+.text "Mas, o que irá fazer agora, senhor?"
 .byte WaitForA
 
 .byte Left_Slot
-.text "I have nowhere to return to."
+.text "Eu não tenho exatamente um lugar para ir."
 .byte NewLine
-.text "There's only one thing I can do now: I shall go"
+.text "Pretendo ir para Torre de Bragi, pedir"
 .byte NewLine
-.text "to the Tower of Bragi and pray for guidance."
+.text "a sabedoria dos deuses em oração."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Can you tell me nothing more"
+.text "Seria muito incômodo se pudesse"
 .byte NewLine
-.text "of your circumstances?"
+.text "me dizer um pouco mais sobre si?"
 .byte NewLine
-.text "How exactly did you end up here?"
+.text "Como que você chegou aqui?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I can't say. Not now."
+.text "...Eu não posso. Não agora."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I see. I don't suppose there's any chance"
+.text "Entendo. Poderia pelo menos ficar mais um"
 .byte NewLine
-.text "you could stay with us a little longer?"
+.text "pouco conosco? Certamente seria bom ter"
 .byte NewLine
-.text "We could use your help liberating Munster."
+.text "sua ajuda para reconquistar Munster."
 .byte WaitForA
 
 .byte EndText
@@ -1427,17 +1471,17 @@ dialogueChapter23SaiasYes
 
 .byte Left_Slot
 .byte ScrollText
-.text "The prospect of striking down Raydrik..."
+.text "Para derrubar Raydrik..."
 .byte WaitForA
 .byte ScrollText
 .text "......"
 .byte WaitForA
 .byte ScrollText
-.text "Very well. If this is the will of the heavens,"
+.text "Muito bem, se assim os deuses querem,"
 .byte NewLine
-.text "there's no sense in avoiding the coming battle."
+.text "eu não irei recusar. Me juntarei a ti"
 .byte NewLine
-.text "I shall join you, for a time."
+.text "para esta batalha."
 .byte WaitForA
 
 .byte EndText
@@ -1447,18 +1491,18 @@ dialogueChapter23SaiasNo
 
 .byte Left_Slot
 .byte ScrollText
-.text "I've seen enough of battle for one lifetime."
+.text "Me perdoe, Príncipe... temo que"
 .byte NewLine
-.text "I already fear that my heart may have grown"
+.text "meu coração está cansado da guerra."
 .byte NewLine
-.text "too accustomed to warfare..."
+.text "Basta para mim de batalha."
 .byte WaitForA
 .byte ScrollText
-.text "But know that I'll be praying for"
+.text "Mas, saiba que eu irei orar por ti"
 .byte NewLine
-.text "your good fortune from the Tower of Bragi."
+.text "no meu caminho para a Torre de Bragi." ;originalmente ele fala que vai orar por ele na Torre em si, só que a torre fica praticamente no fim do mundo, então resolvi mudar para "no meu caminho"
 .byte NewLine
-.text "Be well, Lord Leif."
+.text "Adeus, Príncipe."
 .byte WaitForA
 
 .byte EndText
@@ -1470,18 +1514,18 @@ dialogueChapter23WorldMap1
 .long LoadPortraitalt_2
 .word $0001 ;leify-right
 .word $0303 ;y then x
-.text "Leaving the troubled waters"
+.text "Com as águas do Rio Trácia agora"
 .byte NewLine
-.text "of the River Thracia behind him,"
+.text "ultrapassadas,"
 .byte WaitForA
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0178 ;raydrik
 .word $020D ;y then x
 .byte NewLine
-.text "Leif approached Raydrik's stronghold,"
+.text "Leif agora se aproxima do Castelo"
 .byte NewLine
-.text "Castle Munster."
+.text "de Munster, o último refúgio de Raydrik."
 .byte WaitForA
 .word ClearPortraitalt
 .long $82937A
@@ -1497,36 +1541,33 @@ dialogueChapter23WorldMap1
 
 dialogueChapter23WorldMap2
 
-.text "There, emboldened by news of Leif's victory,"
+.text "Encorajados pela notícia da vitória de Leif,"
 .byte NewLine
-.text "the citizens seized the opportunity to flee."
+.text "os cidadãos aproveitam para fugir da cidade."
 .byte WaitForA
 .byte ScrollText
-.text "However, they were caught in the crossfire"
+.text "Os cavaleiros de Munster tentam os "
 .byte NewLine
-.text "of two forces: "
+.text "perseguir,"
 .byte WaitForA
+.byte ScrollText
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $001F ;ced
 .word $0706 ;y then x
-.text "the Magi, led by Ced,"
-.byte NewLine
-.text "who were trying to defend the civilians,"
+.text "mas Ced e os Magi saem em sua defesa."
 .byte WaitForA
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word $0178 ;ced
 .word $0713 ;y then x
 .byte NewLine
-.text "and the Knights of Munster,"
+.text "O entorno da cidade havia se tornado,"
 .byte NewLine
-.text "who were determined to stop them."
+.text "uma zona de guerra, e a cada momento,"
 .byte WaitForA
 .byte ScrollText
-.text "The region had become a war zone,"
-.byte NewLine
-.text "and the fighting grew worse with each day..."
+.text "a luta se tornava mais intensa..."
 .byte WaitForA
 
 .byte EndText
@@ -1541,22 +1582,20 @@ dialogueChapter23Fall
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "How can this be?!"
+.text "Como é?!"
 .byte NewLine
-.text "The Magi were...wiped out?!"
+.text "Os Magi foram eliminados?!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Without their leader,"
+.text "Sem o líder deles, não conseguirão"
 .byte NewLine
-.text "the Magi's ranks have collapsed."
+.text "manter uma luta organizada..."
 .byte WaitForA
 .byte ScrollText
-.text "We don't have the forces"
+.text "E não temos como tomar a cidade sozinhos."
 .byte NewLine
-.text "to seize Munster on our own..."
-.byte NewLine
-.text "The city is Thracia's for the taking..."
+.text "Teremos que deixá-la aos trácios..."
 .byte WaitForA
 
 .byte EndText
