@@ -163,7 +163,7 @@ POPUP_END
 .logical lorom($0265E9, 1)
 
 menutextPopUpItemObtained
-.text "Recebeu \n"
+.text "Obtido/a\n"
 
 .here
 
@@ -204,7 +204,7 @@ menutextPopUpItemPurchased
 .logical lorom($01F86A, 1)
 
 menutextPopUpItemExchanged
-.text "Recebeu \n"
+.text "Recebido/a\n"
 
 .here
 

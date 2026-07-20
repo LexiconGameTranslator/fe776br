@@ -236,7 +236,7 @@
 			.text "Esp. dos reis \n"
 		
 		menutextEarthSwordName
-			.text "Esp. de terra \n"
+			.text "Esp. da terra \n"
 		
 		menutextWindSwordName
 			.text "Esp. de vento \n"

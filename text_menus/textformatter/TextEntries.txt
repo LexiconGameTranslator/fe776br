@@ -529,7 +529,7 @@ Esp. de Bragi
 Esp. de luz
 Espada heróica
 Esp. dos reis
-Esp. de terra
+Esp. da terra
 Esp. de vento
 Esp. de fogo
 Esp. de trovão
@@ -679,7 +679,7 @@ Perg. de Hei[m
 
 //MISC BOXES-----------------------------------------------
 
-Recebeu
+Obtido/a
 (Mov au[mentou!
 +Nível de proficiência au[mentou
 Inventário cheio.
@@ -688,7 +688,7 @@ ir pro depósito.
 Ini[migo escapou
  Roubou
  Co[mprou
- Recebeu
+ Recebido/a
 (Moedas
 
 
