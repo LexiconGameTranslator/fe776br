@@ -673,22 +673,22 @@ Perg. de Hei[m
 (Man. Fúria
 (Man. Adepto
 (Man. +Nulidade
-(Man. Sol
+(Man. Sol 
 (Man. Luna
 
 
 //MISC BOXES-----------------------------------------------
 
-Obtido/a
+Obteve 
 (Mov au[mentou!
 +Nível de proficiência au[mentou
 Inventário cheio.
 Escolha u[m ite[m para
 ir pro depósito.
 Ini[migo escapou
- Roubou
- Co[mprou
- Recebido/a
+Roubou
+Co[mprou
+Recebeu 
 (Moedas
 
 

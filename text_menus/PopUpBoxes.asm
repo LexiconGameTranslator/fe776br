@@ -96,9 +96,9 @@ menutextPopUpEnemyEscaped
 * = $0265DC
 .logical lorom($0265DC, 1)
 
+POPUP_DRAW_TEXT menutextPopUpItemObtained
 POPUP_DRAW_ITEM_ICON $7EF79B
 POPUP_DRAW_ITEM_NAME $7EF79B
-POPUP_DRAW_TEXT menutextPopUpItemObtained
 POPUP_END
 
 .here
@@ -107,9 +107,9 @@ POPUP_END
 * = $01F7B1
 .logical lorom($01F7B1, 1)
 
+POPUP_DRAW_TEXT menutextPopUpItemStolenStealCommand
 POPUP_DRAW_ITEM_ICON $7EF79E
 POPUP_DRAW_ITEM_NAME $7EF79E
-POPUP_DRAW_TEXT menutextPopUpItemStolenStealCommand
 POPUP_END
 
 .here
@@ -117,9 +117,9 @@ POPUP_END
 * = $0A164A
 .logical lorom($0A164A, 1)
 
+POPUP_DRAW_TEXT menutextPopUpItemStolenThiefStaff
 POPUP_DRAW_ITEM_ICON $7EF79B
 POPUP_DRAW_ITEM_NAME $7EF79B
-POPUP_DRAW_TEXT menutextPopUpItemStolenThiefStaff
 POPUP_END
 
 .here
@@ -128,9 +128,9 @@ POPUP_END
 * = $01F8B5
 .logical lorom($01F8B5, 1)
 
+POPUP_DRAW_TEXT menutextPopUpItemPurchased
 POPUP_DRAW_ITEM_ICON $7EF79E
 POPUP_DRAW_ITEM_NAME $7EF79E
-POPUP_DRAW_TEXT menutextPopUpItemPurchased
 POPUP_END
 
 .here
@@ -139,9 +139,9 @@ POPUP_END
 * = $01F85D
 .logical lorom($01F85D, 1)
 
+POPUP_DRAW_TEXT menutextPopUpItemExchanged
 POPUP_DRAW_ITEM_ICON $7EF79E
 POPUP_DRAW_ITEM_NAME $7EF79E
-POPUP_DRAW_TEXT menutextPopUpItemExchanged
 POPUP_END
 
 .here
@@ -150,8 +150,8 @@ POPUP_END
 * = $026881
 .logical lorom($026881, 1)
 
-POPUP_DRAW_SKILL $7EF79E
 POPUP_DRAW_TEXT menutextPopUpSkillLearned
+POPUP_DRAW_SKILL $7EF79E
 POPUP_END
 
 .here
@@ -163,7 +163,7 @@ POPUP_END
 .logical lorom($0265E9, 1)
 
 menutextPopUpItemObtained
-.text "Obtido/a\n"
+.text "Obteve\n"
 
 .here
 
@@ -174,7 +174,7 @@ menutextPopUpItemObtained
 .logical lorom($0A1657, 1)
 
 menutextPopUpItemStolenStealCommand
-.text " Roubou \n"
+.text "Roubou\n"
 
 .here
 
@@ -182,7 +182,7 @@ menutextPopUpItemStolenStealCommand
 .logical lorom($01F7BE, 1)
 
 menutextPopUpItemStolenThiefStaff
-.text " Roubou \n"
+.text "Roubou\n"
 
 .here
 
@@ -193,7 +193,7 @@ menutextPopUpItemStolenThiefStaff
 .logical lorom($01F8C2, 1)
 
 menutextPopUpItemPurchased
-.text " Co[mprou \n"
+.text "Co[mprou\n"
 
 .here
 
@@ -204,7 +204,7 @@ menutextPopUpItemPurchased
 .logical lorom($01F86A, 1)
 
 menutextPopUpItemExchanged
-.text "Recebido/a\n"
+.text "Recebeu \n"
 
 .here
 
