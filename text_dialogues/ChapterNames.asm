@@ -129,7 +129,7 @@ dialogueChapter23Title
 .byte $01
 
 dialogueChapter24Title
-.text "Capítulo 24: O Barão de Preto"
+.text "Capítulo 24: O Lar do Mal"
 .byte $01
 
 dialogueChapter24xTitle
