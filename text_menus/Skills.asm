@@ -144,7 +144,7 @@
 	.section SkillDescriptionsSection
 
 		menutextWrathDescription
-			.text "Nu[m ataque ini[migo\n"
+			.text "+No ataque ini[migo \n"
 			.text "o contra-ataque \n"
 			.text "desta unidade será\n"
 			.text "se[mpre u[m crítico \n"

@@ -784,7 +784,7 @@
     .text "Eleva a [maioria\n"
     .text "dos personagens \n"
     .text "e[m classe base \n"
-    .text "e abaixo do \n"
+    .text "e aci[ma do \n"
 	.text "nível {1}{0}\n"
     .text "para u[ma classe\n"
 	.text "avançada\n"
@@ -1005,14 +1005,14 @@
     .text "\n"
     
     menutextBrokenTomeDescription
-    .text "U[m to[mo que teve\n"
-    .text "sua [magia drenada\n"
+    .text "U[m to[mo drenado \n"
+    .text "de sua [magia \n"
     .text "Inutilizável\n\n" 
     .text "\n"
 	
     menutextBrokenStaffDescription
-    .text "U[m cajado que teve \n"
-    .text "sua [magia drenada\n"
+    .text "U[m cajado drenado\n"
+    .text "de sua [magia \n"
     .text "Inutilizável\n\n" 
     .text "\n"
     

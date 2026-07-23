@@ -722,7 +722,7 @@ Furto
 Dançar
 Barganha
 
-Nu[m ataque ini[migo
++No ataque ini[migo 
 o contra-ataque
 desta unidade será
 se[mpre u[m crítico
@@ -1091,7 +1091,7 @@ para a batalha
 Eleva a [maioria
 dos personagens 
 e[m classe base 
-e abaixo do
+e aci[ma do
 nível
 para u[ma classe
 avançada
@@ -1116,8 +1116,8 @@ So[me após usar
 U[ma ar[ma quebrada
 Quase inutilizável
 
-U[m to[mo que teve
-sua [magia drenada
+U[m to[mo drenado
+de sua [magia 
 Inutilizável
 
 //OPTIONS--------------------------------------------------
