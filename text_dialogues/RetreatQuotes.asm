@@ -78,7 +78,7 @@ dialogueRalphRetreatQuote
 .word ralph_portrait
 .text "Tch..."
 .byte NewLine
-.text "We've still got a ways to go, huh?"
+.text "Ainda falta muito, não é?"
 .byte WaitForA
 .byte EndText
 
@@ -96,7 +96,7 @@ dialogueRonanRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word ronan_portrait
-.text "Wh-What a rush... Everybody all right?"
+.text "C-caramba... tá todo mundo bem?"
 .byte WaitForA
 .byte EndText
 
@@ -162,7 +162,7 @@ dialogueHicksRetreatQuote
 .byte Right_Slot
 .word LoadPortrait
 .word hicks_portrait
-.text "Murphy, seu papai tá dando o máximo..."
+.text "Murphy, seu papai tá dando o melhor..."
 .byte WaitForA
 .byte EndText
 
