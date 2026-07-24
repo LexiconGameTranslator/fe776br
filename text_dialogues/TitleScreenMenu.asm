@@ -84,7 +84,7 @@ ConfirmCancel
 .byte EndText
 
 ParagonMode
-.text "Modo Elite"
+.text "Modo Prodígio"
 .byte EndText
 
 ResumeChapter
