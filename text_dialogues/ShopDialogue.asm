@@ -2,7 +2,7 @@ shop_text .block
 
 _intro_armory
 
-	.text "Essa é minha loja de armas."
+	.text "Bem vindo a minha loja de armas."
 	.byte NewLine
 	.text "O que cê quer levar?"
 .byte EndTextNoPortraitFade
@@ -28,7 +28,7 @@ _buy_intro
 
 _sell_intro
 
-	.text "O que você quer me vender?"
+	.text "O que quer me vender?"
 .byte EndTextNoPortraitFade
 
 _continue
@@ -40,7 +40,7 @@ _continue
 
 _too_expensive
 
-	.text "Te falta dinheiro, amigo."
+	.text "Te falta o dinheiro, amigo."
 .byte EndTextNoPortraitFade
 
 _buy_sell_confirm
