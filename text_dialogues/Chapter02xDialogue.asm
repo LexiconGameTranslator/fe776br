@@ -314,7 +314,7 @@ dialogueChapter02xEnding1
 	
 	.text "Os piratas fugiram, mas primeiramente,"
 	.byte NewLine
-	.text "sabem se a irmã está bem?"
+	.text "já sabem se a irmã está bem?"
 	.byte WaitForA
 
 	.byte Right_Slot
