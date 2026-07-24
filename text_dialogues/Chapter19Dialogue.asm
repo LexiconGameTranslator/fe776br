@@ -677,9 +677,9 @@ dialogueChapter19Opening1
 .text "do Duque terá sido em vão!"
 .byte WaitForA
 .byte ScrollText
-.text "Temos que salvar o máximo possível de"
+.text "Salve aqueles que Dórias se sacrificou"
 .byte NewLine
-.text "nossos homens, para honrar seu sacrifício!"
+.text "para proteger e honre seu sacrifício!"
 .byte WaitForA
 
 .byte EndText
@@ -761,7 +761,7 @@ dialogueChapter19Closing1
 .byte NewLine
 .text "Não há mais nada que possamos fazer."
 .byte NewLine
-.text "O melhor é recuar para o castelo."
+.text "Teremos de recuar para o interior do castelo."
 .byte WaitForA
 
 .byte Right_Slot
@@ -772,7 +772,7 @@ dialogueChapter19Closing1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Não temos tempo para ficar de luto."
+.text "Não há tempo para ficarmos de luto."
 .byte NewLine
 .text "Não agora."
 .byte WaitForA
@@ -784,7 +784,7 @@ dialogueChapter19Closing1
 .text "dos imperiais."
 .byte WaitForA
 .byte ScrollText
-.text "Até lá, irá precisar de muita paciência,"
+.text "Até lá, precisarás de muita paciência,"
 .byte NewLine
 .text "e disciplina, para conseguir enfrentar"
 .byte NewLine
@@ -800,10 +800,10 @@ dialogueChapter19Closing1
 .byte ScrollText
 .text "Levante a cabeça, Príncipe."
 .byte NewLine
-.text "Também recebi uma boa notícia."
+.text "Tenho uma boa notícia."
 .byte WaitForA
 .byte ScrollText
-.text "Tenho ouvido relatos de uma grande"
+.text "Recebi relatos de uma grande"
 .byte NewLine
 .text "rebelião nas regiões orientais de Isaach."
 .byte WaitForA
@@ -830,7 +830,7 @@ dialogueChapter19Closing1
 .text "mundo, ele é amado pelo seu povo..."
 .byte WaitForA
 .byte ScrollText
-.text "Em resumo, um homem muito melhor qu eu..."
+.text "Em resumo, um homem muito melhor que eu..."
 .byte WaitForA
 
 .byte Left_Slot
@@ -849,7 +849,7 @@ dialogueChapter19Closing1
 .byte ScrollText
 .text "Lorde Seliph da Casa de Chalphy."
 .byte NewLine
-.text "O povo de Isaach o chama de "
+.text "O povo de Isaach o chama de"
 .byte NewLine
 .text "“Filho da Luz.”"
 .byte WaitForA
@@ -870,7 +870,7 @@ dialogueChapter19Closing1
 .text "era seu tio."
 .byte WaitForA
 .byte ScrollText
-.text "O mesmo Sigurd que, há uma década,"
+.text "O mesmo Sigurd que, há dez anos,"
 .byte NewLine
 .text "era visto como um traidor, agora é"
 .byte NewLine
@@ -935,7 +935,7 @@ dialogueChapter19Closing1
 .byte ScrollText
 .text "Nossa época pede por um herói."
 .byte NewLine
-.text "Nosso povo, eles clamam por um."
+.text "Nosso povo clama por um."
 .byte NewLine
 .text "Por isso alguém transformou Seliph nisso."
 .byte WaitForA
@@ -1007,7 +1007,7 @@ dialogueChapter19Closing2
 .text "atender ninguém neste momento."
 .byte WaitForA
 .byte ScrollText
-.text "Se for urgente, pode dizer para mim,"
+.text "Se for urgente, pode dizer à mim,"
 .byte NewLine
 .text "e eu encaminharei ao Príncipe quando"
 .byte NewLine
@@ -1034,7 +1034,7 @@ dialogueChapter19Closing2
 
 .byte Left_Slot
 .byte ScrollText
-.text "Deixe-o comigo. Posteriormente, irei"
+.text "Certo. Posteriormente, irei"
 .byte NewLine
 .text "repassar seu presente e seu agradecimento"
 .byte NewLine
