@@ -380,7 +380,7 @@ dialogueChapter21Opening2
 
 .byte Right_Slot
 .byte ScrollText
-.text "Selipg levará seus homens pela região"
+.text "Seliph levará seus homens pela região"
 .byte NewLine
 .text "costeira, indo na direção de Connacht,"
 .byte NewLine
@@ -401,9 +401,9 @@ dialogueChapter21Opening2
 .text "Lorde Seliph aceitou o meu pedido."
 .byte WaitForA
 .byte ScrollText
-.text "Ele irá tomar conta de Connacht, o que"
+.text "Ele tomando conta de Connacht irá"
 .byte NewLine
-.text "vai nos permitir colocar todas as nossas"
+.text "permitir colocarmos todas as nossas"
 .byte NewLine
 .text "forças para libertar Munster."
 .byte WaitForA
@@ -413,7 +413,7 @@ dialogueChapter21Opening2
 
 .byte Left_Slot
 .byte ScrollText
-.text "De qualquer forma, teremos que capturar o"
+.text "De qualquer modo, teremos que capturar o"
 .byte NewLine
 .text "forte de Danzig, visto que ele controla"
 .byte NewLine
@@ -490,9 +490,7 @@ dialogueChapter21NoPrisoners
 .byte ScrollText
 .text "As tropas já o vasculharam, mas"
 .byte NewLine
-.text "no momento, o interior do forte"
-.byte NewLine
-.text "está deserto."
+.text "o interior do forte está deserto."
 .byte WaitForA
 .byte ScrollText
 .text "Ao que parece, era uma prisão,"
@@ -519,7 +517,7 @@ dialogueChapter21NoPrisoners
 .text "meu Principe."
 .byte WaitForA
 .byte ScrollText
-.text "É provável que o Império já tenha"
+.text "É provável que o Império tenha"
 .byte NewLine
 .text "estabelecido uma linha de defesa no"
 .byte NewLine
@@ -575,7 +573,7 @@ dialogueChapter21Prisoners
 
 .byte Right_Slot
 .byte ScrollText
-.text "Nossos soldados já estão exaustos,"
+.text "Nossos soldados estão exaustos,"
 .byte NewLine
 .text "Principe Leif."
 .byte WaitForA
@@ -612,7 +610,9 @@ dialogueChapter21Prisoners
 .text "Se é o que deseja, então faça."
 .byte WaitForA
 .byte ScrollText
-.text "Mas leve apenas alguns, e seja rápido!"
+.text "Mas leve apenas alguns homens,"
+.byte NewLine
+.text "e seja rápido!"
 .byte WaitForA
 
 .byte EndText
