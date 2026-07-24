@@ -736,7 +736,7 @@ dialogueChapter01IronSwordHouse
 	.byte ScrollText
 	.text "É difícil, mas se cê conseguir [Capturar]"
 	.byte NewLine
-	.text "um inimigo, ocê pode pegar com as coisas dele."
+	.text "um inimigo, ocê pode ficar as coisas dele."
 	.byte WaitForA
 	.byte ScrollText
 	.text "Na real, outro dia eu consegui pegar"
