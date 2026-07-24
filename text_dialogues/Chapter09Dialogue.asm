@@ -459,7 +459,7 @@ dialogueChapter09Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Hmph... então eles estão atacando Trácios?"
+.text "Hmph... então eles estão atacando trácios?"
 .byte NewLine
 .text "Mesmo considerando que são meros bandidos,"
 .byte NewLine
@@ -728,7 +728,7 @@ dialogueChapter09Opening3
 .byte NewLine
 .text "Droga...! Veja a armadura que vestem,"
 .byte NewLine
-.text "Príncipe Leif! São soldados Trácios!"
+.text "Príncipe Leif! São soldados trácios!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -902,7 +902,7 @@ dialogueChapter09Ending1
 .byte ScrollText
 .word LoadPortrait
 .word augustus_portrait
-.text "Quanto a isso... Vejo que o exército Trácio"
+.text "Quanto a isso... Vejo que o exército trácio"
 .byte NewLine
 .text "cessou seu ataque. Curioso..."
 .byte WaitForA
