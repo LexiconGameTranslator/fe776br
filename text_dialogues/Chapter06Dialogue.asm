@@ -160,7 +160,7 @@ dialogueChapter06Opening1
 .byte NewLine
 .text "apenas olhe à sua volta! É assim"
 .byte NewLine
-.text "que a Igreja de Loptous age, Príncipe!"
+.text "que a Igreja de Loptr age, Príncipe!"
 .byte WaitForA
 .byte ScrollText
 .text "Somente na Península da Trácia, milhares—"
