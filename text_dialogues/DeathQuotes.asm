@@ -276,7 +276,7 @@ dialogueKarinDeathQuote
 .byte EndText
 
 dialogueTanyaDeathQuote
-.text "Ugh...! O-Osian... Help...me..."
+.text "Ugh...! O-Osian...
 .byte NewLine
 .text "Me... ajude..."
 .byte WaitForA
