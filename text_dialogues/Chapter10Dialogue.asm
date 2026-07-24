@@ -61,7 +61,7 @@ dialogueChapter10WorldMap2
 .byte ScrollText
 .text "O ponto pelo qual eles farão isso é"
 .byte NewLine
-.text "o vale de Nowell, "
+.text "o vale de Novell, "
 .word LoadPortraitalt_1
 .long LoadPortraitalt_2
 .word largo_portrait
@@ -118,11 +118,9 @@ dialogueChapter10OlwenFredArrive
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Certo. Mas quando chegar a hora,"
+.text "...Certo. Mas não fique muito"
 .byte NewLine
-.text "ponha-se a caminho de Dundrum"
-.byte NewLine
-.text "imediatamente."
+.text "tempo aqui."
 .byte WaitForA
 
 .byte Right_Slot
@@ -152,7 +150,7 @@ dialogueChapter10OlwenFredLeave
 .byte Right_Slot
 .word LoadPortrait
 .word olwen_portrait
-.text "Já chegou a hora..."
+.text "Chegou a hora..."
 .byte NewLine
 .text "Tenho que avisar ao Forte"
 .byte NewLine
@@ -181,7 +179,7 @@ dialogueChapter10RescueHouse
 .byte ScrollText
 .text "Então mostra pra esses imperiais como"
 .byte NewLine
-.text "nós Trácios tratamos invasores"
+.text "nós trácios tratamos invasores"
 .byte NewLine
 .text "como eles! Bota eles pra correr!"
 .byte WaitForA
@@ -229,7 +227,7 @@ dialogueChapter10EnsorcelHouse
 .byte ScrollText
 .text "Ela não cresceu mais que isso, então eu"
 .byte NewLine
-.text "cortei ela, e depois percebi o poder que"
+.text "a cortei, e depois percebi o poder que"
 .byte NewLine
 .text "o caule tinha ganhado."
 .byte WaitForA
@@ -404,7 +402,7 @@ dialogueChapter10Opening2
 .word dorias_portrait
 .text "Príncipe Leif, na outra ponta do vale"
 .byte NewLine
-.text "está o Forte Nowell. Se conseguirmos"
+.text "está o Forte Novell. Se conseguirmos"
 .byte NewLine
 .text "capturá-lo, nós estaremos no Império."
 .byte WaitForA
