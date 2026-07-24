@@ -346,7 +346,7 @@ dialogueChapter20Closing1
 .byte ScrollText
 .text "Porquê finalmente Seliph chegou!"
 .byte NewLine
-.text "Seu exército já cercou Úlster, e agora"
+.text "Seu exército cercou Úlster, e agora"
 .byte NewLine
 .text "mesmo estão atacando o castelo!"
 .byte WaitForA
@@ -360,7 +360,7 @@ dialogueChapter20Closing1
 .byte ScrollText
 .text "Conseguimos mesmo?"
 .byte NewLine
-.text "Lorde Seliph...ele..."
+.text "Seliph...ele..."
 .byte WaitForA
 .byte ScrollText
 .text "Um momento, Augusto."
@@ -372,7 +372,7 @@ dialogueChapter20Closing1
 .byte ScrollText
 .text "Ah, perdão, Principe. Em minha alegria,"
 .byte NewLine
-.text "esqueci disso."
+.text "me precipitei."
 .byte WaitForA
 .byte ScrollText
 .text "Há pouco tempo, chegou um mensageiro"
@@ -554,7 +554,7 @@ dialogueChapter20Closing3
 
 .byte Left_Slot
 .byte ScrollText
-.text "Ele é o estrategista de Seliph"
+.text "Ele é o estrategista de Seliph."
 .byte NewLine
 .text "Parece que não há nada que ele não saiba..."
 .byte WaitForA
@@ -564,7 +564,7 @@ dialogueChapter20Closing3
 .text "nossa mãe também..."
 .byte WaitForA
 .byte ScrollText
-.text "Ele me contou que ela tentou ir para"
+.text "Disse-me ele que ela tentou ir para"
 .byte NewLine
 .text "Isaach, mas sumiu quando passava pelo"
 .byte NewLine
@@ -710,7 +710,7 @@ dialogueChapter20WorldMap
 .text "mas, pouco a pouco, eles foram perdendo"
 .byte WaitForA
 .byte NewLine
-.text "terreno, e eventualmente, acabaram"
+.text "espaço, e eventualmente, acabaram"
 .byte NewLine
 .text "encurralados em um pequeno setor do castelo."
 .byte WaitForA
