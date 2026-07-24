@@ -423,7 +423,7 @@ dialogueChapter22SaiasCohen ;tem uma certa ambiguidade neste diálogo: quanto à
 .byte WaitForA
 
 .byte Right_Slot
-.text "Eu não posso, Conde!"
+.text "Não posso, Conde!"
 .byte NewLine
 .text "Ficarei contigo até o fim!"
 .byte WaitForA
@@ -542,7 +542,7 @@ dialogueChapter22SaiasReinhardt
 .text "Por que está aqui, senhor?"
 .byte WaitForA
 .byte ScrollText
-.text "Eu ouvi que a princesa Ishtar está"
+.text "Ouvi que a princesa Ishtar está"
 .byte NewLine
 .text "a caminho de Miletos. Não deveria"
 .byte NewLine
@@ -593,7 +593,7 @@ dialogueChapter22SaiasReinhardt2
 
 .byte Right_Slot
 .byte ScrollText
-.text "General, sei que é uma assunto difícil"
+.text "General, sei que é um assunto difícil"
 .byte NewLine
 .text "para ti, mas... ouvi que a madame Olwen"
 .byte NewLine
@@ -724,9 +724,9 @@ dialogueChapter22LeifIntro
 .text "mais ao norte, próximo de Connacht."
 .byte WaitForA
 .byte ScrollText
-.text "Ele caiu quando os cavaleiros de,"
+.text "Ele caiu quando os cavaleiros de"
 .byte NewLine
-.text "Connacht liderados por Raydrik,"
+.text "Connacht, às ordens de Raydrik,"
 .byte NewLine
 .text "cometeram sua covarde traição,"
 .byte WaitForA
@@ -780,7 +780,7 @@ dialogueChapter22LeifClosing
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Não podemos curar as as feridas daqueles"
+.text "...Não podemos curar as feridas daqueles"
 .byte NewLine
 .text "que morreram. Os sábios entendem isto, e"
 .byte NewLine
