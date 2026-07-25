@@ -210,7 +210,7 @@ dialogueChapter12SalemTina
 .byte NewLine
 .text "Tá frio aí fora, então eu queria te"
 .byte NewLine
-.text "d!"
+.text "dar algo quente pra comer!"
 .byte WaitForA
 
 .byte Right_Slot
