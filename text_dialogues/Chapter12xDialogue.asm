@@ -705,7 +705,7 @@ dialogueChapter12xOpening1
 .word LoadPortrait
 .word tina_portrait
 .text "Ei, porquê vocês tão agitados assim?"
-;.byte NewLine
+.byte NewLine
 ;.text "Vocês parecem mais duros do que minha"
 ;.byte NewLine
 ;.text "irmã depois de um jejum!" Essa frase é uma adição em relação ao japonês, da época do Project Exile
