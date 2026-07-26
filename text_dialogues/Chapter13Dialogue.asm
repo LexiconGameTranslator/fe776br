@@ -12,11 +12,11 @@ dialogueChapter13MasterSealHouse
 .byte ScrollText
 .text "Mm... é, já que ocês vieram aqui, eu"
 .byte NewLine
-.text "tenho algo pra te dar."
+.text "tenho algo pra te dar. Este é o meu"
+.byte NewLine
+.text "velho certificado de maestria"
 .byte WaitForA
 .byte ScrollText
-.text "Este é o meu velho selo de maestria."
-.byte NewLine
 .text "Agora ele é seu, cara, porque você é"
 .byte NewLine
 .text "o verdadeiro mestre aqui."
@@ -118,9 +118,9 @@ dialogueChapter13GladeFinn
 .byte ScrollText
 .text "Eu também lhe agradeço, Glade. Afinal, você"
 .byte NewLine
-.text "também não ficou parado; você ajudou"
+.text "também não ficou parado; ajudou"
 .byte NewLine
-.text "Duque Dórius a treinar a nova geração"
+.text "Duque Dórias a treinar a nova geração"
 .byte WaitForA
 .byte NewLine
 .text "da Lanzenritter."
@@ -128,7 +128,7 @@ dialogueChapter13GladeFinn
 .byte ScrollText
 .text "Se não fosse por eles, eu não sei se"
 .byte NewLine
-.text "meu Lorde Leif conseguiria ter chegado"
+.text "meu Senhor Leif conseguiria ter chegado"
 .byte NewLine
 .text "tão longe."
 .byte WaitForA
@@ -265,7 +265,7 @@ dialogueChapter13GladeSelphinaA
 .byte ScrollText
 .text "Ah, além disso, eu tenho algo para você."
 .byte NewLine
-.text "Eu quer te dar esse arco."
+.text "Eu quero te dar esse arco."
 .byte WaitForA
 
 .byte Left_Slot
@@ -380,7 +380,7 @@ dialogueChapter13GladeSelphinaB
 .byte NewLine
 .text "puxou do pai! Ele tem o mesmo olhar"
 .byte NewLine
-.text "determinado que o pai dele tinha."
+.text "determinado que o pai tinha."
 .byte WaitForA
 
 .byte Left_Slot
@@ -401,9 +401,9 @@ dialogueChapter13GladeSelphinaB
 .text "ele é filho dos dois, afinal."
 .byte WaitForA
 .byte ScrollText
-.text "É natural que ele tenha algo de um ou do"
+.text "É natural que ele tenha algo de um"
 .byte NewLine
-.text "outro afinal."
+.text "e do outro também."
 .byte WaitForA
 
 .byte Left_Slot
@@ -436,7 +436,7 @@ dialogueChapter13GladeSelphinaB
 .byte ScrollText
 .text "Será que ela ficou triste, tendo que"
 .byte NewLine
-.text "deixar o Príncipe Leif para trás,"
+.text "deixar o Príncipe Leif para trás?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -580,11 +580,11 @@ dialogueChapter13GladeLeif
 
 .byte Right_Slot
 .byte ScrollText
-.text "O exército de Leonster e o exército"
+.text "O exército de Leonster e o Exército"
 .byte NewLine
-.text "de libertação juntos... enfim nossas"
+.text "de Libertação juntos... enfim nossas"
 .byte NewLine
-.text "orações surtiram efeito, Duque Dórius!"
+.text "orações surtiram efeito, Duque Dórias!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -656,7 +656,7 @@ dialogueChapter13Opening1
 .byte WaitForA
 
 .byte Right_Slot
-.text "Nós cercamos a cidade, Marechal Paulus."
+.text "Nós cercamos a cidade, Comandante Paulus."
 .byte NewLine
 .text "Eu peço permissão para atacar agora mesmo,"
 .byte NewLine
@@ -667,7 +667,7 @@ dialogueChapter13Opening1
 .byte ScrollText
 .text "Para que a pressa? Baldach logo chegará"
 .byte NewLine
-.text "com a Oitava Divisão."
+.text "com a Oitava Legião."
 .byte WaitForA
 .byte ScrollText
 .text "Não há razão para atacarmos agora quando"
@@ -699,7 +699,7 @@ dialogueChapter13Opening2
 .byte NewLine
 .text "eu os matarei eu mesmo!"
 .byte WaitForA
-.text "Agora vão!"
+.text " Ao ataque!"
 .byte WaitForA
 
 .byte EndText
@@ -761,7 +761,7 @@ dialogueChapter13Opening3
 
 .byte Left_Slot
 .byte ScrollText
-.text "Com todo o respeito, irmão, mas não ér hora"
+.text "Com todo o respeito, irmão, mas não é hora"
 .byte NewLine
 .text "de me passar um sermão."
 .byte NewLine
@@ -808,7 +808,7 @@ dialogueChapter13Opening3
 .byte ScrollText
 .text "Bah!"
 .byte NewLine
-.text "Queria eu saber porque ele não nos ajuda!"
+.text "Queria muito saber porque ele não nos ajuda!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -969,7 +969,7 @@ dialogueChapter13Closing
 .text "Você voltou!"
 .byte WaitForA
 .byte ScrollText
-.text "Ó deuses, eu agradeço pela sua benevolência..."
+.text "Ó deuses, eu os agradeço pela sua benevolência..."
 .byte WaitForA
 
 .byte Right_Slot
