@@ -1084,14 +1084,14 @@ dialogueChapter13WorldMap2
 .byte WaitForA
 .byte ScrollText
 
-.text "Inicialmente, a cidade-estado manteu sua"
+.text "Inicialmente, a cidade-estado manteve sua"
 .byte NewLine
-.text "independência em relação ao Império,"
+.text "autonomia em relação ao Império,"
 .byte WaitForA
 .byte ScrollText
-.text "mas a custo de jamais interferir com as"
+.text "mas sabendo que jamais poderia interferir"
 .byte NewLine
-.text "ações de Grannvale na Trácia."
+.text "com as ações de Grannvale na Trácia."
 .byte WaitForA
 .byte ScrollText
 
@@ -1105,12 +1105,15 @@ dialogueChapter13WorldMap2
 .byte WaitForA
 .byte NewLine
 .text "a cidade-livre se rebelou contra o Império,"
+.byte WaitForA
 .byte NewLine
-.text "se recusando a participar em seus crimes."
+.text "se recusando a continuar cúmplice"
+.byte NewLine
+.text "de seus crimes."
 .byte WaitForA
 .byte ScrollText
 
-.text "Essa rebelião não saiu o impune:"
+.text "Essa rebelião não saiu impune:"
 .byte NewLine
 .text "o Império logo impôs um cerco à cidade,"
 .byte WaitForA
@@ -1119,17 +1122,17 @@ dialogueChapter13WorldMap2
 .long LoadPortraitalt_2
 .word paulus_portrait
 .word $0B0A ;y then x
-.text "sob o comando do Marechal Paulus."
+.text "sob o comando do General Paulus."
 .byte WaitForA
 .byte ScrollText
 
-.text "Já em maus lençóis antes mesmo do ataque"
+.text "Já em péssima situação antes mesmo do cerco"
 .byte NewLine
 .text "começar,"
 .byte WaitForA
-.text " agora certamente Tarrah"
+.text " nas semanas desde seu início,"
 .byte NewLine
-.text "passará muito aperto."
+.text "a situação se tornou desesperadora."
 .byte WaitForA
 .word ClearPortraitalt
 .long $82937A
@@ -1140,12 +1143,12 @@ dialogueChapter13WorldMap2
 .word $0001
 .byte ScrollText
 
-.text "A autonomia de que antes dispunha parece"
+.text "A autonomia de que antes dispunha agora"
 .byte NewLine
-.text "muito próxima de sumir como o fogo"
+.text "parecia muito próxima de sumir como o"
 .byte WaitForA
 .byte NewLine
-.text "de uma vela que o vento apaga..."
+.text "fogo de uma vela que o vento apaga..."
 .byte WaitForA
 
 .byte EndText
@@ -1156,10 +1159,10 @@ dialogueChapter13Fall
 .byte Right_Slot
 .word LoadPortrait
 .word augustus_portrait
-.text "T-Tarrah foi tomada!"
+.text "T-Tarrah foi capturada!"
 .byte WaitForA
 .byte ScrollText
-.text "Com a cidade capturada pelo Império,"
+.text "Com a cidade nas mãos do Império,"
 .byte NewLine
 .text "o povo irá se virar contra nós..."
 .byte NewLine
