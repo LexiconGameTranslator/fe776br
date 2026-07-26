@@ -961,9 +961,9 @@ dialogueChapter12xEnding1
 .byte Right_Slot
 .word LoadPortrait
 .word dorias_portrait
-.text "Está amanhecendo agora. Creio que o resto"
+.text "Está amanhecendo agora. Creio que o resto dos"
 .byte NewLine
-.text "dos homens apreciaram esse momento de descanso."
+.text "homens apreciaram esse momento de descanso."
 .byte NewLine
 .text "Agora vamos continuar nossa marcha!"
 .byte WaitForA
