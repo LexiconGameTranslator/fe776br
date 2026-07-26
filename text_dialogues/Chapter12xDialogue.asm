@@ -310,7 +310,7 @@ dialogueChapter12xPerneLara
 .text "Eu pensei que você gostava de me ver dançar."
 .byte WaitForA
 .byte ScrollText
-.text "Eu lembro de quanto você me assistiu aquela"
+.text "Eu lembro de quando você me assistiu aquela"
 .byte NewLine
 .text "vez. Era como se eu fosse a única coisa"
 .byte NewLine
@@ -350,7 +350,7 @@ dialogueChapter12xPerneLara
 .text "detestava ser forçada a isso na tropa."
 .byte WaitForA
 .byte ScrollText
-.text "...Se você quiser Perne, eu posso voltar"
+.text "...Se você quiser, Perne, eu posso voltar"
 .byte NewLine
 .text "a dançar. Por você."
 .byte WaitForA
