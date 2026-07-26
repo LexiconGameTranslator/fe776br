@@ -220,9 +220,9 @@ dialogueChapter13GladeSelphinaA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Claro! Príncipe Leif ficou sabendo que"
+.text "Claro! Príncipe Leif ficou sabendo que Tarrah"
 .byte NewLine
-.text "Tarrah estava em cerco, e saímos juntos."
+.text "estava em cerco, e viemos juntos para cá."
 .byte NewLine
 .text "Eu estou tão feliz em te ver de novo..."
 .byte WaitForA
@@ -232,14 +232,14 @@ dialogueChapter13GladeSelphinaA
 .text "Me perdoe por ter te preocupado, querida."
 .byte WaitForA
 .byte ScrollText
-.text "Ah, mas Selphina..."
+.text "Ah, Selphina..."
 .byte NewLine
 .text "Novamente, eu levei muitos bons jovens"
 .byte NewLine
 .text "para suas mortes..."
 .byte WaitForA
 .byte NewLine
-.text "Eu fui fraco e não pude salvá-los..."
+.text "Fui fraco, não pude salvá-los."
 .byte WaitForA
 
 .byte Left_Slot
@@ -251,16 +251,16 @@ dialogueChapter13GladeSelphinaA
 .text "Eu tenho orgulho de ser sua esposa!"
 .byte WaitForA
 .byte ScrollText
-.text "Por favor, não seja tão duro consigo mesmo..."
+.text "Por favor, não seja tão duro consigo mesmo."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Obrigado, Selphina. Eu agradeço muito aos"
+.text "Obrigado, Selphina. Tenho muito à agradecer
 .byte NewLine
-.text "deuses por ter te encontrado. Te ver bem"
+.text "os deuses por ter te encontrado. Saber que"
 .byte NewLine
-.text "me fez muito bem também."
+.text "você está bem me tranquiliza."
 .byte WaitForA
 .byte ScrollText
 .text "Ah, além disso, eu tenho algo para você."
@@ -270,12 +270,9 @@ dialogueChapter13GladeSelphinaA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Mas como você conseguiu"
+.text "Mas como você conseguiu isso, querido?!"
 .byte NewLine
-.text "isso, querido?!"
-.byte WaitForA
-.byte ScrollText
-.text "Isso é um arco heróico!"
+.text "Esse é um arco heróico!"
 .byte NewLine
 .text "É quase impossível achar um desses!"
 .byte WaitForA
