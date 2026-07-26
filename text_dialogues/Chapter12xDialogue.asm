@@ -285,7 +285,7 @@ dialogueChapter12xPerneLara
 .byte ScrollText
 .text "Que cara feia é essa, menina?"
 .byte NewLine
-.text "Parece até que chupou um limão."
+.text "Parece até que acabou de chupar um limão."
 .byte WaitForA
 .byte ScrollText
 .text "...Eu tava só brincando. Pra que que eu ia"
@@ -497,12 +497,12 @@ dialogueChapter12xTinaSafy
 .byte Left_Slot
 .word LoadPortrait
 .word tina_portrait
-.text "Ah, irmãzona! Sniff..."
+.text "Ah, irmãzona!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Tina, querida, porque choras?"
+.text "Tina, irmã, porque choras?"
 .byte NewLine
 .text "O que aconteceu?"
 .byte WaitForA
@@ -536,7 +536,7 @@ dialogueChapter12xTinaSafy
 .text "Não é possível uma maldade dessas!"
 .byte WaitForA
 .byte NewLine
-.text "...Tina, o que ele te fez fazer?"
+.text "Tina, o que ele te fez fazer?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -635,9 +635,9 @@ dialogueChapter12xTinaSafy
 .text "Me desculpa, irmãzona."
 .byte WaitForA
 .byte ScrollText
-.text "Ei, aquele príncipe... Leif, né?"
+.text "Ei, e aquele príncipe... Leif, certo?"
 .byte NewLine
-.text "Ele é lindo... acho que é o"
+.text "Ele é lindo, não é? Acho que é o"
 .byte NewLine
 .text "homem dos meus sonhos!"
 .byte WaitForA
@@ -689,7 +689,7 @@ dialogueChapter12xOpening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Será que são imperiais...?"
+.text "Será que são imperiais?"
 .byte NewLine
 .text "Falando nisso, cadê o Salem?"
 .byte WaitForA
@@ -721,7 +721,7 @@ dialogueChapter12xOpening1
 .text "é esse o acontecido de hoje."
 .byte WaitForA
 .byte ScrollText
-.text "Maldito sejam esses parasitas..." ;eu amaldiçoo a cidade do rio de janeiro
+.text "Malditos sejam esses parasitas..." ;eu amaldiçoo a cidade do rio de janeiro
 .byte WaitForA
 
 .byte Right_Slot
@@ -783,7 +783,7 @@ dialogueChapter12xOpening2Salem
 .byte Right_Slot
 .word LoadPortrait
 .word salem_portrait
-.text "Perne é um homem razoável."
+.text "Perne é um homem sensato."
 .byte NewLine
 .text "Eu vou falar com ele. Espero que"
 .byte NewLine
@@ -834,7 +834,7 @@ dialogueChapter12xOpening3Lifis
 .byte ScrollText
 .word LoadPortrait
 .word augustus_portrait
-.text "...Por acaso tens alguma ligação com"
+.text "Por acaso tens alguma ligação com"
 .byte NewLine
 .text "estes bandidos, senhor? Lembro-me que"
 .byte NewLine
@@ -888,7 +888,7 @@ dialogueChapter12xOpening4Lara
 .byte Left_Slot
 .word LoadPortrait
 .word lara_portrait
-.text "Um, perdão..."
+.text "Ei, príncipe..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -899,9 +899,9 @@ dialogueChapter12xOpening4Lara
 
 .byte Left_Slot
 .byte ScrollText
-.text "O chefe dos bandidos, Perne, ele..."
+.text "O chefe dos bandidos, Perne, ele"
 .byte NewLine
-.text "Ele não é um cara mau, sabe."
+.text "não é um cara mau, sabe?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -920,7 +920,7 @@ dialogueChapter12xOpening4Lara
 .byte ScrollText
 .text "Eles me tratavam como lixo... mas eu"
 .byte NewLine
-.text "não podia fazer nada... porque era"
+.text "não podia fazer nada, porque era"
 .byte NewLine
 .text "escrava deles."
 .byte WaitForA
@@ -942,7 +942,7 @@ dialogueChapter12xOpening4Lara
 .text "É por aí."
 .byte WaitForA
 .byte ScrollText
-.text "Lorde Leif, por favor, deixa eu falar"
+.text "Príncipe Leif, por favor, deixa eu falar"
 .byte NewLine
 .text "com ele. Tenho certeza que ele vai"
 .byte NewLine
@@ -963,7 +963,7 @@ dialogueChapter12xEnding1
 .word dorias_portrait
 .text "Está amanhecendo agora. Creio que o resto"
 .byte NewLine
-.text "dos homens apreciaram seu momento de descanso."
+.text "dos homens apreciaram esse momento de descanso."
 .byte NewLine
 .text "Agora vamos continuar nossa marcha!"
 .byte WaitForA
