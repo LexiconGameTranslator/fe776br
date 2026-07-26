@@ -142,16 +142,16 @@ dialogueChapter13GladeFinn
 .text "fizemos um acordo:"
 .byte WaitForA
 .byte ScrollText
-.text "Eu protejo nossa bandeira, e você proteje"
+.text "Eu protegeria nossa bandeira, e você,"
 .byte NewLine
-.text "nosso príncipe. E nós juramos protegê-los"
+.text "nosso príncipe. Juramos protegê-los"
 .byte NewLine
-.text "com nossas vidas."
+.text "com nossas vidas se fosse preciso, lembra?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Bem, Glade, acho que podemos dizer que a"
+.text "Bem, Glade, então podemos dizer que a"
 .byte NewLine
 .text "missão foi cumprida. Agora nossos protegidos"
 .byte NewLine
