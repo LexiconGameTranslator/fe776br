@@ -642,7 +642,7 @@ dialogueChapter14Opening1
 .text "Se me permite senhor, devo dizer que a"
 .byte NewLine
 .text "culpa foi completamente dele por desobedecer"
-.byte WaitForA
+.byte NewLine
 .text "suas ordens."
 .byte WaitForA
 
@@ -659,7 +659,7 @@ dialogueChapter14Opening1
 .byte NewLine
 .text "velho que já passou da hora de se aposentar."
 .byte NewLine
-.text "De toda forma, serei motivo de risada no Império."
+.text "Uma figura verdadeiramente ridícula."
 .byte WaitForA
 
 .byte Right_Slot
@@ -704,12 +704,12 @@ dialogueChapter14Opening1
 .byte NewLine
 .text "não precise te dizer, mas mantenha a guarda,"
 .byte NewLine
-.text "General Baldach."
+.text "Baldach."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Certamente, Comandante. Por minha honra,"
+.text "Claro, Comandante. Por minha honra,"
 .byte NewLine
 .text "juro que Tarrah irá cair ainda hoje!"
 .byte WaitForA
@@ -811,7 +811,9 @@ dialogueChapter14Opening2
 .byte ScrollText
 .text "Depois que meu pai morreu, o palácio foi"
 .byte NewLine
-.text "expropriado, e me proibiram de sair dele."
+.text "expropriado, e me proibiram de sair dele"
+.byte NewLine
+.text "desacompanhada."
 .byte WaitForA
 .byte ScrollText
 .text "Por dois anos, fui prisioneira em"
@@ -834,7 +836,7 @@ dialogueChapter14Opening2
 .text "homem me assombram."
 .byte WaitForA
 .byte ScrollText
-.text "...Mas o Dean me salvou daquilo"
+.text "...Mas Dean me salvou dele"
 .byte WaitForA
 .byte ScrollText
 .text "E depois, ele também me protegeu dos"
@@ -866,11 +868,11 @@ dialogueChapter14Opening2
 
 .byte Left_Slot
 .byte ScrollText
-.text "Vossa Alteza estava terrivelmente preocupado"
+.text "Sua Alteza estava terrivelmente preocupado"
 .byte NewLine
 .text "com a crise em Tarrah, e por isso, ele"
 .byte NewLine
-.text "secretamente enviou Dean para salvá-lo."
+.text "secretamente enviou Dean para salvá-la."
 .byte WaitForA
 .byte ScrollText
 .text "Lembro do quão feliz meu irmão ficou quando"
@@ -901,12 +903,14 @@ dialogueChapter14Opening2
 .text "ele se via na obrigação de te ajudar de"
 .byte WaitForA
 .byte NewLine
-.text "alguma forma."
+.text "alguma forma, por ser sua noiva."
 .byte WaitForA
 .byte ScrollText
-.text "Durante esse tempo todo, ele foi"
+.text "Durante esse tempo todo, ele ficou"
 .byte NewLine
 .text "tremendamente atormentado por essa situação."
+.byte NewLine
+.text "A preocupação dele era perceptível."
 .byte WaitForA
 .byte ScrollText
 .text "Mas não tema, madame Linoan, pois Dáinn"
