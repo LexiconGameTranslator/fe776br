@@ -254,7 +254,7 @@ dialogueChapter14DragonpikeHouseDean
 .byte WaitForA
 
 .byte Right_Slot
-.text "Vossa Alteza?!"
+.text "Sua Alteza?!"
 .byte NewLine
 .text "O que está fazendo aqui?"
 .byte WaitForA
@@ -282,7 +282,7 @@ dialogueChapter14DragonpikeHouseDean
 .text "preferida do príncipe!"
 .byte WaitForA
 .byte ScrollText
-.text "Porque ele quer me dar algo tão"
+.text "Por que ele quer me dar algo tão"
 .byte NewLine
 .text "valioso?"
 .byte WaitForA
@@ -372,7 +372,7 @@ dialogueChapter14DragonpikeHouseDean
 .byte NewLine
 .text "Linoan. Meu irmão é noivo dela, e ele não"
 .byte NewLine
-.text "quer que nada de mal aconteça com ela."
+.text "quer que nada de mal a aconteça."
 .byte WaitForA
 .byte ScrollText
 .text "Ele queria muito vir protegê-la ele mesmo,"
@@ -384,7 +384,7 @@ dialogueChapter14DragonpikeHouseDean
 .byte ScrollText
 .text "Acho que esse presente é a forma que ele"
 .byte NewLine
-.text "achou de proteger a princesa."
+.text "achou de protegê-la."
 .byte WaitForA
 
 .byte Right_Slot
@@ -438,7 +438,7 @@ dialogueChapter14NpcArrive
 .byte NewLine
 .text "lidar com essa pequena rebelião. Ou pelo"
 .byte NewLine
-.text "é isso que eles acham que estamos fazendo."
+.text "menos é o que eles acham que estamos fazendo."
 .byte WaitForA
 .byte ScrollText
 .text "Faça apenas o mínimo para parecer que"
@@ -527,7 +527,7 @@ dialogueChapter14ShannamLeave
 .byte ScrollText
 .text "Se você é o príncipe de Isaach, eu sou"
 .byte NewLine
-.text "o São Heim. Acha que eu não sei qual é"
+.text "São Heim. Acha que eu não sei qual é"
 .byte NewLine
 .text "a sua?"
 .byte WaitForA
@@ -550,9 +550,7 @@ dialogueChapter14ShannamLeave
 .byte ScrollText
 .text "Bem, eu não vou te julgar. Afinal, quem"
 .byte NewLine
-.text "iria querer ficar numa cidade sendo"
-.byte NewLine
-.text "invadida?"
+.text "iria querer ficar numa cidade em cerco?"
 .byte WaitForA
 .byte ScrollText
 .text "Melhor fugir se tiver como, não é?"
