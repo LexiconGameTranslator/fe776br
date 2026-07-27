@@ -1129,7 +1129,7 @@ dialogueChapter14Ending2
 .byte ScrollText
 .text "Porquê...?"
 .byte NewLine
-.text "Porquê eu faria isso?!"
+.text "Por que eu faria isso?!"
 .byte WaitForA
 .byte ScrollText
 .text "Eu nunca pensei que ouviria isto de vós..."
@@ -1166,11 +1166,11 @@ dialogueChapter14Ending2
 .text "mais temidos servos de Loptous..."
 .byte WaitForA
 .byte ScrollText
-.text "Quando eles chegarem aqui, eles irão"
+.text "Quando eles chegarem aqui, irão"
 .byte NewLine
 .text "matar cada homem, mulher, ou criança"
 .byte NewLine
-.text "desta cidade. Não irá restar ninguém."
+.text "desta cidade. Não restará ninguém."
 .byte WaitForA
 
 .byte Left_Slot
@@ -1191,7 +1191,7 @@ dialogueChapter14Ending2
 .byte NewLine
 .text "e eu garanto que não faremos nenhum mal"
 .byte NewLine
-.text "contra eles, e eles não mais terão que"
+.text "contra eles, e não mais terão que"
 .byte WaitForA
 .byte NewLine
 .text "temer o Império."
@@ -1199,9 +1199,9 @@ dialogueChapter14Ending2
 .byte ScrollText
 .text "Ademais, com a cidade sobre domínio Trácio,"
 .byte NewLine
-.text "não irão mais acontecer as malditas"
+.text "não irão mais acontecer os malditos"
 .byte NewLine
-.text "caçadas. Não era isso que queria?"
+.text "raptos. Não era isso que queria?"
 .byte WaitForA
 .byte ScrollText
 .text "Claro, eu não deixarei nada acontecer"
@@ -1211,9 +1211,9 @@ dialogueChapter14Ending2
 
 .byte Left_Slot
 .byte ScrollText
-.text "E o que vai acontecer com Leif, e"
+.text "E o que acontecerá com Leif e"
 .byte NewLine
-.text "com os outros cavaleiros?"
+.text "os outros cavaleiros?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -1229,9 +1229,9 @@ dialogueChapter14Ending2
 .byte ScrollText
 .text "...Entendo, Vossa Alteza."
 .byte NewLine
-.text "Eu aceito vossa gentil proposta e"
+.text "Aceito vossa gentil proposta e"
 .byte NewLine
-.text "entrego a cidade a tuas mãos."
+.text "entrego a cidade em tuas mãos."
 .byte WaitForA
 
 .byte Right_Slot
@@ -1241,7 +1241,7 @@ dialogueChapter14Ending2
 
 .byte Left_Slot
 .byte ScrollText
-.text "Mas, eu não irei ficar aqui."
+.text "Mas, não irei ficar aqui."
 .byte NewLine
 .text "Fugirei com o príncipe Leif."
 .byte WaitForA
