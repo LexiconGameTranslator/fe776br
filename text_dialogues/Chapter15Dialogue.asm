@@ -637,6 +637,7 @@ dialogueChapter15MareetaShannam1
 .byte NewLine
 .text "príncipios."
 .byte WaitForA
+.byte ScrollText
 
 .byte Left_Slot
 .byte ScrollText
@@ -681,7 +682,7 @@ dialogueChapter15MareetaShannam1
 .byte ScrollText
 .text "Conhecer os movimentos da técnica é"
 .byte NewLine
-.text "importante, claro mas mais importante é"
+.text "importante, claro, mas mais importante é"
 .byte NewLine
 .text "ter o seu espírito pronto."
 .byte WaitForA
@@ -750,7 +751,7 @@ dialogueChapter15MareetaShannam1
 .word mareeta_portrait
 .text "Então é assim, é...?"
 .byte NewLine
-.text "Tudo bem, deixe-me tentar"
+.text "Tudo bem, deixe-me tentar."
 .byte WaitForA
 .byte ScrollText
 .text "Hee-yah!"
