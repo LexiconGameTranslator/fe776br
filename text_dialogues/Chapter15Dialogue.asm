@@ -9,13 +9,13 @@ dialogueChapter15RalphAmaldaSpawn
 .word amalda_portrait
 .text "Foi bom poder conversar contigo, Bispo,"
 .byte NewLine
-.text "apesar das circunstâncias. Confio em você"
+.text "apesar das circunstâncias. Confio em ti"
 .byte NewLine
 .text "para cuidar destas crianças."
 .byte WaitForA
 
 .byte Right_Slot
-.text "Mas é claro, madame. Eles estarão seguros"
+.text "Mas é claro, madame. Elas estarão seguras"
 .byte NewLine
 .text "aqui. "
 .byte WaitForA
@@ -38,9 +38,9 @@ dialogueChapter15RalphAmaldaSpawn
 .text "Irá ficar bem?"
 .byte WaitForA
 .byte ScrollText
-.text "Se o Império descobrir o que fizeste aqui..."
+.text "Se o Império descobrir o que fizeste aqui,"
 .byte NewLine
-.text "As consequências que recairão sobre ti"
+.text "as consequências que recairão sobre ti"
 .byte NewLine
 .text "serão terríveis..."
 .byte WaitForA
@@ -48,9 +48,10 @@ dialogueChapter15RalphAmaldaSpawn
 .byte Left_Slot
 .byte ScrollText
 .text "Isso eu não temo, mas fico profundamente"
-.byte WaitForA
 .byte NewLine
-.text "envergonhada com o fato que, mesmo sendo"
+.text "envergonhada com o fato que, "
+.byte WaitForA
+.text "mesmo sendo"
 .byte NewLine
 .text "uma cavaleira de Friege, eu só posso"
 .byte NewLine
@@ -61,14 +62,14 @@ dialogueChapter15RalphAmaldaSpawn
 .byte NewLine
 .text "raptadas e levadas para Belhalla, mas eu"
 .byte NewLine
-.text "só posso salvar algumas poucas crianças."
+.text "só posso salvar algumas poucas delas."
 .byte WaitForA
 .byte ScrollText
 .text "Sempre que tenho a oportunidade, eu tento"
 .byte NewLine
-.text "pedir à Vossa Majestade que pare com"
+.text "pedir à Sua Majestade que pare com"
 .byte NewLine
-.text "essas caçadas."
+.text "esses raptos."
 .byte WaitForA
 .byte ScrollText
 .text "Mas ele não me escutou nenhuma vez..."
@@ -143,7 +144,7 @@ dialogueChapter15RalphAmaldaSpawn
 
 .byte Right_Slot
 .byte ScrollText
-.text "Talvez... mas eu ainda tenho esperança"
+.text "Sim... mas eu ainda tenho esperança"
 .byte NewLine
 .text "na profecia que ouvi na Torre de Bragi."
 .byte WaitForA
@@ -190,12 +191,12 @@ dialogueChapter15RalphAmaldaSpawn
 .byte NewLine
 .text "deuses lhe escolheram. Não tema, eu"
 .byte NewLine
-.text "cuidarei das crianças."
+.text "cuidarei delas."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Muito obrigado, Bispo..."
+.text "Muito obrigado, Bispo."
 .byte NewLine
 .text "Sinto muito não poder continuar"
 .byte NewLine
@@ -926,7 +927,7 @@ dialogueChapter15Opening1
 .byte NewLine
 .text "Leonster pelo sul, onde as defesas do"
 .byte NewLine
-.text "império certamente estarão mais fracas."
+.text "Império certamente estarão mais fracas."
 .byte WaitForA
 
 .byte Right_Slot
@@ -1056,7 +1057,7 @@ dialogueChapter15Opening1
 .text "continuar esta discussão."
 .byte WaitForA
 .byte NewLine
-.text "A decisão ficará nas mãos do príncipe"
+.text "A decisão ficará nas mãos do príncipe."
 .byte WaitForA
 
 .byte Left_Slot
@@ -1141,7 +1142,7 @@ dialogueChapter15RightAugust
 .byte NewLine
 .text "é possível que haja outros perigos que"
 .byte NewLine
-.text "não conhecemos"
+.text "não conhecemos."
 .byte WaitForA
 
 .byte EndText
