@@ -9,9 +9,9 @@ dialogueChapter17BAmaldaCharge
 .byte NewLine
 .text "Todos os homens, vamos ao pátio"
 .byte NewLine
-.text "do castelo! Não podemos permitir"
+.text "do castelo! Não podemos permitir que os"
 .byte NewLine
-.text "que os rebeldes vençam!"
+.text "rebeldes tomem a porta do castelo!"
 .byte WaitForA
 
 .byte EndText
@@ -37,7 +37,7 @@ dialogueChapter17BOpenGate1
 .text "em dois tempos."
 .byte WaitForA
 .byte ScrollText
-.text "Então, e aí? Tá afim de pegar o atalho?"
+.text "Tá afim de pegar o atalho?"
 .byte WaitForA
 .byte ScrollText
 .text "Maaasss, não vai ser de graça."
@@ -202,7 +202,7 @@ dialogueChapter17BElder1
 .byte NewLine
 .text "E não espero que algum de nós saiamos"
 .byte NewLine
-.text "vivos desse dia"
+.text "vivos desse ataque."
 .byte WaitForA
 .byte ScrollText
 .text "Talvez seremos só escudos pro Príncipe,"
@@ -281,8 +281,6 @@ dialogueChapter17BElder1
 .text "Príncipe Leif... quando uma nação vai à"
 .byte NewLine
 .text "ruína, o seu povo é quem mais sofre."
-.byte NewLine
-.text "arruinado."
 .byte WaitForA
 .byte ScrollText
 .text "Talvez esta mostra de devoção te"
@@ -477,7 +475,7 @@ dialogueChapter17BOpening1
 .byte NewLine
 .text "sofrer algumas perdas. É melhor já se"
 .byte NewLine
-.text "preparar para isso"
+.text "preparar para isso."
 .byte WaitForA
 
 .byte Right_Slot
@@ -548,9 +546,9 @@ dialogueChapter17BOpening2
 .text "É melhor esquecer disso."
 .byte WaitForA
 .byte ScrollText
-.text "Eu te entendo, mas lembre-se, as"
+.text "Eu te entendo, mas lembre-se, os"
 .byte NewLine
-.text "caçadas foram instituídas por ordem"
+.text "raptos foram instituídas por ordem"
 .byte NewLine
 .text "de nosso Imperador, Arvis."
 .byte WaitForA
@@ -564,7 +562,7 @@ dialogueChapter17BOpening2
 
 .byte Right_Slot
 .byte ScrollText
-.text "Mas porque?!"
+.text "Mas porquê?!"
 .byte NewLine
 .text "Qual a razão disso?"
 .byte WaitForA
@@ -643,7 +641,7 @@ dialogueChapter17BClosing1
 .text "na verdade será o general Xavier."
 .byte WaitForA
 .byte ScrollText
-.text "Sua habilidade de comando é excepcional,"
+.text "Sua habilidade tática é excepcional,"
 .byte NewLine
 .text "e ele tem sob seu comando um grupo de"
 .byte NewLine
@@ -665,7 +663,7 @@ dialogueChapter17BClosing1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Então... tu o conheces, Dórias?"
+.text "Então... você o conhece, Dórias?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -708,7 +706,7 @@ dialogueChapter17BClosing1
 .byte ScrollText
 .text "Você é o ancião da vila?"
 .byte NewLine
-.text "Porquê quer proteger aquele"
+.text "Por que quer proteger aquele"
 .byte NewLine
 .text "maldito traidor?!"
 .byte WaitForA
@@ -821,7 +819,7 @@ dialogueChapter17BClosing1
 .byte ScrollText
 .text "Eu tenho que me desculpar com ele, por"
 .byte NewLine
-.text "tudo o que sofreu. Como o último Herdeiro"
+.text "tudo o que sofreu. Como o herdeiro legítimo"
 .byte NewLine
 .text "da Casa de Leonster, é o meu dever!"
 .byte WaitForA
@@ -837,7 +835,7 @@ dialogueChapter17BClosing2
 .byte NewLine
 .text "O povo da vila me pediu para"
 .byte NewLine
-.text "lhed dar iso, Lorde Leif."
+.text "lhe dar isso, Príncipe Leif."
 .byte WaitForA
 
 .byte Right_Slot
