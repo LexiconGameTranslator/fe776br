@@ -50,11 +50,11 @@ dialogueChapter16BMiranda
 
 .byte Right_Slot
 .byte ScrollText
-.text "Miranda... a princesa? Princesa de Úlster?"
+.text "Miranda, a Princesa?"
 .byte NewLine
-.text "Mas como pode ser?!"
+.text "Mas, como pode ser?!"
 .byte NewLine
-.text "Porque está aqui?"
+.text "Por que está aqui?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -64,14 +64,14 @@ dialogueChapter16BMiranda
 .byte ScrollText
 .text "Bah, eu não deveria estar surpresa,"
 .byte NewLine
-.text "considering o estado em que estou..."
+.text "considerando o meu estado..."
 .byte NewLine
 .text "Devo estar parecendo uma mendiga."
 .byte WaitForA
 .byte ScrollText
-.text "Mas antes de você começar a falar do meu"
+.text "Mas antes que comece a falar da minha"
 .byte NewLine
-.text "estado deplorável, lembre-se que isso tudo"
+.text "aparência deplorável, lembre-se que isso tudo"
 .byte NewLine
 .text "é sua culpa, Príncipe!"
 .byte WaitForA
@@ -462,7 +462,7 @@ dialogueChapter16BSaraLeif ;por algum motivo o começo do diálogo não estava n
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Hm? O que que tem eu?"
+.text "...Hm? O que tem eu?"
 
 .byte Left_Slot
 .byte ScrollText
@@ -835,9 +835,9 @@ dialogueChapter16BOpening2
 .byte ScrollText
 .text "o Arcebispo Manfroy está em Connacht com"
 .byte NewLine
-.text "Vossa Alteza, o Príncipe Julius. Creio que"
+.text "Sua Alteza, o Príncipe Julius. Creio que"
 .byte NewLine
-.text "logo, ele estará de volta..."
+.text "logo, ele estará de volta."
 .byte WaitForA
 
 .byte Left_Slot
@@ -862,14 +862,14 @@ dialogueChapter16BClosing
 .text "Não sei como, mas conseguimos escapar..."
 .byte WaitForA
 .byte ScrollText
-.text "Mas... eu jamais pensei na possibilidade de"
+.text "Mas, eu jamais pensei na possibilidade de"
 .byte NewLine
 .text "haver um monastério loptiriano na floresta..."
 .byte WaitForA
 .byte NewLine
 .text "Travamos esta batalha por pura negligência"
 .byte NewLine
-.text "da minha parte. Me perdoe..."
+.text "da minha parte. Me perdoe, Príncipe."
 .byte WaitForA
 
 .byte Right_Slot
@@ -882,7 +882,7 @@ dialogueChapter16BClosing
 .byte ScrollText
 .text "De qualquer forma, a floresta provou"
 .byte NewLine
-.text "sua reputação, mas a gente conseguiu"
+.text "sua reputação, mas conseguimos"
 .byte NewLine
 .text "derrotar o seu desafio."
 .byte WaitForA
