@@ -28,7 +28,7 @@ dialogueChapter16AConomorArrive
 .text "é certo que irão matar nossa Princesa."
 .byte WaitForA
 .byte ScrollText
-.text "Vossa Alteza, a Princesa Miranda mal"
+.text "Sua Alteza, a Princesa Miranda mal"
 .byte NewLine
 .text "completou os seus quinze anos. "
 .byte WaitForA
@@ -103,7 +103,7 @@ dialogueChapter16AIliosKarin
 .byte ScrollText
 .text "C-como assim?"
 .byte NewLine
-.text "De repente? Porquê eu faria isso?"
+.text "De repente? Por que eu faria isso?"
 .byte NewLine
 .text "Pelos deuses, você é esquisita mesmo..."
 .byte WaitForA
@@ -134,9 +134,9 @@ dialogueChapter16AIliosKarin
 
 .byte Right_Slot
 .byte ScrollText
-.text "Eu, hmm... posso aceitar, se me"
+.text "Eu... posso aceitar, se me"
 .byte NewLine
-.text "prometerem certas... regalias."
+.text "prometerem certas regalias."
 .byte WaitForA
 
 .byte Left_Slot
@@ -265,12 +265,12 @@ dialogueChapter16AIliosKarin
 .byte NewLine
 .text "nome ao invés de continuar buscando"
 .byte NewLine
-.text "a nobreza."
+.text "algum título."
 .byte WaitForA
 .byte ScrollText
-.text "Além disso, você não tem uma cara de Ilios."
+.text "Além disso, você não tem cara de Ilios."
 .byte NewLine
-.text "Por exemplo, acho que se eu gritasse seu"
+.text "Digo, acho que se eu gritasse seu"
 .byte NewLine
 .text "nome, ninguém iria saber que é você."
 .byte WaitForA
@@ -285,7 +285,7 @@ dialogueChapter16AIliosKarin
 
 .byte Right_Slot
 .byte ScrollText
-.text "Que—"
+.text "Quê?"
 .byte NewLine
 .text "Troy?!"
 .byte WaitForA
@@ -312,7 +312,7 @@ dialogueChapter16AIliosKarin
 .byte EndText
 
 
-dialogueChapter16AKempfOlwen
+dialogueChapter16AKempfOlwen ;conhecido também como o grande ragebait 2
 
 .byte Right_Slot
 .word LoadPortrait
@@ -332,7 +332,7 @@ dialogueChapter16AKempfOlwen
 .byte ScrollText
 .text "Hah! Vejo que continua uma estúpida!"
 .byte NewLine
-.text "Não contente em se rebelar, agora"
+.text "Não contente com motim, agora"
 .byte NewLine
 .text "virou a casaca também?"
 .byte WaitForA
@@ -675,9 +675,9 @@ dialogueChapter16ASchroffIntro
 .text "melhor você ficar aqui mais um tempo."
 .byte WaitForA
 .byte NewLine
-.text "Não se preocupe, vai ser um prazer pra mim"
+.text "Não se preocupe, é um prazer pra mim"
 .byte NewLine
-.text "te hospedar mais um tempo."
+.text "te hospedar."
 .byte WaitForA
 
 .byte Right_Slot
@@ -965,7 +965,7 @@ dialogueChapter16AOpening3
 .byte ScrollText
 .text "Por favor, Príncipe! Eu apenas quero"
 .byte NewLine
-.text "te ajudar, assim como você fez para mim!"
+.text "te ajudar, assim como você fez comigo!"
 .byte WaitForA
 
 .byte EndText
@@ -1023,9 +1023,9 @@ dialogueChapter16AClosing2
 .byte ScrollText
 .text "Não... eu me lembro sim. Mas antes disso,"
 .byte NewLine
-.text "eu lembro daquela noite. Enquanto eu"
+.text "eu lembro daquela noite. Acho que nunca"
 .byte NewLine
-.text "viver, eu não vou esquecer."
+.text "conseguirei esquecer."
 .byte WaitForA
 
 .byte Left_Slot
@@ -1051,14 +1051,14 @@ dialogueChapter16AClosing2
 .text "o que estava acontecendo."
 .byte WaitForA
 .byte ScrollText
-.text "Mas quando eu vi o olhar de Finn,"
+.text "Mas quando vi o olhar de Finn,"
 .byte NewLine
 .text "percebi que era algo terrível..."
 .byte WaitForA
 .byte ScrollText
 .text "Foi a primeira vez na minha vida que"
 .byte NewLine
-.text "senti uma tristeza tão grande..."
+.text "senti uma tristeza grande..."
 .byte WaitForA
 
 .byte Left_Slot
@@ -1147,9 +1147,7 @@ dialogueChapter16AClosing3
 .byte ScrollText
 .text "Um grande general de Úlster, homem honrado"
 .byte NewLine
-.text "e de lealdade inquestionável"
-.byte NewLine
-.text "loyalty."
+.text "e de lealdade inquestionável."
 .byte WaitForA
 
 .byte Right_Slot
