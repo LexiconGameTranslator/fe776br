@@ -916,9 +916,9 @@ dialogueChapter17AOpening3
 
 .byte Left_Slot
 .byte ScrollText
-.text "Pergunto-me o quão leais estes"
+.text "Pergunto-me o quão leais estas"
 .byte NewLine
-.text "mercenários realmente são..."
+.text "mercenárias realmente são..."
 .byte WaitForA
 
 .byte EndText
