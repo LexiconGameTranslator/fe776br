@@ -15,16 +15,12 @@ dialogueChapter21xWelkenrosen
 
 dialogueChapter21xOpening1
 
-.byte Right_Slot
-.word LoadPortrait
-.word dvorak_portrait
-
 .byte Left_Slot
 .word LoadPortrait
 .word zaun_portrait
 .text "Hmm..."
 .byte NewLine
-.text "O forte parece estar em perigo,"
+.text "O forte está em ataque,"
 .byte NewLine
 .text "e não parece que vai melhorar."
 .byte WaitForA

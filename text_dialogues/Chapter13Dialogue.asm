@@ -256,7 +256,7 @@ dialogueChapter13GladeSelphinaA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Obrigado, Selphina. Tenho muito à agradecer
+.text "Obrigado, Selphina. Tenho muito à agradecer"
 .byte NewLine
 .text "os deuses por ter te encontrado. Saber que"
 .byte NewLine

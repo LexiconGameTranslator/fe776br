@@ -12,8 +12,6 @@ dialogueChapter24xKaiaEyvelLeif
 
 .byte Right_Slot
 .text "Eyvel!"
-.byte NewLine
-.text "Come on, Eyvel!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -25,98 +23,98 @@ dialogueChapter24xKaiaEyvelLeif
 .byte ScrollText
 .text "Eyvel!"
 .byte NewLine
-.text "It's me, Leif!"
+.text "Sou eu, Leif!"
 .byte NewLine
-.text "Can you hear me?!"
+.text "Consegue me ouvir?!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
 .text "Leif..."
 .byte NewLine
-.text "L-Lord...Leif..."
+.text "Ah..."
 .byte WaitForA
 .byte ScrollText
-.text "Ah! Little Lord!"
+.text "Ah! Príncipe!"
 .byte NewLine
-.text "What are you doing here?!"
+.text "O que está fazendo aqui?!"
 .byte NewLine
-.text "You gotta break out of here, and fast!"
+.text "Temos que fugir, rápido!"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Eyvel... Things are very different now"
+.text "Eyvel... as coisas mudaram muito."
 .byte NewLine
-.text "than when you were last awake..."
+.text "Você passou muito tempo adormecida."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Different? What's gotten into your head?"
+.text "Como assim eu dormi? É alguma"
 .byte NewLine
-.text "We're still in the same—"
+.text "brincadeira? Nós ainda estamos na—"
 .byte WaitForA
 .byte ScrollText
-.text "Huh?"
+.text "Pera aí... onde estamos?"
 .byte NewLine
-.text "Wait, what is this place...?"
+.text "Que diabos é esse lugar?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Eyvel... Thank goodness..."
+.text "Eyvel... graças aos deuses,"
 .byte NewLine
-.text "You're just like how you were before."
+.text "você está do mesmo jeito que antes."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Little Leif..."
+.text "Leif..."
 .byte NewLine
-.text "Just what the hell happened to me?"
+.text "O que aconteceu comigo?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I'm sorry, but there's not enough time"
+.text "Desculpa Eyvel, agora não tenho tempo"
 .byte NewLine
-.text "for me to explain everything..."
+.text "pra te explicar."
 .byte WaitForA
 .byte ScrollText
-.text "All you need to know is that we're fighting to"
+.text "O que você tem que saber é que nós estamos"
 .byte NewLine
-.text "liberate Thracia from the Empire, and we're in"
+.text "estamos lutando para libertar a Trácia, e"
 .byte NewLine
-.text "the middle of recapturing Munster right now!"
+.text "estamos prestes a conquistar Munster!"
 .byte WaitForA
 .byte ScrollText
-.text "We need your strength now more than ever,"
+.text "Mais do que nunca, nós precisamos de sua"
 .byte NewLine
-.text "Eyvel!"
+.text "força, Eyvel!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Heh... Already too old to keep calling me"
+.text "Muita coisa deve ter acontecido nesse"
 .byte NewLine
-.text "“Commander,” I see."
-.byte NewLine
-.text "A lot must have happened..."
+.text "tempo que eu estive “adormecida”, não é?"
 .byte WaitForA
 .byte ScrollText
-.text "All right, we'll talk later."
+.text "Tudo bem, nós conversaremos depois,"
 .byte NewLine
-.text "But we'll have time to catch up"
+.text "mas por favor, me conte logo quando"
 .byte NewLine
-.text "after this battle, right?"
+.text "for possível, pode ser?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Of course!"
+.text "Mas é claro!"
 .byte NewLine
-.text "There's so much I want to tell you, Eyvel..."
+.text "Tem tanta coisa que eu quero te"
+.byte NewLine
+.text "falar, Eyvel..."
 .byte WaitForA
 
 .byte EndText
@@ -135,9 +133,9 @@ dialogueChapter24xKaiaEyvelMareeta
 .byte WaitForA
 
 .byte Right_Slot
-.text "Mother!"
+.text "Mãe!"
 .byte NewLine
-.text "Hang on, Mother!"
+.text "Mãe, acorda!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -147,9 +145,7 @@ dialogueChapter24xKaiaEyvelMareeta
 
 .byte Right_Slot
 .byte ScrollText
-.text "Mother!"
-.byte NewLine
-.text "Can't you hear me?!"
+.text "Você tá me ouvindo?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -159,117 +155,113 @@ dialogueChapter24xKaiaEyvelMareeta
 
 .byte Right_Slot
 .byte ScrollText
-.text "I'm so sorry, Mother..."
+.text "Me perdoe, Mãe."
 .byte NewLine
-.text "I... I..."
+.text "Eu... eu..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "...What are you crying for, Mareeta?"
+.text "Filha... por que você está chorando?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Huh?"
+.text "Hã?"
 .byte NewLine
-.text "M-Mother?!"
+.text "M-mãe?!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Good, you're back to your senses..."
+.text "Fique calma, filha..."
 .byte NewLine
-.text "Now c'mon, we gotta get out of here before—"
+.text "Agora vamos, temos que sair daqui antes que—"
 .byte WaitForA
 .byte ScrollText
-.text "Huh?"
-.byte NewLine
-.text "Wait, what is this place...?"
+.text "Ué, onde estamos?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Mother!"
+.text "Mãe!"
 .byte NewLine
-.text "You're all right...!"
+.text "Você tá bem...! Graças aos deuses..."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "'Course I am! What, you thought Raydrik's"
+.text "É claro que estou! Achou que eu ia"
 .byte NewLine
-.text "goons would be able to do me in?"
+.text "perder fácil assim pros capangas do"
 .byte NewLine
-.text "Give your old mom some credit!"
+.text "Raydrik?"
 .byte WaitForA
 .byte ScrollText
-.text "Speaking of him, just where did that dastard"
+.text "Por falar nele, pra onde aquele desgraçado"
 .byte NewLine
-.text "run off to? And how'd we end up here...?"
+.text "foi? Como viemos parar aqui...?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Raydrik, he's... He's already dead."
+.text "Nós acabamos de matar ele, mãe."
 .byte NewLine
-.text "We killed him."
+.text "Agora, estamos num templo da Igreja"
+.byte NewLine
+.text "de Loptr."
 .byte WaitForA
 .byte ScrollText
-.text "Oh, Mother, so much has happened..."
+.text "Acontece que Raydrik era só um fantoche"
 .byte NewLine
-.text "One of the Loptrian bishops working for"
-.byte NewLine
-.text "Raydrik had...turned you to stone..."
+.text "do Bispo Veld. Ele te transformou em pedra."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Loptrian bishop...?"
+.text "Veld... quer dizer aquele careca"
 .byte NewLine
-.text "That's right! That bald guy in the robe!"
+.text "encapuzado? Eu só pude vê-lo por alguns"
 .byte NewLine
-.text "I only saw him for a second, and then..."
+.text "segundos, aí... acho que entendi."
 .byte WaitForA
 .byte ScrollText
-.text "...That man is dangerous."
-.byte NewLine
-.text "Where is he?"
+.text "Ele é perigoso. Onde ele está agora?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "He's the one we're hunting now."
+.text "Estamos indo atrás dele agora."
 .byte NewLine
-.text "We've taken the fight to the Loptrians' home—"
+.text "Esse templo em que estamos é o último"
 .byte NewLine
-.text "this is their secret stronghold in Thracia!"
+.text "reduto da Igreja na Trácia!"
 .byte WaitForA
 .byte ScrollText
-.text "Mother, please, we need your help!"
+.text "Mãe, por favor, nos ajude!"
 .byte NewLine
-.text "I've prayed for the day when I could fight"
+.text "Eu tanto esperei pelo dia que eu"
 .byte NewLine
-.text "alongside you again!"
+.text "estaria com você de novo!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "You don't even have to ask, Mareeta."
+.text "Nem precisa pedir, Mareeta."
 .byte NewLine
-.text "I'll always have your back, no matter what!"
+.text "Enquanto tiver forças eu vou te ajudar!"
 .byte WaitForA
 .byte ScrollText
-.text "Still... Not to bring down the mood,"
+.text "Sem querer pesar o clima, eu quero"
 .byte NewLine
-.text "but I'm sorry for everything."
+.text "te pedir desculpa. Eu consigo ver que"
 .byte NewLine
-.text "I can tell I must've put you kids through a lot..."
+.text "vocês passaram por muita coisa pra me ajudar..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Mother..."
+.text "Mãe..."
 .byte WaitForA
 
 .byte EndText
@@ -284,91 +276,80 @@ dialogueChapter24xOpening
 .byte Left_Slot
 .word LoadPortrait
 .word leif_portrait2
-.text "Is this the place...?"
+.text "É este o lugar?"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Indeed. We're already inside the Loptrians'"
+.text "Sim, estamos dentro do templo secreto dos"
 .byte NewLine
-.text "secret temple. Stay alert, Prince Leif!"
+.text "loptirianos. Mantenha-se alerta, Principe!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "It certainly looks how you'd expect a hidden"
+.text "Realmente parece com o que alguém esperaria"
 .byte NewLine
-.text "Loptrian enclave to. Everything is so dark,"
+.text "de um lugar desses. Está tão escuro que mal"
 .byte NewLine
-.text "I can barely see past my own nose."
+.text "consigo ver um palmo à frente."
 .byte WaitForA
 .byte NewLine
-.text "Where could Eyvel be?"
+.text "Onde será que Eyvel está?"
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "That I don't know, I'm afraid."
+.text "Infelizmente, não sei."
 .byte NewLine
-.text "We've little choice but to search"
+.text "Não temos escolha senão vasculhar este"
 .byte NewLine
-.text "until we find her."
+.text "lugar até que um de nós a encontre."
+.byte WaitForA ;Este trecho abaixo é acrescentado pelo Project Ember para tornar essa
+.byte ScrollText ;fase menos fela da mãe de se jogar, avisando das armadilhas.
+.text "Mas cuidado: ouvi rumores de que os"
+.byte NewLine
+.text "Loptrianos espalharam diversas armadilhas"
+.byte NewLine
+.text "invisíveis pelo local. Segundo eles,"
 .byte WaitForA
 .byte ScrollText
-.text "But be wary: I have intelligence stating that the"
+.text "se algum de seus soldados pararem em"
 .byte NewLine
-.text "Loptrians have worked their foul magic to"
+.text "cima de uma delas, eles serão teleportados"
 .byte NewLine
-.text "place invisible traps throughout this area."
+.text "para uma sala de tortura da Igreja."
 .byte WaitForA
 .byte ScrollText
-.text "They can be walked across safely, but once"
+.text "Eu imagino que estejam colocadas em locais"
 .byte NewLine
-.text "one stands on them for too long, they are"
+.text "importantes, próximos à portas e"
 .byte NewLine
-.text "teleported to a nearby execution chamber."
+.text "escadarias, ou em corredores."
 .byte WaitForA
 .byte ScrollText
-.text "I know not exactly where these traps are, but"
+.text "No caso de caírem em uma das armadilhas,"
 .byte NewLine
-.text "we should not linger for too long near doors,"
+.text "será necessário resgatá-los com alguma"
 .byte NewLine
-.text "on staircases, or in narrow corridors."
+.text "magia de teleporte, pois a sala está selada."
+.byte WaitForA; fim da adição
+.byte ScrollText
+.text "Assim que encontrarmos a madame"
+.byte NewLine
+.text "Eyvel, "
+.byte WaitForA
+.text "teremos de nos dirigir à um"
+.byte NewLine
+.text "círculo na câmara central que nos"
+.byte NewLine
+.text "levará ao local onde Veld se refugiou."
 .byte WaitForA
 .byte ScrollText
-.text "If one of our own should happen to be"
+.text "Mantenha-se atento, Principe. Seria"
 .byte NewLine
-.text "teleported to the execution chamber,"
+.text "lamentável se falhasse tão próximo"
 .byte NewLine
-.text "however, there is no exit—"
-.byte WaitForA
-.text "we must use our"
-.byte NewLine
-.text "own teleportation magic to retrieve them."
-.byte WaitForA
-.byte ScrollText
-.text "In fact, we'll have to use the Loptrians' own"
-.byte NewLine
-.text "magic against them to find Veld: "
-.byte WaitForA
-.text "an enchanted"
-.byte NewLine
-.text "circle in the center chamber teleports one"
-.byte NewLine
-.text "directly to the altar he's retreated to."
-.byte WaitForA
-.byte ScrollText
-.text "After we've rescued Lady Eyvel,"
-.byte NewLine
-.text "we should make our way there"
-.byte NewLine
-.text "and use the circle to finally confront Veld."
-.byte WaitForA
-.byte ScrollText
-.text "Above all else, my prince, stay calm"
-.byte NewLine
-.text "and advance slowly and carefully."
-.byte NewLine
-.text "You've come too far to get careless now."
+.text "da vitória."
 .byte WaitForA
 
 .byte EndText
@@ -385,179 +366,194 @@ dialogueChapter24xEyvelLeif
 .word leif_portrait
 .text "Eyvel..."
 .byte NewLine
-.text "I wanted so badly to see you again..."
+.text "Mal posso acreditar no que vejo..."
 .byte WaitForA
 .byte ScrollText
-.text "Every day we spent fighting the Empire"
+.text "Em cada dia que passei lutando contra o"
 .byte NewLine
-.text "this past year was another night I spent"
+.text "Império, eu sonhava com o dia em que"
 .byte NewLine
-.text "dreaming of this reunion..."
+.text "conversaria contigo de novo."
 .byte WaitForA
 .byte ScrollText
-.text "And now that dream has come true."
+.text "Agora esse sonho se realizou."
 .byte NewLine
-.text "I'm so glad you're all right..."
+.text "Eu estou tão feliz em te ver sã e"
+.byte NewLine
+.text "salva de novo, Eyvel!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Has it already been a whole year"
+.text "Tá difícil cair a ficha pra mim,"
 .byte NewLine
-.text "since that day in the arena?"
+.text "Leif. Já faz mesmo um ano desde aquele"
+.byte NewLine
+.text "dia na arena?"
 .byte WaitForA
 .byte ScrollText
-.text "Ah, Little Lord..."
+.text "Como você cresceu! Agora podemos dizer"
 .byte NewLine
-.text "Well, I guess you're not so little anymore."
+.text "que você é um homem. Melhor dizendo,"
 .byte NewLine
-.text "You're a man now—and a real prince, at that."
+.text "príncipe!"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Eyvel... I realized I never thanked you."
+.text "Eyvel... eu não cheguei a te agradecer, né?"
 .byte NewLine
-.text "It's only because of you that I was able"
+.text "Graças a você, pude ter pelo menos um"
 .byte NewLine
-.text "to have a peaceful childhood."
+.text "momento de paz na minha infância."
 .byte WaitForA
 .byte ScrollText
-.text "For three happy years, I was able to play"
+.text "Por três anos, eu pude enfim ter uma vida"
 .byte NewLine
-.text "with the other kids in Fiana, spending every day"
+.text "normal, brincando, sem ter que me preocupar"
 .byte NewLine
-.text "just as carefree as a normal boy..."
+.text "com a perseguição do Império."
 .byte WaitForA
 .byte ScrollText
-.text "I learned how to fight, and I even roughhoused"
+.text "Eu aprendi a lutar pela primeira vez,"
 .byte NewLine
-.text "with the other children..."
+.text "as vezes até me metia em briga"
+.byte NewLine
+.text "com as outras crianças..."
 .byte WaitForA
 .byte ScrollText
-.text "Do you remember how many times"
+.text "Muitas vezes você teve que me dar"
 .byte NewLine
-.text "you had to scold me, Eyvel?"
+.text "dar bronca, mas sempre era por um"
+.byte NewLine
+.text "bom motivo."
 .byte WaitForA
 .byte ScrollText
-.text "Even that could be fun, sometimes..."
+.text "Não temos parentesco, mas no fim das contas,"
 .byte NewLine
-.text "I'd spent my life on the run,"
+.text "você foi como minha mãe, Finn, o meu pai,"
 .byte NewLine
-.text "and it was just another new experience for me."
+.text "e Nanna e Mareeta, as minhas irmãs."
 .byte WaitForA
 .byte ScrollText
-.text "We didn't share blood, but we were a family:"
+.text "Pela primeira vez, também tive a"
 .byte NewLine
-.text "Finn was my father, you were my mother,"
+.text "oportunidade de ter amigos da minha"
 .byte NewLine
-.text "and Nanna and Mareeta were my sisters."
+.text "idade, Osian e Halvan."
 .byte WaitForA
 .byte ScrollText
-.text "And I got to make friends with boys"
+.text "Isso foi a melhor coisa do mundo pra"
 .byte NewLine
-.text "my own age, like Osian and Halvan."
+.text "mim. Naquela época, eu teria ficado"
+.byte NewLine
+.text "feliz em seguir assim pra sempre."
 .byte WaitForA
 .byte ScrollText
-.text "Back then, the only thing I wanted"
+.text "Eu tenho muito mesmo a te agradecer,"
 .byte NewLine
-.text "was for those days to go on forever..."
+.text "Eyvel."
 .byte WaitForA
 .byte ScrollText
-.text "I have you to thank for all that, Eyvel."
-.byte WaitForA
+.text "Você me deixou ter a alegria de uma"
 .byte NewLine
-.text "You let me experience what having a mother"
+.text "família e de uma vida em paz, pelo menos"
 .byte NewLine
-.text "was like... You gave me back the warmth"
-.byte NewLine
-.text "of family that I'd forgotten so long ago..."
+.text "por aqueles três anos."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Oh, Little Leif..."
+.text "Ah, príncipe..."
 .byte NewLine
-.text "I still remember the day you entered my life."
+.text "Lembro do dia que vocês chegaram"
+.byte NewLine
+.text "em Fiana como se fosse ontem."
 .byte WaitForA
 .byte ScrollText
-.text "You and Little Nan wandered into the village"
+.text "Você e a Naninha chegaram junto com"
 .byte NewLine
-.text "with Finn, who was hurt so badly he could"
-.byte NewLine
-.text "hardly manage to stay atop his horse."
+.text "Finn, que havia chegado quase morto."
 .byte WaitForA
 .byte ScrollText
-.text "Little Nan was begging me to save her father,"
+.text "Ela foi aos meus pés, implorando pra"
 .byte NewLine
-.text "her cute eyes turned red with tears,"
+.text "que eu salvasse o pai dela, e eu não"
 .byte NewLine
-.text "and all I could think to do was hug her."
+.text "tinha o que fazer além de consolá-la."
 .byte WaitForA
 .byte ScrollText
-.text "But you..."
+.text "Mas você era diferente. Olhou direto nos"
 .byte NewLine
-.text "Heh, that's when I knew there was something"
+.text "meus olhos, com aquela espada na mão, como"
 .byte NewLine
-.text "different about you."
+.text "se me oferecesse ela em troca de ajudá-lo."
 .byte WaitForA
 .byte ScrollText
-.text "You just looked me dead in the eye,"
+.text "Só depois eu soube que a espada era"
 .byte NewLine
-.text "held up the sword that was on your belt,"
+.text "a última lembrança que tinha da sua"
 .byte NewLine
-.text "and said: “I'll give you this if you help him.”"
+.text "mãe."
 .byte WaitForA
 .byte ScrollText
-.text "Wasn't till later that I realized how much"
+.text "Mas lembro que na hora eu fiquei me"
 .byte NewLine
-.text "it meant to you. I heard the blade was"
+.text "perguntando: "
+.byte WaitForA
+.text "“O que será que esse menino"
 .byte NewLine
-.text "an heirloom—belonged to your mother, right?"
+.text "já passou pra estar tão calmo numa"
+.byte NewLine
+.text "situação dessas?”"
 .byte WaitForA
 .byte ScrollText
-.text "But I remember wondering, “Just what kind"
+.text "Leif, eu não consigo lembrar da minha "
 .byte NewLine
-.text "of ordeal must these three have been through"
+.text "propria infância. Pra mim, é como se minha"
 .byte NewLine
-.text "to make this little boy so calm right now?”"
+.text "vida tivesse começado dez anos atrás,"
+.byte WaitForA
+.byte NewLine
+.text "quando os moradores de Iz me encontraram."
 .byte WaitForA
 .byte ScrollText
-.text "...I can't remember my own childhood,"
+.text "Não tenho a menor ideia de quem eu era,"
 .byte NewLine
-.text "Little Lord."
+.text "ou o que fazia da vida antes disso."
 .byte WaitForA
 .byte ScrollText
-.text "Ten years ago, the villagers of Iz found me"
+.text "Será que eu tinha um marido,"
 .byte NewLine
-.text "washed up on the shore. I don't know anything"
+.text "filhos? Será que minha vida era comum,"
 .byte NewLine
-.text "about what I did before that..."
+.text "ou será que eu também vivia da luta?"
+.byte WaitForA
+.byte NewLine
+.text "Não sei se um dia eu vou saber."
 .byte WaitForA
 .byte ScrollText
-.text "Who was I...?"
+.text "Mas quando eu te vi, senti que a minha"
 .byte NewLine
-.text "Did I have a husband? Kids?"
+.text "infância talvez tenha sido tão"
 .byte NewLine
-.text "I don't have the slightest idea."
+.text "problemática quanto a sua."
 .byte WaitForA
 .byte ScrollText
-.text "But when I first met you two, I realized"
+.text "Pensei então que, se eu não podia lembrar"
 .byte NewLine
-.text "something real bad must've happened to me"
+.text "da minha infância, então eu faria as"
 .byte NewLine
-.text "in my own youth, too."
+.text "suas serem felizes."
 .byte WaitForA
 .byte ScrollText
-.text "So I figured, if I couldn't remember my own"
+.text "E se você estiver se perguntando, na"
 .byte NewLine
-.text "childhood, I could do the next best thing and"
+.text "hora eu não sabia que você era o Príncipe"
 .byte NewLine
-.text "give a childhood to two kids that needed one."
+.text "de Leonster! Mas, não me arrependo de nada,"
 .byte WaitForA
-.byte ScrollText
-.text "Never imagined you would turn out to be"
 .byte NewLine
-.text "the Prince of Leonster, though..."
+.text "Leif."
 .byte WaitForA
 
 .byte EndText
@@ -574,49 +570,49 @@ dialogueChapter24xEyvelNanna
 .word nanna_portrait
 .text "Eyvel..."
 .byte NewLine
-.text "Truth be told, I was always jealous of Mareeta."
+.text "Devo admitir, eu tinha inveja da Mareeta."
 .byte WaitForA
 .byte ScrollText
-.text "I would look at her and think, “If only I had"
+.text "Sempre que eu a via, eu pensava em como"
 .byte NewLine
-.text "a mother I could depend on, like she does.”"
+.text "queria ter uma mãe, alguém em quem eu"
 .byte NewLine
-.text "I cried about that more times than I can count."
+.text "pudesse confiar, e toda vez eu chorava."
 .byte WaitForA
 .byte ScrollText
-.text "But I never realized I did have a mother"
+.text "Mas eu nem percebia que eu tinha"
 .byte NewLine
-.text "all along: you, Eyvel."
+.text "sim uma mãe: você, Eyvel."
 .byte WaitForA
 .byte ScrollText
-.text "You found a way to love all of us equally,"
+.text "Você achou uma forma de amar a todos nós"
 .byte NewLine
-.text "without condition. I'll never be able to express"
+.text "igualmente, de forma incondicional. Nem"
 .byte NewLine
-.text "my gratitude for that..."
+.text "sei como posso agradecer..."
 .byte WaitForA
 
 .byte Right_Slot
-.text "Oh, Little Lady..."
+.text "Ah, Nanna..."
 .byte NewLine
-.text "C'mon, you're the Princess of Nordion!"
+.text "Você é a Princesa de Nordion!"
 .byte NewLine
-.text "The blood of Hoðr runs in your veins!"
+.text "O sangue de Hoðr corre em suas veias!"
 .byte WaitForA
 .byte ScrollText
-.text "There's no doubt in my mind"
+.text "Eu tenho certeza que sua mãe está por"
 .byte NewLine
-.text "your mother is out there somewhere, alive."
+.text "aí em algum lugar, viva."
 .byte WaitForA
 .byte ScrollText
-.text "I mean, look what happened to me!"
+.text "Eu passei pelo que passei e ainda,"
 .byte NewLine
-.text "Stranger things have happened."
+.text "saí viva! Milagres acontecem, Nanna!"
 .byte WaitForA
 .byte ScrollText
-.text "You just keep watching out for Little Leif."
+.text "Continue junto com o Príncipe e nunca"
 .byte NewLine
-.text "Never give up. You'll find her again someday..."
+.text "desista. Um dia você vai encontrar sua mãe..."
 .byte WaitForA
 
 .byte EndText
@@ -631,29 +627,29 @@ dialogueChapter24xEyvelDagdar
 .byte ScrollText
 .word LoadPortrait
 .word dagdar_portrait
-.text "It's good to have ya back, Eyvel."
+.text "Que bom que cê tá bem, Eyvel."
 .byte NewLine
-.text "I been tryin' to help these lads as best I could,"
+.text "Eu tentei ajudar a galera em seu lugar,"
 .byte NewLine
-.text "but nobody could ever replace you."
+.text "mas num tem ninguém que possa te substituir."
 .byte WaitForA
 
 .byte Right_Slot
-.text "You don't give yourself enough credit, Dagdar."
+.text "Tem que confiar mais em si mesmo, Dagdar."
 .byte WaitForA
 .byte NewLine
-.text "Without your help defending Fiana, I don't"
+.text "Sem sua ajuda protegendo Fiana, não sei"
 .byte NewLine
-.text "know if I could've survived as long as I have."
+.text "se eu teria sobrevivido! Nós fazíamos"
 .byte NewLine
-.text "We made quite the team..."
+.text "um ótimo time."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "D-Don't be stupid...!"
+.text "Ah, não seja boba, Eyvel!"
 .byte NewLine
-.text "I, uh, didn't really do much..."
+.text "Eu não fiz tanta coisa..."
 .byte WaitForA
 
 .byte EndText
@@ -668,9 +664,9 @@ dialogueChapter24xEyvelTanya
 .byte ScrollText
 .word LoadPortrait
 .word tanya_portrait
-.text "Papa, your face is all red!"
+.text "Ah papai, você tá todo vermelho!"
 .byte NewLine
-.text "Cut it out! You're so embarrassing!"
+.text "Se controle! É meio vergonhoso..."
 .byte WaitForA
 
 .byte EndText
@@ -685,34 +681,39 @@ dialogueChapter24xEyvelHalvan
 .byte ScrollText
 .word LoadPortrait
 .word halvan_portrait
-.text "Commander... It wasn't just Lord Leif."
+.text "Capitã... você não era mãe só de Leif,"
 .byte NewLine
-.text "You've been like a mother to all the children"
-.byte NewLine
-.text "of Fiana—especially me and my little sister."
+.text "Nanna, e Mareeta."
 .byte WaitForA
 .byte ScrollText
-.text "After we lost our parents, you were there"
+.text "Você era como uma mãe para todas as crianças"
 .byte NewLine
-.text "to watch over us. You practically raised us."
+.text "de Fiana, inclusive pra mim e pra minha irmã."
 .byte WaitForA
 .byte ScrollText
-.text "So I... I've been fighting this whole time"
+.text "Depois que perdemos nossos pais, foi você"
 .byte NewLine
-.text "just to get you back."
+.text "que cuidou de nós. É como se também"
+.byte NewLine
+.text "tivesse nos criado."
+.byte WaitForA
+.byte ScrollText
+.text "Eu lutei por tudo isso também para"
+.byte NewLine
+.text "te agradecer..."
 .byte WaitForA
 
 .byte Right_Slot
 .text "Halvan..."
 .byte NewLine
-.text "I'm sorry for everything I've put you through."
+.text "Me perdoe pelo que te fiz passar."
 .byte WaitForA
 .byte ScrollText
-.text "When this is all over, let's head back to Fiana"
+.text "Quando acabarmos por aqui, vamos voltar"
 .byte NewLine
-.text "together. Heh, poor little Patricia probably"
+.text "pra Fiana juntos. A Patrícia deve estar"
 .byte NewLine
-.text "worried herself half to death over us..."
+.text "muito preocupada com a gente..."
 .byte WaitForA
 
 .byte EndText
@@ -727,31 +728,31 @@ dialogueChapter24xEyvelOsian
 .byte ScrollText
 .word LoadPortrait
 .word osian_portrait
-.text "Like a mother, huh...?"
+.text "Como uma mãe, é?"
 .byte NewLine
-.text "Well, Ma passed a long time ago,"
+.text "Minha mãe já morreu faz tempo, mas meu"
 .byte NewLine
-.text "but Pa ain't going anywhere."
+.text "pai parece que vai durar muito ainda."
 .byte WaitForA
 .byte ScrollText
-.text "Guess having that old coot around"
+.text "Mas, acho que é melhor ter aquele velho"
 .byte NewLine
-.text "is still better than not having anyone."
+.text "teimoso do que não ter ninguém, né."
 .byte NewLine
-.text "I think I finally get that now..."
+.text "Acho que eu consegui perceber agora..."
 .byte WaitForA
 
 .byte Right_Slot
-.text "I'm happy to hear you say that, you big lug."
+.text "Ainda bem que percebeu, bobão."
 .byte NewLine
-.text "You've got it better than"
+.text "Você tá numa situação melhor que"
 .byte NewLine
-.text "somebody like Halvan."
+.text "alguém como Halvan."
 .byte WaitForA
 .byte ScrollText
-.text "Osian... Take good care of your father"
+.text "Osian... quando você voltar pra Fiana,"
 .byte NewLine
-.text "when you make it back to Fiana, you hear?"
+.text "cuide bem do seu pai, tá bom?"
 .byte WaitForA
 
 .byte EndText
@@ -768,38 +769,38 @@ dialogueChapter24xEyvelMareeta
 .word mareeta_portrait
 
 .byte Right_Slot
-.text "Mareeta? What's wrong?"
+.text "Mareeta? Aconteceu alguma coisa?"
 .byte NewLine
-.text "What are you doing over here by yourself?"
+.text "Por que você tá aí sozinha?"
 .byte WaitForA
 
 .byte Left_Slot
-.text "M-Mother..."
+.text "M-mamãe..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "C'mon, you're a beautiful woman now,"
+.text "Não chore, filha, você é uma jovem"
 .byte NewLine
-.text "so don't go making a mess of your face"
+.text "linda. Esse choro acaba com sua carinha."
 .byte NewLine
-.text "with all those tears. Here, wipe them off."
+.text "Vamos, seque as lágrimas."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Mother...!"
+.text "Mãe...!"
 .byte NewLine
-.text "I... I..."
+.text "Mãe... eu..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "There, there, sweet pea."
+.text "Calma, filha."
 .byte NewLine
-.text "I'm OK now, see?"
+.text "Eu estou bem agora, não é?"
 .byte NewLine
-.text "Everything's gonna be all right..."
+.text "Vai ficar tudo bem..."
 .byte WaitForA
 
 .byte EndText
@@ -816,139 +817,140 @@ dialogueChapter24xEyvelGalzus
 .word galzus_portrait
 
 .byte Right_Slot
-.text "...Who are you?"
+.text "...Quem é você?"
 .byte WaitForA
 
 .byte Left_Slot
-.text "I had half a mind to just leave,"
+.text "Eu pensei em sair sem falar com você,"
 .byte NewLine
-.text "but I had to spare you a few words."
+.text "mas preciso conversar algumas coisas."
 .byte NewLine
-.text "I'm not much for talk, so...I'll make it fast."
+.text "Não sou muito de falar, então vou ser rápido."
 .byte WaitForA
 .byte ScrollText
-.text "My daughter..."
+.text "Minha filha..."
 .byte NewLine
-.text "How you've raised her,"
+.text "Eu tenho que te agradecer por ter cuidado"
 .byte NewLine
-.text "what you've made of her... Thank you."
+.text "dela. Por ter feito dela o que é hoje."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Huh...?!"
+.text "Como?!"
 .byte NewLine
-.text "Y-You're Mareeta's—"
+.text "E-então você é o pai da Mareeta?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "That'd be me, yeah."
+.text "Sim, sou eu."
 .byte WaitForA
 .byte ScrollText
-.text "Her mother... She died just after giving birth,"
+.text "A mãe dela morreu no parto, e depois disso,"
 .byte NewLine
-.text "and after that, the kid and I wandered"
-.byte NewLine
-.text "the world together."
+.text "eu fui levando ela comigo pelo mundo."
 .byte WaitForA
 .byte ScrollText
-.text "Not proud of it, but..."
+.text "Mas um dia eu me descuidei."
 .byte NewLine
-.text "One day, when I took my eyes off her,"
+.text "Perdi ela de vista, e um traficante"
 .byte NewLine
-.text "a slaver up an' took her from me."
+.text "desgraçado levou ela embora."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "...She was just a little girl when I found her."
+.text "...Ela era pequena quando eu a encontrei."
 .byte NewLine
-.text "A young, innocent thing, wrapped in chains"
+.text "Uma criança dessas acorrentada e posta"
 .byte NewLine
-.text "and up for sale in the markets of Connaught."
+.text "a venda como escrava..."
 .byte WaitForA
 .byte ScrollText
-.text "When I saw her, I just lost it..."
+.text "Quando eu a vi, a fúria me dominou"
 .byte WaitForA
 .byte NewLine
-.text "Killed every last slaver—and the bodyguards"
+.text "Matei os traficantes, e os capangas"
 .byte NewLine
-.text "they had with 'em, too. I'd have done anything"
-.byte NewLine
-.text "just to get those damned chains off her."
+.text "deles também."
 .byte WaitForA
 .byte ScrollText
-.text "She...said her name was Mareeta,"
+.text "Ela me disse que se chamava Mareeta,"
 .byte NewLine
-.text "and that she'd been with her father"
+.text "e que tinha sido separada do pai há"
 .byte NewLine
-.text "until a little while ago."
+.text "pouco tempo."
 .byte WaitForA
 .byte ScrollText
-.text "I tried to get her home, tried to find you..."
+.text "Eu tentei te encontrar..."
 .byte NewLine
-.text "But I couldn't."
+.text "Mas eu não consegui. Me perdoe."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "No... You're not to blame for any of this."
+.text "Você não tem culpa alguma."
 .byte NewLine
-.text "I never should've led a nomad's life"
+.text "Eu não deveria ter puxado ela pra uma"
 .byte NewLine
-.text "with such a small child to begin with."
+.text "vida nômade comigo pra começo de conversa."
 .byte WaitForA
 .byte ScrollText
-.text "My daughter was very lucky"
+.text "Minha filha teve foi muita sorte de"
 .byte NewLine
-.text "to have found you..."
+.text "ter acabado contigo."
 .byte WaitForA
 .byte ScrollText
-.text "This is selfish of me, but..."
+.text "Eu sei que é um pedido egoísta, mas..."
+.byte WaitForA
 .byte NewLine
-.text "I think it'd be best if you were the one"
+.text "Quero que fique com ela. Vai ser"
 .byte NewLine
-.text "who watched over her after all this."
+.text "melhor se você continuar a cuidar dela"
+.byte NewLine
+.text "depois que isso tudo acabar."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "I agree. Mareeta is my daughter now—"
+.text "Concordo. Mareeta é a minha filha, tem sido"
 .byte NewLine
-.text "has been for years. I wouldn't let you take her"
+.text "assim por anos. Eu não a daria pra você"
 .byte NewLine
-.text "away from me even if you wanted to."
+.text "nem se quisesse."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Good... After this is all over,"
+.text "Ótimo... depois que essa guerra acabar,"
 .byte NewLine
-.text "I'll go back to my life of wandering."
+.text "vou voltar a minha vida de andarilho."
 .byte NewLine
-.text "You'll never have to see me again."
+.text "Não vai precisar me ver de novo."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Then before you leave,"
+.text "Então antes de você ir embora,"
 .byte NewLine
-.text "I have one last favor to ask, Galzus."
+.text "Quero te pedir uma coisa, Galzus."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Name it."
+.text "Diga então."
 .byte NewLine
-.text "If it's within my power, it will be done."
+.text "Se for possível para mim, eu o farei."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Once every year, would you visit us in Fiana?"
+.text "Poderia nos visitar em Fiana,"
 .byte NewLine
-.text "That's all I ask."
+.text "uma vez por ano?"
+.byte NewLine
+.text "Só isso."
 .byte WaitForA
 
 .byte Left_Slot
@@ -956,7 +958,7 @@ dialogueChapter24xEyvelGalzus
 .text "......"
 .byte WaitForA
 .byte ScrollText
-.text "Very well... I will."
+.text "Muito bem. Eu irei."
 .byte WaitForA
 
 .byte EndText
@@ -971,102 +973,107 @@ dialogueChapter24xEyvelFinn
 .byte ScrollText
 .word LoadPortrait
 .word finn_portrait
-.text "Eyvel... I regret I couldn't do more for you,"
+.text "Eyvel... eu queria poder ter feito mais"
 .byte NewLine
-.text "after everything you've done for us,"
+.text "por ti, depois de tudo o que fez por nós."
 .byte NewLine
-.text "but I wanted you to know how grateful I am."
+.text "Eu sou muito grato pelo tanto que nos ajudou."
 .byte WaitForA
 
 .byte Right_Slot
-.text "And I'm grateful to you, Finn, for everything"
+.text "E eu sou muito grata à ti, Finn, por tudo"
 .byte NewLine
-.text "you've done for Fiana over the years."
+.text "que fez por Fiana nesses anos todos."
+.byte WaitForA
 .byte NewLine
-.text "I couldn't find a finer knight in all of Jugdral."
+.text "Acho que não há um cavaleiro melhor que você"
+.byte NewLine
+.text "em Jugdral."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "I never planned on telling you this,"
+.text "Eu não planejava te contar isso, mas"
 .byte NewLine
-.text "but after overhearing about your amnesia,"
+.text "depois de ouvir que sofre de amnésia,"
 .byte NewLine
-.text "it wouldn't be right to stay silent."
+.text "eu me sinto obrigado a te contar."
 .byte WaitForA
 .byte ScrollText
-.text "I...once knew a woman"
+.text "Há muitos anos atrás, eu conheci uma"
 .byte NewLine
-.text "who looked just like you..."
+.text "mulher muito parecida contigo..."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Just like me...?"
+.text "Como assim...?"
 .byte NewLine
-.text "Are you sure you're not just confused, Finn?"
+.text "Tem certeza disso, Finn?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "No, I'm certain."
+.text "Tenho, Eyvel."
 .byte WaitForA
 .byte NewLine
-.text "When Lord Quan fought in Lord Sigurd's"
+.text "Enquanto estava acompanhando meu Senhor"
 .byte NewLine
-.text "army—gods rest their souls—there was"
+.text "Quan e seu amigo Sigurd; que os deuses"
 .byte NewLine
-.text "a woman, a soldier, who served alongside us."
+.text "guardem suas almas; "
 .byte WaitForA
-.byte ScrollText
-.text "She was an unmistakable sight"
+.text "por pouco tempo pude"
 .byte NewLine
-.text "on the battlefield..."
-.byte WaitForA
-.byte ScrollText
-.text "With her long, blonde hair waving in the wind,"
-.byte NewLine
-.text "you could mistake her for a goddess."
+.text "lutar ao lado de uma arqueira excepcional."
 .byte WaitForA
 .byte ScrollText
-.text "She was the eldest lady of House Yngvi,"
+.text "Ela era uma visão muito distinta naquela"
 .byte NewLine
-.text "and inheritor of the holy bow Yewfelle..."
+.text "zona de guerra..."
+.byte WaitForA
+.byte ScrollText
+.text "Com seus longos cabelos loiros ao vento,"
 .byte NewLine
-.text "Her name was Brigid."
+.text "poderia até ser confundida com uma deusa."
+.byte WaitForA
+.byte ScrollText
+.text "A primogênita da casa de Yngvi,"
+.byte NewLine
+.text "herdeira do sagrado arco Yewfelle..."
+.byte NewLine
+.text "O nome dela era Brigid."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Brigid...?"
+.text "Brigid?"
 .byte NewLine
-.text "Finn, are you saying that woman... was me?"
+.text "Acha que essa mulher sou eu?"
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "Yes..."
-.byte NewLine
-.text "Well, probably."
+.text "Sim. Estou certo disso."
 .byte WaitForA
 
 .byte Right_Slot
 .byte ScrollText
-.text "Heh..."
+.text "Ha! Nunca te passei por um homem"
 .byte NewLine
-.text "I never took you for a romantic, Finn."
+.text "romântico, Finn."
 .byte WaitForA
 .byte ScrollText
-.text "If I had holy blood, I'd have a Brand"
+.text "Se eu fosse de alguma linhagem cruzada,"
 .byte NewLine
-.text "somewhere on my body, but I don't."
+.text "eu teria uma marca no corpo."
 .byte WaitForA
 .byte ScrollText
-.text "You've got the wrong person, Finn."
+.text "Não sou essa Brigid, Finn."
 .byte NewLine
-.text "I'm just an ordinary sellsword, making my way"
+.text "Sou apenas uma simples mercenária."
 .byte NewLine
-.text "from place to place... I'm Eyvel of Fiana."
+.text "Eyvel de Fiana, e nada mais."
 .byte WaitForA
 
 .byte EndText

@@ -20,7 +20,7 @@ dialogueChapter24Door2
 .text "Ah! Tá meio estranho aí dentro..."
 .byte WaitForA
 .byte ScrollText
-.text "Ei! esperem por mim"
+.text "Ei! esperem por mim!"
 .byte WaitForA
 
 .byte EndText
