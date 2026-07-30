@@ -299,7 +299,7 @@ dialogueChapter17ASaiasLeif
 .byte ScrollText
 .text "Depois que ela morreu, em circunstâncias"
 .byte NewLine
-.text "bastante estranhas, inclusive, ele ficou"
+.text "bastante estranhas, devo dizer, ele ficou"
 .byte NewLine
 .text "sob os cuidados de um monastério de Bragi."
 .byte WaitForA
@@ -473,7 +473,7 @@ dialogueChapter17AMagicRingHouse
 .byte ScrollText
 .text "Bem, já que eu quero que vocês ganhem,"
 .byte NewLine
-.text "toma esse anel. É um anel encantado, não"
+.text "toma esse anel. É encantado, não"
 .byte NewLine
 .text "se esqueça de usar ele!"
 .byte WaitForA
@@ -567,7 +567,7 @@ dialogueChapter17ASara
 .byte NewLine
 .text "Por acaso esta jovem te disse alguma coisa?"
 .byte NewLine
-.text "Se for o caso, não faça muito caso."
+.text "Se for isso, não faça muito caso dela."
 .byte WaitForA
 .byte ScrollText
 .text "Esta garota gosta de falar coisas"
@@ -580,7 +580,7 @@ dialogueChapter17ASara
 .byte Left_Slot
 .word LoadPortrait
 .word sarah_portrait
-.text "...Vou..."
+.text "Vou..."
 .byte WaitForA
 
 .byte Right_Slot
@@ -590,7 +590,7 @@ dialogueChapter17ASara
 
 .byte Left_Slot
 .byte ScrollText
-.text "...Eu..."
+.text "Eu..."
 .byte NewLine
 .text "Eu vou com eles..."
 .byte WaitForA
@@ -692,7 +692,7 @@ dialogueChapter17AOpening1
 .byte NewLine
 .text "Reinhardt avançando sobre o inimigo"
 .byte NewLine
-.text "por trás"
+.text "por trás."
 .byte WaitForA
 .byte ScrollText
 .text "E, para garantir, temos a Legião de Pégaso"
@@ -769,7 +769,7 @@ dialogueChapter17AOpening1
 .byte ScrollText
 .text "Muito bem."
 .byte NewLine
-.text "Eu conto com você, Nicolov!"
+.text "Eu conto contigo, Nicolov!"
 .byte WaitForA
 
 .byte EndText
@@ -873,7 +873,7 @@ dialogueChapter17AOpening3
 .byte NewLine
 .text "Eu não vejo falha alguma na formação"
 .byte NewLine
-.text "dos nossos inimigos"
+.text "dos nossos inimigos."
 .byte WaitForA
 
 .byte Right_Slot
@@ -882,9 +882,9 @@ dialogueChapter17AOpening3
 
 .byte Left_Slot
 .byte ScrollText
-.text "O maior problema são os mercenários"
+.text "O maior problema são as mercenárias"
 .byte NewLine
-.text "silessianos no noroeste."
+.text "silessianas no noroeste."
 .byte WaitForA
 .byte ScrollText
 .text "Se tentarmos atacar o castelo, eles"
@@ -986,7 +986,7 @@ dialogueChapter17AMishaJoin
 .word dorius_portrait
 .text "Príncipe Leif, capturamos a comandante"
 .byte NewLine
-.text "dos silessianos. O que quer que façamos"
+.text "das silessianas. O que quer que façamos"
 .byte NewLine
 .text "com ela?"
 .byte WaitForA
@@ -1007,7 +1007,7 @@ dialogueChapter17AMishaJoin
 .byte Right_Slot
 .text "É verdade que você é a comandante"
 .byte NewLine
-.text "dos mercenários silessianos?"
+.text "daquela unidade de pégaso?"
 .byte WaitForA
 
 .byte Left_Slot
