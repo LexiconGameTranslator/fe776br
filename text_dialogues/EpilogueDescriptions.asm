@@ -2,15 +2,15 @@ leifepi
 .byte $09
 .word $1200
 .byte $04
-.text "Along with Lord Seliph,"
+.text "Junto de Seliph,"
 .byte NewLine
-.text "the rightful heir"
+.text "herdeiro legítimo da"
 .byte NewLine
-.text "to the Imperial throne,"
+.text "casa de Chalphy,"
 .byte NewLine
-.text "Leif led the war"
+.text "Leif lutou uma guerra"
 .byte NewLine
-.text "to liberate Jugdral."
+.text "para liberar Jugdral."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -18,13 +18,13 @@ leifepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "After seizing the capital"
+.text "Depois de libertar a"
 .byte NewLine
-.text "of Belhalla, Leif went on"
+.text "capital, Belhalla, Leif"
 .byte NewLine
-.text "to fight numerous battles"
+.text "ainda lutou numerosas"
 .byte NewLine
-.text "throughout the continent."
+.text "batalhas pelo continente."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -32,15 +32,13 @@ leifepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "When all was said"
+.text "Findado esse processo,"
 .byte NewLine
-.text "and done, Leif's fame"
+.text "sua fama e renome havia"
 .byte NewLine
-.text "and renown ultimately"
+.text "superado até a do"
 .byte NewLine
-.text "surpassed even that of"
-.byte NewLine
-.text "Holy King Seliph."
+.text "Santo Rei Seliph."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -48,15 +46,13 @@ leifepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "In year 780 of the"
+.text "No ano 780 do calendário"
 .byte NewLine
-.text "Grannvale calendar,"
+.text "de Grannvale, as duas"
 .byte NewLine
-.text "North and South Thracia"
+.text "metades da Trácia foram"
 .byte NewLine
-.text "were unified"
-.byte NewLine
-.text "into one country."
+.text "enfim unificadas."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -64,19 +60,17 @@ leifepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Leif took the throne"
+.text "Leif assumiu o trono do"
 .byte NewLine
-.text "of this New Kingdom"
+.text '"Reino da Nova Trácia",'
 .byte NewLine
-.text "of Thracia, and together"
+.text "e junto com sua irmã mais"
 .byte NewLine
-.text "with his older sister,"
+.text "velha, Altena, levou sua"
 .byte NewLine
-.text "Altena, led his"
+.text "nação à uma nova era de"
 .byte NewLine
-.text "motherland into"
-.byte NewLine
-.text "a new era of prosperity."
+.text "prosperidade."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -84,11 +78,11 @@ leifepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "They were beloved"
+.text "Ambos eram amados"
 .byte NewLine
-.text "by the people of North"
+.text "tanto pelo povo do Norte"
 .byte NewLine
-.text "and South alike."
+.text "quanto pelo do Sul."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -96,15 +90,11 @@ leifepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Dedicating their lives"
+.text "Para eles, Leif e Altena"
 .byte NewLine
-.text "to reunifying Thracia,"
+.text "eram como sucessores dos"
 .byte NewLine
-.text "Leif and Altena were"
-.byte NewLine
-.text "hailed as the successors"
-.byte NewLine
-.text "to Dáinn and Njörun."
+.text "lendários Dáinn e Njörun."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -112,15 +102,13 @@ leifepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "In the annals of Thracian"
+.text "Nos livros de história"
 .byte NewLine
-.text "history, the name of"
+.text "da Trácia, o nome do"
 .byte NewLine
-.text "King Leif the Wise,"
+.text "Rei Leif, “o Sábio”,"
 .byte NewLine
-.text "the “Sage-Lord,”"
-.byte NewLine
-.text "will echo for eternity..."
+.text "ecoará pela eternidade..."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -131,15 +119,15 @@ LeifGoodEnding
 .byte $09
 .word $1200
 .byte $04
-.text "Along with Lord Seliph,"
+.text "Junto de Seliph,"
 .byte NewLine
-.text "the rightful heir"
+.text "herdeiro legítimo da"
 .byte NewLine
-.text "to the Imperial throne,"
+.text "casa de Chalphy,"
 .byte NewLine
-.text "Leif led the war"
+.text "Leif lutou uma guerra"
 .byte NewLine
-.text "to liberate Jugdral."
+.text "para liberar Jugdral."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -147,13 +135,13 @@ LeifGoodEnding
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "After seizing the capital"
+.text "Depois de libertar a"
 .byte NewLine
-.text "of Belhalla, Leif went on"
+.text "capital, Belhalla, Leif"
 .byte NewLine
-.text "to fight numerous battles"
+.text "ainda lutou numerosas"
 .byte NewLine
-.text "throughout the continent."
+.text "batalhas pelo continente."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -161,15 +149,13 @@ LeifGoodEnding
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "When all was said"
+.text "Findado esse processo,"
 .byte NewLine
-.text "and done, Leif's fame"
+.text "sua fama e renome havia"
 .byte NewLine
-.text "and renown ultimately"
+.text "superado até a do"
 .byte NewLine
-.text "surpassed even that of"
-.byte NewLine
-.text "Holy King Seliph."
+.text "Santo Rei Seliph."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -177,15 +163,13 @@ LeifGoodEnding
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "In year 780 of the"
+.text "No ano 780 do calendário"
 .byte NewLine
-.text "Grannvale calendar,"
+.text "de Grannvale, as duas"
 .byte NewLine
-.text "North and South Thracia"
+.text "metades da Trácia foram"
 .byte NewLine
-.text "were unified"
-.byte NewLine
-.text "into one country."
+.text "enfim unificadas."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -193,19 +177,19 @@ LeifGoodEnding
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Leif took the throne"
+.text "Leif assumiu o trono do"
 .byte NewLine
-.text "of this New Kingdom"
+.text '"Reino da Nova Trácia",'
 .byte NewLine
-.text "of Thracia, and together"
+.text "e junto de sua Rainha,"
 .byte NewLine
-.text "with his queen, Nanna,"
+.text "Nanna, e de sua irmã mais"
 .byte NewLine
-.text "and older sister, Altena,"
+.text "velha, Altena, levou sua"
 .byte NewLine
-.text "led his motherland into"
+.text "nação à uma nova era de"
 .byte NewLine
-.text "a new era of prosperity."
+.text "prosperidade."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -213,11 +197,11 @@ LeifGoodEnding
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "They were beloved"
+.text "Eram todos amados"
 .byte NewLine
-.text "by the people of North"
+.text "tanto pelo povo do Norte"
 .byte NewLine
-.text "and South alike."
+.text "quanto pelo do Sul."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -225,15 +209,11 @@ LeifGoodEnding
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Dedicating their lives"
+.text "Para eles, Leif e Altena"
 .byte NewLine
-.text "to reunifying Thracia,"
+.text "eram como sucessores dos"
 .byte NewLine
-.text "Leif and Altena were"
-.byte NewLine
-.text "hailed as the successors"
-.byte NewLine
-.text "to Dáinn and Njörun."
+.text "lendários Dáinn e Njörun."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -241,15 +221,14 @@ LeifGoodEnding
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "In the annals of Thracian"
+.text "Nos livros de história"
 .byte NewLine
-.text "history, the name of"
+.text "da Trácia, o nome do"
 .byte NewLine
-.text "King Leif the Wise,"
+.text "Rei Leif, “o Sábio”,"
 .byte NewLine
-.text "the “Sage-Lord,”"
-.byte NewLine
-.text "will echo for eternity..."
+.text "ecoará pela eternidade..."
+.word PauseDialogue
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -260,13 +239,13 @@ finnepi
 .byte $09
 .word $1200
 .byte $04
-.text "After hearing word"
+.text "Depois de se assegurar"
 .byte NewLine
-.text "that Leif had safely taken"
+.text "que Leif havia assumido"
 .byte NewLine
-.text "the throne, Finn suddenly"
+.text "o trono, Finn"
 .byte NewLine
-.text "disappeared."
+.text "desapareceu."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -274,15 +253,15 @@ finnepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "It was three years before"
+.text "Demorou três anos para"
 .byte NewLine
-.text "he was seen again,"
+.text "que ele retornasse à,"
 .byte NewLine
-.text "reappearing just as"
+.text "público, de forma tão"
 .byte NewLine
-.text "suddenly as he had"
+.text "repentina quanto seu"
 .byte NewLine
-.text "first vanished."
+.text "sumiço."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -290,15 +269,15 @@ finnepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "No historical records"
+.text "Não existem relatos"
 .byte NewLine
-.text "exist of where he had"
+.text "oficiais sobre para onde"
 .byte NewLine
-.text "gone or what he had"
+.text "ele foi ou sobre o que"
 .byte NewLine
-.text "been doing during"
+.text "estava fazendo nesses"
 .byte NewLine
-.text "his long absence."
+.text "anos de ausência."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -306,13 +285,13 @@ finnepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "The only evidence"
+.text "O que se sabe é que"
 .byte NewLine
-.text "that remains are strange"
+.text "algumas pessoas dizem"
 .byte NewLine
-.text "rumors that he had been"
+.text "ter o visto no Deserto"
 .byte NewLine
-.text "seen in the Aed Desert."
+.text "de Aed neste período."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -324,15 +303,13 @@ nannaepi
 .byte $09
 .word $1200
 .byte $04
-.text "Following their victory"
+.text "Após a vitória em"
 .byte NewLine
-.text "at Belhalla, Nanna"
+.text "Belhalla, Nanna se"
 .byte NewLine
-.text "devoted herself"
+.text "dedicou à ajudar Leif na"
 .byte NewLine
-.text "to helping Leif"
-.byte NewLine
-.text "liberate Agustria."
+.text "Libertação de Agustria."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -340,15 +317,19 @@ nannaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "After wedding Leif, now"
+.text "Depois de casar com ele,"
 .byte NewLine
-.text "King of New Thracia,"
+.text "se tornando Rainha da"
 .byte NewLine
-.text "Nanna dedicated her"
+.text "Nova Trácia, ela se"
 .byte NewLine
-.text "time to aiding the many"
+.text "dedicou à ajudar as"
 .byte NewLine
-.text "orphans of the war."
+.text "muitas crianças que"
+.byte NewLine
+.text "se tornaram órfãs"
+.byte NewLine
+.text "por culpa da guerra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -356,15 +337,15 @@ nannaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Known for her beauty"
+.text "Lembrada por sua beleza"
 .byte NewLine
-.text "and compassion, she"
+.text "e compaixão, o povo"
 .byte NewLine
-.text "was affectionately called"
+.text "continuou a chamando de"
 .byte NewLine
-.text "“Princess Nanna” even"
+.text "“Princesa Nanna”, mesmo"
 .byte NewLine
-.text "after becoming Queen."
+.text "após se tornar Rainha."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -372,13 +353,13 @@ nannaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "By all accounts,"
+.text "As evidências históricas"
 .byte NewLine
-.text "she continues to enjoy"
+.text "indicam que ela continuou"
 .byte NewLine
-.text "a happy marriage"
+.text "vivendo feliz com Leif"
 .byte NewLine
-.text "with Leif to this day."
+.text "até o fim de sua vida."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -390,13 +371,13 @@ orsinepi
 .byte $09
 .word $1200
 .byte $04
-.text "After returning to Fiana,"
+.text "Após voltar para Fiana,"
 .byte NewLine
-.text "Osian married,"
+.text "Osian se casou, e foi"
 .byte NewLine
-.text "and was blessed"
+.text "abençoado com muitos"
 .byte NewLine
-.text "with many children."
+.text "filhos."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -404,15 +385,17 @@ orsinepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "However, he remained"
+.text "Porém, ele continuou"
 .byte NewLine
-.text "prone to mood swings"
+.text "tendendo a mudar de humor"
 .byte NewLine
-.text "all his life, and his quick"
+.text "por toda a vida, e ficou"
 .byte NewLine
-.text "temper was inseparable"
+.text "conhecido tanto por seu"
 .byte NewLine
-.text "from his kind heart."
+.text "pavio curto quanto por"
+.byte NewLine
+.text "seu bom coração."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -420,13 +403,11 @@ orsinepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "He eventually earned"
+.text "Em Fiana, ele ficou com"
 .byte NewLine
-.text "a reputation around the"
+.text "reputação de “velho"
 .byte NewLine
-.text "village as “that oddball"
-.byte NewLine
-.text "old man.”"
+.text "excêntrico”"
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -434,15 +415,15 @@ orsinepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Despite not being fond"
+.text "Apesar de se manter"
 .byte NewLine
-.text "of the other villagers, he"
+.text "apartado dos outros"
 .byte NewLine
-.text "proved to be a reliable"
+.text "moradores, ele nunca"
 .byte NewLine
-.text "man, always willing to"
+.text "recusava quando lhe"
 .byte NewLine
-.text "help those in need."
+.text "pediam ajuda."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -454,15 +435,15 @@ halvanepi
 .byte $09
 .word $1200
 .byte $04
-.text "After Eyvel departed"
+.text "Depois que Eyvel saiu de"
 .byte NewLine
-.text "Fiana, Halvan took up"
+.text "Fiana, foi Halvan que"
 .byte NewLine
-.text "the role of village leader"
+.text "assumiu a posição de"
 .byte NewLine
-.text "and Commander"
+.text "chefe da vila e Capitão"
 .byte NewLine
-.text "of the Freeblades."
+.text "da Legião."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -470,15 +451,15 @@ halvanepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "He quickly demonstrated"
+.text "Ele logo demonstrou"
 .byte NewLine
-.text "his talent for leadership,"
+.text "talento como gestor, e"
 .byte NewLine
-.text "and Fiana developed"
+.text "Fiana se desenvolveu e"
 .byte NewLine
-.text "and expanded under"
+.text "expandiu sob sua"
 .byte NewLine
-.text "his wise rule."
+.text "sábia liderança."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -486,11 +467,13 @@ halvanepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Nowadays, Fiana is"
+.text "Nos dias de hoje, Fiana é"
 .byte NewLine
-.text "the envy of every village"
+.text "a mais próspera dentre todas"
 .byte NewLine
-.text "on Thracia's east coast."
+.text "as vilas na costa leste"
+.byte NewLine
+.text "da Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -502,11 +485,13 @@ eyvelepi
 .byte $09
 .word $1200
 .byte $04
-.text "Returning to Fiana for"
+.text "Eyvel voltou à Fiana,"
 .byte NewLine
-.text "a time, Eyvel temporarily"
+.text "e por um tempo,"
 .byte NewLine
-.text "led a quiet, peaceful life."
+.text "viveu uma vida"
+.byte NewLine
+.text "calma e pacífica."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -514,13 +499,11 @@ eyvelepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Eventually, her “geas,”"
+.text "Um dia o “geis,” o"
 .byte NewLine
-.text "the compact she had"
+.text "pacto que ela fez com"
 .byte NewLine
-.text "made with the dragons,"
-.byte NewLine
-.text "expired."
+.text "os dragões, expirou."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -528,13 +511,11 @@ eyvelepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "And with its end,"
+.text "Sete anos depois do fim"
 .byte NewLine
-.text "her memory returned,"
+.text "da cruzada, ela recuperou"
 .byte NewLine
-.text "seven years after the end"
-.byte NewLine
-.text "of the holy war."
+.text "suas memórias."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -542,15 +523,17 @@ eyvelepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Her belated reunion"
+.text "O reencontro dela com"
 .byte NewLine
-.text "with her children became"
+.text "suas crianças se tornou"
 .byte NewLine
-.text "the subject of a timeless"
+.text "a inspiração para uma"
 .byte NewLine
-.text "song, known to any bard"
+.text "canção lendária, conhecida"
 .byte NewLine
-.text "who can play a lute..."
+.text "de todo bardo capaz de"
+.byte NewLine
+.text "tocar um alaúde..."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -562,15 +545,15 @@ dagdarepi
 .byte $09
 .word $1200
 .byte $04
-.text "Returning to Mount"
+.text "Dagdar voltou para o"
 .byte NewLine
-.text "Violdrake, Dagdar again"
+.text "Monte Violeta, e mais uma"
 .byte NewLine
-.text "gathered his underlings"
+.text "vez juntou seu bando para"
 .byte NewLine
-.text "and set them to restoring"
+.text "tentar trabalhar a terra"
 .byte NewLine
-.text "the barren land."
+.text "do monte."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -578,13 +561,17 @@ dagdarepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "After a few years,"
+.text "Depois de alguns anos,"
 .byte NewLine
-.text "the soil around Mount"
+.text "ele enfim conseguiu"
 .byte NewLine
-.text "Violdrake was reborn"
+.text "fazer a terra do monte se"
 .byte NewLine
-.text "into rich, fertile farmland."
+.text "tornar fértil, e ela" ;maluco é técnico da EMBRAPA
+.byte NewLine
+.text "passou a dar muitos"
+.byte NewLine
+.text "frutos."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -596,15 +583,15 @@ ralphepi
 .byte $09
 .word $1200
 .byte $04
-.text "Taking up farming tools"
+.text "Usando a enxada com a"
 .byte NewLine
-.text "with the same ferocity"
+.text "mesma energia com a qual"
 .byte NewLine
-.text "as he swung a sword,"
+.text "ele usava a espada, Ralph"
 .byte NewLine
-.text "Ralph poured his energy"
+.text "se pôs a trabalhar"
 .byte NewLine
-.text "into healing the land."
+.text "curando a terra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -612,13 +599,13 @@ ralphepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Save for this one detail,"
+.text "Salvo por esse detalhe,"
 .byte NewLine
-.text "no other record of Ralph"
+.text "não há mais nenhum outro"
 .byte NewLine
-.text "can be found"
+.text "relato sobre Ralph nos"
 .byte NewLine
-.text "in historical texts."
+.text "textos históricos."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -626,19 +613,19 @@ ralphepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Having made no effort to"
+.text "Sem ter feito esforços pra"
 .byte NewLine
-.text "preserve a record of his"
+.text "se eternizar na história,"
 .byte NewLine
-.text "deeds, he is emblematic"
+.text "ele se tornou símbolo de"
 .byte NewLine
-.text "of the many humble folk"
+.text "todos aqueles que ajudaram"
 .byte NewLine
-.text "who aided in Thracia's"
+.text "na restauração da Trácia,"
 .byte NewLine
-.text "restoration, but chose to"
+.text "mas que ficaram invisíveis"
 .byte NewLine
-.text "fade into obscurity..."
+.text "para o relato escrito..."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -650,15 +637,17 @@ martyepi
 .byte $09
 .word $1200
 .byte $04
-.text "Returning to Mount"
+.text "Depois da guerra,"
 .byte NewLine
-.text "Violdrake, Marty"
+.text "Marty voltou para o"
 .byte NewLine
-.text "reunited with his old"
+.text "Monte Violeta, e junto"
 .byte NewLine
-.text "friends, and set about"
+.text "com seus velhos amigos,"
 .byte NewLine
-.text "restoring the barren land."
+.text "se pôs a trabalhar a"
+.byte NewLine
+.text "terra da região."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -666,15 +655,13 @@ martyepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "While somewhat"
+.text "Um tanto ingênuo,"
 .byte NewLine
-.text "dim-witted, his"
+.text "isso fez dele"
 .byte NewLine
-.text "absentmindedness gave"
+.text "uma figura muito"
 .byte NewLine
-.text "way to a sort of rugged"
-.byte NewLine
-.text "honesty and innocence."
+.text "amada no local."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -682,15 +669,15 @@ martyepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "His straightforward and"
+.text "A natureza simples e"
 .byte NewLine
-.text "uncomplicated nature"
+.text "honesta dele o fez"
 .byte NewLine
-.text "won him many friends,"
+.text "ganhar muitos amigos,"
 .byte NewLine
-.text "and he was especially"
+.text "e ele também era muito"
 .byte NewLine
-.text "beloved among children."
+.text "amado entre as crianças."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -702,15 +689,15 @@ ronanepi
 .byte $09
 .word $1200
 .byte $04
-.text "Ronan went back to Iz,"
+.text "Ronan voltou para Iz,"
 .byte NewLine
-.text "where his mother"
+.text "aonde sua mãe ficou,"
 .byte NewLine
-.text "awaited his return."
+.text "esperando sua volta."
 .byte NewLine
-.text "He then resumed his"
+.text "Ele então voltou a sua"
 .byte NewLine
-.text "ordinary life of hunting."
+.text "vida comum como caçador."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -718,13 +705,13 @@ ronanepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Some time afterward,"
+.text "Algum tempo depois,"
 .byte NewLine
-.text "he quietly married,"
+.text "ele se casou, e viveu"
 .byte NewLine
-.text "and lived happily"
+.text "feliz o resto de seus"
 .byte NewLine
-.text "for the rest of his days."
+.text "dias."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -736,15 +723,17 @@ mirandaepi
 .byte $09
 .word $1200
 .byte $04
-.text "While waiting in Ulster"
+.text "Enquanto estava em Úlster"
 .byte NewLine
-.text "for Leif's answer,"
+.text "esperando pela resposta"
 .byte NewLine
-.text "Miranda fell hopelessly"
+.text "de Leif, Miranda acabou"
 .byte NewLine
-.text "in love with another"
+.text "se apaixonando por um"
 .byte NewLine
-.text "knight."
+.text "outro cavaleiro e fugiu"
+.byte NewLine
+.text "da cidade."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -752,15 +741,15 @@ mirandaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "While still possessed of a"
+.text "Enquanto ainda uma mulher"
 .byte NewLine
-.text "short temper and prone"
+.text "irritada e propensa à"
 .byte NewLine
-.text "to misunderstandings,"
+.text "discussões, ela seguiu"
 .byte NewLine
-.text "she leads a happy life"
+.text "uma vida feliz como"
 .byte NewLine
-.text "as a wife and mother."
+.text "esposa e mãe."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -772,15 +761,13 @@ safiyaepi
 .byte $09
 .word $1200
 .byte $04
-.text "Safy made her way"
+.text "Safy voltou para Tarrah,"
 .byte NewLine
-.text "back to Tahra,"
+.text "e lá ela se dedicou à"
 .byte NewLine
-.text "and devoted herself"
+.text "curar os doentes e ajudar"
 .byte NewLine
-.text "to healing the sick"
-.byte NewLine
-.text "and helping the poor."
+.text "os pobres."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -788,15 +775,15 @@ safiyaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "The people looked at"
+.text "As pessoas a viam como"
 .byte NewLine
-.text "her like she was divine,"
+.text "uma enviada dos céus,"
 .byte NewLine
-.text "and eventually began"
+.text "de tal forma que um dia"
 .byte NewLine
-.text "to speak of her as if she"
+.text "começaram a tratar ela"
 .byte NewLine
-.text "were a goddess herself."
+.text "mesma como uma deusa."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -808,13 +795,13 @@ laraepi
 .byte $09
 .word $1200
 .byte $04
-.text "Resuming her original"
+.text "Voltando à sua vida de"
 .byte NewLine
-.text "trade of being a dancer,"
+.text "dançarina, Lara passou"
 .byte NewLine
-.text "Lara went on to perform"
+.text "a viajar pela Trácia,"
 .byte NewLine
-.text "throughout Thracia."
+.text "mostrando sua arte."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -822,15 +809,15 @@ laraepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Her captivating dance,"
+.text "A sua dança cativante,"
 .byte NewLine
-.text "known to rejuvenate"
+.text "conhecida por revigorar"
 .byte NewLine
-.text "the audience's spirits,"
+.text "aqueles que a viam,"
 .byte NewLine
-.text "soon became a symbol"
+.text "logo se tornou um símbolo"
 .byte NewLine
-.text "of Thracia's own revival."
+.text "do renascimento do país."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -838,13 +825,11 @@ laraepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Many people were"
+.text "Muitas pessoas acabaram"
 .byte NewLine
-.text "themselves inspired"
+.text "também sendo inspiradas"
 .byte NewLine
-.text "by her artful, vivacious"
-.byte NewLine
-.text "performances."
+.text "por suas apresentações."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -856,15 +841,19 @@ brightonepi
 .byte $09
 .word $1200
 .byte $04
-.text "Returning to Munster,"
+.text "Brighton voltou para"
 .byte NewLine
-.text "Brighton devoted himself"
+.text "Munster, e passou os"
 .byte NewLine
-.text "to its reconstruction, and"
+.text "próximos anos trabalhando"
 .byte NewLine
-.text "also taught swordplay to"
+.text "em sua reconstrução, além"
 .byte NewLine
-.text "all who wished to learn."
+.text "de também como instrutor"
+.byte NewLine
+.text "de esgrima para quem"
+.byte NewLine
+.text "desejasse."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -872,13 +861,15 @@ brightonepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "After the city had been"
+.text "Depois do fim da"
 .byte NewLine
-.text "stabilized, he went on"
+.text "reconstrução, ele seguiu"
 .byte NewLine
-.text "to open a small store"
+.text "a vida junto de sua"
 .byte NewLine
-.text "with his new wife."
+.text "esposa, cuidando de uma"
+.byte NewLine
+.text "pequena loja que abriu."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -890,13 +881,11 @@ fergusepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the fighting"
+.text "Depois que a guerra"
 .byte NewLine
-.text "was all over,"
+.text "acabou, Fergus logo"
 .byte NewLine
-.text "Fergus vanished"
-.byte NewLine
-.text "almost immediately."
+.text "desapareceu."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -904,15 +893,15 @@ fergusepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Was he an illegitimate"
+.text "O que será que ele era?"
 .byte NewLine
-.text "son of the legendary"
+.text "Um filho ilegítimo do"
 .byte NewLine
-.text "knight Beowulf?"
+.text "lendário Beowulf?"
 .byte NewLine
-.text "A long-lost prince of the"
+.text "Um príncipe perdido da"
 .byte NewLine
-.text "Connaught royal family?"
+.text "família de Connacht?"
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -920,15 +909,13 @@ fergusepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Rumors persist about"
+.text "Muitas histórias tentam"
 .byte NewLine
-.text "this mysterious figure,"
+.text "explicá-lo, mas sem ele,"
 .byte NewLine
-.text "but with Fergus gone,"
+.text "a verdade se perdeu"
 .byte NewLine
-.text "the truth has been"
-.byte NewLine
-.text "lost forever."
+.text "para sempre."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -940,15 +927,15 @@ edaepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the founding of"
+.text "Depois da formação"
 .byte NewLine
-.text "the New Kingdom of"
+.text "do Reino da nova Trácia,"
 .byte NewLine
-.text "Thracia, Eda became"
+.text "Eda se tornou uma amiga"
 .byte NewLine
-.text "a close friend and"
+.text "próxima e confidente de"
 .byte NewLine
-.text "confidante to Altena."
+.text "Altena."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -956,15 +943,15 @@ edaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Eda tried her best"
+.text "Eda fez seu melhor para"
 .byte NewLine
-.text "to raise her spirits,"
+.text "ser um ponto de apoio,"
 .byte NewLine
-.text "as the war and"
+.text "na medida que a guerra"
 .byte NewLine
-.text "its revelations had taken"
+.text "e suas revelações à"
 .byte NewLine
-.text "their toll on Altena."
+.text "abalavam."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -972,29 +959,15 @@ edaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "She took her duties so"
+.text "Tamanha era sua dedicação"
 .byte NewLine
-.text "seriously that she never"
+.text "à seu dever, que ela"
 .byte NewLine
-.text "concerned herself with"
+.text "acabou por deixar a si"
 .byte NewLine
-.text "her own well-being."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "Ultimately, Eda sacrificed"
+.text "mesma de lado, em prol"
 .byte NewLine
-.text "her own happiness to"
-.byte NewLine
-.text "better devote herself to"
-.byte NewLine
-.text "serving Altena and the"
-.byte NewLine
-.text "restoration of Thracia."
+.text "de Altena e da Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1006,15 +979,13 @@ asbelepi
 .byte $09
 .word $1200
 .byte $04
-.text "Asbel fought alongside"
+.text "Asbel continuou junto de"
 .byte NewLine
-.text "Leif for the entirety"
+.text "Leif pelo resto da"
 .byte NewLine
-.text "of the war, serving as"
+.text "guerra, servindo como um"
 .byte NewLine
-.text "his trusted aide"
-.byte NewLine
-.text "and confidant."
+.text "conselheiro e confidente."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1022,15 +993,15 @@ asbelepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "For each step Leif took"
+.text "Em cada momento de Leif"
 .byte NewLine
-.text "down that harsh road,"
+.text "em sua dura estrada,"
 .byte NewLine
-.text "Asbel was always beside"
+.text "Asbel estava com ele,"
 .byte NewLine
-.text "him, helping him shoulder"
+.text "o ajudando a aguentar o"
 .byte NewLine
-.text "the war's burdens."
+.text "peso da guerra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1038,15 +1009,15 @@ asbelepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Afterward, he returned"
+.text "Depois disso, ele voltou"
 .byte NewLine
-.text "to his hometown of"
+.text "à sua cidade natal,"
 .byte NewLine
-.text "Hrest, where he"
+.text "Hrest, onde ele se tornou"
 .byte NewLine
-.text "became a priest, as his"
+.text "um sacerdote, assim como"
 .byte NewLine
-.text "father was before him."
+.text "seu pai era, antes dele."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1054,13 +1025,13 @@ asbelepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "In only a few short years,"
+.text "Levou alguns anos para"
 .byte NewLine
-.text "tales of Asbel the Sage"
+.text "que as histórias sobre"
 .byte NewLine
-.text "had spread to every"
+.text "ele, Asbel, o Sábio, se"
 .byte NewLine
-.text "corner of the land."
+.text "tornassem conhecidas."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1072,15 +1043,15 @@ machaepi
 .byte $09
 .word $1200
 .byte $04
-.text "Macha returned"
+.text "Machyua voltou para"
 .byte NewLine
-.text "to Munster, where none"
+.text "Munster, e trabalhou"
 .byte NewLine
-.text "could match her sheer"
+.text "com zelo e paixão"
 .byte NewLine
-.text "zeal and passion for"
+.text "inigualáveis em prol da"
 .byte NewLine
-.text "rebuilding the kingdom."
+.text "reconstrução do reino."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1088,13 +1059,13 @@ machaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "She soon married"
+.text "Pouco depois, ela se"
 .byte NewLine
-.text "a fellow soldier who had"
+.text "casou com um soldado"
 .byte NewLine
-.text "also served in the war,"
+.text "que havia lutado à seu"
 .byte NewLine
-.text "and gave birth to a child."
+.text "lado, e teve um filho."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1102,15 +1073,13 @@ machaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Despite these changes,"
+.text "Apesar dessas mudanças,"
 .byte NewLine
-.text "her drive to aid Munster"
+.text "ela nunca deixou de se"
 .byte NewLine
-.text "never wavered, and"
+.text "dedicar ao bem de sua"
 .byte NewLine
-.text "she stayed devoted to"
-.byte NewLine
-.text "the city for her entire life."
+.text "cidade."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1122,15 +1091,17 @@ hicksepi
 .byte $09
 .word $1200
 .byte $04
-.text "Declining a government"
+.text "Recusando um cargo de"
 .byte NewLine
-.text "post, Hicks instead"
+.text "governo, Hicks achou"
 .byte NewLine
-.text "returned home to his"
+.text "melhor voltar para sua"
 .byte NewLine
-.text "family, where he led"
+.text "vila natal, onde seguiu"
 .byte NewLine
-.text "a quiet life."
+.text "uma vida tranquila com"
+.byte NewLine
+.text "sua família."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1138,25 +1109,13 @@ hicksepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "But even when working,"
+.text "No entanto, nunca largou"
 .byte NewLine
-.text "he always kept his"
+.text "mão de seu machado."
 .byte NewLine
-.text "trusty axe close at hand."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "He is said to be"
+.text "Ele continuou vigilante,"
 .byte NewLine
-.text "ever vigilant, constantly"
-.byte NewLine
-.text "keeping watch"
-.byte NewLine
-.text "for danger."
+.text "sempre atento ao perigo."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1168,15 +1127,15 @@ selphinaepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the New Kingdom"
+.text "Depois da formação do"
 .byte NewLine
-.text "of Thracia's army"
+.text "Reino da Nova Trácia,"
 .byte NewLine
-.text "had been stabilized,"
+.text "Selphina renunciou ao"
 .byte NewLine
-.text "Selphina resigned from"
+.text "posto de comandante da"
 .byte NewLine
-.text "her post as an officer."
+.text "guarda real."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1184,15 +1143,15 @@ selphinaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Instead of becoming a"
+.text "Ela também abriu as"
 .byte NewLine
-.text "mother, she opened her"
+.text "portas de sua casa para"
 .byte NewLine
-.text "family's mansion to the"
+.text "as muitas crianças que"
 .byte NewLine
-.text "many children who lost"
+.text "perderam seus pais na"
 .byte NewLine
-.text "their parents in the war."
+.text "guerra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1200,15 +1159,15 @@ selphinaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "The orphans she saved"
+.text "Os órfãos que ela salvou"
 .byte NewLine
-.text "grew up to be great men"
+.text "um dia se tornaram"
 .byte NewLine
-.text "and women: a new"
+.text "grandes pessoas, uma"
 .byte NewLine
-.text "generation that guided"
+.text "geração que muito fez"
 .byte NewLine
-.text "Thracia into the future."
+.text "em prol da Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1216,15 +1175,15 @@ selphinaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Because of this,"
+.text "Por conta disso, Selphina"
 .byte NewLine
-.text "Selphina is not only"
+.text "é lembrada não apenas por"
 .byte NewLine
-.text "remembered as a knight,"
+.text "seu serviço militar, mas"
 .byte NewLine
-.text "but also as the"
+.text "também pelo título de"
 .byte NewLine
-.text "“Mother of Thracia.”"
+.text "“Mãe da Trácia.”"
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1232,15 +1191,13 @@ selphinaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "For centuries afterward,"
+.text "Por séculos, o seu nome"
 .byte NewLine
-.text "people would invoke her"
+.text "foi sinônimo de boa"
 .byte NewLine
-.text "name for good fortune,"
+.text "sorte, e também de sua"
 .byte NewLine
-.text "hoping to inherit her"
-.byte NewLine
-.text "strength and kindness."
+.text "força e bondade."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1252,15 +1209,17 @@ dalsinepi
 .byte $09
 .word $1200
 .byte $04
-.text "Determined to protect"
+.text "Determinado a proteger"
 .byte NewLine
-.text "everyday folk from"
+.text "o povo dos bandidos do"
 .byte NewLine
-.text "bandits, Dalsin relocated"
+.text "local, Dalsin assumiu"
 .byte NewLine
-.text "to Kerberos' Gate, near"
+.text "um posto de guarda na"
 .byte NewLine
-.text "where his siblings lived."
+.text "Porta de Kérbero, onde"
+.byte NewLine
+.text "seus irmãos viviam."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1268,13 +1227,13 @@ dalsinepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "He maintained a round-"
+.text "Por um tempo, sua vida"
 .byte NewLine
-.text "the-clock watch, fighting"
+.text "foi uma batalha constante"
 .byte NewLine
-.text "off brigands every day"
+.text "contra os bandidos da"
 .byte NewLine
-.text "and night. For a time, his"
+.text "região For a time, his"
 .byte NewLine
 .text "life was a cycle of battle."
 .word PauseDialogue
@@ -1284,15 +1243,13 @@ dalsinepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "But before long,"
+.text "Mas eventualmente, os"
 .byte NewLine
-.text "the bandit gangs that had"
+.text "vários bandos que"
 .byte NewLine
-.text "long plagued the area"
+.text "rondavam a área foram"
 .byte NewLine
-.text "around the fort were"
-.byte NewLine
-.text "all but wiped out."
+.text "eliminados."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1300,15 +1257,13 @@ dalsinepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Once said to be a place"
+.text "O forte que um dia foi"
 .byte NewLine
-.text "“more terrible than Hell"
+.text "uma visão do inferno,"
 .byte NewLine
-.text "itself,” the fort was now"
+.text "agora era um símbolo"
 .byte NewLine
-.text "called “more safe than"
-.byte NewLine
-.text "the gates of Heaven.”"
+.text "da segurança do lugar."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1320,15 +1275,13 @@ callionepi
 .byte $09
 .word $1200
 .byte $04
-.text "At Leif's own request,"
+.text "A pedido do próprio Leif,"
 .byte NewLine
-.text "Callion transferred to a"
+.text "Callion foi transferido"
 .byte NewLine
-.text "posting at Castle Meath,"
+.text "para um posto no castelo"
 .byte NewLine
-.text "which reunited him"
-.byte NewLine
-.text "with Hannibal."
+.text "de Meath, junto de Aníbal."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1336,15 +1289,13 @@ callionepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "From then on,"
+.text "Dali em frente, os dois"
 .byte NewLine
-.text "the two worked together"
+.text "trabalharam juntos para"
 .byte NewLine
-.text "to ease tensions"
+.text "diminuir as tensões entre"
 .byte NewLine
-.text "between Northern"
-.byte NewLine
-.text "and Southern Thracians."
+.text "o povo do Norte e do Sul."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1352,13 +1303,13 @@ callionepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "He is considered one"
+.text "Historiadores consideram"
 .byte NewLine
-.text "of the most influential"
+.text "seu trabalho de suma"
 .byte NewLine
-.text "factors to the successful"
+.text "importância para a"
 .byte NewLine
-.text "reunification of Thracia."
+.text "reunificação da Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1370,15 +1321,17 @@ shivaepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the war, Shiva's"
+.text "Depois da guerra, Shiva"
 .byte NewLine
-.text "whereabouts became"
+.text "desapareceu. Muitas"
 .byte NewLine
-.text "unknown. He took great"
+.text "teorias surgiram para"
 .byte NewLine
-.text "pains to conceal himself"
+.text "tentar explicar as suas"
 .byte NewLine
-.text "from prying eyes."
+.text "origens, ou o que fez"
+.byte NewLine
+.text "depois da guerra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1386,29 +1339,19 @@ shivaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Many unanswered"
+.text "Infelizmente, nenhuma"
 .byte NewLine
-.text "questions surround"
+.text "delas eram plausíveis, e"
 .byte NewLine
-.text "this enigmatic figure"
+.text "ainda restam muitas"
 .byte NewLine
-.text "in history."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "Scholars have proposed"
+.text "perguntas sobre essa"
 .byte NewLine
-.text "various theories about"
+.text "figura enigmática na"
 .byte NewLine
-.text "his origins and activities"
+.text "história da Guerra de"
 .byte NewLine
-.text "after the war, but none"
-.byte NewLine
-.text "of them are credible."
+.text "Libertação."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1420,15 +1363,13 @@ panepi
 .byte $09
 .word $1200
 .byte $04
-.text "Telling Leif"
+.text "Perne disse à Leif que"
 .byte NewLine
-.text "he was “going back"
+.text "ia “voltar para casa”,"
 .byte NewLine
-.text "to his hometown,”"
+.text "Mas logo seu paradeiro"
 .byte NewLine
-.text "Perne departed"
-.byte NewLine
-.text "for parts unknown."
+.text "se tornou desconhecido."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1436,9 +1377,11 @@ panepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Rumors abound about"
+.text "Surgiram então alguns"
 .byte NewLine
-.text "his activities since."
+.text "boatos sobre o que ele"
+.byte NewLine
+.text "fez desde então."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1446,15 +1389,17 @@ panepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Some say he returned"
+.text "Alguns dizem que ele"
 .byte NewLine
-.text "to banditry, others say"
+.text "voltou ao crime, outros"
 .byte NewLine
-.text "he helped rebuild Tahra,"
+.text "dizem tê-lo visto em"
 .byte NewLine
-.text "and so on. The truth"
+.text "Tarrah, ajudando na"
 .byte NewLine
-.text "remains a mystery."
+.text "reconstrução. A verdade"
+.byte NewLine
+.text "segue um mistério."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1466,15 +1411,15 @@ gladeepi
 .byte $09
 .word $1200
 .byte $04
-.text "Glade was appointed"
+.text "Glade recebeu o título"
 .byte NewLine
-.text "Commander of the"
+.text "de chefe dos exércitos"
 .byte NewLine
-.text "New Kingdom of"
+.text "do Reino da Nova Trácia,"
 .byte NewLine
-.text "Thracia's military—the"
+.text "a maior patente do novo"
 .byte NewLine
-.text "highest rank in the army."
+.text "exército."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1482,15 +1427,15 @@ gladeepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "He was entrusted with"
+.text "Coube a ele a missão de"
 .byte NewLine
-.text "overseeing the military's"
+.text "supervisionar a sua"
 .byte NewLine
-.text "reorganization as it"
+.text "reorganização, à medida"
 .byte NewLine
-.text "swelled in number with"
+.text "que crescia em números"
 .byte NewLine
-.text "North and South united."
+.text "com a união do Norte e Sul."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1498,21 +1443,19 @@ gladeepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Initially too large to be"
+.text "Ele então dividiu o"
 .byte NewLine
-.text "sustainable, the army's"
+.text "exército em diversos"
 .byte NewLine
-.text "excess troops were"
+.text "braços menores, buscando"
 .byte NewLine
-.text "divided into several"
+.text "remanejar as tropas em"
 .byte NewLine
-.text "new branches, with only"
+.text "excesso e manter apenas"
 .byte NewLine
-.text "an elite few soldiers"
+.text "os melhores no exército"
 .byte NewLine
-.text "permitted to stay in the"
-.byte NewLine
-.text "main force."
+.text "principal."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1520,15 +1463,15 @@ gladeepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "The restructuring of the"
+.text "Sua perspicácia na"
 .byte NewLine
-.text "military was successful,"
+.text "reestruturação do"
 .byte NewLine
-.text "and his organizational"
+.text "exército salvou a Trácia"
 .byte NewLine
-.text "acumen saved Thracia"
+.text "de uma provável crise"
 .byte NewLine
-.text "from a financial crisis."
+.text "orçamentária."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1540,11 +1483,11 @@ kaneepi
 .byte $09
 .word $1200
 .byte $04
-.text "Leaving the ways of the"
+.text "Kane abandonou o exército"
 .byte NewLine
-.text "lance behind him, Kane"
+.text "e se tornou um funcionário"
 .byte NewLine
-.text "became a civil servant."
+.text "do governo civil."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1552,15 +1495,15 @@ kaneepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "He instituted sweeping"
+.text "Ele propôs e aprovou"
 .byte NewLine
-.text "reforms to restructure"
+.text "diversas reformas eficazes"
 .byte NewLine
-.text "Leonster's army, making"
+.text "em prol da reconstrução"
 .byte NewLine
-.text "comprehensive policy"
+.text "do Reino e da organização"
 .byte NewLine
-.text "changes one by one."
+.text "de seu exército."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1568,15 +1511,13 @@ kaneepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Nicknamed the"
+.text "Um especialista reservado,"
 .byte NewLine
-.text "“Taciturn Tactician,”"
+.text "é dito que os descendentes"
 .byte NewLine
-.text "it is said that Leif and"
+.text "de Leif ainda hoje se"
 .byte NewLine
-.text "his descendants relied"
-.byte NewLine
-.text "greatly on his wisdom."
+.text "apoiam em sua sabedoria."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1588,15 +1529,13 @@ albaepi
 .byte $09
 .word $1200
 .byte $04
-.text "At his own request,"
+.text "A pedido de Altena,"
 .byte NewLine
-.text "Alba was reassigned by"
+.text "Alba foi realocado para"
 .byte NewLine
-.text "Leif and Altena to a post"
+.text "um posto no antigo"
 .byte NewLine
-.text "in the former region"
-.byte NewLine
-.text "of South Thracia."
+.text "Reino da Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1604,13 +1543,13 @@ albaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "There, he strived to quell"
+.text "Lá, ele recebeu a missão"
 .byte NewLine
-.text "the area's civil unrest,"
+.text "de restaurar a ordem"
 .byte NewLine
-.text "and restore order"
+.text "naquela terra devastada"
 .byte NewLine
-.text "to the war-torn land."
+.text "pela guerra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1618,13 +1557,13 @@ albaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "At first, the locals treated"
+.text "Inicialmente, o povo lhe"
 .byte NewLine
-.text "him with distrust,"
+.text "tratava com desconfiança,"
 .byte NewLine
-.text "referring to him only as"
+.text "chamando-o apenas de"
 .byte NewLine
-.text "“the Northerner.”"
+.text "“o Nortenho.”"
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1632,15 +1571,17 @@ albaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Yet his jovial and"
+.text "No entanto, eventualmente"
 .byte NewLine
-.text "friendly nature eventually"
+.text "ele conseguiu ganhar os"
 .byte NewLine
-.text "won over the people's"
+.text "corações do povo com sua"
 .byte NewLine
-.text "hearts, and they treated"
+.text "natureza jovial, e eles"
 .byte NewLine
-.text "him as one of their own."
+.text "passaram a o tratar como"
+.byte NewLine
+.text "um amigo."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1652,15 +1593,15 @@ robertepi
 .byte $09
 .word $1200
 .byte $04
-.text "Robert's fondest wish"
+.text "O maior desejo de Roberto"
 .byte NewLine
-.text "was granted when"
+.text "foi realizado quando"
 .byte NewLine
-.text "he was assigned to"
+.text "ele recebeu um posto"
 .byte NewLine
-.text "a permanent post in the"
+.text "permanente na Guarda"
 .byte NewLine
-.text "army of New Thracia."
+.text "real da Nova Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1668,15 +1609,17 @@ robertepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Despite fighting"
+.text "Apesar de sua experiência"
 .byte NewLine
-.text "countless battles,"
+.text "de incontáveis batalhas,"
 .byte NewLine
-.text "he was a nervous wreck"
+.text "ele era sempre muito"
 .byte NewLine
-.text "when at the royal court"
+.text "nervoso quando estava"
 .byte NewLine
-.text "or other social functions."
+.text "na corte ou em outros"
+.byte NewLine
+.text "eventos sociais."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1684,13 +1627,15 @@ robertepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Unbeknownst to him,"
+.text "Embora não estivesse"
 .byte NewLine
-.text "this only added to his"
+.text "ciente disto, essa"
 .byte NewLine
-.text "popularity among the"
+.text "característica o tornou"
 .byte NewLine
-.text "army's female officers."
+.text "popular entre as mulheres"
+.byte NewLine
+.text "da corte."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1702,11 +1647,19 @@ fredepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the war,"
+.text "Depois da guerra, Fred"
 .byte NewLine
-.text "Fred returned home to"
+.text "voltou para sua pátria,"
 .byte NewLine
-.text "the Dukedom of Friege."
+.text "o Ducado de Friege, onde"
+.byte NewLine
+.text "se dedicou a ajudar seu"
+.byte NewLine
+.text "novo senhor à restaurar a"
+.byte NewLine
+.text "terra arrasada pela"
+.byte NewLine
+.text "guerra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1714,33 +1667,19 @@ fredepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "There, he spent all"
+.text "Futuramente, ele acabou"
 .byte NewLine
-.text "of his strength helping"
+.text "por se casar com uma"
 .byte NewLine
-.text "the new, young lord"
+.text "nobre próxima do círculo"
 .byte NewLine
-.text "rebuild the war-torn land."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "He went on to marry"
+.text "interior de Friege,"
 .byte NewLine
-.text "a young noblewoman"
+.text "embora a diferença de"
 .byte NewLine
-.text "with close ties to House"
+.text "idade entre eles tenha"
 .byte NewLine
-.text "Friege's inner circle,"
-.byte NewLine
-.text "though the difference"
-.byte NewLine
-.text "in their age made him"
-.byte NewLine
-.text "the butt of many jokes."
+.text "gerado muitas piadas."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1752,11 +1691,19 @@ olwenepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the war,"
+.text "Depois da guerra, Olwen"
 .byte NewLine
-.text "Olwen returned home to"
+.text "voltou para sua pátria,"
 .byte NewLine
-.text "the Dukedom of Friege."
+.text "o Ducado de Friege, onde"
+.byte NewLine
+.text "se dedicou a ajudar seu"
+.byte NewLine
+.text "novo senhor à restaurar a"
+.byte NewLine
+.text "terra arrasada pela"
+.byte NewLine
+.text "guerra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1764,13 +1711,13 @@ olwenepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "There, she spent all"
+.text "Porém, toda vez que ela"
 .byte NewLine
-.text "of her strength helping"
+.text "pensava no destino"
 .byte NewLine
-.text "the new, young lord"
+.text "lamentável de seu irmão,"
 .byte NewLine
-.text "rebuild her family's land."
+.text "ficava furiosa."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1778,31 +1725,15 @@ olwenepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Whenever she thought"
+.text "Talvez por causa disso,"
 .byte NewLine
-.text "of her brother Reinhardt,"
+.text "ela tenha optado por se"
 .byte NewLine
-.text "she was overwhelmed"
+.text "casar com um homem mais"
 .byte NewLine
-.text "by an odd mixture"
+.text "comum, para a surpresa"
 .byte NewLine
-.text "of pity and anger."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "Because of that history,"
-.byte NewLine
-.text "she went on to choose a"
-.byte NewLine
-.text "rather unremarkable man"
-.byte NewLine
-.text "to be her husband, to the"
-.byte NewLine
-.text "astonishment of all."
+.text "de todos."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1814,13 +1745,13 @@ cedepi
 .byte $09
 .word $1200
 .byte $04
-.text "Upon returning to Silesse,"
+.text "Após voltar para Silesse,"
 .byte NewLine
-.text "Ced at last took the"
+.text "Ced enfim assumiu o trono,"
 .byte NewLine
-.text "throne, as the people"
+.text "coisa que o seu povo há"
 .byte NewLine
-.text "had longed for him to do."
+.text "muito já queria."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1828,15 +1759,15 @@ cedepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "With his indomitable"
+.text "Graças a sua determinação"
 .byte NewLine
-.text "spirit and tireless work"
+.text "e seu trabalho incansável,"
 .byte NewLine
-.text "ethic, the war-torn"
+.text "logo Silesse recuperou"
 .byte NewLine
-.text "Silesse slowly regained"
+.text "a beleza que havia"
 .byte NewLine
-.text "its former beauty."
+.text "perdido."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1848,15 +1779,15 @@ lithisepi
 .byte $09
 .word $1200
 .byte $04
-.text "Lifis was one of the"
+.text "Lifis foi um dos muitos"
 .byte NewLine
-.text "many to earn a post as a"
+.text "que ganharam cargos"
 .byte NewLine
-.text "government official, and"
+.text "públicos, e ele serviu"
 .byte NewLine
-.text "served as one for a short"
+.text "num deles por um tempo,"
 .byte NewLine
-.text "time before vanishing."
+.text "antes de desaparecer."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1864,15 +1795,15 @@ lithisepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "During his time in office,"
+.text "No seu tempo de serviço,"
 .byte NewLine
-.text "the Kerberos garrison"
+.text "a guarnição de Kérbero"
 .byte NewLine
-.text "wiped out the pirates still"
+.text "eliminou os piratas que"
 .byte NewLine
-.text "hiding in the Corsair Isles"
+.text "ainda restavam na região"
 .byte NewLine
-.text "and other nearby islands."
+.text "das Ilhas Corsárias."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1880,13 +1811,11 @@ lithisepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "After that resounding"
+.text "Depois dessa grande"
 .byte NewLine
-.text "victory, Lifis simply"
+.text "vitória, Lifis sumiu sem"
 .byte NewLine
-.text "disappeared from the"
-.byte NewLine
-.text "pages of history."
+.text "deixar vestígios."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1898,15 +1827,13 @@ karinepi
 .byte $09
 .word $1200
 .byte $04
-.text "Returning to her native"
+.text "Karin voltou para Silesse"
 .byte NewLine
-.text "Silesse, Karin finally"
+.text "e realizou seu sonho de"
 .byte NewLine
-.text "fulfilled her dream"
+.text "se juntar à Ordem de"
 .byte NewLine
-.text "of joining the Order"
-.byte NewLine
-.text "of Pegasus Knights."
+.text "Cavaleiras de Pégaso."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1914,23 +1841,19 @@ karinepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Although her service"
+.text "Apesar dos registros de"
 .byte NewLine
-.text "record doesn't indicate"
+.text "seu serviço não indicarem"
 .byte NewLine
-.text "she went on to do"
+.text "ela ter feito nada"
 .byte NewLine
-.text "anything particularly"
+.text "particularmente"
 .byte NewLine
-.text "noteworthy, Karin"
+.text "excepcional, ela ainda"
 .byte NewLine
-.text "nevertheless became"
+.text "foi para a história como"
 .byte NewLine
-.text "regarded as an excellent"
-.byte NewLine
-.text "Pegasus Knight"
-.byte NewLine
-.text "in her own right."
+.text "uma excelente cavaleira."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1942,15 +1865,15 @@ deanepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the war's end,"
+.text "Depois do fim da guerra,"
 .byte NewLine
-.text "Dean escorted"
+.text "Dean escoltou o ferido"
 .byte NewLine
-.text "the wounded Arion"
+.text "Príncipe Arion de volta"
 .byte NewLine
-.text "to the former region"
+.text "para a região do antigo"
 .byte NewLine
-.text "of South Thracia."
+.text "Reino da Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1958,31 +1881,17 @@ deanepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Continuing to watch over"
+.text "Posteriormente, ele se"
 .byte NewLine
-.text "him, Dean was later"
+.text "tornou novamente uma"
 .byte NewLine
-.text "appointed the head of"
+.text "figura notável, como"
 .byte NewLine
-.text "the reborn Dracoknights"
+.text "primeiro comandante dos"
 .byte NewLine
-.text "of Thracia."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "A few years later,"
+.text "renovados Dragões da"
 .byte NewLine
-.text "he reentered the stage"
-.byte NewLine
-.text "of world politics,"
-.byte NewLine
-.text "his new post elevating"
-.byte NewLine
-.text "him to a key role."
+.text "Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1994,13 +1903,13 @@ shanamepi
 .byte $09
 .word $1200
 .byte $04
-.text "Of no use to the New"
+.text "Sem muita utilidade para"
 .byte NewLine
-.text "Kingdom of Thracia,"
+.text "o Reino da Nova Trácia,"
 .byte NewLine
-.text "Shannam returned"
+.text "Shannam resolveu voltar"
 .byte NewLine
-.text "to his native Isaach."
+.text "para sua pátria, Isaach."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2008,15 +1917,13 @@ shanamepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "He quickly discovered"
+.text "Logo ele descobriu que"
 .byte NewLine
-.text "that he was ill-suited"
+.text "não servia pra ser"
 .byte NewLine
-.text "to the life of a sellsword,"
+.text "um mercenário, e resolveu"
 .byte NewLine
-.text "and gave it up in favor"
-.byte NewLine
-.text "of leading an honest life."
+.text "assumir uma vida honesta."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2028,15 +1935,15 @@ trudeepi
 .byte $09
 .word $1200
 .byte $04
-.text "Immediately after the"
+.text "Immediatamente após o fim"
 .byte NewLine
-.text "war's end, Trude slipped"
+.text "da guerra, Trude fugiu em"
 .byte NewLine
-.text "away in all the confusion."
+.text "meio às celebrações."
 .byte NewLine
-.text "Nearby witnesses claim"
+.text "Alguns dizem que ele"
 .byte NewLine
-.text "he vanished into thin air."
+.text "sumiu de repente."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2044,15 +1951,15 @@ trudeepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Little is known for"
+.text "Pouco se sabe sobre o"
 .byte NewLine
-.text "certain, but several"
+.text "que ele fez depois, mas"
 .byte NewLine
-.text "legends state that he"
+.text "reza a lenda que ele"
 .byte NewLine
-.text "returned to his old life"
+.text "voltou à vida de"
 .byte NewLine
-.text "as a sellsword."
+.text "mercenário."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2064,13 +1971,13 @@ tanyaepi
 .byte $09
 .word $1200
 .byte $04
-.text "After moving to Fiana,"
+.text "Depois de se mudar para"
 .byte NewLine
-.text "Tanya married,"
+.text "Fiana, Tânia se casou, e"
 .byte NewLine
-.text "and was blessed"
+.text "foi abençoada com muitos"
 .byte NewLine
-.text "with many children."
+.text "filhos."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2078,15 +1985,17 @@ tanyaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Owing to her honest and"
+.text "Seguindo sua natureza"
 .byte NewLine
-.text "open-hearted nature,"
+.text "honesta e acolhedora,"
 .byte NewLine
-.text "she quickly became a"
+.text "ela acabava sempre se"
 .byte NewLine
-.text "busybody, albeit a"
+.text "intromentendo nos"
 .byte NewLine
-.text "well-intentioned one."
+.text "problemas dos outros,"
+.byte NewLine
+.text "sempre com boas intenções."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2094,15 +2003,15 @@ tanyaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "She made it her business"
+.text "Ela sempre estava apta à"
 .byte NewLine
-.text "to help everyone, and"
+.text "ajudar, e todos de Fiana"
 .byte NewLine
-.text "over time, the villagers"
+.text "passaram a confiar nela"
 .byte NewLine
-.text "came to rely on her just"
+.text "como se fosse parte de"
 .byte NewLine
-.text "as they would a relative."
+.text "suas famílias."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2114,11 +2023,11 @@ linoanepi
 .byte $09
 .word $1200
 .byte $04
-.text "Linoan returned to Tahra"
+.text "Linoan voltou para Tarrah"
 .byte NewLine
-.text "and set about rebuilding"
+.text "e liderou a reconstrução"
 .byte NewLine
-.text "the war-torn city."
+.text "da cidade."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2126,15 +2035,17 @@ linoanepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "She guided Tahra"
+.text "Ela levou Tarrah à um"
 .byte NewLine
-.text "into an unprecedented"
+.text "período de prosperidade"
 .byte NewLine
-.text "era of prosperity,"
+.text "sem precedentes, e usou"
 .byte NewLine
-.text "secretly using her wealth"
+.text "sua fortuna para ajudar"
 .byte NewLine
-.text "to support Leif's reign."
+.text "o reinado de Leif em"
+.byte NewLine
+.text "segredo."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2142,27 +2053,13 @@ linoanepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Despite being praised"
+.text "Embora muito bonita, ela"
 .byte NewLine
-.text "for her beauty"
+.text "não chegou a se casar,"
 .byte NewLine
-.text "throughout her life,"
+.text "o que foi motivo de muitas"
 .byte NewLine
-.text "she never married."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "Her marital status—"
-.byte NewLine
-.text "or lack thereof—"
-.byte NewLine
-.text "became the subject"
-.byte NewLine
-.text "of constant gossip."
+.text "fofocas em seu entorno."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2174,15 +2071,13 @@ mishaepi
 .byte $09
 .word $1200
 .byte $04
-.text "Misha returned to"
+.text "Misha voltou para Silesse,"
 .byte NewLine
-.text "Silesse, where she was"
+.text "onde foi bem recebida de"
 .byte NewLine
-.text "welcomed back by"
+.text "volta pela Ordem de"
 .byte NewLine
-.text "the Order of Pegasus"
-.byte NewLine
-.text "Knights with open arms."
+.text "Cavaleiras de Pégaso."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2190,13 +2085,15 @@ mishaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "In the subsequent war to"
+.text "Na seguinte guerra para"
 .byte NewLine
-.text "liberate Silesse, she was"
+.text "libertar Silesse, ela"
 .byte NewLine
-.text "honored many times for"
+.text "muitas vezes recebeu"
 .byte NewLine
-.text "her valor in battle."
+.text "honras pelo seu mérito"
+.byte NewLine
+.text "em combate."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2204,15 +2101,11 @@ mishaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Afterward, she was"
+.text "Depois, ela foi nomeada"
 .byte NewLine
-.text "named Commander of"
+.text "Capitã das novas gerações"
 .byte NewLine
-.text "the next generation of"
-.byte NewLine
-.text "the Order of Pegasus"
-.byte NewLine
-.text "Knights."
+.text "da Ordem."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2220,15 +2113,17 @@ mishaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "To her superiors, she"
+.text "Sua integridade e"
 .byte NewLine
-.text "was a capable and fair"
+.text "habilidade de comando lhe"
 .byte NewLine
-.text "Commander, and to her"
+.text "renderam respeito tanto"
 .byte NewLine
-.text "subordinates, she was a"
+.text "entre suas superiores"
 .byte NewLine
-.text "kind and popular leader."
+.text "quanto entre suas"
+.byte NewLine
+.text "subordinadas."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2240,15 +2135,17 @@ salemepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the war's end,"
+.text "Após o fim da guerra,"
 .byte NewLine
-.text "Salem moved to a rural"
+.text "Salem se mudou para uma"
 .byte NewLine
-.text "area and became a"
+.text "região afastada, visando"
 .byte NewLine
-.text "recluse. He recorded the"
+.text "uma vida reclusa, e então"
 .byte NewLine
-.text "story of his life in writing."
+.text "escreveu um relato"
+.byte NewLine
+.text "de sua vida."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2256,15 +2153,11 @@ salemepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "His memoirs told"
+.text "Ele pôs no papel a vida"
 .byte NewLine
-.text "the tale of a man who"
+.text "de um homem que foi parte"
 .byte NewLine
-.text "had once been a member"
-.byte NewLine
-.text "of the infamous"
-.byte NewLine
-.text "Loptr Church."
+.text "da infame Igreja de Loptr."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2272,15 +2165,15 @@ salemepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "To historians, they were"
+.text "Para os historiadores,"
 .byte NewLine
-.text "an invaluable resource,"
+.text "suas memórias logo se"
 .byte NewLine
-.text "offering a rare glimpse"
+.text "tornaram uma fonte"
 .byte NewLine
-.text "into the inner workings"
+.text "importantíssima sobre"
 .byte NewLine
-.text "of Loptrian society."
+.text "como a Igreja funcionava."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2292,15 +2185,17 @@ schroffepi
 .byte $09
 .word $1200
 .byte $04
-.text "Schroff never did return"
+.text "Schroff não chegou à"
 .byte NewLine
-.text "to the Tower of Bragi."
+.text "voltar para a Torre"
 .byte NewLine
-.text "Instead, he wandered"
+.text "de Bragi. Ao invés disso,"
 .byte NewLine
-.text "Jugdral, spreading the"
+.text "ele viajou por Jugdral,"
 .byte NewLine
-.text "teachings of Edda."
+.text "espalhando os"
+.byte NewLine
+.text "ensinamentos de Edda."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2308,15 +2203,15 @@ schroffepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "His missionary work"
+.text "Seu trabalho missionário"
 .byte NewLine
-.text "was noticed by other"
+.text "motivou outros sacerdotes"
 .byte NewLine
-.text "Bragian priests, and his"
+.text "de Bragi a fazerem o"
 .byte NewLine
-.text "earnest efforts motivated"
+.text "mesmo."
 .byte NewLine
-.text "them to follow suit."
+
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2324,15 +2219,15 @@ schroffepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Due to the movement,"
+.text "Graças aos esforços"
 .byte NewLine
-.text "the Church of Edda"
+.text "deles, a Igreja de"
 .byte NewLine
-.text "once more became"
+.text "Edda voltou a ser a"
 .byte NewLine
-.text "the dominant religion"
+.text "religião dominante"
 .byte NewLine
-.text "of the land."
+.text "do continente."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2344,19 +2239,17 @@ mareetaepi
 .byte $09
 .word $1200
 .byte $04
-.text "Still ashamed of her lack"
+.text "Ainda envergonhada com"
 .byte NewLine
-.text "of discipline for having"
+.text "a sua falha em resistir"
 .byte NewLine
-.text "been possessed"
+.text "à possessão da Espada"
 .byte NewLine
-.text "by the Shadow Sword,"
+.text "Maldita, Mareeta partiu"
 .byte NewLine
-.text "Mareeta embarked"
+.text "sozinha em uma jornada"
 .byte NewLine
-.text "on a journey to train and"
-.byte NewLine
-.text "better herself—alone."
+.text "para treinar a si mesma."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2364,15 +2257,13 @@ mareetaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Before long, she grew"
+.text "Em pouco tempo, ela se"
 .byte NewLine
-.text "into a formidable"
+.text "tornou uma espadachim"
 .byte NewLine
-.text "swordswoman, one"
+.text "excepcional, conhecida"
 .byte NewLine
-.text "whose name was known"
-.byte NewLine
-.text "throughout the continent."
+.text "por todo o continente."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2380,15 +2271,15 @@ mareetaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "But no matter how"
+.text "Mas não importa o quanto"
 .byte NewLine
-.text "well-known she became,"
+.text "ela melhorava, sempre"
 .byte NewLine
-.text "she would always say,"
+.text "respondia aos elogios"
 .byte NewLine
-.text "“I'm nothing compared"
+.text "dizendo que não era nada"
 .byte NewLine
-.text "to my mother.”"
+.text "se comparada à sua mãe."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2400,15 +2291,15 @@ tinaepi
 .byte $09
 .word $1200
 .byte $04
-.text "Even after everything she"
+.text "Mesmo depois de tudo pelo"
 .byte NewLine
-.text "had been through, upon"
+.text "qual ela passou, após"
 .byte NewLine
-.text "returning to Tahra, Tina"
+.text "voltar para Tarrah, Tina"
 .byte NewLine
-.text "remained just as rash"
+.text "continuou agitada e"
 .byte NewLine
-.text "and impulsive as before."
+.text "impulsiva como antes."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2416,13 +2307,11 @@ tinaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Did she ever settle down"
+.text "Será que algum dia ela"
 .byte NewLine
-.text "and become less wild?"
+.text "sossegou? Infelizmente,"
 .byte NewLine
-.text "Disappointingly, the"
-.byte NewLine
-.text "history books don't say."
+.text "não sabemos."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2434,15 +2323,13 @@ amaldaepi
 .byte $09
 .word $1200
 .byte $04
-.text "Amalda returned to"
+.text "Amalda voltou para o"
 .byte NewLine
-.text "the Dukedom of Friege,"
+.text "Ducado de Friege,"
 .byte NewLine
-.text "and devoted herself"
+.text "e se dedicou à sua"
 .byte NewLine
-.text "to restoring it"
-.byte NewLine
-.text "to its former glory."
+.text "reconstrução."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2450,15 +2337,17 @@ amaldaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "House Friege's disastrous"
+.text "O Ducado estava à beira"
 .byte NewLine
-.text "rule of North Thracia"
+.text "da ruína, após a perda de"
 .byte NewLine
-.text "had depleted most of"
+.text "sua família real nas"
 .byte NewLine
-.text "their manpower and"
+.text "guerras decorrentes"
 .byte NewLine
-.text "ruined their family land."
+.text "da ocupação da Trácia"
+.byte NewLine
+.text "Setentrional."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2466,15 +2355,15 @@ amaldaepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "However, as the years"
+.text "Porém, o trabalho"
 .byte NewLine
-.text "went by, Amalda's"
+.text "incansável de Amalda"
 .byte NewLine
-.text "tireless work gradually"
+.text "gradualmente restaurou"
 .byte NewLine
-.text "returned the land to"
+.text "a beleza e prosperidade"
 .byte NewLine
-.text "its once-beautiful state."
+.text "de sua terra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2486,25 +2375,15 @@ conomorepi
 .byte $09
 .word $1200
 .byte $04
-.text "Conomor resigned"
+.text "Conomor renunciou à seu"
 .byte NewLine
-.text "his post as a knight."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "Afterward, he moved"
+.text "status de cavaleiro e se"
 .byte NewLine
-.text "into a modest home"
+.text "mudou para uma pequena"
 .byte NewLine
-.text "on the outskirts of Ulster,"
+.text "casa nos arredores de"
 .byte NewLine
-.text "where he lived out his"
-.byte NewLine
-.text "days in peace and quiet."
+.text "Úlster."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2516,13 +2395,17 @@ homerepi
 .byte $09
 .word $1200
 .byte $04
-.text "Homer toured the"
+.text "Após a guerra, Homero"
 .byte NewLine
-.text "entirety of Thracia,"
+.text "se pôs a viajar pela"
 .byte NewLine
-.text "performing in every city,"
+.text "Trácia, parando em toda"
 .byte NewLine
-.text "big or small."
+.text "cidade, grande ou pequena,"
+.byte NewLine
+.text "para cantar odes à"
+.byte NewLine
+.text "heróica saga de Leif."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2530,27 +2413,15 @@ homerepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Everywhere he went,"
+.text "Sua canção, baseada na"
 .byte NewLine
-.text "he sang the heroic saga"
+.text "sua experiência em seu"
 .byte NewLine
-.text "of Leif."
-.word PauseDialogue
-.byte $5A
-.byte $0F
-.byte $40
-.byte ScrollText
-.byte $0F
-.byte $10
-.text "Based on his first-hand"
+.text "exército, se tornou"
 .byte NewLine
-.text "experience in Leif's army,"
+.text "importante símbolo da"
 .byte NewLine
-.text "his song was universally"
-.byte NewLine
-.text "beloved, and became a"
-.byte NewLine
-.text "staple of Thracian culture."
+.text "cultura da Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2562,13 +2433,13 @@ dermottepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the war's end,"
+.text "Após o fim da guerra,"
 .byte NewLine
-.text "Diarmuid departed for"
+.text "Diarmuid foi para"
 .byte NewLine
-.text "Agustria with his cousin,"
+.text "Agustria com seu primo,"
 .byte NewLine
-.text "Prince Ares."
+.text "o Príncipe Ares."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2576,13 +2447,13 @@ dermottepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Their combined"
+.text "Graças à seus esforços,"
 .byte NewLine
-.text "efforts led to an era"
+.text "Agustria foi unificado e"
 .byte NewLine
-.text "of unprecedented growth"
+.text "levada a um período de"
 .byte NewLine
-.text "for their motherland."
+.text "grande prosperidade."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2594,11 +2465,11 @@ sarahepi
 .byte $09
 .word $1200
 .byte $04
-.text "Sara quietly removed"
+.text "Sara discretamente se"
 .byte NewLine
-.text "herself from the"
+.text "retirou do olhar público"
 .byte NewLine
-.text "public eye after the war."
+.text "depois da guerra."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2606,15 +2477,13 @@ sarahepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "According to several"
+.text "Reza a lenda que ela"
 .byte NewLine
-.text "legends, she was placed"
+.text "apenas viveu uma vida"
 .byte NewLine
-.text "under Leif's protection,"
+.text "tranquila e feliz, sob"
 .byte NewLine
-.text "and lived a humble"
-.byte NewLine
-.text "yet spiritually-rich life."
+.text "a proteção de Leif."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2626,15 +2495,13 @@ saiasepi
 .byte $09
 .word $1200
 .byte $04
-.text "Saias returned"
+.text "Saias voltou às terras"
 .byte NewLine
-.text "to the family lands"
+.text "da casa de Velthomer, e"
 .byte NewLine
-.text "of House Velthomer,"
+.text "se pôs à serviço de sua"
 .byte NewLine
-.text "and dedicated himself"
-.byte NewLine
-.text "to rebuilding them."
+.text "reconstrução."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2642,15 +2509,17 @@ saiasepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "His talents were noticed"
+.text "Seus talentos foram"
 .byte NewLine
-.text "by Holy King Seliph,"
+.text "percebidos pelo Rei"
 .byte NewLine
-.text "who recruited him to"
+.text "Seliph, que o recrutou"
 .byte NewLine
-.text "help rebuild the Kingdom"
+.text "para ajudá-lo na"
 .byte NewLine
-.text "of Grannvale as well."
+.text "reconstrução do Reino de"
+.byte NewLine
+.text "Grannvale."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2662,11 +2531,11 @@ galzusepi
 .byte $09
 .word $1200
 .byte $04
-.text "After the liberation"
+.text "Depois da batalha em"
 .byte NewLine
-.text "of Munster, Galzus"
+.text "Munster, Galzus"
 .byte NewLine
-.text "simply vanished."
+.text "desapareceu."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2674,15 +2543,13 @@ galzusepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "There is no further"
+.text "Nenhuma fonte histórica"
 .byte NewLine
-.text "mention of him,"
+.text "confiável traz menção"
 .byte NewLine
-.text "good or bad, in any"
+.text "sobre ele depois disso,"
 .byte NewLine
-.text "reputable historical"
-.byte NewLine
-.text "source."
+.text "seja ela boa ou ruim."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2690,15 +2557,15 @@ galzusepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Perhaps he disappeared"
+.text "Não sabemos se ele apenas"
 .byte NewLine
-.text "into the night, or perhaps"
+.text "se escondeu bem, ou"
 .byte NewLine
-.text "his existence was"
+.text "se sua existência"
 .byte NewLine
-.text "deliberately covered-up."
+.text "foi deliberadamente"
 .byte NewLine
-.text "There's no way to know."
+.text "ocultada."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2710,15 +2577,15 @@ iliosepi
 .byte $09
 .word $1200
 .byte $04
-.text "In the New Kingdom"
+.text "Pouco depois da fundação"
 .byte NewLine
-.text "of Thracia, Ilios at last"
+.text "do Reino da Nova Trácia,"
 .byte NewLine
-.text "achieved his dream"
+.text "Ilios finalmente alcançou"
 .byte NewLine
-.text "when he was granted"
+.text "seu sonho de obter"
 .byte NewLine
-.text "a title of nobility."
+.text "um título de nobreza."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2726,15 +2593,17 @@ iliosepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "However, the mighty"
+.text "Porém, sua habilidade"
 .byte NewLine
-.text "warrior's skills were"
+.text "como guerreiro não se"
 .byte NewLine
-.text "ill-suited for peacetime,"
+.text "traduziu em habilidade"
 .byte NewLine
-.text "and his government post"
+.text "como burocrata, e as"
 .byte NewLine
-.text "ended in disaster."
+.text "terras que governava"
+.byte NewLine
+.text "acabaram arruinadas."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2742,15 +2611,17 @@ iliosepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "He mismanaged his"
+.text "Ele não foi punido"
 .byte NewLine
-.text "district into ruin, though"
+.text "devido a seu serviço"
 .byte NewLine
-.text "he was spared from"
+.text "na guerra, mas depois"
 .byte NewLine
-.text "punishment because of"
+.text "disso, ele foi"
 .byte NewLine
-.text "his service in the war."
+.text "forçadamente transferido"
+.byte NewLine
+.text "para um cargo simbólico."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2758,19 +2629,19 @@ iliosepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Reassigned to a"
+.text "Seus desastres recentes"
 .byte NewLine
-.text "symbolic, do-nothing"
+.text "não lhe impediam de"
 .byte NewLine
-.text "post, he would often"
+.text "perturbar seus"
 .byte NewLine
-.text "corner his subordinates"
+.text "subordinados várias"
 .byte NewLine
-.text "and force them to listen"
+.text "vezes com as mesmas"
 .byte NewLine
-.text "to the same stories"
+.text "histórias de seus dias"
 .byte NewLine
-.text "of his bygone glory days."
+.text "de glória." ; o palmeirense quando fala do gol do deyverson (2026)
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2782,13 +2653,13 @@ xavierepi
 .byte $09
 .word $1200
 .byte $04
-.text "Xavier devoted himself"
+.text "Xavier se dedicou"
 .byte NewLine
-.text "to the establishment"
+.text "completamente à apoiar"
 .byte NewLine
-.text "of Leif's New Kingdom"
+.text "Leif na construção do"
 .byte NewLine
-.text "of Thracia."
+.text "Reino da Nova Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2796,15 +2667,17 @@ xavierepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "A man of ample"
+.text "Com sua grande"
 .byte NewLine
-.text "experience and"
+.text "experiência e"
 .byte NewLine
-.text "knowledge, his advice"
+.text "conhecimento, ele era"
 .byte NewLine
-.text "always identified"
+.text "sempre capaz de"
 .byte NewLine
-.text "the root of a problem."
+.text "identificar a raiz de um"
+.byte NewLine
+.text "problema."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2812,15 +2685,15 @@ xavierepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "While the New Kingdom"
+.text "Nos primeiros momentos"
 .byte NewLine
-.text "of Thracia's government"
+.text "do Reino, seu conselho"
 .byte NewLine
-.text "was still developing,"
+.text "foi de enorme ajuda para"
 .byte NewLine
-.text "younger staff found his"
+.text "os funcionários públicos"
 .byte NewLine
-.text "counsel invaluable."
+.text "mais jovens."
 .word PauseDialogue
 .byte $5A
 .byte $0F

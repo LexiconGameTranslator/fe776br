@@ -125,7 +125,7 @@ dialogueChapter22Title
 ; dialogueChapter22xTitle
 
 dialogueChapter23Title
-.text "Capítulo 23: O Castelo do Bandido"
+.text "Capítulo 23: O Castelo do Traidor"
 .byte $01
 
 dialogueChapter24Title
