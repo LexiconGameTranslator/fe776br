@@ -178,7 +178,7 @@ dialogueChapter18Villager2
 .byte NewLine
 .text "aqui agora."
 .byte NewLine
-.text "Vamos para casa"
+.text "Vamos para casa, querida."
 .byte WaitForA
 
 .byte EndText
@@ -223,14 +223,17 @@ dialogueChapter18Villager4
 .word $0099	;blue young lady portrait
 .text "Pare! Abaixe as armas!"
 .byte NewLine
-.text "Estou aqui! Não tem mais que lutar"
+.text "Estou bem! Não tem mais que lutar"
 .byte NewLine
 .text "pelo Império!"
 .byte WaitForA
 
 .byte Right_Slot
-.text "Eu tinha medo de nunca mais te ver!"
+.text "Você tá bem?! Graças aos deuses!"
 .byte NewLine
+.text "Pensei que nunca mais ia te ver..."
+.byte NewLine
+.text "Vamos dar o fora daqui, amor!"
 .byte WaitForA
 
 .byte EndText
