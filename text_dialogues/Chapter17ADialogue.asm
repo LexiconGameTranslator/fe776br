@@ -12,6 +12,8 @@ dialogueChapter17AMullerSpawn
 .word LoadPortrait
 .word guard_portrait
 
+.byte Right_Slot
+.byte ScrollText
 .byte NewLine
 .text "Diga ao resto dos homens para atacar"
 .byte NewLine
@@ -31,7 +33,7 @@ dialogueChapter17AMullerSpawn
 .text "a Princesa Ishtar."
 .byte WaitForA
 .byte ScrollText
-.text "Eu não sei dos detalhes, mas Vossa Alteza"
+.text "Eu não sei dos detalhes, mas Sua Alteza"
 .byte NewLine
 .text "estava agindo de forma estranha..."
 .byte WaitForA
@@ -72,9 +74,9 @@ dialogueChapter17AMullerSpawn
 
 .byte Right_Slot
 .byte ScrollText
-.text "Infelizmente, seja como for, isso vai"
+.text "Infelizmente, seja qual for o motivo,"
 .byte NewLine
-.text "dificultar as coisas para nós..."
+.text "isso vai dificultar as coisas para nós..."
 .byte WaitForA
 
 .byte EndText
