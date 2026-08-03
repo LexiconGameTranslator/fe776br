@@ -150,7 +150,7 @@ dialogueChapter18Villager1
 .byte Right_Slot
 .text "V-você está bem!"
 .byte NewLine
-.text "Pegue a minha mão, querid.—"
+.text "Pegue a minha mão, queridam"
 .byte NewLine
 .text "Eu vou te levar pra casa."
 .byte WaitForA
