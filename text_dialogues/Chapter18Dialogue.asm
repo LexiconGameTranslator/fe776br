@@ -451,7 +451,7 @@ dialogueChapter18Opening1
 .byte ScrollText
 .text "Ah..."
 .byte NewLine
-.text "Bem engraçado. Sério."
+.text "Bem engraçado. Mesmo."
 .byte WaitForA
 .byte ScrollText
 .text "Mas, nem se compara com a piada maior"
@@ -551,7 +551,7 @@ dialogueChapter18Opening2
 .byte NewLine
 .text "familiares estão em segurança, serão"
 .byte NewLine
-.text "tranquilizados, e juntem-se a nós."
+.text "tranquilizados, e virão para nosso lado."
 .byte WaitForA
 .byte ScrollText
 .text "Mas cuide para que eles não sejam mortos."
