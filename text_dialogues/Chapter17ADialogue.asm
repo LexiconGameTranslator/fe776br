@@ -380,7 +380,7 @@ dialogueChapter17ASaiasIshtar
 .byte ScrollText
 .text "Nem mesmo ao Arcebispo Manfroy?"
 .byte NewLine
-.text "Mas porque isso?"
+.text "Mas por que não?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -397,9 +397,9 @@ dialogueChapter17ASaiasIshtar
 .byte ScrollText
 .text "...Eu entendo."
 .byte NewLine
-.text "Vou ver se posso fazer alguma coisa"
+.text "Vou ver se posso fazer alguma coisa."
 .byte NewLine
-.text "Onde está Vossa Alteza?"
+.text "Onde está Sua Alteza?"
 .byte WaitForA
 
 .byte Left_Slot
@@ -435,7 +435,7 @@ dialogueChapter17AMishaKarin
 .byte NewLine
 .text "éramos exatamente amigos do Império!"
 .byte NewLine
-.text "Porquê está lutando por eles?!"
+.text "Por que está lutando por eles?!"
 .byte WaitForA
 
 .byte Right_Slot
@@ -510,9 +510,9 @@ dialogueChapter17ARescueHouse
 .text "suas tropas acabarem separadas."
 .byte WaitForA
 .byte ScrollText
-.text "Se isso acontecer, talvez este cajado de"
+.text "Se isso acontecer, talvez este cajado"
 .byte NewLine
-.text "Resgatar possa te ajudar."
+.text "possa te ajudar."
 .byte WaitForA
 
 .byte EndText
@@ -739,7 +739,7 @@ dialogueChapter17AOpening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Ele mesmo!"
+.text "O próprio, General!"
 .byte NewLine
 .text "A mensagem que recebemos disse que"
 .byte NewLine
@@ -896,7 +896,7 @@ dialogueChapter17AOpening3
 
 .byte Right_Slot
 .byte ScrollText
-.text "Então porque não dividimos nossas forças"
+.text "Então por que não dividimos nossas forças"
 .byte NewLine
 .text "e os atacamos primeiro?"
 .byte WaitForA
