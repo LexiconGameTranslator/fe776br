@@ -45,7 +45,7 @@ dialogueChapter18XavierRecruitment
 .byte NewLine
 .text "somente seguiram as minhas ordens."
 .byte NewLine
-.text "Erraram apenas em ter me seguido."
+.text "Erraram apenas em tê-las seguido."
 .byte WaitForA
 .byte ScrollText
 .text "Eu lhe imploro, Príncipe, perdoe-os..."
@@ -108,7 +108,7 @@ dialogueChapter18XavierRecruitment
 .byte ScrollText
 .text "O Príncipe precisa de homens como você,"
 .byte NewLine
-.text "Xavier. É hora de voltar para sua casa."
+.text "Xavier. É hora de voltar ao seu dever."
 .byte WaitForA
 .byte NewLine
 .text "Voltar a servir Leonster, e seu soberano"
@@ -707,7 +707,7 @@ dialogueChapter18Closing3Miranda
 
 .byte Left_Slot
 .byte ScrollText
-.text "O povo vai fazer uma rebelião, mas eles"
+.text "O povo vai se rebelar, mas eles"
 .byte NewLine
 .text "vão ser destruídos se não os ajudarmos."
 .byte NewLine
@@ -777,7 +777,7 @@ dialogueChapter18Closing4
 .byte NewLine
 .text "aguentava mais a opressão do Império,"
 .byte NewLine
-.text "e então começou uma rebelião."
+.text "e nos rebelamos."
 .byte WaitForA
 
 .byte Right_Slot
@@ -921,14 +921,16 @@ dialogueChapter18Closing5
 .byte ScrollText
 .word LoadPortrait
 .word dorius_portrait
-.text "...Muito bem, milorde. Iremos à Úlster"
+.text "...Muito bem, Príncipe."
+.byte NewLine
+.text "Iremos em socorro de Úlster."
 .byte WaitForA
 .byte ScrollText
-.text "Eu irei levar metade de nosso exército"
+.text "Nesse caso, levarei metade de nosso"
 .byte NewLine
-.text "como uma vanguarda. Venha com a outra"
+.text "exército como uma vanguarda. Venha com"
 .byte NewLine
-.text "metade pela manhã, Príncipe."
+.text "a outra pela manhã, Príncipe."
 .byte WaitForA
 .byte ScrollText
 
@@ -952,7 +954,7 @@ dialogueChapter18Closing5
 .byte ScrollText
 .text "Não. Dórias, permita que eu"
 .byte NewLine
-.text "lidere vanguarda."
+.text "lidere a vanguarda."
 .byte WaitForA
 
 .byte Left_Slot
@@ -1003,7 +1005,7 @@ dialogueChapter18Closing5
 .byte ScrollText
 .text "Olhe em sua volta!"
 .byte NewLine
-.text "Estão todos dormindo."
+.text "Estão todos caídos ao chão."
 .byte WaitForA
 .byte ScrollText
 .text "Mas, sei que se deres a ordem, eles irão"
@@ -1159,7 +1161,7 @@ dialogueChapter18Soldiers
 .byte NewLine
 .text "também salvou a nós, simples soldados!"
 .byte NewLine
-.text "Even though we ain't nobles or anything!"
+.text "Mesmo a gente não sendo gente importante!"
 .byte WaitForA
 .byte ScrollText
 .text "Sendo assim, nós queremos lhe dar isto."
