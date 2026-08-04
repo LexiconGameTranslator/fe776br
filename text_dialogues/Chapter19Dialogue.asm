@@ -471,7 +471,7 @@ dialogueChapter19HealHouse
 .text "para tentar acabar com vocês de vez..."
 .byte WaitForA
 .byte ScrollText
-.text "certamente vários de seus companheiros"
+.text "Certamente vários de seus companheiros"
 .byte NewLine
 .text "devem estar machucados. Eu espero que este"
 .byte NewLine
@@ -486,7 +486,7 @@ dialogueChapter19EnsorcelHouse
 .byte Right_Slot
 .word LoadPortrait
 .word younglady_portrait
-.text "O exército Imperial"
+.text "O Exército Imperial"
 .byte NewLine
 .text "parece estar vindo com tudo agora..."
 .byte NewLine
@@ -733,7 +733,7 @@ dialogueChapter19Opening3Amalda
 .byte Right_Slot
 .word LoadPortrait
 .word amalda_portrait
-.text "Eu tenho um dever para com meus soldados,"
+.text "Eu tenho um dever para com minhas soldadas,"
 .byte NewLine
 .text "mas... será que estou no caminho certo?"
 .byte WaitForA
