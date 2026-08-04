@@ -260,10 +260,12 @@ dialogueChapter21Opening1
 .byte ScrollText
 .word LoadPortrait
 .word julia_portrait
-.text "Eu estarei orando por ti, Príncipe Leif"
+.text "Eu estarei orando por ti, Príncipe Leif."
+.byte NewLine
+.text "A propósito...
 .byte WaitForA
 .byte ScrollText
-.text "Eu ouvi que pela estrada que irá passar,"
+.text "Ouvi que pela estrada que irá passar,"
 .byte NewLine
 .text "há uma capela construída em honra da"
 .byte NewLine
@@ -279,7 +281,7 @@ dialogueChapter21Opening1
 
 .byte Left_Slot
 .byte ScrollText
-.text "Obrigado, madame Julia."
+.text "Obrigado, madame Júlia."
 .byte NewLine
 .text "Por favor, se cuide."
 .byte WaitForA
@@ -415,7 +417,7 @@ dialogueChapter21Opening2
 .byte ScrollText
 .text "De qualquer modo, teremos que capturar o"
 .byte NewLine
-.text "forte de Danzig, visto que ele controla"
+.text "forte, visto que ele controla"
 .byte NewLine
 .text "a rota que usaremos pra chegar à cidade."
 .byte WaitForA
