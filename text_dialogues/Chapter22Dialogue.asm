@@ -607,7 +607,7 @@ dialogueChapter22SaiasReinhardt2
 .byte ScrollText
 .text "...É."
 .byte NewLine
-.text "Mas ela é ainda é uma criança."
+.text "Mas ela ainda é uma criança."
 .byte WaitForA
 .byte ScrollText
 .text "Estou certo de que ela foi enganada"
@@ -619,7 +619,7 @@ dialogueChapter22SaiasReinhardt2
 .byte ScrollText
 .text "Tenho certeza que se eu puder falar"
 .byte NewLine
-.text "com ela, perceberá que errou."
+.text "com ela, irá perceber que errou."
 .byte WaitForA
 
 .byte Right_Slot
@@ -675,7 +675,7 @@ dialogueChapter22LeifIntro
 .byte WaitForA
 
 .byte Right_Slot
-.text "Está certo disso? Temo que não vejo a"
+.text "Está certo disso? Temo não ver a"
 .byte NewLine
 .text "beleza de que fala, mas sim um rio"
 .byte NewLine
@@ -686,7 +686,7 @@ dialogueChapter22LeifIntro
 .byte NewLine
 .text "a prosperidade desta terra, mas ele"
 .byte NewLine
-.text "também foi o palco de muitas contendas."
+.text "também foi razão de muitas contendas."
 .byte WaitForA
 .byte ScrollText
 .text "A prosperidade que ele traz leva à"
@@ -743,7 +743,7 @@ dialogueChapter22LeifIntro
 .byte ScrollText
 .text "Ainda assim, devemos presumir que nosso"
 .byte NewLine
-.text "inimigo não irá poupar esforços para"
+.text "inimigo não poupou esforços para"
 .byte NewLine
 .text "deter nosso avanço."
 .byte WaitForA
