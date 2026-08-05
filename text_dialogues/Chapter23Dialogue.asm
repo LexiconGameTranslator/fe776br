@@ -67,14 +67,14 @@ dialogueChapter23CoulterSpawn
 
 .byte Right_Slot
 .byte ScrollText
-.text "Bah a Princesa é inocente demais..."
+.text "Bah! A Princesa é inocente demais..."
 .byte NewLine
 .text "Nunca mais teremos outra oportunidade"
 .byte NewLine
 .text "como essa para tomar a cidade..."
 .byte WaitForA
 .byte ScrollText
-.text "O rei é permissivo demais com ela,"
+.text "O Rei é permissivo demais com ela,"
 .byte NewLine
 .text "mas eu duvido que irá lhe dar razão"
 .byte NewLine
@@ -169,7 +169,7 @@ dialogueChapter23AltenaLeave
 
 .byte Right_Slot
 .byte ScrollText
-.text "Esta é a MINHA tropa!"
+.text "E esta é a MINHA tropa!"
 .byte NewLine
 .text "Além disso, o Rei já me disse para atacar"
 .byte NewLine
