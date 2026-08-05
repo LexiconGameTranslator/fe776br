@@ -349,8 +349,8 @@
     
     
     menutextBlizzardDescription
-    .text "(Magia de vento \n"
-    .text "de longo alcance, \n"
+    .text "Ador[mece o alvo\n"
+    .text "se acertar\n"
     .text "Alvos e[m tronos ou \n"
     .text "portões são i[munes \n"
     .text "\n"
