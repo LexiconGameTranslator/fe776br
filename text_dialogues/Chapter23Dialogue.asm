@@ -169,7 +169,7 @@ dialogueChapter23AltenaLeave
 
 .byte Right_Slot
 .byte ScrollText
-.text "E esta é a MINHA tropa!"
+.text "Esta é a MINHA tropa, Princesa!"
 .byte NewLine
 .text "Além disso, o Rei já me disse para atacar"
 .byte NewLine
@@ -596,7 +596,7 @@ dialogueChapter23LeifCed
 .text "ao que passou nesses últimos doze meses."
 .byte WaitForA
 .byte ScrollText
-.text "E ainda assim. você manteu a cabeça"
+.text "E ainda assim, você manteu a cabeça"
 .byte NewLine
 .text "levantada, travando sua própria guerra"
 .byte NewLine
