@@ -511,7 +511,7 @@ dialogueChapter23LeifCed
 .byte ScrollText
 .text "Não se engane desse jeito, Leif."
 .byte NewLine
-.text "Você não tem culpa aqui, o meu plano"
+.text "Você não tem culpa daquilo, o meu plano"
 .byte NewLine
 .text "já não era dos melhores."
 .byte WaitForA
@@ -846,7 +846,7 @@ dialogueChapter23LeifSaias
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Estou feliz em ter feito minha parte"
+.text "...Estou feliz em ter feito minha parte."
 .byte WaitForA
 .byte ScrollText
 .text "Mas lembre-se: quando chegar o momento"
