@@ -169,7 +169,7 @@ dialogueChapter23AltenaLeave
 
 .byte Right_Slot
 .byte ScrollText
-.text "E esta é a MINHA tropa!"
+.text "Esta é a MINHA tropa, Princesa!"
 .byte NewLine
 .text "Além disso, o Rei já me disse para atacar"
 .byte NewLine
@@ -253,10 +253,9 @@ dialogueChapter23InfoHouse2
 .text "Desde que ele se aliou ao Império,"
 .byte WaitForA
 .byte ScrollText
+.text "ele tá sempre com s espada que a Igreja de"
 .byte NewLine
-.text "ele tem essa espada que a Igreja de Loptr"
-.byte NewLine
-.text 'lhe deu: "a Garra de Loptous."'
+.text 'Loptr deu pra ele: "a Garra de Loptous."'
 .byte WaitForA
 .byte ScrollText
 .text "Enquanto ele tiver aquilo na mão,"
@@ -512,7 +511,7 @@ dialogueChapter23LeifCed
 .byte ScrollText
 .text "Não se engane desse jeito, Leif."
 .byte NewLine
-.text "Você não tem culpa aqui, o meu plano"
+.text "Você não tem culpa daquilo, o meu plano"
 .byte NewLine
 .text "já não era dos melhores."
 .byte WaitForA
@@ -577,7 +576,7 @@ dialogueChapter23LeifCed
 .byte ScrollText
 .text "Por séculos, Jugdral sofreu com o jugo"
 .byte NewLine
-.text "da Igreja de Loptr e seu velho Império."
+.text "da Igreja de Loptr e do velho Império."
 .byte WaitForA
 .byte ScrollText
 .text "Os cruzados foram todos aqueles que"
@@ -594,10 +593,10 @@ dialogueChapter23LeifCed
 .byte NewLine
 .text "da Trácia. São poucos os que resistiriam"
 .byte NewLine
-.text "ao que passou nesse ano passado."
+.text "ao que passou nesses últimos doze meses."
 .byte WaitForA
 .byte ScrollText
-.text "E ainda assim. você manteu a cabeça"
+.text "E ainda assim, você manteu a cabeça"
 .byte NewLine
 .text "levantada, travando sua própria guerra"
 .byte NewLine
@@ -847,7 +846,7 @@ dialogueChapter23LeifSaias
 
 .byte Right_Slot
 .byte ScrollText
-.text "...Estou feliz em ter feito minha parte"
+.text "...Estou feliz em ter feito minha parte."
 .byte WaitForA
 .byte ScrollText
 .text "Mas lembre-se: quando chegar o momento"
@@ -975,13 +974,11 @@ dialogueChapter23Opening1
 .text "Quando fugir com as crianças, leve"
 .byte NewLine
 .text "esta espada contigo também."
-.byte NewLine
-.text "the city as well."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "A sword...?"
+.text "Hm...?"
 .byte WaitForA
 .byte NewLine
 .text "Ah! Claro, eu irei levá-la comigo,"
@@ -1017,7 +1014,7 @@ dialogueChapter23Opening1
 .byte ScrollText
 .text "Entendi..."
 .byte NewLine
-.text "Sendo assim, o que quer que eu fça com ela?"
+.text "Sendo assim, o que quer que eu faça com ela?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -1133,7 +1130,7 @@ dialogueChapter23Opening2
 .byte ScrollText
 .text "Aqueles malditos rebeldes de Leonster"
 .byte NewLine
-.text "vindo, e os Magi já conseguiram"
+.text "estão vindo, e os Magi já conseguiram"
 .byte NewLine
 .text "invadir o interior do castelo uma vez..."
 .byte WaitForA
@@ -1187,7 +1184,7 @@ dialogueChapter23Opening3
 .text "adentrar em Munster."
 .byte WaitForA
 .byte ScrollText
-.text "...Hm? Principe! Veja ali!"
+.text "...Hm? Príncipe! Veja ali!"
 .byte NewLine
 .text "Há uma multidão de crianças fugindo"
 .byte NewLine
@@ -1562,7 +1559,7 @@ dialogueChapter23WorldMap2
 .word $0178 ;ced
 .word $0713 ;y then x
 .byte NewLine
-.text "O entorno da cidade havia se tornado,"
+.text "O entorno da cidade havia se tornado"
 .byte NewLine
 .text "uma zona de guerra, e a cada momento,"
 .byte WaitForA

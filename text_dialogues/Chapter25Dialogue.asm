@@ -378,7 +378,7 @@ dialogueChapterFinalEnding1August
 .byte ScrollText
 .text "Tenho muito a te agradecer, Augusto."
 .byte NewLine
-.text "Tanto como monarca, quanto como seu estudante." ;monark
+.text "Tanto como monarca, quanto como seu aluno." ;monark
 .byte WaitForA
 .byte NewLine
 .text "Eu tive bastante sorte em ter te encontrado."
@@ -388,10 +388,10 @@ dialogueChapterFinalEnding1August
 .byte ScrollText
 .text "Agora que disse isso, Príncipe..."
 .byte NewLine
-.text "Há algo que devo te confessar."
+.text "Há algo que devo te confessar,"
 .byte WaitForA
 .byte ScrollText
-.text "Eu seria um mau tutor se continuasse a"
+.text "eu seria um mau tutor se continuasse a"
 .byte NewLine
 .text "guardar este segredo de ti."
 .byte WaitForA
@@ -414,7 +414,7 @@ dialogueChapterFinalEnding1August
 .byte NewLine
 .text "libertar sua nação se manifestar a cada"
 .byte NewLine
-.text "mais."
+.text "dia mais."
 .byte WaitForA
 .byte ScrollText
 .text "Houve sim um dia em que tornei a crer que"
@@ -500,7 +500,7 @@ dialogueChapterFinalEnding2Finn
 .byte ScrollText
 .text "Eu creio então que ele não sabe da nossa"
 .byte NewLine
-.text "vitória. Certamente ficará surpreso quando"
+.text "vitória. Certamente ficará surpreso"
 .byte NewLine
 .text "quando chegar."
 .byte WaitForA
@@ -525,7 +525,7 @@ dialogueChapterFinalEnding2Finn
 .byte NewLine
 .text "poderia ter acabado bem pior. Lembre-se,"
 .byte NewLine
-.text "a Trácia Setentrional está livre de novo."
+.text "a Trácia Setentrional está livre agora."
 .byte WaitForA
 .byte ScrollText
 .text "Agora mesmo nas ruas de Munster, estão"
@@ -1016,8 +1016,6 @@ dialogueChapterFinalEnding7Mareeta
 
 .byte Right_Slot
 .text "Vai, Nanna! A hora é agora!"
-.byte NewLine
-.text "You've just got to say it! Right now!"
 .byte WaitForA
 
 .byte Left_Slot
@@ -1096,7 +1094,7 @@ dialogueChapterFinalEnding8Nanna
 .byte NewLine
 .text "tanto quanto todo o resto, e eu quero que"
 .byte NewLine
-.text "saiba o quão grato sou."
+.text "saiba o quão grato estou."
 .byte WaitForA
 
 .byte Right_Slot
@@ -1214,7 +1212,7 @@ dialogueChapterFinalEnd
 .byte NewLine
 .text "a sua se unir a nossa luta contra o Império,"
 .byte NewLine
-.text "será motivo de festa para nós"
+.text "será motivo de festa para nós."
 .byte WaitForA
 .byte ScrollText
 .text "Príncipe, vai continuar a lutar junto"
