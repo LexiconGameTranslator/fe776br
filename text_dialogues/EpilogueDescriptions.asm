@@ -229,7 +229,6 @@ LeifGoodEnding
 .byte NewLine
 .text "ecoará pela eternidade..."
 .word PauseDialogue
-.word PauseDialogue
 .byte $5A
 .byte $0F
 .byte $40
