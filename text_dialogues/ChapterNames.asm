@@ -71,7 +71,7 @@ dialogueChapter13Title
 .byte $01
 
 dialogueChapter14Title
-.text "Capítulo 14: Tahra em Cerco"
+.text "Capítulo 14: Tarrah em Cerco"
 .byte $01
 
 dialogueChapter14xTitle
