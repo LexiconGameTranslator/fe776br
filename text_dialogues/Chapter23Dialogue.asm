@@ -576,7 +576,7 @@ dialogueChapter23LeifCed
 .byte ScrollText
 .text "Por séculos, Jugdral sofreu com o jugo"
 .byte NewLine
-.text "da Igreja de Loptr e seu velho Império."
+.text "da Igreja de Loptr e do velho Império."
 .byte WaitForA
 .byte ScrollText
 .text "Os cruzados foram todos aqueles que"
