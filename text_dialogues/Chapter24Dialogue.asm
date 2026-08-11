@@ -985,7 +985,7 @@ dialogueChapter24ClosingKaia
 .byte ScrollText
 .text "Ah, não me faça falar dele."
 .byte NewLine
-.text "Nunca gostei dele..."
+.text "Nunca gostei daquele velho mau..."
 .byte WaitForA
 .byte ScrollText
 .text "Vamos lá ajudar sua amiga."
