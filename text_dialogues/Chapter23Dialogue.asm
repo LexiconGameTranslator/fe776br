@@ -975,13 +975,11 @@ dialogueChapter23Opening1
 .text "Quando fugir com as crianças, leve"
 .byte NewLine
 .text "esta espada contigo também."
-.byte NewLine
-.text "the city as well."
 .byte WaitForA
 
 .byte Left_Slot
 .byte ScrollText
-.text "A sword...?"
+.text "Hm...?"
 .byte WaitForA
 .byte NewLine
 .text "Ah! Claro, eu irei levá-la comigo,"
@@ -1017,7 +1015,7 @@ dialogueChapter23Opening1
 .byte ScrollText
 .text "Entendi..."
 .byte NewLine
-.text "Sendo assim, o que quer que eu fça com ela?"
+.text "Sendo assim, o que quer que eu faça com ela?"
 .byte WaitForA
 
 .byte Right_Slot
@@ -1562,7 +1560,7 @@ dialogueChapter23WorldMap2
 .word $0178 ;ced
 .word $0713 ;y then x
 .byte NewLine
-.text "O entorno da cidade havia se tornado,"
+.text "O entorno da cidade havia se tornado"
 .byte NewLine
 .text "uma zona de guerra, e a cada momento,"
 .byte WaitForA
