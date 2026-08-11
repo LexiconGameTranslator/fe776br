@@ -253,10 +253,9 @@ dialogueChapter23InfoHouse2
 .text "Desde que ele se aliou ao Império,"
 .byte WaitForA
 .byte ScrollText
+.text "ele tá sempre com s espada que a Igreja de"
 .byte NewLine
-.text "ele tem essa espada que a Igreja de Loptr"
-.byte NewLine
-.text 'lhe deu: "a Garra de Loptous."'
+.text 'Loptr deu pra ele: "a Garra de Loptous."'
 .byte WaitForA
 .byte ScrollText
 .text "Enquanto ele tiver aquilo na mão,"
@@ -1131,7 +1130,7 @@ dialogueChapter23Opening2
 .byte ScrollText
 .text "Aqueles malditos rebeldes de Leonster"
 .byte NewLine
-.text "vindo, e os Magi já conseguiram"
+.text "estão vindo, e os Magi já conseguiram"
 .byte NewLine
 .text "invadir o interior do castelo uma vez..."
 .byte WaitForA
@@ -1185,7 +1184,7 @@ dialogueChapter23Opening3
 .text "adentrar em Munster."
 .byte WaitForA
 .byte ScrollText
-.text "...Hm? Principe! Veja ali!"
+.text "...Hm? Príncipe! Veja ali!"
 .byte NewLine
 .text "Há uma multidão de crianças fugindo"
 .byte NewLine
