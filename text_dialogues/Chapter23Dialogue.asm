@@ -593,7 +593,7 @@ dialogueChapter23LeifCed
 .byte NewLine
 .text "da Trácia. São poucos os que resistiriam"
 .byte NewLine
-.text "ao que passou nesse ano passado."
+.text "ao que passou nesses últimos doze meses."
 .byte WaitForA
 .byte ScrollText
 .text "E ainda assim. você manteu a cabeça"
