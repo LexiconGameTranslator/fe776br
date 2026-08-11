@@ -845,7 +845,7 @@ dialogueChapter24Closing
 
 .byte Right_Slot
 .byte ScrollText
-.text "Um templo secreto"
+.text "Entendi..."
 .byte NewLine
 .text "É esse o bastião da Igreja na Trácia?"
 .byte WaitForA
