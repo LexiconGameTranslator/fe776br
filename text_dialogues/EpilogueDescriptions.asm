@@ -386,15 +386,13 @@ orsinepi
 .byte $10
 .text "Porém, ele continuou"
 .byte NewLine
-.text "tendendo a mudar de humor"
+.text "sendo um homem de pavio"
 .byte NewLine
-.text "por toda a vida, e ficou"
+.text "curto por toda a vida,"
 .byte NewLine
-.text "conhecido tanto por seu"
+.text "mas também nunca deixou"
 .byte NewLine
-.text "pavio curto quanto por"
-.byte NewLine
-.text "seu bom coração."
+.text "de ter bom coração."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -402,11 +400,11 @@ orsinepi
 .byte ScrollText
 .byte $0F
 .byte $10
-.text "Em Fiana, ele ficou com"
+.text "Em Fiana, isso o fez"
 .byte NewLine
-.text "reputação de “velho"
+.text "acabar com a reputação de"
 .byte NewLine
-.text "excêntrico”"
+.text "“velho excêntrico.”"
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -848,7 +846,7 @@ brightonepi
 .byte NewLine
 .text "em sua reconstrução, além"
 .byte NewLine
-.text "de também como instrutor"
+.text "de como instrutor"
 .byte NewLine
 .text "de esgrima para quem"
 .byte NewLine
@@ -1232,9 +1230,7 @@ dalsinepi
 .byte NewLine
 .text "contra os bandidos da"
 .byte NewLine
-.text "região For a time, his"
-.byte NewLine
-.text "life was a cycle of battle."
+.text "região."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -1598,9 +1594,11 @@ robertepi
 .byte NewLine
 .text "ele recebeu um posto"
 .byte NewLine
-.text "permanente na Guarda"
+.text "permanente na"
 .byte NewLine
-.text "real da Nova Trácia."
+.text "Guarda real da"
+.byte NewLine
+.text "Nova Trácia."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2292,13 +2290,15 @@ tinaepi
 .byte $04
 .text "Mesmo depois de tudo pelo"
 .byte NewLine
-.text "qual ela passou, após"
+.text "que ela passou, após"
 .byte NewLine
 .text "voltar para Tarrah, Tina"
 .byte NewLine
 .text "continuou agitada e"
 .byte NewLine
-.text "impulsiva como antes."
+.text "impulsiva como"
+.byte NewLine
+.text "antes."
 .word PauseDialogue
 .byte $5A
 .byte $0F
@@ -2448,7 +2448,7 @@ dermottepi
 .byte $10
 .text "Graças à seus esforços,"
 .byte NewLine
-.text "Agustria foi unificado e"
+.text "Agustria foi unificada e"
 .byte NewLine
 .text "levada a um período de"
 .byte NewLine
