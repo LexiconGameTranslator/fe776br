@@ -266,7 +266,7 @@
 			
 		menutextClassHeroFName
 		menutextClassHeroFE4FName				; Unused
-			.text "Heróina \n"
+			.text "Heroína \n"
 		
 		menutextClassGeneralName
 			.text "General \n"

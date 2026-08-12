@@ -469,7 +469,7 @@ Espadach
 Atirador
 Atiradora
 Herói
-Heróina
+Heroína
 General
 E[mperor
 Barão

@@ -262,7 +262,7 @@ dialogueChapter21Opening1
 .word julia_portrait
 .text "Eu estarei orando por ti, Príncipe Leif."
 .byte NewLine
-.text "A propósito...
+.text "A propósito..."
 .byte WaitForA
 .byte ScrollText
 .text "Ouvi que pela estrada que irá passar,"
